@@ -1,0 +1,25 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://opendap.tw.rpi.edu/id/> .
+
+<http://opendap.tw.rpi.edu/source/git2prov-org/dataset/github_tetherless-world_opendap>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "git2prov-org";
+   conversion:dataset_identifier "github_tetherless-world_opendap";
+   prov:wasDerivedFrom :download_35665b2f8152e164227648803c36b9d6;
+.
+
+:download_35665b2f8152e164227648803c36b9d6
+   a dcat:Distribution;
+   dcat:downloadURL <http://git2prov.org/git2prov?giturl=https%3A%2F%2Fgithub.com%2Ftetherless-world%2Fopendap.git&serialization=PROV-O>;
+.
+
+<dataset/35665b2f8152e164227648803c36b9d6>
+   a dcat:Dataset;
+   dcat:distribution :download_35665b2f8152e164227648803c36b9d6;
+.
