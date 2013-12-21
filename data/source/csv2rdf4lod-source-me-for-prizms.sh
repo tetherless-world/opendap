@@ -858,7 +858,7 @@ export CSV2RDF4LOD_PUBLISH_VIRTUOSO_SCRIPT_PATH=""
 # (done in pvload.sh)
 #
 export CSV2RDF4LOD_PUBLISH_VIRTUOSO_SPARQL_ENDPOINT="http://logd.tw.rpi.edu/sparql"
-export CSV2RDF4LOD_PUBLISH_VIRTUOSO_SPARQL_ENDPOINT=""
+export CSV2RDF4LOD_PUBLISH_VIRTUOSO_SPARQL_ENDPOINT="http://opendap.tw.rpi.edu/sparql"
 
 
 #
@@ -873,7 +873,7 @@ export CSV2RDF4LOD_PUBLISH_VIRTUOSO_SPARQL_ENDPOINT=""
 # (done in populate-to-endpoint.sh)
 #
 export CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT="http://logd.tw.rpi.edu/sparql" 
-export CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT="" 
+export CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT="http://opendap.tw.rpi.edu/sparql"
 
 #
 # Customize: Directory where SPARQL query files exist 
