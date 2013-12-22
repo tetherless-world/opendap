@@ -1,0 +1,23 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://opendap.tw.rpi.edu/id/> .
+
+<http://opendap.tw.rpi.edu/source/opendap-org/dataset/statsvn>
+   foaf:page <http://statsvn.org/>;
+.
+
+<http://opendap.tw.rpi.edu/source/opendap-org/dataset/statsvn>
+   foaf:page <http://wiki.statsvn.org/>;
+.
+
+<http://opendap.tw.rpi.edu/source/opendap-org/dataset/statsvn>
+   foaf:page <https://scm.opendap.org/svn/>;
+.
+
+<http://opendap.tw.rpi.edu/source/opendap-org/dataset/statsvn>
+   foaf:page <https://github.com/tetherless-world/opendap/wiki/StatSVN>;
+.
