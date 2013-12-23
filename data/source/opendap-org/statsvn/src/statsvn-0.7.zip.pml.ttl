@@ -1,0 +1,183 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix httphead:   <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
+@prefix httpget:    <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
+@prefix httppost:   <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<http://downloads.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fstatsvn%2Ffiles%2Flatest%2Fdownload%3Fsource%3Dfiles&ts=1387737435&use_mirror=superb-dca2>
+   a pmlp:Source, prov:Entity;
+   pmlp:hasModificationDateTime "2010-01-01T12:29:06"^^xsd:dateTime;
+   dcterms:modified             "2010-01-01T12:29:06"^^xsd:dateTime;
+   irw:redirectsTo <http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>;
+.
+
+<http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>
+   a pmlp:Source, prov:Entity;
+   pmlp:hasModificationDateTime "2010-01-01T12:29:06"^^xsd:dateTime;
+   dcterms:modified             "2010-01-01T12:29:06"^^xsd:dateTime;
+.
+
+<statsvn-0.7.zip>
+   a nfo:FileDataObject, prov:Entity, pmlp:Information;
+   prov:wasQuotedFrom      <http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>;
+   prov:qualifiedQuotation <quotation_e516f3dd-b720-40bf-a46c-24c333175e69>;
+   pmlp:hasReferenceSourceUsage <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_content>;
+.
+<statsvn-0.7.zip>
+   a nfo:FileDataObject;
+   nfo:fileName "statsvn-0.7.zip";
+   nfo:hasHash <md5_94254c808ca50bd215abd0e5b20b01d6_time_1387737567>;
+.
+<md5_94254c808ca50bd215abd0e5b20b01d6_time_1387737567>
+   a nfo:FileHash; 
+   dcterms:date      "2013-12-22T18:39:27+00:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "94254c808ca50bd215abd0e5b20b01d6";
+.
+
+<nodeSete516f3dd-b720-40bf-a46c-24c333175e69_content>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <statsvn-0.7.zip>;
+   pmlj:isConsequentOf <inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_content>;
+.
+<inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_content>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_content>;
+   pmlj:hasInferenceEngine conv:curl_md5_0988c1e90063ed2b57f4fe1a21c23fe2;
+   pmlj:hasInferenceRule   httpget:HTTP_1_1_GET;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<quotation_e516f3dd-b720-40bf-a46c-24c333175e69>
+   a prov:Quotation;
+   prov:entity <http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>;
+   prov:atTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+
+<sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_content>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>;
+   pmlp:hasUsageDateTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+
+<wasControlledBye516f3dd-b720-40bf-a46c-24c333175e69_content>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_content>;
+   oprov:endTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+ 
+<infoe516f3dd-b720-40bf-a46c-24c333175e69_url_header>
+   a pmlp:Information, conv:HTTPHeader;
+   pmlp:hasRawString """HTTP/1.1 302 Found
+X-Frame-Options: SAMEORIGIN
+Content-Disposition: attachment; filename="statsvn-0.7.0.zip"
+Location: http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip
+Set-cookie: sf_mirror_attempt=statsvn:superb-dca2:/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip; expires=Sun, 22-Dec-2013 18:41:24 GMT; Path=/
+Content-type: text/html
+Date: Sun, 22 Dec 2013 18:39:24 GMT
+Server: lighttpd/1.4.26
+""";
+   pmlp:hasReferenceSourceUsage <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_url_header>;
+.
+ 
+<nodeSete516f3dd-b720-40bf-a46c-24c333175e69_url_header>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <infoe516f3dd-b720-40bf-a46c-24c333175e69_url_header>;
+   pmlj:isConsequentOf <inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_url_header>;
+.
+<inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_url_header>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_url_header>;
+   pmlj:hasInferenceEngine conv:curl_md5_0988c1e90063ed2b57f4fe1a21c23fe2;
+   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_url_header>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://downloads.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fstatsvn%2Ffiles%2Flatest%2Fdownload%3Fsource%3Dfiles&ts=1387737435&use_mirror=superb-dca2>;
+   pmlp:hasUsageDateTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+<wasControlledBye516f3dd-b720-40bf-a46c-24c333175e69_url_header>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <nodeSete516f3dd-b720-40bf-a46c-24c333175e69_url_header>;
+   oprov:endTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+
+<infoe516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>
+   a pmlp:Information, conv:HTTPHeader;
+   pmlp:hasRawString """HTTP/1.1 200 OK
+Server: nginx/0.8.55
+Date: Sun, 22 Dec 2013 18:39:25 GMT
+Content-Type: application/octet-stream
+Content-Length: 2507640
+Last-Modified: Fri, 01 Jan 2010 12:29:06 GMT
+Connection: close
+Accept-Ranges: bytes
+""";
+   pmlp:hasReferenceSourceUsage <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>;
+.
+
+<nodeSete516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <infoe516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>;
+   pmlj:isConsequentOf <inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>;
+.
+<inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>;
+   pmlj:hasInferenceEngine conv:curl_md5_0988c1e90063ed2b57f4fe1a21c23fe2;
+   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<sourceUsagee516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://superb-dca2.dl.sourceforge.net/project/statsvn/statsvn/0.7.0/statsvn-0.7.0.zip>;
+   pmlp:hasUsageDateTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+<wasControlledBye516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStepe516f3dd-b720-40bf-a46c-24c333175e69_redirected_url_header>;
+   oprov:endTime "2013-12-22T18:39:26+00:00"^^xsd:dateTime;
+.
+
+conv:curl_md5_0988c1e90063ed2b57f4fe1a21c23fe2
+   a prov:Agent, pmlp:InferenceEngine, conv:Curl;
+   dcterms:identifier "md5_0988c1e90063ed2b57f4fe1a21c23fe2";
+   dcterms:description """curl 7.19.7 (x86_64-pc-linux-gnu) libcurl/7.19.7 OpenSSL/0.9.8k zlib/1.2.3.3 libidn/1.15
+Protocols: tftp ftp telnet dict ldap ldaps http file https ftps 
+Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz """;
+.
+
+conv:Curl rdfs:subClassOf pmlp:InferenceEngine .
