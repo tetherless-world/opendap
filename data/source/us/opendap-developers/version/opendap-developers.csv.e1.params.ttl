@@ -76,10 +76,10 @@
       #   conversion:symbol        "";
       #   conversion:interpretation conversion:null; 
       #];
-      #conversion:enhance [
-      #   conversion:domain_template "thing_[r]";
-      #   conversion:domain_name     "Thing";
-      #];
+      conversion:enhance [
+         conversion:domain_template "[/]source/opendap-org/id/developer/[#1]";
+         conversion:domain_name     foaf:OnlineAccount;
+      ];
       #conversion:enhance [
       #   conversion:class_name "Thing";
       #   conversion:subclass_of <http://purl.org/...>;
@@ -89,48 +89,44 @@
          ov:csvHeader       "opendap svn username";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "opendap svn username";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property foaf:accountName;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   rdfs:Literal;
       ];
       conversion:enhance [
          ov:csvCol          2;
          ov:csvHeader       "Name";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by [ ov:csvCol 4 ];
          #conversion:label   "Name";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property foaf:name;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   rdfs:Literal;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
          ov:csvCol          3;
          ov:csvHeader       "Homepage";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by [ ov:csvCol 4 ];
          #conversion:label   "Homepage";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property foaf:homepage;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   rdfs:Resource;
       ];
       conversion:enhance [
          ov:csvCol          4;
          ov:csvHeader       "Person";
          #conversion:bundled_by [ ov:csvCol 1 ];
-         #conversion:label   "Person";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:label   "Account Holder";
+         #conversion:equivalent_property foaf:holdsAccount;
          #conversion:subproperty_of      dcterms:identifier;
+         conversion:inverse_of      foaf:holdsAccount;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  foaf:Agent;
       ];
       #conversion:enhance [
       #   ov:csvRow 3,4,5;
