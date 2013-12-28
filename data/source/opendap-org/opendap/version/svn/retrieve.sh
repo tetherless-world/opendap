@@ -15,6 +15,6 @@ for portion in tags trunk; do
          popd &> /dev/null
       fi
    else
-      echo "Avoiding SVN checkout b/c manual/$portion.log already exists."
+      echo "   (Avoiding SVN checkout b/c manual/$portion.log already exists.)"
    fi
 done
