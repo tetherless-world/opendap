@@ -2,9 +2,11 @@
 
 mkdir manual &> /dev/null
 
-echo manual/tags.log
-if [[ source/tags -nt manual/tags.log ]]; then
-   pushd source/tags
-      svn log -v --xml > ../../manual/tags.log
-   popd
-fi
+for portion in tags trunk; do
+   echo manual/$portion.log
+   if [[ source/$portion -nt manual/$portion.log ]]; then
+      pushd source/$portion
+         svn log -v --xml > ../../manual/$portion.log
+      popd
+   fi
+done
