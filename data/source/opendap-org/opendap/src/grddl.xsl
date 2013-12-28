@@ -15,7 +15,17 @@
 
 <xsl:variable name="svn" select="'https://scm.opendap.org/svn'"/>
 
+<xsl:variable name="prefixes"><xsl:text><![CDATA[@prefix prov:   <http://www.w3.org/ns/prov#>.
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#>.
+@prefix schema: <http://schema.org/>.
+]]>
+</xsl:text>
+</xsl:variable>
+
 <xsl:template match="/">
+   <xsl:value-of select="$prefixes"/>
+
    <xsl:for-each-group select="log/logentry/paths/path" group-by="@kind">
       <xsl:message select="concat('kind: ',current-grouping-key())"/>
    </xsl:for-each-group>
@@ -36,7 +46,8 @@
 </xsl:template>
 
 <xsl:template match="logentry">
-   <xsl:value-of select="concat('&lt;',$sd,'commit/',@revision,'&gt; a prov:Activity;',$NL)"/>
+   <xsl:value-of select="concat('&lt;',$sd,'commit/',@revision,'&gt;',$NL,
+                                '   a prov:Activity;',$NL)"/>
 
    <xsl:if test="string-length(author/text())">
       <xsl:value-of select="concat('   prov:wasAttributedTo &lt;',$s,'id/developer/',author,'&gt;;',$NL)"/>
@@ -46,20 +57,36 @@
       <xsl:value-of select="concat('   prov:endedAtTime ',$DQ,date,$DQ,'^^xsd:dateTime;',$NL)"/>
    </xsl:if>
 
-   <xsl:for-each select="paths/path">
-      <xsl:value-of select="concat('   prov:generated ',../../@revision,'       ',.,$NL)"/>
+   <!-- paths -->
+   <xsl:for-each select="paths/path[not(contains(.,'&gt;'))]">
+      <xsl:variable name="path"     select="replace(.,' ','%20')"/>
+      <xsl:variable name="revision" select="concat('&lt;',$sd,'revision/',../../@revision,$path,'&gt;')"/>
+      <xsl:value-of select="concat('   prov:generated ',$revision,';',$NL)"/>
    </xsl:for-each>
 
    <xsl:if test="string-length(msg/text())">
-      <xsl:value-of select="concat('   rdfs:comment ',$DQ,$DQ,$DQ,replace(msg,'/','\\/'),$DQ,$DQ,$DQ,';',$NL)"/>
+      <xsl:value-of select="concat('   rdfs:comment ',$DQ,$DQ,$DQ,replace(
+                                                                  replace(
+                                                                  replace(msg,'\\', '\\\\'            ),
+                                                                              $DQ, concat('\\',$DQ) ),
+                                                                              '/','\\/'           ),
+                                                      $DQ,$DQ,$DQ,';',$NL)"/>
    </xsl:if>
+
    <xsl:value-of select="concat('.',$NL)"/>
 
-   <xsl:for-each select="paths/path">
-      <xsl:value-of select="concat('&lt;',../../@revision,'       ',.,' prov:specializationOf &lt;',$svn,.,'&gt;;',$NL)"/>
+   <!-- paths -->
+   <xsl:for-each select="paths/path[not(contains(.,'&gt;'))]">
+      <xsl:variable name="path"     select="replace(.,' ','%20')"/>
+      <xsl:variable name="revision" select="concat('&lt;',$sd,'revision/',../../@revision,$path,'&gt;')"/>
+      <xsl:value-of select="concat($NL,$revision,$NL,
+                                   '   a prov:Entity;',$NL,
+                                   '   schema:version ',$DQ,../../@revision,$DQ,';',$NL,
+                                   '   prov:specializationOf &lt;',$svn,$path,'&gt;;',$NL,
+                                   '.')"/>
    </xsl:for-each>
 
-   <xsl:value-of select="concat($NL,$NL,$NL,$NL)"/>
+   <xsl:value-of select="concat($NL,$NL,'# ^ ^ - - ',@revision,' - - ^ ^',$NL,$NL)"/>
 </xsl:template>
 
 <xsl:template match="@*|node()">
