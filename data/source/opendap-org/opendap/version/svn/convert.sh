@@ -8,3 +8,9 @@ for portion in tags trunk; do
       say `valid-rdf.sh automatic/$portion.log.ttl`
    fi
 done
+
+if [[ "$CSV2RDF4LOD_PUBLISH" == 'true' ]]; then
+   aggregate-source-rdf.sh automatic/tags.log.ttl automatic/trunk.log.ttl
+else
+   echo "Avoiding publishing b/c \$CSV2RDF4LOD_PUBLISH is not 'true'; set to 'true' to publish."
+fi
