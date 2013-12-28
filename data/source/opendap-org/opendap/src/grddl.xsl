@@ -1,3 +1,9 @@
+<!--
+#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/opendap-org/opendap/src/grddl.xsl>;
+#3>    rdfs:seeAlso          <https://github.com/tetherless-world/opendap/wiki/SVN-Log-XML>,
+#3>                          <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance>;
+#3>.
+-->
 <xsl:transform version="2.0" 
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -57,6 +63,10 @@
       <xsl:value-of select="concat('   prov:endedAtTime ',$DQ,date,$DQ,'^^xsd:dateTime;',$NL)"/>
    </xsl:if>
 
+   <xsl:if test="matches(@revision,'^[0-9]+$')">
+      <xsl:value-of select="concat('   prov:wasInformedBy &lt;',$sd,'commit/',number(@revision)-1,'&gt;;',$NL)"/>
+   </xsl:if>
+
    <!-- paths -->
    <xsl:for-each select="paths/path[not(contains(.,'&gt;'))]">
       <xsl:variable name="path"     select="replace(.,' ','%20')"/>
@@ -81,8 +91,15 @@
       <xsl:variable name="revision" select="concat('&lt;',$sd,'revision/',../../@revision,$path,'&gt;')"/>
       <xsl:value-of select="concat($NL,$revision,$NL,
                                    '   a prov:Entity;',$NL,
-                                   '   schema:version ',$DQ,../../@revision,$DQ,';',$NL,
-                                   '   prov:specializationOf &lt;',$svn,$path,'&gt;;',$NL,
+                                   '   schema:version ',$DQ,../../@revision,$DQ,';')"/>
+      <!-- TODO: 2012-09-05T20:21:54.521200Z 
+         @copyfrom-rev @copyfrom-path
+        -->
+      <xsl:if test="@copyfrom-rev and @copyfrom-path">
+         <xsl:variable name="antecedent" select="concat('&lt;',$sd,'revision/',@copyfrom-rev,replace(@copyfrom-path,' ','%20'),'&gt;')"/>
+         <xsl:value-of select="concat($NL,'   prov:wasDerivedFrom ',$antecedent,';')"/>
+      </xsl:if>
+      <xsl:value-of select="concat($NL,'   prov:specializationOf &lt;',$svn,$path,'&gt;;',$NL,
                                    '.')"/>
    </xsl:for-each>
 
