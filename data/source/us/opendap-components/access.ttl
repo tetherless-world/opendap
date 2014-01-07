@@ -1,0 +1,26 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://opendap.tw.rpi.edu/id/> .
+
+<http://opendap.tw.rpi.edu/source/us/dataset/opendap-components>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "us";
+   conversion:dataset_identifier "opendap-components";
+   prov:wasDerivedFrom :download_13276286e7c88f3d24596a1a14d328ff;
+.
+
+:download_13276286e7c88f3d24596a1a14d328ff
+   a dcat:Distribution;
+   a nfo:Spreadsheet;
+   dcat:downloadURL <https://docs.google.com/spreadsheet/ccc?key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc&usp=sharing#gid=0>;
+.
+
+<dataset/13276286e7c88f3d24596a1a14d328ff>
+   a dcat:Dataset;
+   dcat:distribution :download_13276286e7c88f3d24596a1a14d328ff;
+.
