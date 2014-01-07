@@ -1,0 +1,19 @@
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov:   <http://www.w3.org/ns/prov#>
+prefix schema: <http://schema.org/>
+
+construct {
+   ?svn a rdfs:Resource;
+        prov:wasAttributedTo ?developer .
+}
+where {
+  #?commit 
+  <http://opendap.tw.rpi.edu/source/opendap-org/dataset/opendap/commit/27563>
+      a prov:Activity;
+      prov:generated ?versioned .
+  optional { ?commit prov:wasAttributedTo ?developer }
+
+  ?versioned 
+      schema:version        ?version;
+      prov:specializationOf ?svn .
+}
