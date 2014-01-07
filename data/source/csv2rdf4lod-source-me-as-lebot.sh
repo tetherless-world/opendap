@@ -11,3 +11,4 @@ export CLASSPATH=$CLASSPATH`/home/lebot/opt/prizms/bin/install/classpaths.sh`
 export CSV2RDF4LOD_HOME="/home/lebot/opt/prizms/repos/csv2rdf4lod-automation"
 export DATAFAQS_HOME="/home/lebot/opt/prizms/repos/DataFAQs"
 export JENAROOT=/home/lebot/opt/apache-jena-2.10.0
+export CSV2RDF4LOD_PUBLISH=false
