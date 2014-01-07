@@ -16,3 +16,4 @@ export DATAFAQS_HOME="/home/prizms/opt/prizms/repos/DataFAQs"
 export CSV2RDF4LOD_PUBLISH_VIRTUOSO="true"
 export CSV2RDF4LOD_PUBLISH_SUBSET_SAMPLES="true"
 export JENAROOT=/home/prizms/opt/apache-jena-2.10.0
+export LD_LIBRARY_PATH=/usr/local/lib
