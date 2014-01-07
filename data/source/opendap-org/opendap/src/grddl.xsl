@@ -75,11 +75,8 @@
    </xsl:for-each>
 
    <xsl:if test="string-length(msg/text())">
-      <xsl:value-of select="concat('   rdfs:comment ',$DQ,$DQ,$DQ,replace(
-                                                                  replace(
-                                                                  replace(msg,'\\', '\\\\'            ),
-                                                                              $DQ, concat('\\',$DQ) ),
-                                                                              '/','\\/'           ),
+      <xsl:value-of select="concat('   rdfs:comment ',$DQ,$DQ,$DQ,replace(replace(msg,'\\', '\\\\'),
+                                                                          $DQ, concat('\\',$DQ)),
                                                       $DQ,$DQ,$DQ,';',$NL)"/>
    </xsl:if>
 
