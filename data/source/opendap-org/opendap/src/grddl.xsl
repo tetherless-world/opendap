@@ -1,8 +1,9 @@
 <!--
 #3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/opendap-org/opendap/src/grddl.xsl>;
 #3>    rdfs:seeAlso          <https://github.com/tetherless-world/opendap/wiki/SVN-Log-XML>,
-#3>                          <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance>;
-#3>.
+#3>                          <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance>,
+#3>                          <https://github.com/tetherless-world/opendap/wiki/Modeling-VCS-with-PROV>;
+#3> .
 -->
 <xsl:transform version="2.0" 
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -16,8 +17,9 @@
 <xsl:param name="cr-version-id" select="'svn'"/>
 
 <xsl:variable name="s"   select="concat($cr-base-uri,'/source/',$cr-source-id,'/')"/>
-<xsl:variable name="sd"  select="concat($s,'dataset/',$cr-dataset-id,'/')"/>
+<xsl:variable name="sd"  select="concat($s, 'dataset/',$cr-dataset-id,'/')"/>
 <xsl:variable name="sdv" select="concat($sd,'version/',$cr-version-id,'/')"/>
+<xsl:variable name="sdv_" select="concat($sd,'version/',$cr-version-id)"/>
 
 <xsl:variable name="svn" select="'https://scm.opendap.org/svn'"/>
 
@@ -25,6 +27,9 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#>.
 @prefix schema: <http://schema.org/>.
+@prefix prv:    <http://purl.org/net/provenance/ns#>.
+@prefix nfo:    <http://www.semanticdesktop.org/ontologies/nfo/#>.
+@prefix nif:    <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>.
 ]]>
 </xsl:text>
 </xsl:variable>
@@ -51,8 +56,20 @@
    </xsl:apply-templates>
 </xsl:template>
 
+<!--
+   <logentry revision="27563">
+      <author>hyoklee</author>
+      <date>2013-12-18T18:56:14.764583Z</date>
+      <paths>
+         <path kind="" action="M">/trunk/hdf5_handler/data.nasa/download.sh</path>
+      </paths>
+      <msg>added support for symbolic linked NASA files.</msg>
+   </logentry>
+-->
+
 <xsl:template match="logentry">
-   <xsl:value-of select="concat('&lt;',$sd,'commit/',@revision,'&gt;',$NL,
+   <xsl:value-of select="concat('&lt;',$sdv,'commit/',@revision,'&gt;',$NL,
+                                '   #pvcs:Commit;',$NL,
                                 '   a prov:Activity;',$NL)"/>
 
    <xsl:if test="string-length(author/text())">
@@ -64,13 +81,13 @@
    </xsl:if>
 
    <xsl:if test="matches(@revision,'^[0-9]+$')">
-      <xsl:value-of select="concat('   prov:wasInformedBy &lt;',$sd,'commit/',number(@revision)-1,'&gt;;',$NL)"/>
+      <xsl:value-of select="concat('   prov:wasInformedBy &lt;',$sdv,'commit/',number(@revision)-1,'&gt;;',$NL)"/>
    </xsl:if>
 
    <!-- paths -->
    <xsl:for-each select="paths/path[not(contains(.,'&gt;'))]">
       <xsl:variable name="path"     select="replace(.,' ','%20')"/>
-      <xsl:variable name="revision" select="concat('&lt;',$sd,'revision/',../../@revision,$path,'&gt;')"/>
+      <xsl:variable name="revision" select="concat('&lt;',$sdv,'revision/',../../@revision,$path,'&gt;')"/>
       <xsl:value-of select="concat('   prov:generated ',$revision,';',$NL)"/>
    </xsl:for-each>
 
@@ -84,19 +101,29 @@
 
    <!-- paths -->
    <xsl:for-each select="paths/path[not(contains(.,'&gt;'))]">
-      <xsl:variable name="path"     select="replace(.,' ','%20')"/>
-      <xsl:variable name="revision" select="concat('&lt;',$sd,'revision/',../../@revision,$path,'&gt;')"/>
+      <xsl:variable name="path"         select="replace(.,' ','%20')"/>
+      <xsl:variable name="revisionless" select="concat('&lt;',$sdv_,                            $path,'&gt;')"/>
+      <xsl:variable name="revision"     select="concat('&lt;',$sdv, 'revision/',../../@revision,$path,'&gt;')"/>
       <xsl:value-of select="concat($NL,$revision,$NL,
-                                   '   a prov:Entity;',$NL,
-                                   '   schema:version ',$DQ,../../@revision,$DQ,';')"/>
+                                   '   a prv:Immutable, nif:String, prov:Entity;',$NL,
+                                   '   schema:version ',$DQ,../../@revision,$DQ,';',$NL,
+                                   '   #prov:value __contents of the file__',$NL,
+                                   '   #pvcs:hasHash [ nfo:hashAlgorithm, nfo:hashValue ];')"/>
       <!-- TODO: 2012-09-05T20:21:54.521200Z 
          @copyfrom-rev @copyfrom-path
         -->
       <xsl:if test="@copyfrom-rev and @copyfrom-path">
-         <xsl:variable name="antecedent" select="concat('&lt;',$sd,'revision/',@copyfrom-rev,replace(@copyfrom-path,' ','%20'),'&gt;')"/>
+         <xsl:variable name="antecedent" select="concat('&lt;',$sdv,'revision/',@copyfrom-rev,replace(@copyfrom-path,' ','%20'),'&gt;')"/>
          <xsl:value-of select="concat($NL,'   prov:wasDerivedFrom ',$antecedent,';')"/>
       </xsl:if>
-      <xsl:value-of select="concat($NL,'   prov:specializationOf &lt;',$svn,$path,'&gt;;',$NL,
+      <xsl:value-of select="concat($NL,'   prov:specializationOf ',$revisionless,';',$NL,
+                                   '.',$NL,
+                                   $revisionless,$NL,
+                                   '   #a pvcs:Mutable;',$NL,
+                                   '   a  nfo:FileDataObject, prov:Entity;',$NL,
+                                   '   nfo:fileName     ',replace($svn,'.',' '),$DQ,$path,$DQ,';',$NL,
+                                   '   prv:serializedBy &lt;',$svn,$path,'&gt;;',$NL,
+                                   '   nfo:fileURL      &lt;',$svn,$path,'&gt;;',$NL,
                                    '.')"/>
    </xsl:for-each>
 
