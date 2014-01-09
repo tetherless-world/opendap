@@ -38,12 +38,12 @@
 @prefix :              <http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/version/2014-Jan-07/params/enhancement/1/> .
 
 
-#:a_bundle
-#   a conversion:ImplicitBundle;
-#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
-#   conversion:name_template "[/sd]company/[#2]/[r]";
-#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
-#.
+:repo_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name doap:repository;
+   conversion:name_template "[/]id/component/[#1]/svn";
+   conversion:type_name     doap:SVNRepository;
+.
 
 <http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/version/2014-Jan-07/conversion/enhancement/1>
    a conversion:LayerDataset, void:Dataset;
@@ -78,7 +78,7 @@
       #];
       conversion:enhance [
          conversion:domain_template "[/]id/component/[#1]";
-         conversion:domain_name     "OPeNDap Component";
+         conversion:domain_name     "OPeNDAP Component";
       ];
       #conversion:enhance [
       #   conversion:class_name "Thing";
@@ -102,16 +102,16 @@
          conversion:equivalent_property rdf:type;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range_template  "[/sd]vocab/[.]";
          conversion:range   rdfs:Resource;
       ];
       conversion:enhance [
          ov:csvCol          3;
          ov:csvHeader       "SVN Root";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by :repo_bundle;
          #conversion:label   "SVN Root";
-         #conversion:equivalent_property dcterms:identifier;
-         #conversion:subproperty_of      dcterms:identifier;
+         conversion:equivalent_property doap:location;
+         conversion:subproperty_of      doap:browse;
          conversion:comment "";
          conversion:range   rdfs:Resource;
       ];

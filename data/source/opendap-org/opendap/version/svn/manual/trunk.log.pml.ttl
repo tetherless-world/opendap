@@ -1,0 +1,84 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<trunk.log>
+   a pmlp:Information;
+   pmlp:hasModificationDateTime "2014-01-09T01:53:32+00:00"^^xsd:dateTime;
+.
+<trunk.log>
+   a nfo:FileDataObject;
+   nfo:fileName "trunk.log";
+   nfo:hasHash <md5_9f47263034864fee829c91a99228524a_time_1389232413>;
+.
+<md5_9f47263034864fee829c91a99228524a_time_1389232413>
+   a nfo:FileHash; 
+   dcterms:date      "2014-01-09T01:53:33+00:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "9f47263034864fee829c91a99228524a";
+.
+
+<../source/trunk>
+   a pmlp:Information;
+   pmlp:hasModificationDateTime "2013-12-27T20:46:51+00:00"^^xsd:dateTime;
+.
+<../source/trunk>
+   a nfo:FileDataObject;
+   nfo:fileName "../source/trunk";
+   nfo:hasHash <md5__time_1389232413>;
+.
+<md5__time_1389232413>
+   a nfo:FileHash; 
+   dcterms:date      "2014-01-09T01:53:33+00:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "";
+.
+
+<nodeSet520c44ec-70f0-4349-8640-b37f1185a88c>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <trunk.log>;
+   pmlj:isConsequentOf <inferenceStep520c44ec-70f0-4349-8640-b37f1185a88c>;
+.
+<inferenceStep520c44ec-70f0-4349-8640-b37f1185a88c>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ( <nodeSet520c44ec-70f0-4349-8640-b37f1185a88c_antecedent> );
+   pmlj:hasInferenceEngine <svn_log520c44ec-70f0-4349-8640-b37f1185a88c>;
+   pmlj:hasInferenceRule   conv:svn_log_Method;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled520c44ec-70f0-4349-8640-b37f1185a88c>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep520c44ec-70f0-4349-8640-b37f1185a88c>;
+   oprov:endTime "2014-01-09T01:53:32+00:00"^^xsd:dateTime;
+.
+<nodeSet520c44ec-70f0-4349-8640-b37f1185a88c_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../source/trunk>;
+.
+
+<svn_log520c44ec-70f0-4349-8640-b37f1185a88c>
+   a pmlp:InferenceEngine, conv:Svn_log_Engine;
+   dcterms:identifier "svn_log520c44ec-70f0-4349-8640-b37f1185a88c";
+.
+
+conv:Svn_log_Engine rdfs:subClassOf pmlp:InferenceEngine .
