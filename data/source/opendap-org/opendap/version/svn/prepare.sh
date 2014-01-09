@@ -11,7 +11,8 @@ for portion in tags trunk; do
       pushd source/$portion
          svn log -v --xml > ../../manual/$portion.log
       popd
+      justify.sh source/$portion manual/$portion.log svn_log
    else
-      echo "   (Skipping svn log because svn repository is not checked out.)"
+      echo "   (Skipping manual/$portion.log because svn repository is not checked out at source/$portion, or it's older than the log.)"
    fi
 done
