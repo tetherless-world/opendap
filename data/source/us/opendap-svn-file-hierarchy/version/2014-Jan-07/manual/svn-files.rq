@@ -1,19 +1,35 @@
-prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> 
+prefix xsd:    <http://www.w3.org/2001/XMLSchema#>
+prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
 prefix prov:   <http://www.w3.org/ns/prov#>
+prefix prv:    <http://purl.org/net/provenance/ns#>
+prefix nfo:    <http://www.semanticdesktop.org/ontologies/nfo/#>
 prefix schema: <http://schema.org/>
+prefix nif:    <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+prefix bte:    <http://purl.org/twc/vocab/between-the-edges/>
 
 construct {
    ?svn a rdfs:Resource;
-        prov:wasAttributedTo ?developer .
+      prov:wasAttributedTo ?developer .
 }
 where {
-  #?commit 
-  <http://opendap.tw.rpi.edu/source/opendap-org/dataset/opendap/commit/27563>
+   ?commit
       a prov:Activity;
-      prov:generated ?versioned .
-  optional { ?commit prov:wasAttributedTo ?developer }
+      prov:generated [
+         a prv:Immutable, nif:String;
+         schema:version        [];
+         prov:specializationOf ?mutable;
+      ]
+   .
+   optional { ?commit prov:wasAttributedTo ?developer }
 
-  ?versioned 
-      schema:version        ?version;
-      prov:specializationOf ?svn .
+   ?mutable
+      a nfo:FileDataObject, prov:Entity;
+      prv:serializedBy ?svn
+   .
+   # Avoid processing those that have already been processed.
+   #optional { ?svn a ?type . filter(?type = bte:RDFNode) }
+   #filter(!bound(?type))
+
+   # Debugging
+   filter(?svn = <https://scm.opendap.org/svn/trunk/hdf5_handler/data.nasa/download.sh>)
 }
