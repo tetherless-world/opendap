@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/opendap-org/opendap/version/svn/convert.sh>;
+#3>    rdfs:seeAlso <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance>;
+#3> .
 
 mkdir automatic &> /dev/null
 
