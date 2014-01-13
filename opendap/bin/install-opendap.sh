@@ -7,7 +7,7 @@
 # This script will install OPeNDAP from the current working directory.
 #
 # When run from:
-#    /opt
+#    /opt/opendap
 #
 # running:
 #    install-opendap.sh ~/path/to/conf/hyrax-1.8_1.conf
@@ -38,8 +38,8 @@ if [[ -e "$configuration" ]]; then
    configuration_absolute=`readlink -e $configuration`
    config_local="`basename $configuration`" # e.g. /path/to/hyrax-1.8_1.conf
    config_id="${config_local%.*}"           # e.g.          hyrax-1.8_1.conf -> hyrax-1.8_1
-   mkdir -p "opendap/$config_id"
-   ln -s "$configuration_absolute" "opendap/$config_id/$config_local"
+   mkdir -p "$config_id"
+   ln -s "$configuration_absolute" "$config_id/$config_local"
 
    #
    # OPeNDAP Modules are listed at:
@@ -52,8 +52,8 @@ if [[ -e "$configuration" ]]; then
       component=`echo $module | cut -d'/' -f1`
       version=`echo $module | cut -d'/' -f2`
       url="${base}/${component}/${version}"
-      echo svn co $url "opendap/$config_id/$component-$version"
-           svn co $url "opendap/$config_id/$component-$version"
+      echo svn co $url "$config_id/$component-$version"
+           svn co $url "$config_id/$component-$version"
       if [[ "$component" == 'libdap' ]]; then
             echo hi
             # TODO: check which and offer to apt-get if not exists.
