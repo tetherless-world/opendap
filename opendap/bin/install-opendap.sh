@@ -2,6 +2,7 @@
 #
 #3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/opendap/bin/install-opendap.sh>;
 #3>    prov:wasDerivedFrom   <https://github.com/tetherless-world/opendap/issues/7>;
+#3>    rdfs:seeAlso          <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer>;
 #3> .
 #
 # This script will install OPeNDAP from the current working directory.
@@ -18,6 +19,7 @@
 #    /opt/opendap/hyrax-1.8_1/hdf5_handler-2.1.1
 #    /opt/opendap/hyrax-1.8_1/libdap-3.11.7
 #    ...
+#    /opt/opendap/hyrax-1.8_1/hyrax-1.8_1.log
 
 if [[ $# -lt 1 || "$1" == '--help' ]]; then
    echo "Usage:"
