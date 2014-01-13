@@ -9,22 +9,30 @@
 # When run from:
 #    /opt
 #
-# Running:
-#    install-opendap.sh ~/path/to/hyrax-1.8_1.conf
+# running:
+#    install-opendap.sh ~/path/to/conf/hyrax-1.8_1.conf
 #
-# Will create structure:
+# will create structure:
+#    /opt/opendap/hyrax-1.8_1/hyrax-1.8_1.conf -(soft link)-> /full/path/to/conf/hyrax-1.8_1.conf
 #    /opt/opendap/hyrax-1.8_1/bes-3.11.0/
 #    /opt/opendap/hyrax-1.8_1/hdf5_handler-2.1.1
 #    /opt/opendap/hyrax-1.8_1/libdap-3.11.7
 #    ...
 
+if [[ $# -lt 1 || "$1" == '--help' ]]; then
+   echo "Usage:"
+   echo "   `basename $0` <path/to/module-list.conf>"
+   echo
+   echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
+   echo
+   echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
+   exit
+fi
+
 configuration="$1"
 # e.g. https://github.com/tetherless-world/opendap/blob/master/opendap/conf/hyrax-1.8_1.conf
 
 base="https://scm.opendap.org/svn/tags"
-
-# TODO: include directory for `basename $configuration` and check out everything in THAT.
-# e.g. into /opt/opendap/hyrax-1.8_1
 
 if [[ -e "$configuration" ]]; then
    configuration_absolute=`readlink -e $configuration`
