@@ -9,12 +9,15 @@ configuration="$1"
 
 base="https://scm.opendap.org/svn/tags"
 
+# TODO: include directory for `basename $configuration` and check out everything in THAT.
+# e.g. into /opt/opendap/hyrax-1.8_1
+
 if [[ -e "$configuration" ]]; then
    #
    # OPeNDAP Modules are listed at:
    # https://docs.google.com/spreadsheet/ccc?key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc#gid=0
    #
-   for $module in `cat $configuration`; do
+   for module in `cat $configuration`; do
       #
       # e.g. module = 'libdap/3.11.7'
       #
@@ -24,6 +27,7 @@ if [[ -e "$configuration" ]]; then
       echo svn co $url $component-$version
            svn co $url $component-$version
       if [[ "$component" == 'libdap' ]]; then
+            echo hi
             # TODO: check which and offer to apt-get if not exists.
             # automake
             # autoconf
@@ -33,6 +37,12 @@ if [[ -e "$configuration" ]]; then
             # flex
             # bison
             # doxygen
+            # libcurl
+         if [[ ! `which libcurl` ]]; then
+            echo "TODO: install libcurl"
+         else
+            echo "$component needs libcurl; it is installed at `which libcurl`"
+         fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
       elif [[ "$component" == 'dap-server' ]]; then
