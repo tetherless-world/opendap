@@ -21,10 +21,18 @@ if [[ -e "$configuration" ]]; then
       component=`echo $module | cut -d'/' -f1`
       version=`echo $module | cut -d'/' -f2`
       url="${base}/${component}/${version}"
-      echo svn co $url $component
-           svn co $url $component
+      echo svn co $url $component-$version
+           svn co $url $component-$version
       if [[ "$component" == 'libdap' ]]; then
-         echo we need automake
+            # TODO: check which and offer to apt-get if not exists.
+            # automake
+            # autoconf
+            # libtool
+            # m4
+            # g++
+            # flex
+            # bison
+            # doxygen
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
       elif [[ "$component" == 'dap-server' ]]; then
