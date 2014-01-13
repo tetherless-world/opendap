@@ -68,11 +68,16 @@ if [[ -e "$configuration" ]]; then
             # bison
             # doxygen
             # libcurl
-         if [[ ! `which libcurl` ]]; then
+         if [[ ! `which curl-config` ]]; then
             echo "TODO: install libcurl"
          else
-            echo "$component needs libcurl; it is installed at `which libcurl`"
+            echo "$component needs libcurl; it is installed at `which curl-config`"
          fi
+		 if [[ -e /usr/include/uuid/uuid.h ]]; then
+			echo "TODO: install uuid-dev"
+		 else
+		    echo "$component needs uuid.h; it is installed at /usr/include/uuid"
+		 fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
       elif [[ "$component" == 'dap-server' ]]; then
