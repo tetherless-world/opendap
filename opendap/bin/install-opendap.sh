@@ -57,6 +57,8 @@ if [[ -e "$configuration" ]]; then
       if [[ "$component" == 'libdap' ]]; then
             echo hi
             # TODO: check which and offer to apt-get if not exists.
+            # More coplete list of dependencies and how to resolve at:
+            # https://hackpad.com/OPeNDAPPROV-2014-Jan-13-pw36WNo46OU
             # automake
             # autoconf
             # libtool
