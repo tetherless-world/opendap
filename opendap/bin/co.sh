@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/opendap/bin/co.sh>;
+#3>    prov:wasDerivedFrom   <https://github.com/tetherless-world/opendap/issues/7>;
+#3> .
 
 conf="$1"
 
