@@ -45,7 +45,7 @@ if [[ -e "$configuration" ]]; then
    # OPeNDAP Modules are listed at:
    # https://docs.google.com/spreadsheet/ccc?key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc#gid=0
    #
-   for module in `cat $configuration`; do
+   for module in `cat $configuration | grep -v '^#'`; do
       #
       # e.g. module = 'libdap/3.11.7'
       #
