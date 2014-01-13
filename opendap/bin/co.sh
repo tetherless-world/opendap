@@ -18,9 +18,17 @@ if [[ -e "$configuration" ]]; then
       #
       # e.g. module = 'libdap/3.11.7'
       #
-      comp=`echo $module | cut -d'/' -f1`
-      vers=`echo $module | cut -d'/' -f2`
-      toget="${base}/${comp}/${vers}"
-      svn co $toget $comp
+      component=`echo $module | cut -d'/' -f1`
+      version=`echo $module | cut -d'/' -f2`
+      url="${base}/${component}/${version}"
+      echo svn co $url $component
+           svn co $url $component
+      if [[ "$component" == 'libdap' ]]; then
+         echo we need automake
+      elif [[ "$component" == 'bes' ]]; then
+         echo we need ...
+      elif [[ "$component" == 'dap-server' ]]; then
+         echo we need ...
+      fi
    done
 fi
