@@ -22,13 +22,13 @@
 #    /opt/opendap/hyrax-1.8_1/hyrax-1.8_1.log
 
 if [[ $# -lt 1 || "$1" == '--help' ]]; then
-   echo "Usage:"
-   echo "   `basename $0` <path/to/module-list.conf>"
-   echo
-   echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
-   echo
-   echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
-   exit
+    echo "Usage:"
+    echo "   `basename $0` <path/to/module-list.conf>"
+    echo
+    echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
+    echo
+    echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
+    exit
 fi
 
 configuration="$1"
