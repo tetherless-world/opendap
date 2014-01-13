@@ -61,8 +61,6 @@ if [[ -e "$configuration" || "$configuration" =~ http* ]]; then
     log="${basedir}/${config_id}/${config_id}.log"
     echo "`basename $0` `date`" >> ${log}
 
-    echo BAILING
-    exit
    #
    # OPeNDAP Modules are listed at:
    # https://docs.google.com/spreadsheet/ccc?key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc#gid=0
@@ -103,7 +101,7 @@ if [[ -e "$configuration" || "$configuration" =~ http* ]]; then
 		 fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
-		 otherconf="--developer"
+		 otherconf="--enable-developer"
       elif [[ "$component" == 'dap-server' ]]; then
          echo we need ...
       fi
