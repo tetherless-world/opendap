@@ -32,12 +32,15 @@ fi
 configuration="$1"
 # e.g. https://github.com/tetherless-world/opendap/blob/master/opendap/conf/hyrax-1.8_1.conf
 
-base="https://scm.opendap.org/svn/tags"
+tags="https://scm.opendap.org/svn/tags"
+basedir=`pwd`
 
 if [[ -e "$configuration" ]]; then
    configuration_absolute=`readlink -e $configuration`
    config_local="`basename $configuration`" # e.g. /path/to/hyrax-1.8_1.conf
    config_id="${config_local%.*}"           # e.g.          hyrax-1.8_1.conf -> hyrax-1.8_1
+   log="${basedir}/${config_id}/${config_id}.log"
+   > ${log}
    mkdir -p "$config_id"
    ln -s "$configuration_absolute" "$config_id/$config_local"
 
@@ -51,7 +54,8 @@ if [[ -e "$configuration" ]]; then
       #
       component=`echo $module | cut -d'/' -f1`
       version=`echo $module | cut -d'/' -f2`
-      url="${base}/${component}/${version}"
+      url="${tags}/${component}/${version}"
+	  otherconf=
       echo svn co $url "$config_id/$component-$version"
            svn co $url "$config_id/$component-$version"
       if [[ "$component" == 'libdap' ]]; then
@@ -73,15 +77,49 @@ if [[ -e "$configuration" ]]; then
          else
             echo "$component needs libcurl; it is installed at `which curl-config`"
          fi
-		 if [[ -e /usr/include/uuid/uuid.h ]]; then
+		 if [[ ! -e /usr/include/uuid/uuid.h ]]; then
 			echo "TODO: install uuid-dev"
 		 else
 		    echo "$component needs uuid.h; it is installed at /usr/include/uuid"
 		 fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
+		 otherconf="--developer"
       elif [[ "$component" == 'dap-server' ]]; then
          echo we need ...
       fi
+	  (cd $config_id/$component-$version
+		  autoreconf --force --install 2>&1 | tee -a ${log}
+		  if [ $? != 0 ]
+		  then
+			echo "autoreconf failed dude"
+			exit 1
+		  fi
+		  ./configure --prefix=${basedir}/${config_id} $otherconf 2>&1 | tee -a ${log}
+		  if [ $? != 0 ]
+		  then
+			echo "configure failed dude"
+			exit 1
+		  fi
+		  make 2>&1 | tee -a ${log}
+		  if [ $? != 0 ]
+		  then
+			echo "make failed dude"
+			exit 1
+		  fi
+		  make check 2>&1 | tee -a ${log}
+		  if [ $? != 0 ]
+		  then
+			echo "make check failed dude"
+			exit 1
+		  fi
+		  make install 2>&1 | tee -a ${log}
+		  if [ $? != 0 ]
+		  then
+			echo "make install failed dude"
+			exit 1
+		  fi
+	  )
    done
 fi
+
