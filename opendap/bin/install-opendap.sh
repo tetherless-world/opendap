@@ -22,13 +22,13 @@
 #    /opt/opendap/hyrax-1.8_1/hyrax-1.8_1.log
 
 if [[ $# -lt 1 || "$1" == '--help' ]]; then
-   echo "Usage:"
-   echo "   `basename $0` <path/to/module-list.conf>"
-   echo
-   echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
-   echo
-   echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
-   exit
+    echo "Usage:"
+    echo "   `basename $0` <path/to/module-list.conf>"
+    echo
+    echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
+    echo
+    echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
+    exit
 fi
 
 configuration="$1"
@@ -38,13 +38,17 @@ tags="https://scm.opendap.org/svn/tags"
 basedir=`pwd`
 
 if [[ -e "$configuration" ]]; then
-   configuration_absolute=`readlink -e $configuration`
-   config_local="`basename $configuration`" # e.g. /path/to/hyrax-1.8_1.conf
-   config_id="${config_local%.*}"           # e.g.          hyrax-1.8_1.conf -> hyrax-1.8_1
-   log="${basedir}/${config_id}/${config_id}.log"
-   > ${log}
-   mkdir -p "$config_id"
-   ln -s "$configuration_absolute" "$config_id/$config_local"
+    configuration_absolute=`readlink -e $configuration`
+    config_local="`basename $configuration`" # e.g. /path/to/hyrax-1.8_1.conf
+    config_id="${config_local%.*}"           # e.g.          hyrax-1.8_1.conf -> hyrax-1.8_1
+
+    log="${basedir}/${config_id}/${config_id}.log"
+    > ${log}
+
+    export PATH="${PATH}:${basedir}/${config_id}/bin"
+
+    mkdir -p "$config_id"
+    ln -s "$configuration_absolute" "$config_id/$config_local"
 
    #
    # OPeNDAP Modules are listed at:
@@ -86,7 +90,7 @@ if [[ -e "$configuration" ]]; then
 		 fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
-		 otherconf="--developer"
+		 otherconf="--enable-developer"
       elif [[ "$component" == 'dap-server' ]]; then
          echo we need ...
       fi
