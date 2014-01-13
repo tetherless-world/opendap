@@ -26,6 +26,7 @@ if [[ $# -lt 1 || "$1" == '--help' ]]; then
     echo "   `basename $0` <path/to/module-list.conf>"
     echo
     echo " <path/to/module-list.conf> - a file listing the <module>/<version> to install."
+    echo "    e.g. https://raw.github.com/tetherless-world/opendap/master/opendap/conf/hyrax-1.8_1.conf"
     echo
     echo "see https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Installer#shell-based-installer"
     exit
@@ -37,19 +38,31 @@ configuration="$1"
 tags="https://scm.opendap.org/svn/tags"
 basedir=`pwd`
 
-if [[ -e "$configuration" ]]; then
-    configuration_absolute=`readlink -e $configuration`
-    config_local="`basename $configuration`" # e.g. /path/to/hyrax-1.8_1.conf
-    config_id="${config_local%.*}"           # e.g.          hyrax-1.8_1.conf -> hyrax-1.8_1
+if [[ -e "$configuration" || "$configuration" =~ http* ]]; then
+    # configuration = 
+    # e.g. /path/to/hyrax-1.8_1.conf
+    #      or as a URL:
+    #      https://github.com/tetherless-world/opendap/blob/master/opendap/conf/hyrax-1.8_1.conf
+
+    config_local="`basename $configuration`" # e.g. hyrax-1.8_1.conf
+    config_id="${config_local%.*}"           # e.g. hyrax-1.8_1.conf -> hyrax-1.8_1
+    mkdir -p "$config_id"                    # e.g.                     hyrax-1.8_1/
+
+    if [[ -e "$configuration" ]]; then
+        configuration_absolute=`readlink -e $configuration`
+        ln -s "$configuration_absolute" "$config_id/$config_local"
+    elif [[ "$configuration" =~ http* ]]; then
+        curl -# -sL "$configuration" >  "$config_id/$config_local"
+        configuration_absolute=`readlink -e $configuration`
+        # Rewrite variable to be the local file, not the remote URL.
+        configuration="$config_id/$config_local"
+    fi
 
     log="${basedir}/${config_id}/${config_id}.log"
-    > ${log}
+    echo "`basename $0` `date`" >> ${log}
 
-    export PATH="${PATH}:${basedir}/${config_id}/bin"
-
-    mkdir -p "$config_id"
-    ln -s "$configuration_absolute" "$config_id/$config_local"
-
+    echo BAILING
+    exit
    #
    # OPeNDAP Modules are listed at:
    # https://docs.google.com/spreadsheet/ccc?key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc#gid=0
@@ -90,7 +103,7 @@ if [[ -e "$configuration" ]]; then
 		 fi
       elif [[ "$component" == 'bes' ]]; then
          echo we need ...
-		 otherconf="--enable-developer"
+		 otherconf="--developer"
       elif [[ "$component" == 'dap-server' ]]; then
          echo we need ...
       fi
