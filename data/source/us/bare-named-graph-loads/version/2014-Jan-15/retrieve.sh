@@ -8,6 +8,6 @@ else
 fi
 
 echo publish.sh
-grep http source/loaded-graphs.rq.csv | awk -F, '{local=$2;gsub(/^.*\//,"",local);gsub(/\"/,"",local);local="source/"local;ng=$1"#given";gsub(/\"/,"",ng);printf("curl -LO %s\nvload ttl %s %s\n\n",$2,local,ng)}' > publish.sh
+grep http source/loaded-graphs.rq.csv | awk -F, '{local=$2;gsub(/^.*\//,"",local);gsub(/\"/,"",local);local="source/"local;ng=$1"#given";gsub(/\"/,"",ng);printf("curl -L %s > %s\nvload ttl %s %s\n\n",$2,local,local,ng)}' > publish.sh
 chmod +x publish.sh
 
