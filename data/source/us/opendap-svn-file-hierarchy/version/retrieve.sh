@@ -161,6 +161,7 @@ echo "INFO url       : $url"
 
       retrieved_files=`find source -newer source/.__CSV2RDF4LOD_retrieval -type f | grep -v "pml.ttl$" | grep -v "cr-droid.ttl$"`
 
+      # uri-nodes.sh source/svn-files.rq.ttl | grep "^https://scm" | sort -u
       python $DATAFAQS_HOME/services/sadi/faqt/naming/between-the-edges.py source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
       justify.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl https://github.com/timrdf/DataFAQs/blob/master/services/sadi/faqt/naming/between-the-edges.py
 
