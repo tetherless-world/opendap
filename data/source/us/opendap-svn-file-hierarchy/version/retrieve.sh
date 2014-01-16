@@ -10,7 +10,8 @@
 #
 #
 #
-#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/tree/master/data/source/us/opendap-svn-file-hierarchy/version/retrieve.sh>;
+#3> <> a conversion:RetrievalTrigger, conversion:Idempotent;
+#3>    prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/us/opendap-svn-file-hierarchy/version/retrieve.sh>;
 #3>    prov:wasDerivedFrom   <https://github.com/timrdf/prizms/blob/master/bin/dataset/pr-neighborlod.sh>;
 #3>    rdfs:seeAlso          <https://github.com/timrdf/csv2rdf4lod-automation/wiki/Secondary-Derivative-Datasets>;
 #3> .
@@ -30,10 +31,11 @@
 #                               |                    e.g. ./retrieve.sh
 #                               |                     |
 #                              \./                   \./
-[ -n "`readlink $0`" ] && this=`readlink $0` || this=$0
-HOME=$(cd ${this%/*/*/*} && pwd)
-export PATH=$PATH`$HOME/bin/install/paths.sh`
-export CLASSPATH=$CLASSPATH`$HOME/bin/install/classpaths.sh`
+#[ -n "`readlink $0`" ] && this=`readlink $0` || this=$0
+#echo $this
+#HOME=$(cd ${this%/*/*/*} && pwd)
+#export PATH=$PATH`$HOME/bin/install/paths.sh`
+#export CLASSPATH=$CLASSPATH`$HOME/bin/install/classpaths.sh`
 
 see="https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD-not-set"
 CSV2RDF4LOD_HOME=${CSV2RDF4LOD_HOME:?"not set; source csv2rdf4lod/source-me.sh or see $see"}
@@ -112,7 +114,7 @@ echo "INFO url       : $url"
    # Create the directory for the new version.
    mkdir -p $version/source
 
-   rq='../../../src/unknown-domain.rq'
+   rq='../../../src/svn-files.rq'
    # Go into the directory that stores the original data obtained from the source organization.
    echo INFO `cr-pwd.sh`/$version/source
    pushd $version/source &> /dev/null
@@ -122,19 +124,19 @@ echo "INFO url       : $url"
       if [[ "$us" =~ http* ]]; then
          our_redirect=`curl -sLI $CSV2RDF4LOD_BASE_URI | grep "Location:" | head -1 | sed 's/^\s*//;s/\s*$//' | awk '{print $2}'`
       fi
-      rq2=`basename $rq`
-      cat $rq | awk -f ../../../src/unknown-domain.awk -v ns1="$us" ns2="$our_redirect" > $rq2
+      #rq2=`basename $rq`
+      #cat $rq | awk -f ../../../src/unknown-domain.awk -v ns1="$us" ns2="$our_redirect" > $rq2
       if [[ `which cache-queries.sh` && "$endpoint" =~ http* && -e $rq ]]; then
-         cache-queries.sh "$endpoint" -o csv -q $rq2 -od .
-         csv="$rq2.csv"
-         if [[ `wc -l $csv | awk '{print $1}'` -lt 2 ]]; then
-            echo "No results from $rq2:"
-            cat $rq2 $csv
-            rm $csv
-            echo "Changing from subject-based to object-based query."
-            cat $rq | awk -f ../../../src/unknown-domain.awk -v ns1="$us" ns2="$our_redirect" o=o > $rq2
-            cache-queries.sh "$endpoint" -o csv -q $rq2 -od .
-         fi
+         cache-queries.sh "$endpoint" -o ttl -q $rq -od .
+         #csv="$rq2.csv"
+         #if [[ `wc -l $csv | awk '{print $1}'` -lt 2 ]]; then
+         #   echo "No results from $rq2:"
+         #   cat $rq2 $csv
+         #   rm $csv
+         #   echo "Changing from subject-based to object-based query."
+         #   cat $rq | awk -f ../../../src/unknown-domain.awk -v ns1="$us" ns2="$our_redirect" o=o > $rq2
+         #   cache-queries.sh "$endpoint" -o csv -q $rq2 -od .
+         #fi
       else
          echo "   ERROR: Failed to create dataset `basename $0`:"                        
          echo "      CSV2RDF4LOD_PUBLISH_VIRTUOSO_SPARQL_ENDPOINT: $endpoint"        
@@ -159,29 +161,15 @@ echo "INFO url       : $url"
 
       retrieved_files=`find source -newer source/.__CSV2RDF4LOD_retrieval -type f | grep -v "pml.ttl$" | grep -v "cr-droid.ttl$"`
 
-      if [[ "$us" =~ http* ]]; then
-         datasetV=`cr-dataset-uri.sh --uri`
-         cr-default-prefixes.sh --turtle                                    >> automatic/internal.ttl
-         cr-default-prefixes.sh --turtle                                    >> automatic/external.ttl
-         echo "<$datasetV> a conversion:NeighborLODDataset ."               >> automatic/internal.ttl
-         for uri in `cat source/$csv | sed 's/^"//;s/"$//' | grep "^http"`; do
-            domain=`resource-name.sh --domain-of "$uri"`
-            [[ "${uri#$us}" == "$uri" && "${uri#$our_redirect}" == "$uri" ]] \
-               && internal="external" || internal="internal"
-            worthwhile="yes"
-            echo $uri
-            echo "<$datasetV> dcterms:references <$uri> ."                  >> automatic/$internal.ttl
-            if [[ "$domain" =~ http* ]]; then
-               echo "<$uri> prov:wasAttributedTo <$domain> ."               >> automatic/$internal.ttl
-            fi
-         done
-         vsr-follow.sh -w -od automatic automatic/external.ttl --no-sameness --start-to --follow dcterms:references # automatic/external.ttl.ttl
-      else
-         echo "WARNING: CSV2RDF4LOD_BASE_URI \"$CSV2RDF4LOD_BASE_URI\" not http; skipping NeighborLOD."
+      python $DATAFAQS_HOME/services/sadi/faqt/naming/between-the-edges.py source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
+      justify.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl https://github.com/timrdf/DataFAQs/blob/master/services/sadi/faqt/naming/between-the-edges.py
+
+      if [[ `void-triples.sh source/svn-files.rq.ttl` -gt 0 && `void-triples.sh automatic/svn-files.bte.ttl` -gt 0 ]]; then
+         worthwhile="yes"
       fi
 
       if [[ "$worthwhile" == 'yes' ]]; then
-         aggregate-source-rdf.sh automatic/internal.ttl automatic/external.ttl automatic/external.ttl.ttl
+         aggregate-source-rdf.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl
       fi
 
    popd &> /dev/null
