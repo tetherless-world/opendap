@@ -27,8 +27,7 @@ where {
       prv:serializedBy ?svn
    .
    # Avoid processing those that have already been processed.
-   #optional { ?svn a ?type . filter(?type = bte:RDFNode) }
-   #filter(!bound(?type))
+   filter not exists { ?svn a bte:RDFNode }
 
    # Debugging
    filter(?svn = <https://scm.opendap.org/svn/trunk/hdf5_handler/data.nasa/download.sh>)
