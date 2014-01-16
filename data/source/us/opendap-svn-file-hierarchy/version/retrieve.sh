@@ -179,6 +179,9 @@ echo "INFO url       : $url"
       echo "Note: version $version of dataset `cr-dataset-id.sh` did not become worthwhile; removing retrieval attempt."
       echo
       rm -rf $version
+   else
+      # Recursive step; process another chunk into a new version.
+      cr-retrieve.sh -w --skip-if-exists
    fi
 #else
 #   echo "Version exists; skipping."
