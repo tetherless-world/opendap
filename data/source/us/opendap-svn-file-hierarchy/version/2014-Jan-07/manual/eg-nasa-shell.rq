@@ -12,21 +12,23 @@ construct {
       prov:wasAttributedTo ?developer .
 }
 where {
-
-   # Avoid processing those that have already been processed.
-   filter not exists { ?svn a bte:RDFNode }
-
    ?commit
       a prov:Activity;
       prov:generated [
          a prv:Immutable, nif:String;
          schema:version        [];
-         prov:specializationOf [ # The content-mutable file path.
-            a nfo:FileDataObject, prov:Entity;
-            prv:serializedBy ?svn;
-         ];
+         prov:specializationOf ?mutable;
       ]
    .
    optional { ?commit prov:wasAttributedTo ?developer }
+
+   ?mutable
+      a nfo:FileDataObject, prov:Entity;
+      prv:serializedBy ?svn
+   .
+   # Avoid processing those that have already been processed.
+   filter not exists { ?svn a bte:RDFNode }
+
+   # Debugging
+   filter(?svn = <https://scm.opendap.org/svn/trunk/hdf5_handler/data.nasa/download.sh>)
 }
-limit 1000000
