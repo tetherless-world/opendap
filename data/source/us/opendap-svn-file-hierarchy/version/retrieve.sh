@@ -10,7 +10,7 @@
 #
 #
 #
-#3> <> a conversion:RetrievalTrigger, conversion:Idempotent;
+#3> <> a conversion:RetrievalTrigger; #, conversion:Idem___potent;
 #3>    prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/us/opendap-svn-file-hierarchy/version/retrieve.sh>;
 #3>    prov:wasDerivedFrom   <https://github.com/timrdf/prizms/blob/master/bin/dataset/pr-neighborlod.sh>;
 #3>    rdfs:seeAlso          <https://github.com/timrdf/csv2rdf4lod-automation/wiki/Secondary-Derivative-Datasets>;
@@ -127,7 +127,7 @@ echo "INFO url       : $url"
       #rq2=`basename $rq`
       #cat $rq | awk -f ../../../src/unknown-domain.awk -v ns1="$us" ns2="$our_redirect" > $rq2
       if [[ `which cache-queries.sh` && "$endpoint" =~ http* && -e $rq ]]; then
-         cache-queries.sh "$endpoint" -o ttl -q $rq -od .
+         cache-queries.sh "$endpoint" -o ttl -q $rq --limit-offset -od .
          #csv="$rq2.csv"
          #if [[ `wc -l $csv | awk '{print $1}'` -lt 2 ]]; then
          #   echo "No results from $rq2:"
@@ -162,8 +162,11 @@ echo "INFO url       : $url"
       retrieved_files=`find source -newer source/.__CSV2RDF4LOD_retrieval -type f | grep -v "pml.ttl$" | grep -v "cr-droid.ttl$"`
 
       # uri-nodes.sh source/svn-files.rq.ttl | grep "^https://scm" | sort -u
-      python $DATAFAQS_HOME/services/sadi/faqt/naming/between-the-edges.py source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
+      bte="$DATAFAQS_HOME/services/sadi/faqt/naming/between-the-edges.py"
+      python $bte source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
       justify.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl https://github.com/timrdf/DataFAQs/blob/master/services/sadi/faqt/naming/between-the-edges.py
+      find source -name "svn-files.rq.[0-9][0-9].ttl" -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
+      # TODO: justify the chunks
 
       if [[ `void-triples.sh source/svn-files.rq.ttl` -gt 0 && `void-triples.sh automatic/svn-files.bte.ttl` -gt 0 ]]; then
          worthwhile="yes"
