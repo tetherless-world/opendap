@@ -166,6 +166,7 @@ echo "INFO url       : $url"
       python $bte source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
       justify.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl https://github.com/timrdf/DataFAQs/blob/master/services/sadi/faqt/naming/between-the-edges.py
       find source -name "svn-files.rq.[0-9][0-9].ttl" -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
+      # TODO: find a complete query that covers all of them.
       # TODO: justify the chunks
 
       if [[ `void-triples.sh source/svn-files.rq.ttl` -gt 0 && `void-triples.sh automatic/svn-files.bte.ttl` -gt 0 ]]; then
