@@ -165,7 +165,9 @@ echo "INFO url       : $url"
       bte="$DATAFAQS_HOME/services/sadi/faqt/naming/between-the-edges.py"
       python $bte source/svn-files.rq.ttl text/turtle automatic/svn-files.bte.ttl
       justify.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl https://github.com/timrdf/DataFAQs/blob/master/services/sadi/faqt/naming/between-the-edges.py
-      find source -name "svn-files.rq.[0-9][0-9].ttl" -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
+      find source -name "svn-files.rq.[0-9].ttl"           -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
+      find source -name "svn-files.rq.[0-9][0-9].ttl"      -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
+      find source -name "svn-files.rq.[0-9][0-9][0-9].ttl" -print0 | xargs -0 -I CHUNK -P ${CSV2RDF4LOD_CONCURRENCY:-1} python $bte CHUNK text/turtle -od automatic
       # TODO: find a complete query that covers all of them.
       # TODO: justify the chunks
 
@@ -173,9 +175,9 @@ echo "INFO url       : $url"
          worthwhile="yes"
       fi
 
-      if [[ "$worthwhile" == 'yes' ]]; then
-         aggregate-source-rdf.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl
-      fi
+      #if [[ "$worthwhile" == 'yes' ]]; then
+      #   aggregate-source-rdf.sh source/svn-files.rq.ttl automatic/svn-files.bte.ttl
+      #fi
 
    popd &> /dev/null
 
