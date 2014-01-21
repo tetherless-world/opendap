@@ -1,0 +1,19 @@
+#3> <> prov:wasDerivedFrom <https://github.com/jimmccusker/twc-healthdata/blob/bdbd7b18ad4dfd301852c9920c601db14c7f1ea9/lodspeakr/components/services/graph/queries/loads.query> .
+
+PREFIX sd:         <http://www.w3.org/ns/sparql-service-description#>
+PREFIX foaf:       <http://xmlns.com/foaf/0.1/>
+PREFIX prov:       <http://www.w3.org/ns/prov#>
+
+SELECT ?name ?input ?when
+WHERE {
+   ?activity 
+      a prov:Activity;
+      prov:used ?input, [ 
+         a sd:NamedGraph;
+         sd:name ?name 
+      ];
+      prov:startedAtTime ?when
+   .
+   ?input a foaf:Document .
+   filter(!regex(str(?input),'void.ttl$'))
+}order by ?name desc(?when)

@@ -1,0 +1,99 @@
+#
+# This file is a mock up of the provenance that an OPeNDAP respond handler would 
+# record while preparing the query result.
+#
+
+#3> <> prov:wasDerivedFrom <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance#provenance-of-an-opendap-request-handling> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/>.
+@prefix prov:    <http://www.w3.org/ns/prov#>.
+@prefix nfo:     <http://www.semanticdesktop.org/ontologies/nfo/#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix doap:    <http://usefulinc.com/ns/doap#>.
+@prefix opendap: <http://purl.org/twc/vocab/opendap/>.
+@prefix :        <http://opendap.tw.rpi.edu/source/us/dataset/opendap-prov/version/2014-Jan-21/> .
+
+#
+# Four hdf5 files on the server's local file system:
+#
+:hdf_1 a foaf:Document, prov:Entity; 
+   nfo:fileName   "monday.h5"; 
+   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/286>;
+.
+:hdf_2 a foaf:Document, prov:Entity; 
+   nfo:fileName   "tuesday.h5";
+   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/287>
+.
+:hdf_3 a foaf:Document, prov:Entity;
+   nfo:fileName   "wednesday.h5";
+   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/283>
+.
+:hdf_4 a foaf:Document, prov:Entity; 
+   nfo:fileName   "thursday.h5";
+   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/282>
+.
+
+#<http://test.opendap.org/dap/data/h5/monday.h5>
+
+#
+# User checks boxes, selects "aggregate" with constraints
+#
+
+:dds_of_reading a prov:Entity;
+    dcterms:format opendap:DataDDS;
+    prov:wasGeneratedBy [
+       a prov:Activity;
+       prov:used <http://test.opendap.org/dap/data/h5/monday.h5>,
+                 <http://test.opendap.org/dap/data/h5/tuesday.h5>,
+                 <http://test.opendap.org/dap/data/h5/wednesday.h5>,
+                 <http://test.opendap.org/dap/data/h5/thursday.h5>;
+       prov:wasAssociatedWith
+            <http://opendap.tw.rpi.edu/instances/software/hdf5_handler/2.1.1>;
+    ];
+.
+
+:constrained_dds a prov:Entity;
+    dcterms:format opendap:DataDDS;
+    prov:wasGeneratedBy [
+       a prov:Activity;
+       prov:used :dds_of_reading;
+       prov:wasAssociatedWith 
+          <http://opendap.tw.rpi.edu/instances/software/BES/3.12.0>;
+    ];
+.
+
+:result a foaf:Document;
+    nfo:fileName "thursday.h5";
+    dcterms:format opendap:netcdf;
+    prov:wasGeneratedBy [
+        a prov:Activity;
+        prov:used :constrained_dds;
+        prov:wasAssociatedWith
+            <http://opendap.tw.rpi.edu/instances/software/fileout_netcdf/1.2.1>;
+    ]
+.
+
+            
+#  read by hdf5_handler
+#  has version 2.1.1
+#  is of software component hdf5_handler
+#  which is part of OPeNDAP Back-End Server
+#  which is part of OPeNDAP Hyrax
+#  generates a DataDDS, OPeNDAP object
+#  http://opendap.tw.rpi.edu/instances/software/hdf5_handler/2.1.1
+#  
+#  constrained by dap_module
+#  generates another DataDDS, OPeNDAP object
+#  http://opendap.tw.rpi.edu/instances/software/BES/3.12.0
+#  
+#  aggregated by ncml_module
+#  has version 1.2.2
+#  is of software component ncml_module
+#  generates another DataDDS, OPeNDAP object
+#  http://opendap.tw.rpi.edu/instances/software/ncml_module/1.2.2/
+#  
+#  DataDDS object written out as netcdf4 file
+#  using fileout_netcdf module from OPeNDAP Hyrax
+#  http://opendap.tw.rpi.edu/instances/software/fileout_netcdf/1.1.3/
+#  
+#  data product, a netcdf file
