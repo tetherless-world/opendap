@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/tree/master/data/source/us/opendap-prov>;
+#3> <> a conversion:RetrievalTrigger, conversion:Idempotent;
+#3>    prov:specializationOf <https://github.com/tetherless-world/opendap/tree/master/data/source/us/opendap-prov>;
 #3>    prov:wasDerivedFrom   <https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/cr-create-versioned-dataset-dir.sh> .
 #
 #   Copyright 2012 Timothy Lebo
