@@ -48,6 +48,8 @@ if [[ -e "$configuration" || "$configuration" =~ http* ]]; then
     config_id="${config_local%.*}"           # e.g. hyrax-1.8_1.conf -> hyrax-1.8_1
     mkdir -p "$config_id"                    # e.g.                     hyrax-1.8_1/
 
+    export PATH="${basedir}/${config_id}/bin:${PATH}"
+
     if [[ -e "$configuration" ]]; then
         configuration_absolute=`readlink -e $configuration`
         ln -s "$configuration_absolute" "$config_id/$config_local"
