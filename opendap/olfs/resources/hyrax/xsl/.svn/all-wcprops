@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl
+END
+catalog.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/catalog.xsl
+END
+error400.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/error400.xsl
+END
+error500.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/error500.xsl
+END
+xml2rdf.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/xml2rdf.xsl
+END
+dapAttributePromoter.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dapAttributePromoter.xsl
+END
+dap_2.0_ddxToRdfTriples.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dap_2.0_ddxToRdfTriples.xsl
+END
+threddsCatalogPresentation.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/threddsCatalogPresentation.xsl
+END
+version.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/version.xsl
+END
+ddx2html.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/ddx2html.xsl
+END
+anyXml2Rdf.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/anyXml2Rdf.xsl
+END
+threddsDatasetDetail.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/threddsDatasetDetail.xsl
+END
+wcs_coveragesList.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/wcs_coveragesList.xsl
+END
+dap_3.2_ddxToRdfTriples.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dap_3.2_ddxToRdfTriples.xsl
+END
+dap_3.3_ddxToRdfTriples.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dap_3.3_ddxToRdfTriples.xsl
+END
+datasetServices.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/datasetServices.xsl
+END
+addRdfId2Dap3.2.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/addRdfId2Dap3.2.xsl
+END
+asyncResponse.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/asyncResponse.xsl
+END
+contents.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/contents.xsl
+END
+dapAttributesToXml.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dapAttributesToXml.xsl
+END
+xmlToDapAttributes.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/xmlToDapAttributes.xsl
+END
+webStartDataset.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/webStartDataset.xsl
+END
+namespaceFilter.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/namespaceFilter.xsl
+END
+threddsCatalogIngest.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/threddsCatalogIngest.xsl
+END
+serviceDescription.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/serviceDescription.xsl
+END
+wcs_coveragePage.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/wcs_coveragePage.xsl
+END
+dap4Contents.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/dap4Contents.xsl
+END
+thredds2datasetAccess.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/xsl/thredds2datasetAccess.xsl
+END

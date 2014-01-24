@@ -1,0 +1,36 @@
+K 10
+svn:ignore
+V 163
+aclocal.m4
+*.in
+config.*
+configure
+ChangeLog.tmp
+libtool
+Makefile
+nc.conf
+stamp-h*
+cccc
+autom4te.cache
+.deps
+mac_osx
+.cproject
+.project
+netcdf_handler-*
+.settings
+
+K 13
+svn:mergeinfo
+V 470
+/branch/hyrax-1.5/netcdf_handler-3.8.0:20168-20702
+/branch/multifile/netcdf_handler:19324-19626
+/branch/netcdf_handler/3.10.0:24916-25992
+/branch/netcdf_handler/3.8.0:20101-20167
+/branch/netcdf_handler/3.9:23585-24274
+/branch/netcdf_handler/3.9.0:22045-22732
+/branch/netcdf_handler/3.9.3:24474-24864
+/branch/xmlrequest/netcdf_handler:19392-19857
+/branch/xmlresponse/netcdf_handler:20120-20433
+/tags/netcdf_handler/3.8.2:20703-20981
+/tags/netcdf_handler/3.8.3:20982-21117
+END

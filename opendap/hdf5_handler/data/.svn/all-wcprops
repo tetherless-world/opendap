@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data
+END
+grid_1_3d_xyz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_xyz.h5
+END
+grid_2_3d_xyz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_3d_xyz.h5
+END
+t_space_null.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_space_null.h5
+END
+t_unsigned_int.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_unsigned_int.h5
+END
+swath_1_3d_2x2yz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_1_3d_2x2yz.h5
+END
+swath_2_3d_2x2yz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_2_3d_2x2yz.h5
+END
+grid_2_2d_xy.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_2d_xy.h5
+END
+grid_1_3d_xy.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_xy.h5
+END
+t_unsupported.h5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_unsupported.h5
+END
+d_regref.h5
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_regref.h5
+END
+t_int.h5
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_int.h5
+END
+t_name_clash.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_name_clash.h5
+END
+t_non_cf_char.h5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_non_cf_char.h5
+END
+grid_1_3d_z.h5
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_z.h5
+END
+t_vl_string_cstr.h5
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_vl_string_cstr.h5
+END
+grid_2_3d_size.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_3d_size.h5
+END
+za_1_3d_yzt.h5
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/za_1_3d_yzt.h5
+END
+d_compound.h5
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_compound.h5
+END
+t_float.h5
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_float.h5
+END
+t_string.h5
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_string.h5
+END
+t_flatten_name_clash.h5
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_flatten_name_clash.h5
+END
+t_special_char_attr.h5
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_special_char_attr.h5
+END
+t_vl_string.h5
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_vl_string.h5
+END
+za_1_3d_yztd.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/za_1_3d_yztd.h5
+END
+d_link_soft.h5
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_link_soft.h5
+END
+swath_1_2d_xyzz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_1_2d_xyzz.h5
+END
+grid_1_3d_xyz_aug.h5
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_xyz_aug.h5
+END
+za_1_2d_yz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/za_1_2d_yz.h5
+END
+t_link_comment.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_link_comment.h5
+END
+swath_1_3d_2x2yztd.h5
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_1_3d_2x2yztd.h5
+END
+t_fillvalue_2d_2x2y.nc4.h5
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_fillvalue_2d_2x2y.nc4.h5
+END
+t_int_scalar.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_int_scalar.h5
+END
+grid_4_2d_origin.h5
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_4_2d_origin.h5
+END
+swath_1_2d_xyz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_1_2d_xyz.h5
+END
+swath_2_2d_xyz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/swath_2_2d_xyz.h5
+END
+t_scale_2d_2x2y.nc4.h5
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_scale_2d_2x2y.nc4.h5
+END
+d_objref.h5
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_objref.h5
+END
+grid_1_2d_xy.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_2d_xy.h5
+END
+t_space_zero.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_space_zero.h5
+END
+grid_1_3d_zz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_zz.h5
+END
+t_flatten.h5
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_flatten.h5
+END
+grid_1_3d_3x3y.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d_3x3y.h5
+END
+t_group_scalar_attrs.h5
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_group_scalar_attrs.h5
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/README
+END
+t_string_cstr.h5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_string_cstr.h5
+END
+grid_2_2d_size.h5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_2d_size.h5
+END
+t_size8.h5
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/t_size8.h5
+END
+za_1_3d_yztd_aug.h5
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/za_1_3d_yztd_aug.h5
+END
+grid_swath_za_1_2d.h5
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_swath_za_1_2d.h5
+END
+grid_1_2d.h5
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_2d.h5
+END
+grid_2_2d.h5
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_2d.h5
+END
+grid_1_3d.h5
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_1_3d.h5
+END
+grid_2_2d_pixel.h5
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/grid_2_2d_pixel.h5
+END
+d_int.h5
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_int.h5
+END
+d_link_hard.h5
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_link_hard.h5
+END
+d_group.h5
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/d_group.h5
+END
+za_2_2d_yz.h5
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/data/za_2_2d_yz.h5
+END

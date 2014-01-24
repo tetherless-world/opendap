@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt
+END
+PPTServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTServer.h
+END
+UnixSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/UnixSocket.h
+END
+Connection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/Connection.cc
+END
+SocketListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketListener.h
+END
+Connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/Connection.h
+END
+SSLClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLClient.h
+END
+PPTClient.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTClient.cc
+END
+PPTMarkFinder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTMarkFinder.cc
+END
+PPTStreamBuf.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTStreamBuf.cc
+END
+SSLConnection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLConnection.cc
+END
+SSLConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLConnection.h
+END
+SocketUtilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketUtilities.h
+END
+Socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/Socket.h
+END
+SSLServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLServer.h
+END
+PPTServer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTServer.cc
+END
+UnixSocket.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/UnixSocket.cc
+END
+SocketListener.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketListener.cc
+END
+TcpSocket.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/TcpSocket.cc
+END
+SSLClient.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLClient.cc
+END
+TcpSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/TcpSocket.h
+END
+PPTClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTClient.h
+END
+ServerHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/ServerHandler.h
+END
+PPTMarkFinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTMarkFinder.h
+END
+PPTStreamBuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTStreamBuf.h
+END
+SocketConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketConfig.h
+END
+PPTConnection.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTConnection.cc
+END
+SocketUtilities.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketUtilities.cc
+END
+SocketConfig.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SocketConfig.h.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/Makefile.am
+END
+PPTConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTConnection.h
+END
+PPTProtocol.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTProtocol.cc
+END
+PPTProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/PPTProtocol.h
+END
+Socket.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/Socket.cc
+END
+SSLServer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/SSLServer.cc
+END

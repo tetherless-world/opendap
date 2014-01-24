@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl
+END
+alloca.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/alloca.h
+END
+mbchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/mbchar.h
+END
+localcharset.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/localcharset.c
+END
+strcasecmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/strcasecmp.c
+END
+regex_internal.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regex_internal.c
+END
+strnlen1.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/strnlen1.c
+END
+malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/malloc.c
+END
+configmake.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/configmake.h
+END
+ref-add.sin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/ref-add.sin
+END
+localcharset.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/localcharset.h
+END
+strcase.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/strcase.h
+END
+regex.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regex.c
+END
+stdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/stdint.h
+END
+memchr.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/memchr.c
+END
+regex_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regex_internal.h
+END
+stdbool.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/stdbool.h
+END
+strnlen1.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/strnlen1.h
+END
+mbuiter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/mbuiter.h
+END
+config.charset
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/config.charset
+END
+regex.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regex.h
+END
+regexec.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regexec.c
+END
+strncasecmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/strncasecmp.c
+END
+ref-del.sin
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/ref-del.sin
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/Makefile.am
+END
+gettext.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/gettext.h
+END
+alloca.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/alloca.c
+END
+regcomp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/regcomp.c
+END
+mbchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/win32/gl/mbchar.c
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests
+END
+package.m4.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/package.m4.in
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/bes.conf.in
+END
+handler_tests_macros.m4
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/handler_tests_macros.m4
+END
+generate_data_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/generate_data_baseline.sh.in
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/atlocal.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/Makefile.am
+END
+TestServerTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/TestServerTest.at
+END
+generate_metadata_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/tests/generate_metadata_baseline.sh.in
+END

@@ -1,0 +1,15 @@
+K 13
+svn:mergeinfo
+V 843
+/branch/hyrax-1.5/netcdf_handler-3.8.0/bes-testsuite/nc/fnoc1.nc.3.bescmd:20168-20702
+/branch/netcdf_handler/3.10.0/bes-testsuite/nc/fnoc1.nc.3.bescmd:24916-25992
+/branch/netcdf_handler/3.8.0/bes-testsuite/nc/fnoc1.nc.3.bescmd:20101-20167
+/branch/netcdf_handler/3.9/bes-testsuite/nc/fnoc1.nc.3.bescmd:23585-24274
+/branch/netcdf_handler/3.9.0/bes-testsuite/nc/fnoc1.nc.3.bescmd:22045-22732
+/branch/netcdf_handler/3.9.3/bes-testsuite/nc/fnoc1.nc.3.bescmd:24474-24864
+/branch/xmlrequest/netcdf_handler/bes-testsuite/nc/fnoc1.nc.3.bescmd:19392-19857
+/branch/xmlresponse/netcdf_handler/bes-testsuite/nc/fnoc1.nc.3.bescmd:20120-20433
+/tags/netcdf_handler/3.8.2/bes-testsuite/nc/fnoc1.nc.3.bescmd:20703-20981
+/tags/netcdf_handler/3.8.3/bes-testsuite/nc/fnoc1.nc.3.bescmd:20982-21117
+/trunk/netcdf-handler/bes-testsuite/nc/fnoc1.nc.3.bescmd:2740-12059
+END

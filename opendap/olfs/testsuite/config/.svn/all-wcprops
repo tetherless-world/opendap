@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/config
+END
+common_tests.exp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/config/common_tests.exp
+END
+unix.exp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/config/unix.exp
+END

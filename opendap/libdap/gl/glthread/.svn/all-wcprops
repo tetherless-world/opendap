@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/glthread
+END
+threadlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/glthread/threadlib.c
+END
+lock.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/glthread/lock.c
+END
+lock.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/glthread/lock.h
+END

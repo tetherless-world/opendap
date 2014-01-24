@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project
+END
+test4_as_nc3_response.bes
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/test4_as_nc3_response.bes
+END
+test4_as_dap_response.bes
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/test4_as_dap_response.bes
+END
+get_dds.bes
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/get_dds.bes
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/bes.conf.in
+END
+run_command
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/run_command
+END
+test4.nc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/test4.nc
+END
+hex.nc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/hex.nc
+END
+wrong_number_of_arguments.bes
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/wrong_number_of_arguments.bes
+END
+get_version_info.bes
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/get_version_info.bes
+END
+wrong_argument_type.bes
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/wrong_argument_type.bes
+END
+get_ascii_data.bes
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/get_ascii_data.bes
+END
+gridfields_functions.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/gridfields_functions.cc
+END
+gridfields_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/gridfields_functions.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ugrid_project/README
+END

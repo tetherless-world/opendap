@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 74
+.deps
+Makefile
+Makefile.in
+besregtest
+BESCatalogResponseHandler.cc.edited
+
+END

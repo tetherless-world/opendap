@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 64
+
+config.h
+Makefile
+aclocal.m4
+config.h.in
+config.status
+stamp-*
+
+END

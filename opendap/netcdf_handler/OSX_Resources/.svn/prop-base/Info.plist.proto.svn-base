@@ -1,0 +1,15 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 208
+/branch/netcdf_handler/3.10.0/OSX_Resources/Info.plist.proto:24916-25992
+/branch/netcdf_handler/3.9.3/OSX_Resources/Info.plist.proto:24474-24864
+/trunk/netcdf-handler/OSX_Resources/Info.plist.proto:2740-12059
+END

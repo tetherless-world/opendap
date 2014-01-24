@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/bes.conf.in
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/atlocal.in
+END
+bes.default.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/bes.default.conf.in
+END
+hdf5_handlerTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/hdf5_handlerTest.at
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/Makefile.am
+END

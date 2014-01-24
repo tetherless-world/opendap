@@ -1,0 +1,117 @@
+# Process with autom4te to create an -*- Autotest -*- test suite.
+
+m4_include([handler_tests_macros.m4])
+
+# These are tests for netcdf4 support
+
+# Classic netcdf4 files, with no chunking compression
+
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_no_comp.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_no_comp.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_no_comp.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_nc_classic_no_comp.nc.3.bescmd])
+
+# Classic netcdf4 files, _with_ chunking compression
+
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_compressed.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_compressed.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_nc_classic_compressed.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_nc_classic_compressed.nc.3.bescmd])
+
+# Netcdf files with ushort, uint variables
+
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_unsigned_types.nc.3.bescmd])
+
+# Netcdf files with ushort, uint variables
+
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types_comp.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types_comp.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_unsigned_types_comp.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_unsigned_types_comp.nc.3.bescmd])
+
+# Netcdf files with string attributes and variables
+
+AT_BESCMD_RESPONSE_TEST([nc4_strings.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_strings.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_strings.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_strings.nc.3.bescmd])
+
+# Netcdf files with string attributes and variables
+
+AT_BESCMD_RESPONSE_TEST([nc4_strings_comp.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_strings_comp.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([nc4_strings_comp.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([nc4_strings_comp.nc.3.bescmd])
+
+# Structures
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_compound.nc.3.bescmd])
+
+# Arrays of Structures
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound2.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound2.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound2.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_compound2.nc.3.bescmd])
+
+# Structures of Structures
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound3.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound3.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound3.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_compound3.nc.3.bescmd])
+
+# Structures of Structures with child arrays
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound4.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound4.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_compound4.nc.3.bescmd])
+
+# Array of Structures of Structures with child arrays
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound5.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_compound5.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_compound5.nc.3.bescmd])
+
+# Opaque
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_opaque_data.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_opaque_data.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_opaque_data.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_opaque_data.nc.3.bescmd])
+
+# Enum
+
+AT_BESCMD_RESPONSE_TEST([ref_tst_enum_data.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_enum_data.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([ref_tst_enum_data.nc.2.bescmd])
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_enum_data.nc.3.bescmd])
+
+# test scalar enums (using Byte)
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_enum_data_1.nc.3.bescmd])
+
+# ... and UInt32
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([ref_tst_enum_data_2.nc.3.bescmd])
+
+
+
+

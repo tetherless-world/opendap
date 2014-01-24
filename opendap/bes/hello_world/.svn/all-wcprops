@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world
+END
+SampleSayCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayCommand.cc
+END
+SampleSayCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayCommand.h
+END
+sample_help.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/sample_help.html
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/README
+END
+SampleSayResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayResponseHandler.cc
+END
+SampleSayResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayResponseHandler.h
+END
+SampleSayXMLCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayXMLCommand.cc
+END
+SayReporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SayReporter.cc
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/configure.ac
+END
+SampleSayXMLCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleSayXMLCommand.h
+END
+SayReporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SayReporter.h
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/INSTALL
+END
+sample_help.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/sample_help.txt
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/Makefile.am
+END
+SampleResponseNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleResponseNames.h
+END
+SampleModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleModule.cc
+END
+SampleRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleRequestHandler.cc
+END
+SampleModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleModule.h
+END
+bes-sample-data.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-sample-data.sh.in
+END
+SampleRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/SampleRequestHandler.h
+END

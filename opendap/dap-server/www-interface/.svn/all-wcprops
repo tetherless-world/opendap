@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface
+END
+WWWGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWGrid.h
+END
+WWWOutputFactory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWOutputFactory.cc
+END
+BESXMLWWWGetCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESXMLWWWGetCommand.cc
+END
+WWWOutputFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWOutputFactory.h
+END
+BESWWWTransmit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWTransmit.cc
+END
+BESWWWNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWNames.h
+END
+WWWOutput.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWOutput.cc
+END
+WWWStructure.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWStructure.cc
+END
+WWWInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWInt32.h
+END
+WWWOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWOutput.h
+END
+WWWStructure.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWStructure.h
+END
+WWWUrl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUrl.cc
+END
+WWWInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWInt16.h
+END
+WWWUrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUrl.h
+END
+WWWByte.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWByte.h
+END
+WWWStr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWStr.cc
+END
+WWWStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWStr.h
+END
+BESWWWModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWModule.cc
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/COPYING
+END
+BESWWWRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWRequestHandler.cc
+END
+WWWFloat64.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWFloat64.h
+END
+get_html_form.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/get_html_form.cc
+END
+BESWWWRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWRequestHandler.h
+END
+WWWUInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUInt32.cc
+END
+WWWGrid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWGrid.cc
+END
+BESWWWResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWResponseHandler.cc
+END
+WWWUInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUInt16.cc
+END
+WWWUInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUInt32.h
+END
+BESWWWResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWResponseHandler.h
+END
+WWWUInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWUInt16.h
+END
+BESXMLWWWGetCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESXMLWWWGetCommand.h
+END
+js2h.pl.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/js2h.pl.in
+END
+BESWWWTransmit.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWTransmit.h
+END
+WWWInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWInt32.cc
+END
+WWWInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWInt16.cc
+END
+WWWByte.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWByte.cc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/README
+END
+www.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/www.js
+END
+BESWWWGetCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWGetCommand.cc
+END
+WWWSequence.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWSequence.cc
+END
+WWWFloat32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWFloat32.cc
+END
+BESWWWGetCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWGetCommand.h
+END
+WWWSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWSequence.h
+END
+BESWWW.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWW.h
+END
+WWWFloat32.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWFloat32.h
+END
+WWWArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWArray.cc
+END
+WWWFloat64.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWFloat64.cc
+END
+WWWArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/WWWArray.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/Makefile.am
+END
+BESWWWModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/BESWWWModule.h
+END
+get_html_form.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/www-interface/get_html_form.h
+END

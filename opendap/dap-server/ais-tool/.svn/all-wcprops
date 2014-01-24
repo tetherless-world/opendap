@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool
+END
+AISDODSFilter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/AISDODSFilter.cc
+END
+Makefile.in.orig
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/Makefile.in.orig
+END
+AISDODSFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/AISDODSFilter.h
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/configure.ac
+END
+nph-ais.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/nph-ais.in
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/Makefile.am
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/README
+END
+ais_tool.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ais-tool/ais_tool.cc
+END

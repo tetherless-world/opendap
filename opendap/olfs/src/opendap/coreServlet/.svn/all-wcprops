@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet
+END
+HttpResponder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/HttpResponder.java
+END
+ReqInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/ReqInfo.java
+END
+ResourceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/ResourceInfo.java
+END
+OpendapHttpDispatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/OpendapHttpDispatchHandler.java
+END
+DispatchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/DispatchServlet.java
+END
+OPeNDAPException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/OPeNDAPException.java
+END
+SpecialRequestDispatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/SpecialRequestDispatchHandler.java
+END
+DocServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/DocServlet.java
+END
+MimeTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/MimeTypes.java
+END
+RequestCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/RequestCache.java
+END
+LicenseManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/LicenseManager.java
+END
+HttpDate.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/HttpDate.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/Util.java
+END
+Scrub.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/Scrub.java
+END
+NoPostHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/NoPostHandler.java
+END
+SOAPRequestDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/SOAPRequestDispatcher.java
+END
+ServletUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/ServletUtil.java
+END
+Debug.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/Debug.java
+END
+BotBlocker.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/BotBlocker.java
+END
+StaticContentServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/StaticContentServlet.java
+END
+PersistentContentHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/PersistentContentHandler.java
+END
+OpendapMimeHeaders.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/OpendapMimeHeaders.java
+END
+BadUsageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/BadUsageException.java
+END
+MimeBoundary.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/MimeBoundary.java
+END
+DispatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/coreServlet/DispatchHandler.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite
+END
+two_grid.das
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/two_grid.das
+END
+geo_grid.das
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/geo_grid.das
+END
+two_grid.dds
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/two_grid.dds
+END
+geo_grid.dds
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/geo_grid.dds
+END
+geo_grid_coads_lon.dds
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/geo_grid_coads_lon.dds
+END
+geo_grid_3d.dds
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/unit-tests/ce-functions-testsuite/geo_grid_3d.dds
+END

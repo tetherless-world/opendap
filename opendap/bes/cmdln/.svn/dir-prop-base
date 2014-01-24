@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 48
+.deps
+bescmdln
+Makefile
+Makefile.in
+besTest.dir
+
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io
+END
+SpeedyChunkedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/SpeedyChunkedInputStream.java
+END
+Chunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/Chunk.java
+END
+ChunkProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/ChunkProtocol.java
+END
+ChunkTransferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/ChunkTransferException.java
+END
+ChunkedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/ChunkedInputStream.java
+END
+ChunkedOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/io/ChunkedOutputStream.java
+END

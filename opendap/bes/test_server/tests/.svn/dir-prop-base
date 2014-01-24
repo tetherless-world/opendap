@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 148
+atconfig
+atlocal
+bes.conf
+generate_data_baseline.sh
+generate_metadata_baseline.sh
+Makefile
+Makefile.in
+package.m4
+TestServerTest.dir
+TestServerTest
+
+END

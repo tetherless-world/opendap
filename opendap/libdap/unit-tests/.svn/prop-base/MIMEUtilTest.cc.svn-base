@@ -1,0 +1,30 @@
+K 13
+svn:eol-style
+V 6
+native
+K 11
+svn:keyword
+V 2
+Id
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 610
+/branch/hyrax-1.5/libdap-3.9.0/unit-tests/cgiUtilTest.cc:20170-20698
+/branch/libdap/3.10.0/unit-tests/MIMEUtilTest.cc:22081-22695
+/branch/libdap/3.11/unit-tests/MIMEUtilTest.cc:23578-24274
+/branch/libdap/3.11.1/unit-tests/MIMEUtilTest.cc:24466-24864
+/branch/libdap/3.11.2/unit-tests/MIMEUtilTest.cc:24910-25864
+/branch/libdap/3.9.0/unit-tests/cgiUtilTest.cc:20095-20169
+/branch/multifile/libdap/unit-tests/cgiUtilTest.cc:19322-19623
+/branch/xmlrequest/libdap/unit-tests/cgiUtilTest.cc:19391-19855
+/tags/libdap/3.9.0/unit-tests/cgiUtilTest.cc:20089-20094
+/tags/libdap/3.9.2/unit-tests/cgiUtilTest.cc:20699-20873
+K 13
+svn:mime-type
+V 10
+text/plain
+END

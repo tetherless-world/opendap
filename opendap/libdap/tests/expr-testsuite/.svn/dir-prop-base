@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 136
+.deps
+.libs
+.flc
+.project
+.cdtproject
+Makefile
+Makefile.in
+configure
+libtool
+aclocal.m4
+site.exp
+*-config
+config.*
+stamp-h?
+*.o
+*.lo
+*~
+
+END

@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 47
+atconfig
+atlocal
+bes.conf
+Makefile
+Makefile.in
+
+END

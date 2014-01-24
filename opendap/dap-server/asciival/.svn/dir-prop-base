@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 53
+dap_asciival.sum
+Makefile
+Makefile.in
+site.exp
+.deps
+
+END

@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 98
+gse.tab.cc
+gse.tab.hh
+lex.gse_.cc
+gse.output
+Makefile
+Makefile.in
+functions.conf
+.deps
+lex.gse.cc
+
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier
+END
+GlacierManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/GlacierManager.java
+END
+GlacierDapDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/GlacierDapDispatcher.java
+END
+DownloadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/DownloadManager.java
+END
+ResourceId.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/ResourceId.java
+END
+BesMetadataExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/BesMetadataExtractor.java
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/Index.java
+END
+Download.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/Download.java
+END
+GlacierArchive.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/GlacierArchive.java
+END
+DapServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/DapServlet.java
+END
+ArchiveDownload.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/ArchiveDownload.java
+END
+VaultInventory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/VaultInventory.java
+END
+GlacierVaultManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/GlacierVaultManager.java
+END
+CatalogServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/CatalogServlet.java
+END
+InventoryDownload.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/InventoryDownload.java
+END
+ConfigurationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/ConfigurationException.java
+END
+NoaaResourceIngester.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/NoaaResourceIngester.java
+END
+GlacierBesApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/GlacierBesApi.java
+END
+Vault.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/aws/glacier/Vault.java
+END

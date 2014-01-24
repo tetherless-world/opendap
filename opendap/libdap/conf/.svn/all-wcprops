@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf
+END
+c++defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/c++defs.h
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/pkg.m4
+END
+cppunit.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/cppunit.m4
+END
+warn-on-use.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/warn-on-use.h
+END
+arg-nonnull.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/arg-nonnull.h
+END
+config.rpath
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/config.rpath
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/acinclude.m4
+END
+libdap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/libdap.m4
+END
+check_zlib.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/conf/check_zlib.m4
+END

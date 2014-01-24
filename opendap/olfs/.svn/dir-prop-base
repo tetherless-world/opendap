@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 17
+DapIngest
+build*
+
+K 13
+svn:mergeinfo
+V 466
+/branch/hyrax-1.5/olfs-1.5.0:20173-20726
+/branch/ioos/olfs:21614-22510
+/branch/ioos/src/olfs:20214-21613
+/branch/multifile/olfs:19325-19627
+/branch/olfs/1.6.0:22143-22502
+/branch/olfs/1.7.0:23605-23675
+/branch/olfs/1.7.1:23676-24274
+/branch/olfs/1.8.0:24475-24754
+/branch/olfs/1.9.0:24942-25822,25824-26276
+/branch/xmlrequest/olfs:19430-19870
+/branch/xmlresponse/olfs:20396-20425
+/tags/olfs/1.5.0:20727-21020
+/tags/olfs/1.5.1:21021-21023
+/tags/olfs/1.5.2:21024-21210
+END

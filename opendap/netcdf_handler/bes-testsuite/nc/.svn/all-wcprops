@@ -1,0 +1,857 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc
+END
+nc4_strings_comp.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.0.bescmd.baseline
+END
+coads_climatology.nc.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/coads_climatology.nc.ddx.bescmd.baseline
+END
+nc4_strings_comp.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.1.bescmd.baseline
+END
+nc4_strings_comp.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.2.bescmd.baseline
+END
+ref_tst_compound3.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.2.bescmd
+END
+nc4_strings_comp.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.3.bescmd.baseline
+END
+ref_tst_compound5.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.2.bescmd
+END
+test.nc.3a.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.3a.bescmd.baseline
+END
+ref_tst_enum_data_1.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data_1.nc.3.bescmd
+END
+nc4_unsigned_types.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.2.bescmd
+END
+ref_tst_compound.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.1.bescmd
+END
+fnoc1.nc.dap.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.dap.bescmd
+END
+nc4_nc_classic_no_comp.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.1.bescmd
+END
+nc4_unsigned_types_comp.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.3.bescmd
+END
+nc4_nc_classic_compressed.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.3.bescmd
+END
+ref_tst_compound3.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.1.bescmd
+END
+ref_tst_compound5.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.1.bescmd
+END
+nc4_nc_classic_no_comp.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.0.bescmd.baseline
+END
+nc4_nc_classic_no_comp.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.1.bescmd.baseline
+END
+nc4_nc_classic_no_comp.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.2.bescmd.baseline
+END
+nc4_nc_classic_no_comp.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.3.bescmd.baseline
+END
+nc4_unsigned_types.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.1.bescmd
+END
+fnoc1.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.3.bescmd
+END
+ref_tst_compound.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.0.bescmd
+END
+nc4_strings_comp.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.3.bescmd
+END
+nc4_nc_classic_no_comp.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.0.bescmd
+END
+ref_tst_compound5.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.1.bescmd.baseline
+END
+ref_tst_compound5.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.2.bescmd.baseline
+END
+ref_tst_compound5.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.3.bescmd.baseline
+END
+nc4_unsigned_types_comp.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.2.bescmd
+END
+nc4_nc_classic_compressed.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.2.bescmd
+END
+ref_tst_compound3.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.0.bescmd
+END
+nc4_unsigned_types.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.0.bescmd
+END
+fnoc1.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.2.bescmd
+END
+ref_tst_opaque_data.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.3.bescmd
+END
+ref_tst_compound2.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.0.bescmd.baseline
+END
+nc4_strings_comp.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.2.bescmd
+END
+ref_tst_compound2.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.1.bescmd.baseline
+END
+bears.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/bears.nc.1.bescmd.baseline
+END
+ref_tst_compound2.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.2.bescmd.baseline
+END
+ref_tst_compound2.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.3.bescmd.baseline
+END
+test.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.3.bescmd
+END
+nc4_unsigned_types_comp.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.1.bescmd
+END
+fnoc1.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.0.bescmd.baseline
+END
+fnoc1.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.1.bescmd.baseline
+END
+fnoc1.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.2.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.1.bescmd
+END
+fnoc1.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.3.bescmd.baseline
+END
+coads_climatology.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/coads_climatology.nc.0.bescmd
+END
+ref_tst_compound2.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.3.bescmd
+END
+nc4_strings.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.3.bescmd
+END
+ref_tst_compound4.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.3.bescmd
+END
+ref_tst_enum_data.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.0.bescmd.baseline
+END
+ref_tst_enum_data.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.1.bescmd.baseline
+END
+ref_tst_enum_data.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.2.bescmd.baseline
+END
+ref_tst_enum_data.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.3.bescmd.baseline
+END
+fnoc1.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.1.bescmd
+END
+ref_tst_opaque_data.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.2.bescmd
+END
+coads_climatology.nc.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/coads_climatology.nc.ddx.bescmd
+END
+nc4_strings_comp.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.1.bescmd
+END
+nc4_strings.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.0.bescmd.baseline
+END
+nc4_strings.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.1.bescmd.baseline
+END
+nc4_strings.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.2.bescmd.baseline
+END
+nc4_strings.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.3.bescmd.baseline
+END
+test.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.2.bescmd
+END
+nc4_unsigned_types_comp.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.0.bescmd
+END
+ref_tst_enum_data_2.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data_2.nc.3.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.0.bescmd
+END
+ref_tst_compound.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.0.bescmd.baseline
+END
+ref_tst_compound.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.1.bescmd.baseline
+END
+ref_tst_compound.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.2.bescmd.baseline
+END
+ref_tst_compound2.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.2.bescmd
+END
+ref_tst_compound.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.3.bescmd.baseline
+END
+nc4_strings.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.2.bescmd
+END
+ref_tst_compound4.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.2.bescmd
+END
+fnoc1.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.0.bescmd
+END
+ref_tst_enum_data_2.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data_2.nc.3.bescmd
+END
+stringtest.nc.1b.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1b.bescmd
+END
+ref_tst_opaque_data.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.1.bescmd
+END
+nc4_strings_comp.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings_comp.nc.0.bescmd
+END
+ref_tst_compound4.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.1.bescmd.baseline
+END
+test.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.1.bescmd
+END
+ref_tst_compound4.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.2.bescmd.baseline
+END
+ref_tst_compound4.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.3.bescmd.baseline
+END
+test.nc.2a.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.2a.bescmd
+END
+test.nc.3a.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.3a.bescmd
+END
+ref_tst_enum_data.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.3.bescmd
+END
+ref_tst_compound2.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.1.bescmd
+END
+bears.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/bears.nc.1.bescmd
+END
+nc4_strings.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.1.bescmd
+END
+ref_tst_compound4.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound4.nc.1.bescmd
+END
+test.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.0.bescmd.baseline
+END
+test.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.1.bescmd.baseline
+END
+test.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.2.bescmd.baseline
+END
+test.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.3.bescmd.baseline
+END
+stringtest.nc.1a.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1a.bescmd
+END
+nc4_nc_classic_compressed.nc.2.bescm.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.2.bescm.baseline
+END
+stringtest.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.2.bescmd
+END
+ref_tst_opaque_data.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.0.bescmd
+END
+nc4_nc_classic_compressed.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.0.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.1.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.2.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.3.bescmd.baseline
+END
+test.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.0.bescmd
+END
+ref_tst_enum_data.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.2.bescmd
+END
+stringtest.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1.bescmd.baseline
+END
+stringtest.nc.1a.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1a.bescmd.baseline
+END
+stringtest.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.2.bescmd.baseline
+END
+stringtest.nc.1b.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1b.bescmd.baseline
+END
+ref_tst_compound2.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound2.nc.0.bescmd
+END
+nc4_strings.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_strings.nc.0.bescmd
+END
+nc4_unsigned_types_comp.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.0.bescmd.baseline
+END
+nc4_unsigned_types_comp.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.1.bescmd.baseline
+END
+nc4_unsigned_types_comp.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.2.bescmd.baseline
+END
+nc4_unsigned_types_comp.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types_comp.nc.3.bescmd.baseline
+END
+stringtest.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/stringtest.nc.1.bescmd
+END
+ref_tst_compound.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.3.bescmd
+END
+nc4_nc_classic_no_comp.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.3.bescmd
+END
+ref_tst_enum_data.nc.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.1.bescmd
+END
+nc4_unsigned_types.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.0.bescmd.baseline
+END
+nc4_unsigned_types.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.1.bescmd.baseline
+END
+ref_tst_enum_data_1.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data_1.nc.3.bescmd.baseline
+END
+nc4_unsigned_types.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.2.bescmd.baseline
+END
+nc4_unsigned_types.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.3.bescmd.baseline
+END
+ref_tst_opaque_data.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.0.bescmd.baseline
+END
+ref_tst_opaque_data.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.1.bescmd.baseline
+END
+ref_tst_opaque_data.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.2.bescmd.baseline
+END
+ref_tst_opaque_data.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_opaque_data.nc.3.bescmd.baseline
+END
+ref_tst_compound3.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.3.bescmd
+END
+ref_tst_compound5.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound5.nc.3.bescmd
+END
+test.nc.2a.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/test.nc.2a.bescmd.baseline
+END
+nc4_nc_classic_compressed.nc.0.bescm.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_compressed.nc.0.bescm.baseline
+END
+fnoc1.nc.1.1.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/fnoc1.nc.1.1.bescmd
+END
+nc4_unsigned_types.nc.3.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_unsigned_types.nc.3.bescmd
+END
+ref_tst_compound.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound.nc.2.bescmd
+END
+coads_climatology.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/coads_climatology.nc.0.bescmd.baseline
+END
+ref_tst_compound3.nc.0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.0.bescmd.baseline
+END
+ref_tst_compound3.nc.1.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.1.bescmd.baseline
+END
+ref_tst_compound3.nc.2.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.2.bescmd.baseline
+END
+ref_tst_compound3.nc.3.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_compound3.nc.3.bescmd.baseline
+END
+nc4_nc_classic_no_comp.nc.2.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/nc4_nc_classic_no_comp.nc.2.bescmd
+END
+ref_tst_enum_data.nc.0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc/ref_tst_enum_data.nc.0.bescmd
+END

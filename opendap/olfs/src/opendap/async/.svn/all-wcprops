@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/async
+END
+AsyncDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/async/AsyncDispatcher.java
+END
+AsyncHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/async/AsyncHttpRequest.java
+END
+HttpHeaders.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/async/HttpHeaders.java
+END
+DocFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/async/DocFactory.java
+END

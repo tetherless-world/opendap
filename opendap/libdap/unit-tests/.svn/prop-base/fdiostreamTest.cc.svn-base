@@ -1,0 +1,14 @@
+K 13
+svn:mergeinfo
+V 546
+/branch/hyrax-1.5/libdap-3.9.0/GNU/outbuf.cc:20170-20698
+/branch/libdap/3.10.0/unit-tests/fdiostreamTest.cc:22081-22695
+/branch/libdap/3.11/unit-tests/fdiostreamTest.cc:23578-24274
+/branch/libdap/3.11.1/unit-tests/fdiostreamTest.cc:24466-24864
+/branch/libdap/3.11.2/unit-tests/fdiostreamTest.cc:24910-25485
+/branch/libdap/3.9.0/GNU/outbuf.cc:20095-20169
+/branch/multifile/libdap/GNU/outbuf.cc:19322-19623
+/branch/xmlrequest/libdap/GNU/outbuf.cc:19391-19689
+/tags/libdap/3.9.0/GNU/outbuf.cc:20089-20094
+/tags/libdap/3.9.2/GNU/outbuf.cc:20699-20873
+END

@@ -1,0 +1,15 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 183
+/branch/libdap/3.11.1/OSX_Resources/Info.plist.proto:24466-24864
+/branch/libdap/3.11.2/OSX_Resources/Info.plist.proto:24910-25485
+/trunk/libdap/OSX_Resources/Info.plist.proto:11-24280
+END

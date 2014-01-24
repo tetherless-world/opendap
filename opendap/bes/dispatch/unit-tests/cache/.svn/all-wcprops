@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dispatch/unit-tests/cache
+END
+testfile.txt.Z
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dispatch/unit-tests/cache/testfile.txt.Z
+END
+template.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dispatch/unit-tests/cache/template.txt
+END
+testfile.txt.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dispatch/unit-tests/cache/testfile.txt.bz2
+END
+testfile.txt.gz
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dispatch/unit-tests/cache/testfile.txt.gz
+END

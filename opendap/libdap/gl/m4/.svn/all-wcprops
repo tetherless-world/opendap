@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4
+END
+strings_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/strings_h.m4
+END
+lib-link.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/lib-link.m4
+END
+fcntl-o.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/fcntl-o.m4
+END
+configmake.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/configmake.m4
+END
+localcharset.m4
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/localcharset.m4
+END
+strcase.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/strcase.m4
+END
+locale_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/locale_h.m4
+END
+sys_types_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/sys_types_h.m4
+END
+mbrtowc.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbrtowc.m4
+END
+btowc.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/btowc.m4
+END
+longlong.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/longlong.m4
+END
+00gnulib.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/00gnulib.m4
+END
+ssize_t.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/ssize_t.m4
+END
+glibc21.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/glibc21.m4
+END
+localeconv.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/localeconv.m4
+END
+codeset.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/codeset.m4
+END
+lock.m4
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/lock.m4
+END
+alloca.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/alloca.m4
+END
+mbchar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbchar.m4
+END
+off_t.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/off_t.m4
+END
+restrict.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/restrict.m4
+END
+lib-prefix.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/lib-prefix.m4
+END
+lib-ld.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/lib-ld.m4
+END
+locale-fr.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/locale-fr.m4
+END
+langinfo_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/langinfo_h.m4
+END
+eealloc.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/eealloc.m4
+END
+wint_t.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/wint_t.m4
+END
+mbsinit.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbsinit.m4
+END
+stdint.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/stdint.m4
+END
+gnulib-common.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/gnulib-common.m4
+END
+stdbool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/stdbool.m4
+END
+malloc.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/malloc.m4
+END
+regex.m4
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/regex.m4
+END
+memchr.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/memchr.m4
+END
+warn-on-use.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/warn-on-use.m4
+END
+wchar_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/wchar_h.m4
+END
+gnulib-comp.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/gnulib-comp.m4
+END
+unistd_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/unistd_h.m4
+END
+wcrtomb.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/wcrtomb.m4
+END
+locale-zh.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/locale-zh.m4
+END
+stddef_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/stddef_h.m4
+END
+extern-inline.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/extern-inline.m4
+END
+gnulib-cache.m4
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/gnulib-cache.m4
+END
+include_next.m4
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/include_next.m4
+END
+mbiter.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbiter.m4
+END
+mbstate_t.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbstate_t.m4
+END
+wctype_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/wctype_h.m4
+END
+nl_langinfo.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/nl_langinfo.m4
+END
+locale-ja.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/locale-ja.m4
+END
+wchar_t.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/wchar_t.m4
+END
+multiarch.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/multiarch.m4
+END
+stdlib_h.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/stdlib_h.m4
+END
+gnulib-tool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/gnulib-tool.m4
+END
+mbtowc.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/mbtowc.m4
+END
+byteswap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/byteswap.m4
+END
+threadlib.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/threadlib.m4
+END
+extensions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/gl/m4/extensions.m4
+END

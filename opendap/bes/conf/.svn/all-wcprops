@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/pkg.m4
+END
+cppunit.m4
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/cppunit.m4
+END
+sys_errlist.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/sys_errlist.m4
+END
+HAO_libreadline_macro
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/HAO_libreadline_macro
+END
+openssl.m4
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/openssl.m4
+END
+gcov_valgrind.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/gcov_valgrind.m4
+END
+ax_lib_gdal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/ax_lib_gdal.m4
+END
+bes.m4
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/bes.m4
+END
+vl_lib_readline.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/vl_lib_readline.m4
+END
+libdap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/libdap.m4
+END
+dispatch.m4
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/conf/dispatch.m4
+END

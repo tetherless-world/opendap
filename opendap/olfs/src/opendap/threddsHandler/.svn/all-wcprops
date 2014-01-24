@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler
+END
+StaticCatalogDispatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/StaticCatalogDispatch.java
+END
+CatalogManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/CatalogManager.java
+END
+LocalFileCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/LocalFileCatalog.java
+END
+XLINK.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/XLINK.java
+END
+RemoteHttpCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/RemoteHttpCatalog.java
+END
+ThreddsCatalogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/ThreddsCatalogUtil.java
+END
+InheritedMetadataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/InheritedMetadataManager.java
+END
+Catalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/Catalog.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/threddsHandler/Util.java
+END

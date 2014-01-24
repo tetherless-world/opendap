@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/WEB-INF
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/WEB-INF/logback.xml
+END
+urlrewrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/WEB-INF/urlrewrite.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/WEB-INF/web.xml
+END
+logback-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/WEB-INF/logback-test.xml
+END

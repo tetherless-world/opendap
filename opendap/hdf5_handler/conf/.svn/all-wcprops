@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/pkg.m4
+END
+hdf5.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/hdf5.m4
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/acinclude.m4
+END
+bes.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/bes.m4
+END
+libdap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/libdap.m4
+END
+hdf5_header.m4
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/conf/hdf5_header.m4
+END

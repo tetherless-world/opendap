@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 51
+make_nc4_strings_hacked
+Makefile
+Makefile.in
+.deps
+
+END

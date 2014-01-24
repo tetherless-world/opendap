@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln
+END
+CmdClient.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdClient.cc
+END
+CmdTranslation.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdTranslation.cc
+END
+CmdApp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdApp.cc
+END
+CmdClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdClient.h
+END
+CmdTranslation.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdTranslation.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/Makefile.am
+END
+CmdApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/CmdApp.h
+END

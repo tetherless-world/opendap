@@ -1,0 +1,569 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite
+END
+test.2
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2
+END
+test.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.3
+END
+test.c0
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c0
+END
+test.df.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.df.base
+END
+test.4
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.4
+END
+data.z7.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z7.base
+END
+test.c1
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c1
+END
+test.5
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5
+END
+test.c2
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c2
+END
+test.6
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6
+END
+test.c3
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c3
+END
+test.7
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.7
+END
+test.c4
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c4
+END
+test.8
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.8
+END
+test.c5
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.c5
+END
+test.9
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.9
+END
+test.1.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1.base
+END
+test.1b.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1b.base
+END
+test.5.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5.base
+END
+test.2d.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2d.base
+END
+test.5b.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5b.base
+END
+test.9.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.9.base
+END
+data.zz2.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.zz2.base
+END
+test.6.func1.base
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6.func1.base
+END
+test.aa.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.aa.base
+END
+test.5.func4.base
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5.func4.base
+END
+data.z0.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z0.base
+END
+data.61c.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.61c.base
+END
+test.d.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.d.base
+END
+test.bc.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.bc.base
+END
+test.ea.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.ea.base
+END
+test.dc.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.dc.base
+END
+data.z4.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z4.base
+END
+test.dg.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.dg.base
+END
+data.z8.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z8.base
+END
+test.2.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2.base
+END
+test.2a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2a.base
+END
+test.1c.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1c.base
+END
+test.4a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.4a.base
+END
+test.6.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6.base
+END
+test.6a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6a.base
+END
+test.2e.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2e.base
+END
+test.a
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.a
+END
+test.5c.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5c.base
+END
+test.8a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.8a.base
+END
+test.b
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.b
+END
+test.d
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.d
+END
+test.e
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.e
+END
+test.61
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.61
+END
+test.a.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.a.base
+END
+test.6.func2.base
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6.func2.base
+END
+test.ab.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.ab.base
+END
+data.z1.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z1.base
+END
+data.61d.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.61d.base
+END
+test.bd.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.bd.base
+END
+test.eb.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.eb.base
+END
+test.dd.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.dd.base
+END
+data.z5.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z5.base
+END
+test.3.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.3.base
+END
+test.2b.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2b.base
+END
+test.1d.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1d.base
+END
+test.7.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.7.base
+END
+test.6b.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6b.base
+END
+test.2f.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2f.base
+END
+test.5d.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5d.base
+END
+test.8b.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.8b.base
+END
+data.zz0.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.zz0.base
+END
+data.61a.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.61a.base
+END
+test.b.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.b.base
+END
+test.6.func3.base
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.6.func3.base
+END
+test.ba.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.ba.base
+END
+test.ac.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.ac.base
+END
+test.da.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.da.base
+END
+data.z2.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z2.base
+END
+test.be.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.be.base
+END
+test.de.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.de.base
+END
+data.z6.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z6.base
+END
+test.2a
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2a
+END
+test.cc0
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.cc0
+END
+test.cc1
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.cc1
+END
+test.1a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1a.base
+END
+test.4.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.4.base
+END
+test.2c.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2c.base
+END
+test.5a.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5a.base
+END
+test.8.base
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.8.base
+END
+test.2g.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.2g.base
+END
+test.5e.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5e.base
+END
+data.zz1.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.zz1.base
+END
+test.5.func3.base
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.5.func3.base
+END
+data.61b.base
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.61b.base
+END
+test.bb.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.bb.base
+END
+test.db.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.db.base
+END
+data.z3.base
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/data.z3.base
+END
+test.1
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/expr-testsuite/test.1
+END

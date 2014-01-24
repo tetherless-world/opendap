@@ -1,0 +1,19 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+pkglibdir=${libdir}/bes
+modulesdir=${pkglibdir}
+pkgdatadir=${datadir}/bes
+helpdir=${pkgdatadir}
+ccompiler=@CC@
+cppcompiler=@CXX@
+
+Name: @PACKAGE@_dispatch
+Description: OPeNDAP Back End Server dispatch library
+Version: @VERSION@
+Libs: -L${libdir} -lbes_dispatch @BES_DL_LIBS@
+Libs.private: @BES_ZLIB_LIBS@ @BES_BZ2_LIBS@
+Cflags: -I${includedir}/bes

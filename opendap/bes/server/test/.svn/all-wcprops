@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test
+END
+TestException.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestException.cc
+END
+TestSigResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestSigResponseHandler.cc
+END
+TestException.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestException.h
+END
+TestSigResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestSigResponseHandler.h
+END
+TestNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestNames.h
+END
+test_help.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/test_help.html
+END
+TestCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestCommand.cc
+END
+opendap.ini
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/opendap.ini
+END
+TestCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestCommand.h
+END
+test_help.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/test_help.txt
+END
+TestModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestModule.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/Makefile.am
+END
+TestRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestRequestHandler.cc
+END
+TestEhmResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestEhmResponseHandler.cc
+END
+TestModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestModule.h
+END
+TestRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestRequestHandler.h
+END
+TestEhmResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/test/TestEhmResponseHandler.h
+END

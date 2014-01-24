@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests
+END
+dasT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/dasT.cc
+END
+AISMergeTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/AISMergeTest.cc
+END
+sequenceT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/sequenceT.cc
+END
+valgrind_suppressions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/valgrind_suppressions.txt
+END
+D4EnumDefsTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/D4EnumDefsTest.cc
+END
+marshT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/marshT.cc
+END
+DODSFilterTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DODSFilterTest.cc
+END
+D4DimensionsTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/D4DimensionsTest.cc
+END
+test_cmp.dat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_cmp.dat
+END
+HTTPCacheTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/HTTPCacheTest.cc
+END
+ThreadTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ThreadTest.cc
+END
+AISResourcesTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/AISResourcesTest.cc
+END
+DASTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DASTest.cc
+END
+structT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/structT.cc
+END
+DDSTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DDSTest.cc
+END
+SignalHandlerTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/SignalHandlerTest.cc
+END
+test_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_config.h.in
+END
+test_opaque_1_bin.dat.sav
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_opaque_1_bin.dat.sav
+END
+ArrayTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ArrayTest.cc
+END
+AttrTableTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/AttrTableTest.cc
+END
+ancT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ancT.cc
+END
+MIMEUtilTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/MIMEUtilTest.cc
+END
+fdiostream.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/fdiostream.txt
+END
+HTTPConnectTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/HTTPConnectTest.cc
+END
+test_scalars_1.dat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_scalars_1.dat
+END
+ServerFunctionsListUnitTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ServerFunctionsListUnitTest.cc
+END
+test_scalars_2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_scalars_2.dat
+END
+test_vector_1_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_vector_1_bin.dat
+END
+DDXParserTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DDXParserTest.cc
+END
+test_vector_2_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_vector_2_bin.dat
+END
+fdiostreamTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/fdiostreamTest.cc
+END
+ddsT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddsT.cc
+END
+arrayT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/arrayT.cc
+END
+ByteTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ByteTest.cc
+END
+DAP4MarshallerTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DAP4MarshallerTest.cc
+END
+ResponseBuilderTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ResponseBuilderTest.cc
+END
+DAP4UnMarshallerTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/DAP4UnMarshallerTest.cc
+END
+attrTableT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/attrTableT.cc
+END
+SequenceTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/SequenceTest.cc
+END
+RegexTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/RegexTest.cc
+END
+generalUtilTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/generalUtilTest.cc
+END
+AISDatabaseParserTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/AISDatabaseParserTest.cc
+END
+testFile.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/testFile.cc
+END
+testFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/testFile.h
+END
+ResponseCacheTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ResponseCacheTest.cc
+END
+test_scalars_1_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_scalars_1_bin.dat
+END
+test_scalars_2_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_scalars_2_bin.dat
+END
+test_opaque_1_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_opaque_1_bin.dat
+END
+test_scalars_3_bin.dat
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/test_scalars_3_bin.dat
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/Makefile.am
+END
+RCReaderTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/RCReaderTest.cc
+END
+Keywords2Test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/Keywords2Test.cc
+END
+MarshallerTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/MarshallerTest.cc
+END
+parserUtilTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/parserUtilTest.cc
+END

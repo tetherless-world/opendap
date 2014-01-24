@@ -1,0 +1,32 @@
+K 10
+svn:ignore
+V 244
+.deps
+.libs
+.flc
+.project
+.cdtproject
+Makefile
+Makefile.in
+configure
+libtool
+aclocal.m4
+site.exp
+*-config
+config.*
+stamp-h?
+*.o
+*.lo
+*~
+depcomp
+install-sh
+libtool.m4
+lt~obsolete.m4
+ltmain.sh
+ltoptions.m4
+ltsugar.m4
+ltversion.m4
+missing
+compile
+
+END

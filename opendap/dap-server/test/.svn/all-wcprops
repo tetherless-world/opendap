@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/test
+END
+test_file2.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/test/test_file2.bz2
+END
+test_file.gz
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/test/test_file.gz
+END

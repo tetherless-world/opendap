@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/unit-tests
+END
+test_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/unit-tests/test_config.h.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/unit-tests/Makefile.am
+END
+AsciiArrayTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/unit-tests/AsciiArrayTest.cc
+END
+AsciiOutputTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/unit-tests/AsciiOutputTest.cc
+END

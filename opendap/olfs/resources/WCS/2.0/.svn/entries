@@ -1,0 +1,55 @@
+10
+
+dir
+27620
+https://scm.opendap.org/svn/branch/tetherless-world/olfs/resources/WCS/2.0
+https://scm.opendap.org/svn
+
+
+
+2013-11-12T19:47:57.688333Z
+27425
+ndp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ba5f37b-aaf8-0310-9c43-92a51b5764a6
+
+distribution
+dir
+
+test
+dir
+
+logback
+dir
+
+initialContent
+dir
+
+xsl
+dir
+
+WEB-INF
+dir
+
+useCaseResponses
+dir
+
+rdf
+dir
+
+coverages
+dir
+

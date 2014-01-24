@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/hello
+END
+hello.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/hello/hello.bescmd
+END
+hello.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/hello/hello.bescmd.baseline
+END

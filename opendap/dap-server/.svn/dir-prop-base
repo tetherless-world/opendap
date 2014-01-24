@@ -1,0 +1,42 @@
+K 10
+svn:ignore
+V 214
+autom4te.cache
+aclocal.m4
+config.h.in
+config.status
+configure
+dap-server.rc
+libtool
+Makefile
+Makefile.in
+nph-dods
+stamp-h1
+bes-dap-data.sh
+.deps
+*.pkg
+mac_osx
+cccc
+config.h
+ChangeLog.tmp
+dap-server.conf
+*.fpr
+*.gz
+
+K 13
+svn:mergeinfo
+V 521
+/branch/dap-server/3.9.0:20096-20163
+/branch/dap-server/4.0:22045-22714
+/branch/dap-server/4.1:23581-24274
+/branch/dap-server/4.1.1:24468-24754
+/branch/dap-server/4.1.2:24913-25990
+/branch/dap-server/hyrax-1.8-release:26006-26286
+/branch/dap-server/hyrax-1.8.release:25991-26005
+/branch/hyrax-1.5/dap-server-3.9.0:20164-20699
+/branch/multifile/dap-server:19316-19616
+/branch/xmlrequest/dap-server:19385-19855
+/branch/xmlresponse/dap-server:20114-20435
+/tags/dap-server/3.9.2:20700-21005
+/tags/dap-server/3.9.3:21006-21103
+END

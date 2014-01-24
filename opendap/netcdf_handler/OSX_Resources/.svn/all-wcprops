@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources
+END
+License.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/License.txt
+END
+InstallationCheck.proto
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/InstallationCheck.proto
+END
+update_mac_package_contents.pl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/update_mac_package_contents.pl
+END
+Info.plist.proto
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/Info.plist.proto
+END
+InstallationCheck.strings
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/InstallationCheck.strings
+END
+Description.plist
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/Description.plist
+END
+Welcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/Welcome.html
+END
+background.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/OSX_Resources/background.jpg
+END

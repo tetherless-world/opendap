@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/unit-tests
+END
+test_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/unit-tests/test_config.h.in
+END
+translateT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/unit-tests/translateT.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/unit-tests/Makefile.am
+END

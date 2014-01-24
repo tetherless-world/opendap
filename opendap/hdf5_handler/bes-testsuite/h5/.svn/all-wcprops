@@ -1,0 +1,2741 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5
+END
+t_int_scalar.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.das.bescmd
+END
+t_non_cf_char.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.das.bescmd.baseline
+END
+swath_1_3d_2x2yztd.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.dds.bescmd
+END
+grid_1_3d_xyz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.das.bescmd
+END
+d_link_hard.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.ddx.bescmd
+END
+grid_2_2d_size.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.dds.bescmd.baseline
+END
+t_size8.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.dds.bescmd.baseline
+END
+za_1_3d_yztd.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.das.bescmd.baseline
+END
+d_objref.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.data.bescmd
+END
+grid_1_2d_xy.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.data.bescmd
+END
+t_int.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.das.bescmd
+END
+za_1_3d_yztd.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.data.bescmd.baseline
+END
+grid_2_3d_xyz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.ddx.bescmd
+END
+grid_2_2d_size.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.ddx.bescmd.baseline
+END
+grid_1_3d_zz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.das.bescmd
+END
+t_size8.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.ddx.bescmd.baseline
+END
+t_space_zero.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.data.bescmd
+END
+t_flatten.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.das.bescmd
+END
+t_vl_string_cstr.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.das.bescmd
+END
+grid_4_2d_origin.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.data.bescmd.baseline
+END
+d_compound.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.das.bescmd
+END
+za_1_3d_yztd_aug.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.data.bescmd
+END
+grid_1_3d_3x3y.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.ddx.bescmd
+END
+t_scale_2d_2x2y.nc4.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.data.bescmd.baseline
+END
+t_string.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.das.bescmd
+END
+grid_swath_za_1_2d.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.das.bescmd
+END
+grid_1_2d.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.das.bescmd
+END
+d_objref.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.das.bescmd.baseline
+END
+grid_1_2d_xy.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.das.bescmd.baseline
+END
+grid_2_2d.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.data.bescmd
+END
+d_objref.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.data.bescmd.baseline
+END
+grid_1_2d_xy.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.data.bescmd.baseline
+END
+grid_2_2d_xy.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.dds.bescmd.baseline
+END
+d_int.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.data.bescmd
+END
+d_group.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.data.bescmd
+END
+grid_1_3d_xyz_aug.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.das.bescmd
+END
+grid_2_2d_xy.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.ddx.bescmd.baseline
+END
+za_1_3d_yztd_aug.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.das.bescmd.baseline
+END
+d_compound.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.data.bescmd.baseline
+END
+t_float.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.dds.bescmd.baseline
+END
+t_unsupported.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.data.bescmd
+END
+t_flatten_name_clash.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.dds.bescmd.baseline
+END
+t_vl_string.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.dds.bescmd.baseline
+END
+t_int.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.data.bescmd
+END
+t_float.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.ddx.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.dds.bescmd.baseline
+END
+grid_2_2d_xy.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.ddx.bescmd
+END
+t_flatten_name_clash.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.ddx.bescmd.baseline
+END
+t_vl_string.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.ddx.bescmd.baseline
+END
+t_group_scalar_attrs.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.dds.bescmd
+END
+grid_1_3d_xyz_aug.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.dds.bescmd.baseline
+END
+t_non_cf_char.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.dds.bescmd
+END
+za_2_2d_yz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.data.bescmd.baseline
+END
+swath_1_3d_2x2yztd.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.dds.bescmd.baseline
+END
+grid_1_3d_xyz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.das.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.ddx.bescmd.baseline
+END
+t_float.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.das.bescmd
+END
+swath_1_2d_xyz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.dds.bescmd.baseline
+END
+grid_1_3d_xyz_aug.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.ddx.bescmd.baseline
+END
+za_1_3d_yztd.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.das.bescmd
+END
+swath_1_3d_2x2yztd.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.ddx.bescmd.baseline
+END
+grid_2_2d.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.das.bescmd
+END
+swath_1_2d_xyz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.ddx.bescmd.baseline
+END
+za_1_3d_yztd_aug.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.ddx.bescmd
+END
+grid_1_3d.h5.data.subset.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset.bescmd
+END
+grid_2_2d_pixel.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.ddx.bescmd
+END
+t_link_comment.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.data.bescmd
+END
+swath_2_2d_xyz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.das.bescmd
+END
+t_vl_string_cstr.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.das.bescmd.baseline
+END
+t_scale_2d_2x2y.nc4.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.dds.bescmd
+END
+t_unsigned_int.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.das.bescmd
+END
+d_objref.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.das.bescmd
+END
+grid_1_2d_xy.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.das.bescmd
+END
+t_unsupported.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.das.bescmd
+END
+grid_swath_za_1_2d.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.dds.bescmd.baseline
+END
+grid_1_2d.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.dds.bescmd.baseline
+END
+grid_1_3d_zz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.data.bescmd
+END
+t_name_clash.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.dds.bescmd
+END
+swath_1_3d_2x2yz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.ddx.bescmd
+END
+grid_swath_za_1_2d.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.ddx.bescmd.baseline
+END
+grid_1_2d.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.ddx.bescmd.baseline
+END
+t_link_comment.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.das.bescmd.baseline
+END
+t_fillvalue_2d_2x2y.nc4.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.data.bescmd.baseline
+END
+grid_2_3d_xyz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.dds.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.das.bescmd
+END
+grid_2_3d_xyz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.ddx.bescmd.baseline
+END
+grid_1_3d_zz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.das.bescmd.baseline
+END
+grid_1_3d_3x3y.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.das.bescmd.baseline
+END
+za_2_2d_yz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.das.bescmd
+END
+t_non_cf_char.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.dds.bescmd.baseline
+END
+swath_1_3d_2x2yztd.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.ddx.bescmd
+END
+t_non_cf_char.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.ddx.bescmd.baseline
+END
+grid_1_3d_xy.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.data.bescmd
+END
+za_1_3d_yztd.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.dds.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.data.bescmd.baseline
+END
+za_1_3d_yztd.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.ddx.bescmd.baseline
+END
+za_1_2d_yz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.data.bescmd.baseline
+END
+grid_1_3d_z.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.data.bescmd
+END
+grid_1_3d_z.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.dds.bescmd
+END
+grid_2_2d_size.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.dds.bescmd
+END
+t_size8.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.dds.bescmd
+END
+t_special_char_attr.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.dds.bescmd
+END
+d_objref.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.dds.bescmd.baseline
+END
+grid_1_2d_xy.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.dds.bescmd.baseline
+END
+t_name_clash.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.das.bescmd.baseline
+END
+t_fillvalue_2d_2x2y.nc4.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.das.bescmd
+END
+d_objref.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.ddx.bescmd.baseline
+END
+grid_1_2d_xy.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.ddx.bescmd.baseline
+END
+za_1_2d_yz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.data.bescmd
+END
+grid_1_3d.h5.data.subset_last.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_last.bescmd.baseline
+END
+grid_1_3d_z.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.das.bescmd.baseline
+END
+t_link_comment.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.dds.bescmd
+END
+d_compound.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.das.bescmd.baseline
+END
+t_scale_2d_2x2y.nc4.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.data.bescmd
+END
+za_1_3d_yztd_aug.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.dds.bescmd.baseline
+END
+grid_1_3d_xy.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.das.bescmd
+END
+d_link_soft.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.das.bescmd.baseline
+END
+za_1_3d_yztd_aug.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.ddx.bescmd.baseline
+END
+grid_1_3d.h5.data.subset_0.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_0.bescmd
+END
+t_flatten.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.data.bescmd
+END
+t_string_cstr.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.data.bescmd
+END
+grid_2_2d_size.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.data.bescmd
+END
+t_scale_2d_2x2y.nc4.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.das.bescmd.baseline
+END
+t_size8.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.data.bescmd
+END
+t_string_cstr.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.dds.bescmd
+END
+grid_1_3d_xyz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.dds.bescmd.baseline
+END
+t_group_scalar_attrs.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.ddx.bescmd
+END
+t_non_cf_char.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.ddx.bescmd
+END
+d_link_soft.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.dds.bescmd
+END
+d_link_hard.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.das.bescmd
+END
+grid_1_3d_xyz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.ddx.bescmd.baseline
+END
+t_flatten.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.das.bescmd.baseline
+END
+t_string_cstr.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.das.bescmd.baseline
+END
+grid_2_3d_xyz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.das.bescmd
+END
+swath_1_2d_xyz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.dds.bescmd
+END
+t_vl_string_cstr.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.dds.bescmd.baseline
+END
+swath_1_3d_2x2yz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.data.bescmd
+END
+t_string.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.data.bescmd.baseline
+END
+grid_2_2d_xy.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.data.bescmd
+END
+d_link_soft.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.data.bescmd.baseline
+END
+t_scale_2d_2x2y.nc4.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.ddx.bescmd
+END
+t_vl_string_cstr.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.ddx.bescmd.baseline
+END
+grid_1_3d_3x3y.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.das.bescmd
+END
+grid_1_3d_xyz_aug.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.data.bescmd.baseline
+END
+t_name_clash.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.ddx.bescmd
+END
+t_link_comment.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.dds.bescmd.baseline
+END
+swath_1_3d_2x2yz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.das.bescmd.baseline
+END
+t_link_comment.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.ddx.bescmd.baseline
+END
+swath_2_3d_2x2yz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.das.bescmd.baseline
+END
+swath_1_3d_2x2yz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.data.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.data.bescmd
+END
+grid_1_3d_zz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.dds.bescmd.baseline
+END
+d_group.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.dds.bescmd
+END
+grid_1_3d_xyz_aug.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.data.bescmd
+END
+t_int_scalar.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.data.bescmd
+END
+grid_1_3d_3x3y.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.dds.bescmd.baseline
+END
+grid_4_2d_origin.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.data.bescmd
+END
+swath_1_2d_xyz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.data.bescmd
+END
+grid_4_2d_origin.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.dds.bescmd
+END
+grid_1_3d_zz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.ddx.bescmd.baseline
+END
+grid_2_3d_size.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.data.bescmd.baseline
+END
+za_1_3d_yzt.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.data.bescmd.baseline
+END
+grid_1_3d_3x3y.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.ddx.bescmd.baseline
+END
+t_string.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.das.bescmd.baseline
+END
+grid_2_2d_xy.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.das.bescmd
+END
+swath_2_3d_2x2yz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.dds.bescmd
+END
+d_regref.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.dds.bescmd
+END
+t_int_scalar.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.das.bescmd.baseline
+END
+swath_1_3d_2x2yztd.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.data.bescmd.baseline
+END
+grid_4_2d_origin.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.das.bescmd.baseline
+END
+za_1_3d_yztd_aug.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.das.bescmd
+END
+grid_2_2d_pixel.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.das.bescmd
+END
+grid_1_3d_z.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.ddx.bescmd
+END
+t_unsigned_int.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.data.bescmd.baseline
+END
+grid_2_2d_size.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.ddx.bescmd
+END
+t_size8.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.ddx.bescmd
+END
+swath_2_3d_2x2yz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.data.bescmd.baseline
+END
+grid_2_2d_pixel.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.data.bescmd
+END
+d_link_hard.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.data.bescmd
+END
+t_name_clash.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.data.bescmd.baseline
+END
+grid_1_3d_zz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.data.bescmd.baseline
+END
+t_name_clash.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.dds.bescmd.baseline
+END
+t_group_scalar_attrs.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.das.bescmd.baseline
+END
+t_special_char_attr.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.ddx.bescmd
+END
+za_1_2d_yz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.dds.bescmd
+END
+t_name_clash.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.ddx.bescmd.baseline
+END
+grid_1_3d_z.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.dds.bescmd.baseline
+END
+swath_1_3d_2x2yz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.das.bescmd
+END
+t_link_comment.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.ddx.bescmd
+END
+d_compound.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.dds.bescmd.baseline
+END
+t_space_null.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.dds.bescmd
+END
+grid_1_3d.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.das.bescmd.baseline
+END
+grid_2_2d_pixel.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.das.bescmd.baseline
+END
+grid_1_3d_z.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.ddx.bescmd.baseline
+END
+d_link_soft.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.dds.bescmd.baseline
+END
+d_link_hard.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.das.bescmd.baseline
+END
+d_compound.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.ddx.bescmd.baseline
+END
+t_space_zero.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.dds.bescmd
+END
+d_link_soft.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.ddx.bescmd.baseline
+END
+grid_2_3d_size.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.dds.bescmd
+END
+za_1_3d_yzt.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.dds.bescmd
+END
+t_scale_2d_2x2y.nc4.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.dds.bescmd.baseline
+END
+t_unsigned_int.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.das.bescmd.baseline
+END
+t_string_cstr.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.ddx.bescmd
+END
+t_flatten_name_clash.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.dds.bescmd
+END
+t_vl_string.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.dds.bescmd
+END
+d_regref.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.das.bescmd.baseline
+END
+grid_1_3d.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.dds.bescmd
+END
+t_scale_2d_2x2y.nc4.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.ddx.bescmd.baseline
+END
+d_int.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.dds.bescmd
+END
+swath_1_3d_2x2yztd.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.das.bescmd
+END
+d_link_soft.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.ddx.bescmd
+END
+t_flatten.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.dds.bescmd.baseline
+END
+t_int_scalar.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.dds.bescmd
+END
+t_non_cf_char.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.data.bescmd.baseline
+END
+grid_2_2d_size.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.data.bescmd.baseline
+END
+grid_1_3d_xyz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.dds.bescmd
+END
+t_size8.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.data.bescmd.baseline
+END
+t_string_cstr.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.dds.bescmd.baseline
+END
+t_flatten.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.ddx.bescmd.baseline
+END
+swath_1_2d_xyz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.ddx.bescmd
+END
+t_string_cstr.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.ddx.bescmd.baseline
+END
+grid_1_3d.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.bescmd.baseline
+END
+t_int.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.dds.bescmd
+END
+grid_1_3d_zz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.dds.bescmd
+END
+t_flatten.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.dds.bescmd
+END
+t_vl_string_cstr.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.dds.bescmd
+END
+swath_2_2d_xyz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.data.bescmd.baseline
+END
+d_compound.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.dds.bescmd
+END
+t_string.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.dds.bescmd
+END
+grid_swath_za_1_2d.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.dds.bescmd
+END
+grid_1_2d.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.dds.bescmd
+END
+swath_1_3d_2x2yz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.dds.bescmd.baseline
+END
+t_space_zero.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.das.bescmd.baseline
+END
+swath_2_3d_2x2yz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.dds.bescmd.baseline
+END
+grid_1_3d.h5.data.subset_0.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_0.bescmd.baseline
+END
+swath_1_3d_2x2yz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.ddx.bescmd.baseline
+END
+swath_2_3d_2x2yz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.ddx.bescmd.baseline
+END
+grid_1_3d_xyz_aug.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.dds.bescmd
+END
+za_2_2d_yz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.data.bescmd
+END
+d_group.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.ddx.bescmd
+END
+grid_1_3d_xyz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.data.bescmd
+END
+grid_4_2d_origin.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.ddx.bescmd
+END
+grid_2_2d.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.das.bescmd.baseline
+END
+t_string.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.dds.bescmd.baseline
+END
+d_int.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.das.bescmd.baseline
+END
+grid_2_2d_pixel.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.data.bescmd.baseline
+END
+d_group.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.das.bescmd.baseline
+END
+t_group_scalar_attrs.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.das.bescmd
+END
+t_non_cf_char.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.das.bescmd
+END
+t_string.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.ddx.bescmd.baseline
+END
+swath_2_3d_2x2yz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.ddx.bescmd
+END
+za_2_2d_yz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.das.bescmd.baseline
+END
+d_regref.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.ddx.bescmd
+END
+t_int_scalar.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.dds.bescmd.baseline
+END
+t_vl_string_cstr.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.data.bescmd
+END
+swath_1_2d_xyz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.data.bescmd.baseline
+END
+grid_4_2d_origin.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.dds.bescmd.baseline
+END
+grid_2_3d_size.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.data.bescmd
+END
+za_1_3d_yzt.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.data.bescmd
+END
+t_float.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.dds.bescmd
+END
+t_int_scalar.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.ddx.bescmd.baseline
+END
+t_space_null.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.data.bescmd.baseline
+END
+t_special_char_attr.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.data.bescmd
+END
+t_unsupported.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.das.bescmd.baseline
+END
+grid_4_2d_origin.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.ddx.bescmd.baseline
+END
+za_1_3d_yztd.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.dds.bescmd
+END
+grid_2_2d.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.dds.bescmd
+END
+t_int.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.das.bescmd.baseline
+END
+grid_1_3d.h5.data.subset_middle.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_middle.bescmd.baseline
+END
+t_fillvalue_2d_2x2y.nc4.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.data.bescmd
+END
+grid_1_3d_3x3y.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.data.bescmd.baseline
+END
+t_group_scalar_attrs.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.dds.bescmd.baseline
+END
+t_scale_2d_2x2y.nc4.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_scale_2d_2x2y.nc4.h5.das.bescmd
+END
+grid_2_3d_size.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.das.bescmd.baseline
+END
+za_1_3d_yzt.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.das.bescmd.baseline
+END
+swath_2_2d_xyz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.dds.bescmd
+END
+za_1_2d_yz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.ddx.bescmd
+END
+t_group_scalar_attrs.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.ddx.bescmd.baseline
+END
+t_special_char_attr.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.das.bescmd.baseline
+END
+t_unsigned_int.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.dds.bescmd
+END
+d_objref.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.dds.bescmd
+END
+grid_1_2d_xy.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.dds.bescmd
+END
+t_name_clash.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.das.bescmd
+END
+t_special_char_attr.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.data.bescmd.baseline
+END
+grid_2_2d.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.data.bescmd.baseline
+END
+t_unsupported.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.dds.bescmd
+END
+grid_1_3d.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.dds.bescmd.baseline
+END
+grid_2_2d_pixel.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.dds.bescmd.baseline
+END
+t_space_null.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.ddx.bescmd
+END
+d_link_hard.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.dds.bescmd.baseline
+END
+t_fillvalue_2d_2x2y.nc4.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.das.bescmd.baseline
+END
+grid_1_3d_3x3y.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.data.bescmd
+END
+grid_1_3d.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.ddx.bescmd.baseline
+END
+grid_2_2d_pixel.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.ddx.bescmd.baseline
+END
+t_link_comment.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.data.bescmd.baseline
+END
+t_space_zero.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.ddx.bescmd
+END
+d_link_hard.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.ddx.bescmd.baseline
+END
+t_unsigned_int.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.dds.bescmd.baseline
+END
+grid_2_3d_size.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.ddx.bescmd
+END
+t_unsupported.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.data.bescmd.baseline
+END
+za_1_3d_yzt.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.ddx.bescmd
+END
+d_regref.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.data.bescmd.baseline
+END
+d_regref.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.dds.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.dds.bescmd
+END
+t_flatten_name_clash.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.ddx.bescmd
+END
+t_unsigned_int.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.ddx.bescmd.baseline
+END
+t_vl_string.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.ddx.bescmd
+END
+grid_1_3d.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.ddx.bescmd
+END
+t_flatten.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.data.bescmd.baseline
+END
+d_int.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.ddx.bescmd
+END
+za_2_2d_yz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.dds.bescmd
+END
+d_regref.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.ddx.bescmd.baseline
+END
+t_int_scalar.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.ddx.bescmd
+END
+t_space_null.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.data.bescmd
+END
+grid_1_3d_xyz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.ddx.bescmd
+END
+t_name_clash.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_name_clash.h5.data.bescmd
+END
+d_link_hard.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.data.bescmd.baseline
+END
+grid_1_3d.h5.data.subset_last.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_last.bescmd
+END
+grid_1_3d_z.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.das.bescmd
+END
+grid_2_2d_size.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.das.bescmd
+END
+t_int.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.ddx.bescmd
+END
+t_size8.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.das.bescmd
+END
+grid_1_3d_zz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_zz.h5.ddx.bescmd
+END
+t_flatten.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten.h5.ddx.bescmd
+END
+grid_2_3d_xyz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.data.bescmd.baseline
+END
+d_compound.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.data.bescmd
+END
+t_space_null.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.das.bescmd.baseline
+END
+t_special_char_attr.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.das.bescmd
+END
+grid_1_3d_xy.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.das.bescmd.baseline
+END
+d_link_soft.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.data.bescmd
+END
+t_vl_string_cstr.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.ddx.bescmd
+END
+d_compound.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_compound.h5.ddx.bescmd
+END
+t_space_zero.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.data.bescmd.baseline
+END
+t_space_zero.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.dds.bescmd.baseline
+END
+t_string.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.ddx.bescmd
+END
+grid_swath_za_1_2d.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.ddx.bescmd
+END
+grid_1_2d.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.ddx.bescmd
+END
+t_link_comment.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_link_comment.h5.das.bescmd
+END
+t_fillvalue_2d_2x2y.nc4.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.dds.bescmd
+END
+t_space_zero.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.ddx.bescmd.baseline
+END
+swath_2_2d_xyz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.data.bescmd
+END
+grid_1_3d_xyz_aug.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.ddx.bescmd
+END
+t_float.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.data.bescmd.baseline
+END
+grid_1_3d_xy.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.dds.bescmd
+END
+grid_2_2d.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.dds.bescmd.baseline
+END
+d_int.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.data.bescmd.baseline
+END
+d_int.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.dds.bescmd.baseline
+END
+za_1_2d_yz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.das.bescmd.baseline
+END
+d_group.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.dds.bescmd.baseline
+END
+grid_2_2d.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.ddx.bescmd.baseline
+END
+t_string_cstr.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.das.bescmd
+END
+d_int.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.ddx.bescmd.baseline
+END
+za_2_2d_yz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.dds.bescmd.baseline
+END
+swath_2_2d_xyz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.das.bescmd.baseline
+END
+d_group.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.ddx.bescmd.baseline
+END
+grid_1_3d_xyz.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz.h5.data.bescmd.baseline
+END
+d_link_soft.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_soft.h5.das.bescmd
+END
+za_2_2d_yz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.ddx.bescmd.baseline
+END
+grid_1_3d_xy.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.data.bescmd.baseline
+END
+t_unsupported.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.dds.bescmd.baseline
+END
+t_float.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.ddx.bescmd
+END
+t_int.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.data.bescmd.baseline
+END
+d_link_hard.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_link_hard.h5.dds.bescmd
+END
+t_int.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.dds.bescmd.baseline
+END
+za_1_3d_yztd.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.ddx.bescmd
+END
+grid_2_2d.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d.h5.ddx.bescmd
+END
+t_unsupported.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.ddx.bescmd.baseline
+END
+swath_1_2d_xyz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.das.bescmd
+END
+grid_2_2d_size.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_size.h5.das.bescmd.baseline
+END
+t_int.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int.h5.ddx.bescmd.baseline
+END
+t_size8.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_size8.h5.das.bescmd.baseline
+END
+t_vl_string_cstr.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string_cstr.h5.data.bescmd.baseline
+END
+grid_2_3d_xyz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.dds.bescmd
+END
+za_1_3d_yztd_aug.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.data.bescmd.baseline
+END
+grid_2_3d_size.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.dds.bescmd.baseline
+END
+za_1_3d_yzt.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.dds.bescmd.baseline
+END
+swath_2_3d_2x2yz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.data.bescmd
+END
+swath_2_2d_xyz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.ddx.bescmd
+END
+t_special_char_attr.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.dds.bescmd.baseline
+END
+grid_2_3d_size.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.ddx.bescmd.baseline
+END
+za_1_3d_yzt.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.ddx.bescmd.baseline
+END
+t_unsigned_int.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.ddx.bescmd
+END
+d_objref.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_objref.h5.ddx.bescmd
+END
+grid_1_2d_xy.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d_xy.h5.ddx.bescmd
+END
+t_special_char_attr.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_special_char_attr.h5.ddx.bescmd.baseline
+END
+t_unsupported.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsupported.h5.ddx.bescmd
+END
+grid_1_3d_3x3y.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_3x3y.h5.dds.bescmd
+END
+t_fillvalue_2d_2x2y.nc4.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.dds.bescmd.baseline
+END
+t_float.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.data.bescmd
+END
+t_fillvalue_2d_2x2y.nc4.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.ddx.bescmd.baseline
+END
+t_string.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string.h5.data.bescmd
+END
+grid_2_2d_xy.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.das.bescmd.baseline
+END
+t_flatten_name_clash.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.data.bescmd
+END
+t_vl_string.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.data.bescmd
+END
+d_group.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.das.bescmd
+END
+swath_1_3d_2x2yztd.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.data.bescmd
+END
+grid_4_2d_origin.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_4_2d_origin.h5.das.bescmd
+END
+t_group_scalar_attrs.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.data.bescmd.baseline
+END
+swath_1_2d_xyzz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.ddx.bescmd
+END
+grid_1_3d_z.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_z.h5.data.bescmd.baseline
+END
+t_float.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_float.h5.das.bescmd.baseline
+END
+za_2_2d_yz.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_2_2d_yz.h5.ddx.bescmd
+END
+swath_2_3d_2x2yz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_3d_2x2yz.h5.das.bescmd
+END
+t_flatten_name_clash.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.das.bescmd.baseline
+END
+t_vl_string.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.das.bescmd.baseline
+END
+d_regref.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.das.bescmd
+END
+t_flatten_name_clash.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.data.bescmd.baseline
+END
+t_vl_string.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.data.bescmd.baseline
+END
+grid_2_2d_xy.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.dds.bescmd
+END
+grid_1_3d.h5.data.subset_middle.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset_middle.bescmd
+END
+swath_1_2d_xyzz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyzz.h5.das.bescmd.baseline
+END
+d_group.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_group.h5.data.bescmd.baseline
+END
+grid_1_3d_xyz_aug.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xyz_aug.h5.das.bescmd.baseline
+END
+swath_1_3d_2x2yztd.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yztd.h5.das.bescmd.baseline
+END
+t_group_scalar_attrs.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_group_scalar_attrs.h5.data.bescmd
+END
+t_int_scalar.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_int_scalar.h5.data.bescmd.baseline
+END
+swath_1_2d_xyz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_2d_xyz.h5.das.bescmd.baseline
+END
+za_1_3d_yztd_aug.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd_aug.h5.dds.bescmd
+END
+grid_swath_za_1_2d.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.data.bescmd
+END
+grid_1_2d.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.data.bescmd
+END
+t_space_null.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.dds.bescmd.baseline
+END
+grid_1_3d.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.bescmd
+END
+grid_2_2d_xy.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_xy.h5.data.bescmd.baseline
+END
+grid_2_2d_pixel.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_2d_pixel.h5.dds.bescmd
+END
+grid_1_3d_xy.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.dds.bescmd.baseline
+END
+t_space_null.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.ddx.bescmd.baseline
+END
+za_1_2d_yz.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.das.bescmd
+END
+grid_1_3d_xy.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.ddx.bescmd.baseline
+END
+t_string_cstr.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_string_cstr.h5.data.bescmd.baseline
+END
+grid_2_3d_xyz.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.data.bescmd
+END
+t_space_null.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_null.h5.das.bescmd
+END
+t_fillvalue_2d_2x2y.nc4.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_fillvalue_2d_2x2y.nc4.h5.ddx.bescmd
+END
+grid_swath_za_1_2d.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.das.bescmd.baseline
+END
+grid_1_2d.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.das.bescmd.baseline
+END
+t_unsigned_int.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_unsigned_int.h5.data.bescmd
+END
+swath_1_3d_2x2yz.h5.dds.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_1_3d_2x2yz.h5.dds.bescmd
+END
+grid_swath_za_1_2d.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_swath_za_1_2d.h5.data.bescmd.baseline
+END
+grid_1_2d.h5.data.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_2d.h5.data.bescmd.baseline
+END
+t_space_zero.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_space_zero.h5.das.bescmd
+END
+d_regref.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_regref.h5.data.bescmd
+END
+grid_1_3d.h5.data.subset.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.data.subset.bescmd.baseline
+END
+grid_1_3d_xy.h5.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d_xy.h5.ddx.bescmd
+END
+t_non_cf_char.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_non_cf_char.h5.data.bescmd
+END
+za_1_2d_yz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.dds.bescmd.baseline
+END
+grid_2_3d_size.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_size.h5.das.bescmd
+END
+za_1_3d_yzt.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yzt.h5.das.bescmd
+END
+grid_2_3d_xyz.h5.das.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_2_3d_xyz.h5.das.bescmd.baseline
+END
+swath_2_2d_xyz.h5.dds.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.dds.bescmd.baseline
+END
+t_flatten_name_clash.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_flatten_name_clash.h5.das.bescmd
+END
+t_vl_string.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/t_vl_string.h5.das.bescmd
+END
+za_1_2d_yz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_2d_yz.h5.ddx.bescmd.baseline
+END
+grid_1_3d.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/grid_1_3d.h5.das.bescmd
+END
+za_1_3d_yztd.h5.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/za_1_3d_yztd.h5.data.bescmd
+END
+d_int.h5.das.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/d_int.h5.das.bescmd
+END
+swath_2_2d_xyz.h5.ddx.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/bes-testsuite/h5/swath_2_2d_xyz.h5.ddx.bescmd.baseline
+END

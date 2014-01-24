@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid
+END
+s2gTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/s2gTest.cc
+END
+reproj_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/reproj_functions.h
+END
+airs.nc.1.err.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/airs.nc.1.err.bescmd
+END
+wcsUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/wcsUtil.h
+END
+wcs_error.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/wcs_error.cpp
+END
+DAP_Dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/DAP_Dataset.cpp
+END
+AbstractDataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/AbstractDataset.cpp
+END
+three_array_1.das
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/three_array_1.das
+END
+wcs_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/wcs_error.h
+END
+three_array_1.dds
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/three_array_1.dds
+END
+airs.nc.0.data.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/airs.nc.0.data.bescmd
+END
+DAP_Dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/DAP_Dataset.h
+END
+BoundingBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/BoundingBox.cpp
+END
+AbstractDataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/AbstractDataset.h
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/bes.conf.in
+END
+NC_GOES_Dataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/NC_GOES_Dataset.cpp
+END
+BoundingBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/BoundingBox.h
+END
+airs.nc.0.ddx.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/airs.nc.0.ddx.bescmd
+END
+NC_GOES_Dataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/NC_GOES_Dataset.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/Makefile.am
+END
+wcsUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/wcsUtil.cpp
+END
+reproj_functions.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27616/branch/tetherless-world/bes/functions/swath2grid/reproj_functions.cc
+END

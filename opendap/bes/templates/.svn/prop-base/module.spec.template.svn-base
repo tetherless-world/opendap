@@ -1,0 +1,15 @@
+K 13
+svn:mergeinfo
+V 673
+/branch/bes/3.7.0/templates/module.spec.template:20094-20162
+/branch/bes/3.8.0/templates/module.spec.template:22097-22693
+/branch/bes/3.9/templates/module.spec.template:23579-24274
+/branch/bes/3.9.1/templates/module.spec.template:24467-24812
+/branch/bes/3.9.2/templates/module.spec.template:24813-24864
+/branch/bes/3.9.3/templates/module.spec.template:24911-25485
+/branch/hyrax-1.5/bes-3.7.0/templates/module.spec.template:20163-20700
+/branch/ioos/src/bes/templates/module.spec.template:20378-21582
+/tags/bes/3.7.0/templates/module.spec.template:20092-20093
+/tags/bes/3.7.2/templates/module.spec.template:20701-20812
+/trunk/daemon/templates/module.spec.template:11666-12058
+END

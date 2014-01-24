@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server
+END
+ServerExitConditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/ServerExitConditions.h
+END
+BESDaemonConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESDaemonConstants.h
+END
+besctl.in
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/besctl.in
+END
+BESServerHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESServerHandler.cc
+END
+DaemonCommandHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/DaemonCommandHandler.cc
+END
+BESServerHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESServerHandler.h
+END
+DaemonCommandHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/DaemonCommandHandler.h
+END
+daemon.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/daemon.cc
+END
+ServerConfig.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/ServerConfig.h.in
+END
+ServerApp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/ServerApp.cc
+END
+ServerApp.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/ServerApp.h
+END
+hyraxctl.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/hyraxctl.in
+END
+BESServerUtils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESServerUtils.cc
+END
+BESServerUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESServerUtils.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/Makefile.am
+END
+BESXMLWriter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESXMLWriter.cc
+END
+BESXMLWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/server/BESXMLWriter.h
+END

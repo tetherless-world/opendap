@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/Makefile.am
+END
+TestModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/TestModule.cc
+END
+TestRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/TestRequestHandler.cc
+END
+TestModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/TestModule.h
+END
+TestRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/TestRequestHandler.h
+END
+test_server.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/test_server/test_server.conf.in
+END

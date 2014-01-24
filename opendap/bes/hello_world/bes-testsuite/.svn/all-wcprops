@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/bes.conf.in
+END
+hello_handlerTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/hello_handlerTest.at
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/atlocal.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/hello_world/bes-testsuite/Makefile.am
+END

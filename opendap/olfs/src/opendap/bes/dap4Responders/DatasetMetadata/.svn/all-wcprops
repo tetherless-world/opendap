@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DatasetMetadata
+END
+XmlDMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DatasetMetadata/XmlDMR.java
+END
+HtmlDMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DatasetMetadata/HtmlDMR.java
+END
+NormativeDMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DatasetMetadata/NormativeDMR.java
+END
+RdfDMR.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DatasetMetadata/RdfDMR.java
+END

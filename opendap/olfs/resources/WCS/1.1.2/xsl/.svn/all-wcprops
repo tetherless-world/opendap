@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl
+END
+RDFa2RDFXML.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl/RDFa2RDFXML.xsl
+END
+coverageDescription.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl/coverageDescription.xsl
+END
+xsd2owl.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl/xsd2owl.xsl
+END
+xsd2owl-functions.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl/xsd2owl-functions.xsl
+END
+capabilities.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/xsl/capabilities.xsl
+END

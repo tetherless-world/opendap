@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates
+END
+ResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/ResponseHandler.cc
+END
+ResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/ResponseHandler.h
+END
+XMLCommand.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/XMLCommand.cc
+END
+Makefile.am.template
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Makefile.am.template
+END
+_commands.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/_commands.cc
+END
+XMLCommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/XMLCommand.h
+END
+module.spec.template
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/module.spec.template
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/README
+END
+bes-data.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/bes-data.sh.in
+END
+Command.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Command.cc
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/configure.ac
+END
+Command.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Command.h
+END
+_module.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/_module.cc
+END
+ResponseNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/ResponseNames.h
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/COPYRIGHT
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/COPYING
+END
+Module.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Module.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Makefile.am
+END
+RequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/RequestHandler.cc
+END
+Module.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/Module.h
+END
+RequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/RequestHandler.h
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/templates/NEWS
+END

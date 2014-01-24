@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments
+END
+PersistentClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/PersistentClient.java
+END
+Animal.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/Animal.java
+END
+WorkerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/WorkerThread.java
+END
+ThreddsProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ThreddsProperty.java
+END
+JwsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/JwsTest.java
+END
+SendErrorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/SendErrorTest.java
+END
+test.trig
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/test.trig
+END
+ExperimentSandboxServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ExperimentSandboxServlet.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/StringUtil.java
+END
+RepoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/RepoTest.java
+END
+InnerClassServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/InnerClassServlet.java
+END
+WorkerThreadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/WorkerThreadServlet.java
+END
+DomIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/DomIndexTest.java
+END
+Cat.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/Cat.java
+END
+TestBadXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/TestBadXML.java
+END
+ThreddsXsltTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ThreddsXsltTest.java
+END
+ScopeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ScopeTest.java
+END
+MaxString.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/MaxString.java
+END
+TestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/TestClient.java
+END
+ScopeVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ScopeVar.java
+END
+Jbes.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/Jbes.java
+END
+EchoServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/EchoServlet.java
+END
+ThreddsCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ThreddsCatalog.java
+END
+ReflectionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/ReflectionTest.java
+END
+RonDeVoo.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/RonDeVoo.java
+END
+XslPipeline.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/XslPipeline.java
+END
+RegexTestHarness.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/experiments/RegexTestHarness.java
+END

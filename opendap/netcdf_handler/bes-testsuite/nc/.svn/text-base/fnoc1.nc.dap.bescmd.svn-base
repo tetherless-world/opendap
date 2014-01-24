@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request reqID ="some_unique_value" >
+    <setContext name="xdap_accept">3.2</setContext>
+    <setContainer name="c" space="catalog">/data/fnoc1.nc</setContainer>
+    <define name="d">
+	<container name="c">
+            <constraint>lat</constraint>
+        </container>
+    </define>
+    <get type="dataddx" definition="d">
+        <contentStartId>0123-5678-9abc</contentStartId>
+        <mimeBoundary>boundary-string-1</mimeBoundary>
+    </get>
+</request>
+

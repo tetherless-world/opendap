@@ -1,0 +1,167 @@
+News for version 2.2.1
+
+Internal code improvments.
+
+News for version 2.2.0
+
+This version corrects dimension scale handling and archive metadata handling.
+It correctly handles OMI products that have dimensoin names like "1" and "2".
+It prints the file name instead of "virtual" in DDS output.
+
+News for version 2.1.1
+
+This version changes the _FillValue datatype to be consistent with the 
+variable datatype.
+This is not required by CF, however, netCDF-3 has this requirement.
+This change makes fileout_netcdf work smoothly for some NASA products.
+
+News for version 2.1.0
+
+This version improves the performance of hdf5_handler in dealing with big files
+with thousands of datasets.
+
+News for version 2.0.0
+
+This version is the re-engineering of HDF5 OPeNDAP handler CF option.
+Please read README for what's new in version 2.0.0.
+
+News for version 1.5.1
+
+Fixed an issue with the IgnoreUnknownTypes option and a problem with
+attributes that use hdf5's varying length string type.
+
+News for version 1.5.0
+
+Added H5.IgnoreUnknownTypes which follows the behavior pattern
+established for/by the netcdf handler. When set, data types that cannot
+easily be represented in DAP2 are simply ignored. When not set, an
+error is returned when an unknown type is found in a data file.
+
+The int8 to int16 conversion is now handled correctly.
+
+News for version 1.4.4
+
+Bug fixes (Aura MLS multiple swaths and variable names to follow CF
+conventions.).
+
+Partial support of handling multiple HDF-EOS5 swaths has been added to
+the handler. It will only work when all swaths share the same
+coordinate variables. The solution is mainly for handling Aura MLS
+data. The robust and general solutions should be in the future.
+	
+Special characters inside the variable names are also handled by
+replacing them with underscores. This was discovered by HIRDLS data.
+
+News for version 1.4.3
+
+Bug fixes (Grids, etc.) and fixes for the BES 3.9 and libdap 3.11 versions.
+
+News for version 1.4.2
+
+Bug fixes
+
+News for version 1.4.1
+
+Performance improvements when using HDF5 1.8
+
+News for version 1.4.0
+
+This versionof the handler contains many documentation and
+dataset-specific improvements, particularly for datasets produced by
+NASA. Support for HDF-EOS has been greatly improved.
+
+Many fixes; see ChangeLog
+
+News for version 1.3.5
+
+This release includes bug fixes for handling HDF-EOS5 Grids and Swath
+and supports more HDF-EOS5 products when --enable-cf option is
+defined.
+
+News for version 1.3.4
+
+Repair to the --enable-cf and --enable-short-path options.
+
+This release is a special release for Hyrax 1.5.2 that contains new
+features added to the handler by THG for support of HDF-EOS5 data
+files.
+
+News for version 1.3.3
+
+Somehow, the news didn't get updated...
+
+News for version 1.3.2
+
+Repaired memory allocation issues.
+
+News for version 1.3.1
+
+Fixes for the constraint, XML responses and service interface.
+
+News for version 1.3.0.a
+
+ The--enable-cf alone doesn't shorten the DDS variables.
+ All variables will have the group path information. 
+If you turn on --enable-short-name on top of --enable-cf,
+it'll generate variables that starts with 'A??' where '??' is a unique
+number. The --enable-short-name alone doesn't do anything.
+
+  CoreMetadata will be parsed and provided as an attribute even if CF
+option is enabled. We checked with IDV and GrADS and CoreMetadata did
+not bother them so we think it's safe to turn CoreMetadata on always.
+
+
+News for version 1.3.0
+
+Many bug fixes - see ChangeLog
+
+Updates for the new versions of libdap and bes - this is important since the
+new libdap constraint evaluator now works with Arrays of Structures.
+
+The SHORT_PATH compilation option now has shorter reference names.
+
+Grids are now generated instead of Arrays for Aura Swath data.
+
+Int64 now throws an exception; DAP 3.3 will have an Int64 type.
+
+Signed Byte is now mapped to Int16 (both the DAS and DDS).
+
+If compiled with the CF option then the NC_GLOBAL attribute is produced if
+a valid Grid projection in NASA EOS AURA file is detected. Resolution, min and
+max attributes for lat/lon are extracted from structMetadata.
+
+News for version 1.2.3
+
+When built using the --enable-cf and --enable-short-path, the handler was
+dropping shared dimensions, breaking access using Ferret and GrADS.
+
+Updates for the newest BES features.
+
+News for version 1.2.2
+
+Bug fix release reading map data from EOS Grid, please refer to the
+ChangeLog file for more information.
+
+News for version 1.2.1
+
+DDX responses now contains attributes.
+
+Package Configure (pkg-config) support added.
+
+Support for HDF5 1.8.0 added.
+
+News for version 1.2.0
+
+Support for NASA EOS Grid variables has been added to the handler. See
+the README and INSTALL_EOS5_GRID files. You will need to use some
+special options when configuring the handler's build in order to get
+these features.
+
+News for version 1.1.0
+
+This version of the hdf5 data handler can be used with both server3 and
+Server4. The handler is really an alpha version of software which NASA has
+just agreed to fund via their ACCESS program. This code is being released in
+the hope it will be useful, but data providers must be aware that it is not
+complete in that not every valid HDF5 file can be served using it. See the
+README for more information.

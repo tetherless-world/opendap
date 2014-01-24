@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse
+END
+CsvDR.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/CsvDR.java
+END
+XmlDR.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/XmlDR.java
+END
+GeoTiffDR.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/GeoTiffDR.java
+END
+NormativeDR.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/NormativeDR.java
+END
+Netcdf3DR.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/Netcdf3DR.java
+END
+GmlJpeg2000DR.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/GmlJpeg2000DR.java
+END
+Netcdf4DR.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dap4Responders/DataResponse/Netcdf4DR.java
+END

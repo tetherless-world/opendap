@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat
+END
+DDXCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/DDXCrawler.java
+END
+NCMLBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/NCMLBuilder.java
+END
+URLGroupFacts.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/URLGroupFacts.java
+END
+ParsedURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/ParsedURL.java
+END
+Equivalence.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/Equivalence.java
+END
+URLGroups.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/URLGroups.java
+END
+DateString.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/DateString.java
+END
+DDXRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/DDXRetriever.java
+END
+URLClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/URLClassifier.java
+END
+PrintVisitedCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/PrintVisitedCache.java
+END
+ResponseCachePostgres.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/ResponseCachePostgres.java
+END
+EMLWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/EMLWriter.java
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/README
+END
+MakeVisitedCacheFromFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/MakeVisitedCacheFromFile.java
+END
+URLGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/URLGroup.java
+END
+URLProcessedComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/URLProcessedComponents.java
+END
+EMLBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/EMLBuilder.java
+END
+ThreddsCatalogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/ThreddsCatalogUtil.java
+END
+NCMLWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/NCMLWriter.java
+END
+DateClassification.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/DateClassification.java
+END
+ThreddsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/ThreddsUtil.java
+END

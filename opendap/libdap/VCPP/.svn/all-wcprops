@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP
+END
+xdr-datatypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/xdr-datatypes.h
+END
+License.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/License.txt
+END
+dependancies
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/dependancies
+END
+BeforeInstall.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/BeforeInstall.txt
+END
+libdap.iss
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/libdap.iss
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/config.h
+END
+dods-datatypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/dods-datatypes.h
+END
+unistd.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/unistd.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/VCPP/Makefile
+END

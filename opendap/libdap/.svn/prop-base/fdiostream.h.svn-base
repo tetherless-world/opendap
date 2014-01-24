@@ -1,0 +1,14 @@
+K 13
+svn:mergeinfo
+V 500
+/branch/hyrax-1.5/libdap-3.9.0/GNU/fdiostream.h:20170-20698
+/branch/libdap/3.10.0/fdiostream.h:22081-22695
+/branch/libdap/3.11/fdiostream.h:23578-24274
+/branch/libdap/3.11.1/fdiostream.h:24466-24864
+/branch/libdap/3.11.2/fdiostream.h:24910-25485
+/branch/libdap/3.9.0/GNU/fdiostream.h:20095-20169
+/branch/multifile/libdap/GNU/fdiostream.h:19322-19623
+/branch/xmlrequest/libdap/GNU/fdiostream.h:19391-19855
+/tags/libdap/3.9.0/GNU/fdiostream.h:20089-20094
+/tags/libdap/3.9.2/GNU/fdiostream.h:20699-20873
+END

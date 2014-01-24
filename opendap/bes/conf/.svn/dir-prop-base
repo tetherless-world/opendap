@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 49
+config.guess
+config.sub
+*.m4
+missing
+*sh
+depcomp
+
+END

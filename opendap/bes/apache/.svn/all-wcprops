@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache
+END
+BESApacheInterface.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheInterface.cc
+END
+Makefile.libdir
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/Makefile.libdir
+END
+COPYRIGHT_UCAR
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/COPYRIGHT_UCAR
+END
+BESApacheInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheInterface.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/ChangeLog
+END
+BESApacheRequests.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheRequests.cc
+END
+Makefile.tmpl.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/Makefile.tmpl.in
+END
+BESApacheRequests.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheRequests.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/README
+END
+BESApacheWrapper.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheWrapper.cc
+END
+BESApacheWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESApacheWrapper.h
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/configure.ac
+END
+opendap.ini
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/opendap.ini
+END
+BESProcessEncodedString.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESProcessEncodedString.cc
+END
+libopendap.module.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/libopendap.module.in
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/INSTALL
+END
+BESProcessEncodedString.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/BESProcessEncodedString.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/Makefile.am
+END
+mod_opendap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/mod_opendap.cc
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/apache/NEWS
+END

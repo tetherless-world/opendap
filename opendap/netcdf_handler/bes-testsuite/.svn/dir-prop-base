@@ -1,0 +1,18 @@
+K 10
+svn:ignore
+V 189
+besstandalone.sum
+nc4_netcdf_handler_tests.dir
+netcdf_handlerTest.dir
+atconfig
+atlocal
+bes.conf
+Makefile
+Makefile.in
+nc4_netcdf_handler_tests
+netcdf_handlerTest
+package.m4
+*.sh
+test.bescmd
+
+END

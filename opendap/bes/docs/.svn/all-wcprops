@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs
+END
+BES_PPT.doc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/BES_PPT.doc
+END
+BES_Configuration.doc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/BES_Configuration.doc
+END
+BES_Server_Architecture.doc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/BES_Server_Architecture.doc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/Makefile.am
+END
+BES_Creating_Module.doc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/BES_Creating_Module.doc
+END
+OPeNDAP_ESG_Server.doc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/docs/OPeNDAP_ESG_Server.doc
+END

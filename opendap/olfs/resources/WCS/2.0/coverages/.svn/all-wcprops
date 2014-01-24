@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/coverages
+END
+ECMWF_ERA-40_subset.ncml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/coverages/ECMWF_ERA-40_subset.ncml.xml
+END
+200803061600_HFRadar_USEGC_6km_rtv_SIO.nc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/coverages/200803061600_HFRadar_USEGC_6km_rtv_SIO.nc.xml
+END
+200803061600_HFRadar_coverage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/coverages/200803061600_HFRadar_coverage.xml
+END
+200803061600_HFRadar_USEGC_6km_rtv_SIO.nc-WCS-1.1.2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/coverages/200803061600_HFRadar_USEGC_6km_rtv_SIO.nc-WCS-1.1.2.xml
+END

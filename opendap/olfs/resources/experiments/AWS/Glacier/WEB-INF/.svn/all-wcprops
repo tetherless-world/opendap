@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/experiments/AWS/Glacier/WEB-INF
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/experiments/AWS/Glacier/WEB-INF/logback.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/experiments/AWS/Glacier/WEB-INF/web.xml
+END
+logback-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/experiments/AWS/Glacier/WEB-INF/logback-test.xml
+END

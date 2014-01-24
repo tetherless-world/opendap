@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite
+END
+coads.das
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/coads.das
+END
+bears_1.nc.das
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/bears_1.nc.das
+END
+ais_database.xml.in
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_database.xml.in
+END
+ais_error_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_1.xml
+END
+ais_error_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_2.xml
+END
+ais_error_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_3.xml
+END
+ais_error_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_4.xml
+END
+ais_error_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_5.xml
+END
+fnoc2_replace.das
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/fnoc2_replace.das
+END
+ais_error_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/ais_error_6.xml
+END
+starts_with_number.das
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/starts_with_number.das
+END
+123.das
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/123.das
+END
+fnoc1.nc.das
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/fnoc1.nc.das
+END
+fnoc3_fallback.das
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ais_testsuite/fnoc3_fallback.das
+END

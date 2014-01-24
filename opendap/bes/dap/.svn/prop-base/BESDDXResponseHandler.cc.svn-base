@@ -1,0 +1,34 @@
+K 13
+svn:eol-style
+V 6
+native
+K 11
+svn:keyword
+V 2
+Id
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 929
+/branch/bes/3.7.0/dispatch/BESDDXResponseHandler.cc:20094-20162
+/branch/bes/3.8.0/dispatch/BESDDXResponseHandler.cc:22097-22693
+/branch/bes/3.9/dispatch/BESDDXResponseHandler.cc:23579-24274
+/branch/bes/3.9.1/dispatch/BESDDXResponseHandler.cc:24467-24812
+/branch/bes/3.9.2/dispatch/BESDDXResponseHandler.cc:24813-24864
+/branch/bes/3.9.3/dispatch/BESDDXResponseHandler.cc:24911-25878
+/branch/bes/hyrax-1.8-release/dispatch/BESDDXResponseHandler.cc:25881-26281
+/branch/hyrax-1.5/bes-3.7.0/dispatch/BESDDXResponseHandler.cc:20163-20700
+/branch/ioos/src/bes/dispatch/BESDDXResponseHandler.cc:20378-21582
+/branch/multifile/bes/dispatch/BESDDXResponseHandler.cc:19313-19615
+/branch/xmlrequest/bes/dispatch/BESDDXResponseHandler.cc:19382-19855
+/branch/xmlresponse/bes/dispatch/BESDDXResponseHandler.cc:19990-20433
+/tags/bes/3.7.0/dispatch/BESDDXResponseHandler.cc:20092-20093
+/tags/bes/3.7.2/dispatch/BESDDXResponseHandler.cc:20701-20812
+K 13
+svn:mime-type
+V 10
+text/plain
+END

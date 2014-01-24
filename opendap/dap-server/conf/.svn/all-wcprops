@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf/pkg.m4
+END
+cppunit.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf/cppunit.m4
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf/acinclude.m4
+END
+bes.m4
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf/bes.m4
+END
+libdap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/conf/libdap.m4
+END

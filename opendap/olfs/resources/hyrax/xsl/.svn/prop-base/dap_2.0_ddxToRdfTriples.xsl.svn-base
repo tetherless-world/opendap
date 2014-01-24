@@ -1,0 +1,23 @@
+K 14
+svn:executable
+V 1
+*
+K 13
+svn:mergeinfo
+V 1026
+/branch/hyrax-1.5/olfs-1.5.0/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:20173-20726
+/branch/ioos/olfs/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:21614-22510
+/branch/ioos/src/olfs/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:20214-21613
+/branch/multifile/olfs/doc/xsl/ddxToRdfTriples.xsl:19325-19627
+/branch/olfs/1.6.0/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:22143-22502
+/branch/olfs/1.7.0/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:23605-23675
+/branch/olfs/1.7.1/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:23676-24274
+/branch/olfs/1.8.0/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:24475-24754
+/branch/olfs/1.9.0/resources/hyrax/xsl/dap_2.0_ddxToRdfTriples.xsl:25211-25822,25824-26276
+/branch/xmlresponse/olfs/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:20396-20425
+/tags/olfs/1.5.0/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:20727-21020
+/tags/olfs/1.5.1/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:21021-21023
+/tags/olfs/1.5.2/doc/xsl/dap_2.0_ddxToRdfTriples.xsl:21024-21210
+/trunk/olfs/doc/xsl/ddxToRdfTriples.xsl:19430-19667
+/trunk/olfs/resources/hyrax/xsl/dap_2.0_ddxToRdfTriples.xsl:24942-25192
+END

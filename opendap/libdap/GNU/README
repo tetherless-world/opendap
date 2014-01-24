@@ -1,0 +1,8 @@
+
+	$Id: README 24057 2011-02-02 23:54:21Z jimg $
+
+The files GetOpt.{cc,h} are from the GNU libg++ software package. If you'd
+like the complete library it may be obtained from ftp.gnu.org.
+
+The files GNURegex.{cc,h} were originally from teh GNU libg++ package, but 
+I rewrote them to use the Unix regex library some time ago. 

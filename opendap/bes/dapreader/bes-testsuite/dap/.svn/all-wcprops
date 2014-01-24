@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap
+END
+test.00.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.00.bescmd
+END
+test.00.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.00.bescmd.baseline
+END
+test.01.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.01.bescmd
+END
+test.01.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.01.bescmd.baseline
+END
+test.02.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.02.bescmd
+END
+test.02.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.02.bescmd.baseline
+END
+test.03.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.03.bescmd
+END
+test.03.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dap/test.03.bescmd.baseline
+END

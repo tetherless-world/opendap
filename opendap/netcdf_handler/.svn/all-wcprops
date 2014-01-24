@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler
+END
+NCStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCStr.h
+END
+ncdds.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ncdds.cc
+END
+NCFloat64.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCFloat64.h
+END
+NCUInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUInt32.cc
+END
+netcdf_handler.spec
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/netcdf_handler.spec
+END
+NCModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCModule.cc
+END
+NCGrid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCGrid.cc
+END
+NCUInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUInt16.cc
+END
+NCRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCRequestHandler.cc
+END
+NCUInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUInt32.h
+END
+NCUInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUInt16.h
+END
+NCRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCRequestHandler.h
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/configure.ac
+END
+NCInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCInt32.cc
+END
+NCInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCInt16.cc
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/COPYING
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/COPYRIGHT
+END
+NCByte.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCByte.cc
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NEWS
+END
+NCSequence.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCSequence.cc
+END
+NCSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCSequence.h
+END
+NCFloat32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCFloat32.cc
+END
+NCFloat32.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCFloat32.h
+END
+nc_util.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/nc_util.cc
+END
+NCArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCArray.cc
+END
+nc_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/nc_util.h
+END
+NCFloat64.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCFloat64.cc
+END
+NCArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCArray.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ChangeLog
+END
+nc.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/nc.conf.in
+END
+NCModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCModule.h
+END
+NCGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCGrid.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/README
+END
+NCStructure.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCStructure.cc
+END
+NCInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCInt32.h
+END
+NCStructure.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCStructure.h
+END
+NCUrl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUrl.cc
+END
+NCInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCInt16.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/Makefile.am
+END
+NCUrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCUrl.h
+END
+NCByte.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCByte.h
+END
+config_nc.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/config_nc.h
+END
+ncdas.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/ncdas.cc
+END
+NCStr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/NCStr.cc
+END

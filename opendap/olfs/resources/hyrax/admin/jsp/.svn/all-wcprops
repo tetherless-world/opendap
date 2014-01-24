@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/index.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/login.jsp
+END
+logout.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/logout.jsp
+END
+login-failed.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/login-failed.jsp
+END
+besctl.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/besctl.jsp
+END
+test.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/test.jsp
+END
+olfsLogView.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/olfsLogView.jsp
+END
+besLogConfig.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/hyrax/admin/jsp/besLogConfig.jsp
+END

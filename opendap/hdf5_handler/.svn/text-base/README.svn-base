@@ -1,0 +1,303 @@
+This file describes the HDF5 handler developed by The HDF Group and OPeNDAP, 
+Inc. under a grant from NASA. For information about building the HDF5 handler,
+ see the INSTALL.
+
+
+What is HDF5 handler?
+---------------------
+
+  Hierarchical Data Format Version 5 (HDF5) is a general-purpose library and 
+file format for storing, managing, archiving, and exchanging scientific data. 
+The HDF5 data model includes two primary types of objects, a number of 
+supporting object types, and metadata describing how HDF5 files and objects 
+are to be organized and accessed. The HDF5 file format is self-describing in 
+the sense that the structures of HDF5 objects are described within the file.
+
+ The HDF5 handler is a Hyrax Back-end Server(BES) module that maps HDF5 
+objects into OPeNDAP's DAP2 data model. This allows users to access the data 
+in remote  HDF5 files using the OPeNDAP clients. There can be many ways to 
+serve HDF5 data but this handler differentiates itself by putting the goal of 
+following CF conventions to support NASA HDF5/HDF-EOS5 products first. The 
+HDF5 handler team strives to achieve what is called "CF-compliant" status of 
+all NASA HDF5 data products. This means that OPeNDAP visualization client 
+users should feel easy in accessing and visualizing the remote NASA 
+HDF5/HDF-EOS5 data products if NASA data centers provide the Hyrax OPeNDAP 
+services.
+
+ Since some NASA HDF5/HDF-EOS5 products either do not follow or only partially 
+follow CF conventions, the handler developers tried to make them be 
+CF-compliant  so that OPeNDAP client tools can visualize these products.
+This can be realized by the developers' knowledge and experiences as well
+as intensive discussions with developers of the corresponding NASA data 
+centers. The output of this handler has been checked carefully with OPeNDAP 
+client tools such as IDV, Panoply, GrADS, Ferret, NCL, MATLAB, and IDL.
+
+ A comprehensive list of the improvements since the 2.0.0 release is
+available on the next section.
+
+What's new for version 2.2.1
+----------------------------
+Internal code improvements.
+
+What's new for version 2.2.0
+----------------------------
+  This version supports dimension scale and ICESat/GLAS product. It also fixes
+a few bugs. Please see ChangeLog for details about bug fixes.
+
+What's new for version 2.1.1
+----------------------------
+
+  This version fixes a few bugs. It handles the concatenation of metadata files
+ in a format like "coremetadata.0" and "coremeata.0.1." In previous versions,
+it handled only "coremetadata.x" format. It fixes a bug to access GESDISC 
+BUV Ozone files.
+
+
+What's new for version 2.1.0
+----------------------------
+
+  This version improves the performance to read HDF5 variables. The previous 
+assumption was that NASA files usually don't have many variables. Thus, to save
+ time of opening APIs and better coding for error handling, the handler just 
+held the API IDs and released them at last. However, GES DISC recently has 
+produced a file with more than 1000 objects and want it to be served by 
+OPeNDAP. It took much longer than expected. A thorough investigation 
+revealed that the retrieval of HDF5 objects was the performance bottle neck. 
+The new version addresses this issue by closing the HDF5 object IDs gradually.
+
+  Also, it fixes a bug that one HDF5 object API is not closed and leaked the
+ system resources. 
+
+  A new BES key H5.DisableStructMetaAttr is added so the handler can skip
+parsing StructMetadata and generating the attribute in DAS output for HDF-EOS5
+ files.
+  
+What's new for version 2.0.0
+----------------------------
+
+  This version has significant changes in handling NASA HDF5/HDF-EOS5 data 
+products. As the new major version number change indicates, the CF support  
+part of the handler is completely re-engineered.
+
+  Since the main effort of this version of the handler is to support the easy
+access of most NASA HDF5/HDF-EOS5 data products by following the CF conventions,
+the CF option of the HDF5 handler is turned on by default.
+
+  The --enable-cf configuration option is replaced with the BES key called
+"H5.EnableCF". You can enable or disable CF feature of the HDF5 handler 
+dynamically by modifying the /etc/bes/modules/h5.conf configuration file
+first and then restarting the BES server using "besctl restart".
+
+  The "IgnoreUnknownTypes" BES key is removed because the same functionality is
+implemented with the new "EnableCF" key. We added three more keys and they
+are explained in the NOTES section of INSTALL file.
+
+  The handler is tested with HDF5 version 1.8.8. We believe that the handler 
+should work with HDF5 1.8.5 and versions after. To achieve better performance,
+ we strongly suggest users to use the latest HDF5 release. See REQUIREMENTS 
+section of INSTALL file on how to get the latest RPMs of HDF5.
+
+
+Supported NASA HDF5/HDF-EOS5 data products in CF Option in the current release
+-------------------------------------------------------------------------------
+
+        AURA OMI/HIRDLS/MLS/TES
+        MEaSUREs SeaWiFS
+        MEaSUREs Ozone
+        Aquarius
+        GOSAT/acos
+        SMAP(simulation)
+
+ Please see the Limitation section below for special notes about OMI L2G and 
+GOSAT/acos products. We plan to add new NASA HDF5 and HDF-EOS5 products in the 
+future release.
+
+
+Supported HDF5 data types for both CF and default options
+---------------------------------------------------------
+
+  NASA data products do not use all HDF5 datatypes provided by the HDF5 
+library. Not all HDF5 datatypes can be mapped to DAP2 datatypes, either. 
+Thus, the HDF5 handler team focused on the most common HDF5 datatypes. 
+Generally, non-supported data types are ignored. 
+
+        unsigned char, char, 
+        unsigned 16-bit integer, 16-bit integer,
+        unsigned 32-bit integer, 32-bit integer, 
+        32-bit and 64-bit floating data, 
+        HDF5 string. 
+                  
+
+Supported HDF5 data types for the default option only
+-----------------------------------------------------
+
+	Compounds: Compound data types are mapped into DAP2 Structure.
+
+	References: Object or regional references are mapped into URLs.
+
+Other mapping information
+-------------------------
+
+CF option:
+
+        Group path: An HDF5 dataset's full path information can be found in 
+        "fullnamepath" attribute.  
+
+Default option:
+
+        Group path: An HDF5 dataset's full path information can be found in
+        in "HDF5_OBJ_FULLPATH" attribute.
+
+       	Group structure: Group structure, the relation among groups, is 
+        mapped into a special attribute called "HDF5_ROOT_GROUP".
+
+	Soft/hard Links: Links are mapped to attributes in DAS.
+
+        Comments: Comments are mapped into DAS attributes.
+
+
+Implementation details in general
+----------------------------------
+
+  The implementation largely follows the design. Please read the following
+design note for details at
+
+       http://hdfeos.org/software/hdf5_handler/doc/Reengineering-HDF5-OPeNDAP-handler.pdf
+
+  Here are a few highlights for the implementation.
+
+       o The implementation of the CF option is separated from that of the 
+       default option.
+
+        o The HDF5 1.8 APIs are used to retrieve HDF5 object information for 
+        both the CF and the default options.
+
+        o The CF option only:
+           - HDF5 products are categorized and are separately handled except 
+             for the modules that can be shared. One such example is the 
+             module that makes the object names follow the CF name conventions.
+           - Translating metadata to DAP2 is separated from retrieving the 
+             raw data.
+           - The handler provides an option to handle object name clashing.
+           - BES keys are used to replace the #ifdef macro. This makes the 
+             code much cleaner and easier to maintain.
+           - The DAP2 variable and attribute names strictly follow the object 
+             name conventions in the section 3.2.3 of the design note.
+
+Implementation Details for HDF-EOS5 in CF option 
+------------------------------------------------
+
+        Swath: Based on the dimension information specified in the 
+        StructMetadata file, fake dimension variables are generated with 
+        integer values.
+
+        Zonal Average: The current version only supports the zonal average
+        file augmented by the HDF-EOS5 augmentation tool since only the 
+        augmented zonal average files are found among NASA HDF-EOS5 zonal 
+        average products. Dimension variables are constructed based on the 
+        augmentation information stored in the file. For more information 
+        about the augmentation, please refer to the BACKGROUND section of 
+        HDF-EOS5 augmentation tool page at 
+
+              http://hdfeos.org/software/aug_hdfeos5.php
+
+
+	Grid: The fake dimension handling is the same as Swath. 
+        In addition, based on the projection parameters specified in the 
+        StructMetadata file, 1-D latitude and longitude arrays are 
+        automatically computed and added in the DAP2 output.
+
+	Metadata: If metadata (e.g., StructMetadata or CoreMetada) is
+        split and stored into multiple attributes (e.g., StructMetadata.0,
+        StructMetadata.1, ..., StructMetadata.n), they are merged into one
+	string and then parsed so that it can be represented in structured 
+        attribute format in DAS output. 
+
+
+Testing the HDF5 handler
+------------------------
+
+  The handler source package has more than 50 test files under data/ directory.
+If you build the handler from the source, the 'make check' command will test 
+both CF and default options using the test HDF5 files. The full C source codes
+for generating the test HDF5 files are also available under data/src directory
+ although they are not compiled during the building or testing the handler.  
+
+
+Limitations for the CF option
+-----------------------------
+
+        o Generally the mappings of 64-bit integer, time, enum, bitfield, 
+        opaque, compound, array, and reference types are not supported. 
+        The mapping of one HDF5 64-bit integer variable into two DAP2 32-bit 
+        integers in GOSAT/acos is based on the discussions with the data 
+        producers. Except one dimensional variable length string array, 
+        the mapping of the variable length datatype is not supported either. 
+        The handler simply ignores these unsupported datatypes.
+        
+        o HDF5 files containing cyclic groups are not supported. 
+        If such files are encountered, the handler hangs with infinite loops.
+
+        o The handler ignores soft links, external links and comments. 
+        A hardlink is handled as an HDF5 object.
+
+        o For the HDF5 datasets created with the scalar dataspace, the handler 
+        can only support the string datatypes. It ignores the datasets created
+         with other datatypes. HDF5 allows the size of a dimension to be 0 
+        (zero) for a dataspace. The handler also ignores the datasets created 
+        with such dataspace. The mapping of any HDF5 datasets with NULL 
+        dataspace is also ignored.
+
+        o Currently, GOSAT/acos and OMI level 2G products cannot be visualized 
+        by OPeNDAP visualization tools because of the limitations of the 
+        current CF conventions and netCDF-Java visualization tools (IDV, 
+        Panoply, etc.)
+        
+        o We found object reference attributes in several NASA products. 
+        Since these attributes are only used to generate the DAP2 dimensions 
+        and coordinate variables, ignoring the mapping of these attributes 
+        doesn't lose any essential information for OPeNDAP users.
+
+
+Limitations in default option
+-----------------------------
+
+	o No support for HDF5 files that have a '.' in a group/dataset
+	  name.
+
+	o The mappings of HDF5 64-bit integer, time, enum, bitfield, and 
+        opaque datatypes are not supported.
+
+	o Except for one dimensional HDF5 variable length string array, HDF5 
+        variable length datatype is not supported either.
+
+        o HDF5 external links are ignored. The mapping of HDF5 objects with 
+        NULL dataspace is not supported.
+
+
+Additional background on the HDF5 handler
+-----------------------------------------
+  The HDF5 handler is one component of the Hyrax BES; the Hyrax BES
+ software is designed to allow any number of handlers to be
+configured easily. See the BES Server README and INSTALL files for
+information about configuration, including how to use this handler.
+
+
+Installing the HDF5 handler in Hyrax
+------------------------------------
+
+  The Linux RPM package will install h5.conf file with all options true except
+ for the H5.EnableCheckNameClashing option. 
+
+  A test HDF5 file is also installed, so after installing this handler, Hyrax
+will have a data to serve providing an easy way to test your new
+installation and to see how a working handler should look. To use
+this, make sure that you first install the BES, and that dap-server
+gets installed too. 
+
+  Finally, every time you install or reinstall handlers, make sure to 
+restart the BES and OLFS.
+
+
+Muqun Yang (myang6@hdfgroup.org)
+Hyo-Kyung Lee (hyoklee@hdfgroup.org)

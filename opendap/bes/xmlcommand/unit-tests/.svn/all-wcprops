@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests
+END
+BuildTCmd2.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTCmd2.h
+END
+test_config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/test_config.h.in
+END
+buildT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/buildT.cc
+END
+BuildTInterface.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTInterface.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/Makefile.am
+END
+BuildTInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTInterface.h
+END
+propsT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/propsT.cc
+END
+BuildTCmd1.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTCmd1.cc
+END
+BuildTCmd2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTCmd2.cc
+END
+bes.conf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/bes.conf
+END
+BuildTCmd1.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/xmlcommand/unit-tests/BuildTCmd1.h
+END

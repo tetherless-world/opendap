@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bin
+END
+besCreateModule.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bin/besCreateModule.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bin/Makefile.am
+END

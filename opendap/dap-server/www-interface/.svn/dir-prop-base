@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 48
+javascript.h
+Makefile
+Makefile.in
+.deps
+js2h.pl
+
+END

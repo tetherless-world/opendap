@@ -1,0 +1,15 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 207
+/branch/hdf5_handler/1.4.4/OSX_Resources/Info.plist.proto:24472-24754
+/branch/hdf5_handler/1.4.5/OSX_Resources/Info.plist.proto:24918-25436
+/trunk/DODS/src/hdf5-dods/OSX_Resources/Info.plist.proto:5037-12575
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite
+END
+package.m4.in
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/package.m4.in
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/bes.conf.in
+END
+handler_tests_macros.m4
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/handler_tests_macros.m4
+END
+generate_data_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/generate_data_baseline.sh.in
+END
+netcdf_handlerTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/netcdf_handlerTest.at
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/atlocal.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/Makefile.am
+END
+nc4_netcdf_handler_tests.at
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/nc4_netcdf_handler_tests.at
+END
+generate_metadata_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/bes-testsuite/generate_metadata_baseline.sh.in
+END

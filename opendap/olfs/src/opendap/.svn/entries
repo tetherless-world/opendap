@@ -1,0 +1,94 @@
+10
+
+dir
+27620
+https://scm.opendap.org/svn/branch/tetherless-world/olfs/src/opendap
+https://scm.opendap.org/svn
+
+
+
+2013-12-30T22:01:32.721751Z
+27591
+ndp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4ba5f37b-aaf8-0310-9c43-92a51b5764a6
+
+namespaces
+dir
+
+noaa_s3
+dir
+
+logging
+dir
+
+semantics
+dir
+
+dap4
+dir
+
+ncml
+dir
+
+aws
+dir
+
+threddsHandler
+dir
+
+webstart
+dir
+
+wcs
+dir
+
+coreServlet
+dir
+
+xml
+dir
+
+hai
+dir
+
+gateway
+dir
+
+ppt
+dir
+
+experiments
+dir
+
+dap
+dir
+
+io
+dir
+
+bes
+dir
+
+nciso
+dir
+
+async
+dir
+
+metacat
+dir
+

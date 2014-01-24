@@ -1,0 +1,31 @@
+K 10
+svn:ignore
+V 136
+.deps
+.libs
+.flc
+.project
+.cdtproject
+Makefile
+Makefile.in
+configure
+libtool
+aclocal.m4
+site.exp
+*-config
+config.*
+stamp-h?
+*.o
+*.lo
+*~
+
+K 13
+svn:mergeinfo
+V 386
+/branch/libdap/3.10.0/tests/old_tests/server-testsuite:22081-22695
+/branch/libdap/3.11/tests/old_tests/server-testsuite:23578-24274
+/branch/libdap/3.11.1/tests/old_tests/server-testsuite:24466-24864
+/branch/libdap/3.11.2/tests/old_tests/server-testsuite:24910-25485
+/branch/multifile/libdap/tests/server-testsuite:19322-19623
+/branch/xmlrequest/libdap/tests/server-testsuite:19391-19855
+END

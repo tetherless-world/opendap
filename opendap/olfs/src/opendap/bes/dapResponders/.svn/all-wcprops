@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders
+END
+DDX.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/DDX.java
+END
+Dap2Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/Dap2Data.java
+END
+BesApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/BesApi.java
+END
+DatasetInfoHtmlPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/DatasetInfoHtmlPage.java
+END
+DAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/DAS.java
+END
+Ascii.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/Ascii.java
+END
+DDS.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/DDS.java
+END
+XmlData.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/XmlData.java
+END
+DapDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/DapDispatcher.java
+END
+NetcdfFileOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/NetcdfFileOut.java
+END
+RDF.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/bes/dapResponders/RDF.java
+END

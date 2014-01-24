@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http
+END
+MultipartResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/MultipartResponse.java
+END
+SoapHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/SoapHandler.java
+END
+FormHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/FormHandler.java
+END
+Servlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/Servlet.java
+END
+XmlRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/XmlRequestHandler.java
+END
+Attachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/Attachment.java
+END
+HttpGetHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/HttpGetHandler.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/Util.java
+END
+KvpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/http/KvpHandler.java
+END

@@ -1,0 +1,29 @@
+K 10
+svn:ignore
+V 227
+.deps
+.libs
+.flc
+.project
+.cdtproject
+Makefile
+Makefile.in
+configure
+libtool
+aclocal.m4
+site.exp
+*-config
+config.*
+stamp-h?
+*.o
+*.lo
+*~
+dods_cache
+gc_cache
+header_cache
+http_connect_cache
+purge_cache
+singleton_cache
+cleanup.sh
+
+END

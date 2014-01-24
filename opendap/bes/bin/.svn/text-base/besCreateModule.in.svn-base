@@ -1,0 +1,488 @@
+#!/bin/sh
+
+TEMPLATE_DIR=@pkgdatadir@/templates
+if [ ! -d ${TEMPLATE_DIR} ]
+then
+    echo "the templates directory does not exist."
+    echo "It containes template files for use by your new server"
+    exit 1
+fi
+
+echo "Enter server type, e.g. cedar, fits, netcdf: "
+read serverType
+if [ "$serverType" = "" ]
+then
+    echo "you must enter a server type"
+    exit 1
+fi
+
+echo "Enter C++ class prefix, e.g. Cedar, Fits, Netcdf: "
+read classPrefix
+if [ "$classPrefix" = "" ]
+then
+    echo "you must enter a class prefix"
+    exit 1
+fi
+
+DEFAULT_RESPONSE="das dds data"
+RESPONSE_TYPES=
+echo "Enter response types handled by this server (das dds data):"
+echo "(space separated , help and version are added for you, no need to include them here)"
+read responseTypes
+if [ "$responseTypes" = "" ]
+then
+    RESPONSE_TYPES=${DEFAULT_RESPONSE}
+else
+    if [ "$responseTypes" != "none" ]
+    then
+	RESPONSE_TYPES=${responseTypes}
+    else
+	RESPONSE_TYPES=""
+    fi
+fi
+
+NEW_COMMANDS=
+echo "Enter new commands you are implementing:"
+read newCommands
+if [ "$newCommands" != "" ]
+then
+    NEW_COMMANDS=${newCommands}
+fi
+
+TRY_TR=`echo "abcd" | tr 'a-z' 'A-Z'`
+if [ "$TRY_TR" = "ABCD" ]
+then
+    HAVE_TR=1
+fi
+
+# just need to copy these files over. The developer will eventually need to
+# edit these.
+for i in COPYRIGHT COPYING NEWS README
+do
+/bin/cp ${TEMPLATE_DIR}/${i} ./
+done
+
+for i in RequestHandler.cc RequestHandler.h ResponseNames.h
+do
+/bin/cp ${TEMPLATE_DIR}/${i} ./${classPrefix}${i}
+ed ./${classPrefix}${i} << EOF > /dev/null 2>&1
+,s/OPENDAP_CLASS/${classPrefix}/g
+,s/OPENDAP_TYPE/${serverType}/g
+w
+q
+EOF
+done
+
+for i in Module.h Module.cc
+do
+/bin/cp ${TEMPLATE_DIR}/${i} ./${classPrefix}${i}
+ed ./${classPrefix}${i} << EOF > /dev/null 2>&1
+,s/OPENDAP_CLASS/${classPrefix}/g
+w
+q
+EOF
+done
+
+#for i in _handler.cc
+#do
+#/bin/cp ${TEMPLATE_DIR}/${i} ./${serverType}${i}
+#ed ./${serverType}${i} << EOF > /dev/null 2>&1
+#,s/OPENDAP_CLASS/${classPrefix}/g
+#,s/OPENDAP_TYPE/${serverType}/g
+#w
+#q
+#EOF
+#done
+
+#/bin/cp ${TEMPLATE_DIR}/config config_${serverType}.h.in
+#ed ./config_${serverType}.h.in << EOF > /dev/null 2>&1
+#,s/OPENDAP_CLASS/${classPrefix}/g
+#,s/OPENDAP_TYPE/${serverType}/g
+#w
+#q
+#EOF
+
+for i in Makefile.am.template configure.ac bes-data.sh.in module.spec.template
+do
+/bin/cp ${TEMPLATE_DIR}/${i} ./${i}
+ed ./${i} << EOF > /dev/null 2>&1
+,s/OPENDAP_CLASS/${classPrefix}/g
+,s/OPENDAP_TYPE/${serverType}/g
+w
+q
+EOF
+done
+/bin/mv Makefile.am.template Makefile.am
+/bin/mv bes-data.sh.in bes-${serverType}-data.sh.in
+/bin/mv module.spec.template ${serverType}_module.spec
+
+/bin/mkdir conf
+/bin/cp ${TEMPLATE_DIR}/conf/* conf/
+
+include_dap=0
+
+if [ "${RESPONSE_TYPES}" != "" ]
+then
+    for i in $RESPONSE_TYPES
+    do
+	ed ${classPrefix}RequestHandler.h << EOF > /dev/null 2>&1
+1
+/${serverType}_build_vers
+-1
+a
+    static bool		${serverType}_build_${i}( BESDataHandlerInterface &dhi ) ;
+.
+w
+q
+EOF
+	responseName=
+	if [ "$i" = "das" ]
+	then
+	    include_dap=1
+	    responseName="DAS"
+	    headerFile="BESDASResponse.h"
+	    castLine1="BESResponseObject *response ="
+	    castLine2="dhi.response_handler->get_response_object();"
+	    castLine3="BESDASResponse *bdas = dynamic_cast < BESDASResponse * >(response);"
+	    castLine4="DAS *das = bdas->get_das();"
+	elif [ "$i" = "dds" ]
+	then
+	    include_dap=1
+	    responseName="DDS"
+	    headerFile="BESDDSResponse.h"
+	    castLine="DDS *dds = dynamic_cast<DDS *>(dhi.response_handler->get_response_object());"
+	    castLine1="BESResponseObject *response ="
+	    castLine2="dhi.response_handler->get_response_object();"
+	    castLine3="BESDDSResponse *bdds = dynamic_cast < BESDDSResponse * >(response);"
+	    castLine4="DDS *dds = bdds->get_dds();"
+	elif [ "$i" = "data" ]
+	then
+	    include_dap=1
+	    responseName="DATA"
+	    headerFile="BESDataDDSResponse.h"
+	    castLine="DDS *dds = dynamic_cast<DDS *>(dhi.response_handler->get_response_object());"
+	    castLine1="BESResponseObject *response ="
+	    castLine2="dhi.response_handler->get_response_object();"
+	    castLine3="BESDataDDSResponse *bdds = dynamic_cast < BESDataDDSResponse * >(response);"
+	    castLine4="DataDDS *dds = bdds->get_dds();"
+	else
+	    headerFile=
+	    castLine1="BESResponseObject *response = dhi.response_handler->get_response_object() ;"
+	    castLine2=""
+	    castLine3=""
+	    castLine4=""
+	    if [ $HAVE_TR ]
+	    then
+		MACRO_NAME=`echo ${i} | tr 'a-z' 'A-Z'`
+		CAP_FIRST=`echo ${i} | cut -c 1 | tr 'a-z' 'A-Z'`
+		REST_NAME=`echo ${i} | cut -c 2-`
+		CAP_NAME=${CAP_FIRST}${REST_NAME}
+	    else
+		MACRO_NAME=${i}
+		CAP_NAME=${i}
+	    fi
+	    responseName="$MACRO_NAME"
+	    ed ${classPrefix}ResponseNames.h << EOF > /dev/null 2>&1
+/${classPrefix}_NAME
+a
+    #define ${MACRO_NAME}_RESPONSE "${i}"
+.
+w
+q
+EOF
+	    ed ${classPrefix}Module.cc << EOF > /dev/null 2>&1
+/${classPrefix}ResponseNames
+a
+#include "${classPrefix}${CAP_NAME}ResponseHandler.h"
+.
+/INIT_END
+-1
+a
+    BESDEBUG( modname, "    adding " << ${MACRO_NAME}_RESPONSE << " response handler" << endl ) ;
+    BESResponseHandlerList::TheList()->add_handler( ${MACRO_NAME}_RESPONSE, ${classPrefix}${CAP_NAME}ResponseHandler::${classPrefix}${CAP_NAME}ResponseBuilder ) ;
+
+.
+w
+/TERM_END
+-1
+a
+    BESDEBUG( modname, "    removing " << ${MACRO_NAME}_RESPONSE << " response handler" << endl ) ;
+    BESResponseHandlerList::TheList()->remove_handler( ${MACRO_NAME}_RESPONSE ) ;
+
+.
+w
+q
+EOF
+
+	/bin/cp ${TEMPLATE_DIR}/ResponseHandler.h ${classPrefix}${CAP_NAME}ResponseHandler.h
+	ed ./${classPrefix}${CAP_NAME}ResponseHandler.h << EOF > /dev/null 2>&1
+,s/OPENDAP_RESPONSE/${classPrefix}${CAP_NAME}/g
+w
+q
+EOF
+	/bin/cp ${TEMPLATE_DIR}/ResponseHandler.cc ${classPrefix}${CAP_NAME}ResponseHandler.cc
+	ed ./${classPrefix}${CAP_NAME}ResponseHandler.cc << EOF > /dev/null 2>&1
+,s/OPENDAP_RESPONSE/${classPrefix}${CAP_NAME}/g
+w
+q
+EOF
+
+	ed ./Makefile.am << EOF > /dev/null 2>&1
+/^BES_SRCS
+a
+	${classPrefix}${CAP_NAME}ResponseHandler.cc \\
+.
+/^BES_HDRS
+a
+	${classPrefix}${CAP_NAME}ResponseHandler.h \\
+.
+w
+q
+EOF
+
+	fi
+
+	if [ "$headerFile" != "" ]
+	then
+	    ed ${classPrefix}RequestHandler.cc << EOF > /dev/null 2>&1
+1
+/BESTextInfo
+a
+#include "${headerFile}"
+.
+w
+q
+EOF
+	fi
+
+	ed ${classPrefix}RequestHandler.cc << EOF > /dev/null 2>&1
+1
+/VERS_RESPONSE
+-1
+a
+    add_handler( ${responseName}_RESPONSE, ${classPrefix}RequestHandler::${serverType}_build_${i} ) ;
+.
+1
+/::${serverType}_build_vers(
+-2
+a
+bool
+${classPrefix}RequestHandler::${serverType}_build_${i}( BESDataHandlerInterface &dhi )
+{
+    bool ret = true ;
+    ${castLine1}
+    ${castLine2}
+    ${castLine3}
+    ${castLine4}
+
+    // Your code goes here
+
+    return ret ;
+}
+
+.
+w
+q
+EOF
+
+    done
+fi
+
+if [ $include_dap == 1 ]
+then
+    ed ${classPrefix}RequestHandler.cc << EOF > /dev/null 2>&1
+1
+/BESTextInfo
+a
+#include "BESDapNames.h"
+.
+w
+q
+EOF
+
+fi
+
+if [ "${NEW_COMMANDS}" != "" ]
+then
+    for i in ${NEW_COMMANDS}
+    do
+	if [ $HAVE_TR ]
+	then
+	    MACRO_NAME=`echo ${i} | tr 'a-z' 'A-Z'`
+	    CAP_FIRST=`echo ${i} | cut -c 1 | tr 'a-z' 'A-Z'`
+	    REST_NAME=`echo ${i} | cut -c 2-`
+	    CAP_NAME=${CAP_FIRST}${REST_NAME}
+	else
+	    MACRO_NAME=${i}
+	    CAP_NAME=${i}
+	fi
+	/bin/cp ${TEMPLATE_DIR}/XMLCommand.h ./${classPrefix}${CAP_NAME}XMLCommand.h
+	ed ./${classPrefix}${CAP_NAME}XMLCommand.h << EOF > /dev/null 2>&1
+,s/OPENDAP_CLASS/${classPrefix}/g
+,s/OPENDAP_COMMAND/${CAP_NAME}/g
+w
+q
+EOF
+
+	/bin/cp ${TEMPLATE_DIR}/XMLCommand.cc ./${classPrefix}${CAP_NAME}XMLCommand.cc
+	ed ./${classPrefix}${CAP_NAME}XMLCommand.cc << EOF > /dev/null 2>&1
+,s/OPENDAP_CLASS/${classPrefix}/g
+,s/OPENDAP_COMMAND/${CAP_NAME}/g
+w
+q
+EOF
+
+	/bin/cp ${TEMPLATE_DIR}/ResponseHandler.h ${classPrefix}${CAP_NAME}ResponseHandler.h
+	ed ./${classPrefix}${CAP_NAME}ResponseHandler.h << EOF > /dev/null 2>&1
+,s/OPENDAP_RESPONSE/${classPrefix}${CAP_NAME}/g
+w
+q
+EOF
+	/bin/cp ${TEMPLATE_DIR}/ResponseHandler.cc ${classPrefix}${CAP_NAME}ResponseHandler.cc
+	ed ./${classPrefix}${CAP_NAME}ResponseHandler.cc << EOF > /dev/null 2>&1
+,s/OPENDAP_RESPONSE/${classPrefix}${CAP_NAME}/g
+w
+q
+EOF
+
+	ed ${classPrefix}Module.cc << EOF > /dev/null 2>&1
+/${classPrefix}ResponseNames
+a
+#include "${classPrefix}${CAP_NAME}ResponseHandler.h"
+#include "${classPrefix}${CAP_NAME}XMLCommand.h"
+.
+/INIT_END
+-1
+a
+    BESDEBUG( modname, "    adding " << ${MACRO_NAME}_RESPONSE << " response handler" << endl ) ;
+    BESResponseHandlerList::TheList()->add_handler( ${MACRO_NAME}_RESPONSE, ${classPrefix}${CAP_NAME}ResponseHandler::${classPrefix}${CAP_NAME}ResponseBuilder ) ;
+
+    cmd_name = ${MACRO_NAME}_RESPONSE ;
+    BESDEBUG( modname, "    adding " << cmd_name << " command" << endl ) ;
+    BESXMLCommand::add_command( cmd_name, ${classPrefix}${CAP_NAME}XMLCommand::CommandBuilder ) ;
+
+.
+w
+/TERM_END
+-1
+a
+    BESDEBUG( modname, "    removing " << ${MACRO_NAME}_RESPONSE << " response handler" << endl ) ;
+    BESResponseHandlerList::TheList()->remove_handler( ${MACRO_NAME}_RESPONSE ) ;
+
+    cmd_name = ${MACRO_NAME}_RESPONSE ;
+    BESDEBUG( modname, "    removing " << cmd_name << " command" << endl ) ;
+    BESXMLCommand::del_command( cmd_name ) ;
+
+.
+w
+q
+EOF
+
+	ed ${classPrefix}RequestHandler.h << EOF > /dev/null 2>&1
+1
+/${serverType}_build_vers
+-1
+a
+    static bool		${serverType}_build_${i}( BESDataHandlerInterface &dhi ) ;
+.
+w
+q
+EOF
+
+	ed ${classPrefix}RequestHandler.cc << EOF > /dev/null 2>&1
+1
+/VERS_RESPONSE
+-1
+a
+    add_handler( ${MACRO_NAME}_RESPONSE, ${classPrefix}RequestHandler::${serverType}_build_${i} ) ;
+.
+1
+/::${serverType}_build_vers(
+-2
+a
+bool
+${classPrefix}RequestHandler::${serverType}_build_${i}( BESDataHandlerInterface &dhi )
+{
+    bool ret = true ;
+
+    // Your code goes here
+
+    return ret ;
+}
+
+.
+w
+q
+EOF
+
+	ed ${classPrefix}ResponseNames.h << EOF > /dev/null 2>&1
+/${classPrefix}_NAME
+a
+    #define ${MACRO_NAME}_RESPONSE "${i}"
+.
+w
+q
+EOF
+
+	ed ./Makefile.am << EOF > /dev/null 2>&1
+/^BES_SRCS
+a
+	${classPrefix}${CAP_NAME}ResponseHandler.cc ${classPrefix}${CAP_NAME}XMLCommand.cc \\
+.
+/^BES_HDRS
+a
+	${classPrefix}${CAP_NAME}ResponseHandler.h ${classPrefix}${CAP_NAME}XMLCommand.h \\
+.
+w
+q
+EOF
+
+    done
+fi
+
+echo "*******************************************************"
+echo "*                                                     *"
+echo "* Creating your configuration script                  *"
+echo "*                                                     *"
+echo "*******************************************************"
+autoreconf --force --install
+if [ $? != 0 ]
+then
+    echo "FAILED"
+    exit 1
+fi
+
+echo "*******************************************************"
+echo "*                                                     *"
+echo "* Running your configuration script                   *"
+echo "*                                                     *"
+echo "*******************************************************"
+./configure
+if [ $? != 0 ]
+then
+    echo "FAILED"
+    exit 1
+fi
+
+echo "*******************************************************"
+echo "*                                                     *"
+echo "* Building your server                                *"
+echo "*                                                     *"
+echo "*******************************************************"
+make
+if [ $? != 0 ]
+then
+    echo "FAILED"
+    exit 1
+fi
+
+echo "*******************************************************"
+echo "*                                                     *"
+echo "* Your ${classPrefix} files have been created"
+echo "*                                                     *"
+echo "* You will need to make modifications to some of the  *"
+echo "* code created here. Please refer to the document     *"
+echo "* OPeNDAPCreatingServer for more information          *"
+echo "*                                                     *"
+echo "*******************************************************"
+

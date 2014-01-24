@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test
+END
+getCapabilities_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/getCapabilities_01.xml
+END
+getCoverage_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/getCoverage_01.xml
+END
+describeCoverage_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/describeCoverage_01.xml
+END
+getCoverage_02.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/getCoverage_02.xml
+END
+getStoredCoverage_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/getStoredCoverage_01.xml
+END
+soapGetCapabilities_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/soapGetCapabilities_01.xml
+END
+getStoredCoverage_02.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/getStoredCoverage_02.xml
+END
+soapGetCoverage_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/soapGetCoverage_01.xml
+END
+soapDescribeCoverage_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/2.0/test/soapDescribeCoverage_01.xml
+END

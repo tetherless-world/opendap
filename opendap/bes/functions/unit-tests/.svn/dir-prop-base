@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 47
+test_config.h
+*Test
+Makefile
+Makefile.in
+.deps
+
+END

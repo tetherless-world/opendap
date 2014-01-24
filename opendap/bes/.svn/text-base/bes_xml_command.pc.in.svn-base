@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+ccompiler=@CC@
+cppcompiler=@CXX@
+
+Name: @PACKAGE@_xml_command
+Description: OPeNDAP Back End Server xml command library
+Version: @VERSION@
+Requires: bes_dispatch
+Libs: -L${libdir} -lbes_xml_command
+Cflags: -I${includedir}/bes

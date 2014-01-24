@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite
+END
+response_builder_send_data_ddx_test_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/response_builder_send_data_ddx_test_3.xml
+END
+error.01.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.01.ddx
+END
+error.02.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.02.ddx
+END
+error.03.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.03.ddx
+END
+error.04.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.04.ddx
+END
+DDX_from_dataddx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/DDX_from_dataddx.xml
+END
+error.05.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.05.ddx
+END
+error.06.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/error.06.ddx
+END
+test.1.other_xml.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.1.other_xml.ddx
+END
+test.0a.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.0a.ddx
+END
+test.2.other_xml.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.2.other_xml.ddx
+END
+test.0b.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.0b.ddx
+END
+test.3.other_xml.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.3.other_xml.ddx
+END
+test.0c.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.0c.ddx
+END
+test.0d.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.0d.ddx
+END
+response_builder_send_data_ddx_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/response_builder_send_data_ddx_test.xml
+END
+test.01.error.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.01.error.ddx
+END
+test.01.orig.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.01.orig.ddx
+END
+test.00.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.00.ddx
+END
+dataddx_without_top_headers.dap
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/dataddx_without_top_headers.dap
+END
+test.01.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.01.ddx
+END
+test.02.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.02.ddx
+END
+test.03.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.03.ddx
+END
+test.04.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.04.ddx
+END
+test.05.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.05.ddx
+END
+test.06.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.06.ddx
+END
+test.07.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.07.ddx
+END
+D1.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/D1.ddx
+END
+test.08.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.08.ddx
+END
+test.09.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/test.09.ddx
+END
+EOSDB.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/EOSDB.ddx
+END
+response_builder_send_ddx_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/ddx-testsuite/response_builder_send_ddx_test.xml
+END

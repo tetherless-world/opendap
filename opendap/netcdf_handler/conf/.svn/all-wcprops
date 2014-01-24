@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf
+END
+ax_path_generic.m4
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/ax_path_generic.m4
+END
+pkg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/pkg.m4
+END
+ax_compare_version.m4
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/ax_compare_version.m4
+END
+netcdf.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/netcdf.m4
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/acinclude.m4
+END
+bes.m4
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/bes.m4
+END
+libdap.m4
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/libdap.m4
+END
+netcdf_header.m4
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/conf/netcdf_header.m4
+END

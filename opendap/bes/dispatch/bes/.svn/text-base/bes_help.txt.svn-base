@@ -1,0 +1,89 @@
+Current core commands available with BES:
+
+    <showHelp />
+
+	* shows this help
+
+    <showVersion />
+
+	* shows the version of OPeNDAP and each data type served by this server
+
+    <showProcess />
+
+	* shows the process number of this application. This command is
+	  only available in developer mode.
+
+    <showStatus />
+
+	* shows the status of the server
+
+    <showConfig />
+
+	* shows all key/value pairs defined in the bes configuration file.
+	  This command is only available in developer mode.
+
+    <showContainers />
+
+	* shows all containers currently defined
+
+    <showDefinitions />
+
+	* shows all definitions currently defined
+
+    <showContext />
+
+	* shows all context name/value pairs set in the BES
+
+    <setContainer name="container_name" space="store_name" type="data_type">real_name</setContainer>
+
+	* defines a symbolic name representing a data container, usually
+	  a file, to be used by definitions, described below
+	* the space property is the name of the container storage and is
+	  optional.  Defaults to default volatile storage. Examples
+	  might include database storage, volatile storage based on
+	  catalog information.
+	* real_name is the full qualtified location of the data container, for example the full path to a data file.
+	* data_type is the type of data that is in the dataset.  For netcdf files it is nc. For some container storage the data type is optional, determined by the container storage.
+
+    <setContext name="context_name">context_value</setContext>
+
+	* set the given context with the given value. No default context
+	  are used in the BES
+
+    <define name="definition_name" space="store_name">
+	<container name="container_name">
+	    <constraint>legal_constraint</constraint>
+	    <attributes>attribute_list</attributes>
+	</container>
+	<aggregate handler="someHandler" cmd="someCommand" />
+    </define>
+
+	* creates a definition using one or more containers, constraints
+	  for each of the containers, attributes to be retrieved from
+	  each container, and an aggregation. Constraints, attributes,
+	  and aggregation are all optional.
+	* There can be more than one container element
+	* space is the name of the definition storage.  Defaults to
+	  volatile storage. Examples might include database storage.
+
+    <deleteContainer name="container_name" space="store_name" />
+
+	* deletes the specified container from the specified container
+	  storage (defaults to volatile storage).
+
+    <deleteContainers space="store_name" />
+
+	* deletes all of the currently defined containers from the
+	  specified container storage (defaults to volatile storage).
+
+    <deleteDefinition name="definition_name" space="store_name" />
+
+	* deletes the specified definition from the specified container
+	  storage (defaults to volatile storage).
+
+    <deleteDefinitions space="store_name" />
+
+	* deletes all of the currently defined defintions from the
+	  specified container storage (defaults to volatile storage).
+
+    For more information please contact Patrick West, pwest@ucar.edu

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader
+END
+DapRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/DapRequestHandler.cc
+END
+DapModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/DapModule.h
+END
+dapreader.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/dapreader.conf.in
+END
+DapRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/DapRequestHandler.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/Makefile.am
+END
+bes.log
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes.log
+END
+dapreader.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/dapreader.conf
+END
+DapResponseNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/DapResponseNames.h
+END
+DapModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/DapModule.cc
+END

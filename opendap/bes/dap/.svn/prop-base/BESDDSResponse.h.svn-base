@@ -1,0 +1,18 @@
+K 13
+svn:mergeinfo
+V 817
+/branch/bes/3.7.0/dispatch/BESDDSResponse.h:20094-20162
+/branch/bes/3.8.0/dispatch/BESDDSResponse.h:22097-22693
+/branch/bes/3.9/dispatch/BESDDSResponse.h:23579-24274
+/branch/bes/3.9.1/dispatch/BESDDSResponse.h:24467-24812
+/branch/bes/3.9.2/dispatch/BESDDSResponse.h:24813-24864
+/branch/bes/3.9.3/dispatch/BESDDSResponse.h:24911-25878
+/branch/bes/hyrax-1.8-release/dispatch/BESDDSResponse.h:25881-26281
+/branch/hyrax-1.5/bes-3.7.0/dispatch/BESDDSResponse.h:20163-20700
+/branch/ioos/src/bes/dispatch/BESDDSResponse.h:20378-21582
+/branch/multifile/bes/dispatch/BESDDSResponse.h:19313-19615
+/branch/xmlrequest/bes/dispatch/BESDDSResponse.h:19382-19855
+/branch/xmlresponse/bes/dispatch/BESDDSResponse.h:19990-20433
+/tags/bes/3.7.0/dispatch/BESDDSResponse.h:20092-20093
+/tags/bes/3.7.2/dispatch/BESDDSResponse.h:20701-20812
+END

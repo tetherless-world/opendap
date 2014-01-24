@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server
+END
+dap-server_help.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/dap-server_help.html
+END
+BESUsage.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsage.h
+END
+test-dispatch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/test-dispatch.sh
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/ChangeLog
+END
+COPYRIGHT_URI
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/COPYRIGHT_URI
+END
+BESUsageModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageModule.cc
+END
+usage.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/usage.cc
+END
+BESUsageRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageRequestHandler.cc
+END
+BESUsageModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageModule.h
+END
+usage.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/usage.h
+END
+BESUsageRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageRequestHandler.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/README
+END
+dap-server_help.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/dap-server_help.txt
+END
+BESUsageResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageResponseHandler.cc
+END
+dap-server.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/dap-server.conf.in
+END
+BESUsageResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageResponseHandler.h
+END
+dap-server.spec
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/dap-server.spec
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/configure.ac
+END
+BESUsageTransmit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageTransmit.cc
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/INSTALL
+END
+BESUsageTransmit.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageTransmit.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/COPYING
+END
+BESUsageNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/BESUsageNames.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/NEWS
+END
+.includepath
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/.includepath
+END

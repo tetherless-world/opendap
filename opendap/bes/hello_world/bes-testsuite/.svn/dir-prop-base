@@ -1,0 +1,19 @@
+K 10
+svn:ignore
+V 12
+Makefile.in
+
+K 13
+svn:mergeinfo
+V 566
+/branch/bes/3.7.0/hello_world/bes-testsuite:20094-20162
+/branch/bes/3.8.0/hello_world/bes-testsuite:22097-22693
+/branch/bes/3.9/hello_world/bes-testsuite:23579-24274
+/branch/bes/3.9.1/hello_world/bes-testsuite:24467-24812
+/branch/bes/3.9.2/hello_world/bes-testsuite:24813-24864
+/branch/bes/3.9.3/hello_world/bes-testsuite:24911-25485
+/branch/hyrax-1.5/bes-3.7.0/hello_world/bes-testsuite:20163-20700
+/branch/ioos/src/bes/hello_world/bes-testsuite:20378-21582
+/tags/bes/3.7.0/hello_world/bes-testsuite:20092-20093
+/tags/bes/3.7.2/hello_world/bes-testsuite:20701-20812
+END

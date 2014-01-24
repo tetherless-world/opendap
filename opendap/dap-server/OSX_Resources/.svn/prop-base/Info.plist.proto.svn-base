@@ -1,0 +1,14 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 15
+Id URL Rev Date
+K 13
+svn:mergeinfo
+V 126
+/branch/dap-server/4.1.1/OSX_Resources/Info.plist.proto:24468-24754
+/trunk/dap-server/OSX_Resources/Info.plist.proto:111-24282
+END

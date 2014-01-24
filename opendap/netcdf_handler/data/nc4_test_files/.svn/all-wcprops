@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files
+END
+ref_tst_compounds3.nc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds3.nc
+END
+ref_tst_compounds2.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds2.cdl
+END
+ref_tst_compounds5.nc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds5.nc
+END
+ref_tst_compounds3.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds3.cdl
+END
+nc4_unsigned_types_comp.nc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_unsigned_types_comp.nc
+END
+ref_tst_compounds4.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds4.cdl
+END
+make_nc4_unsigned_types.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/make_nc4_unsigned_types.c
+END
+ref_tst_compounds5.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds5.cdl
+END
+ref_tst_enum_data.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data.cdl
+END
+ref_tst_compounds.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds.cdl
+END
+ref_tst_enum_data_1.nc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data_1.nc
+END
+nc4_unsigned_types.nc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_unsigned_types.nc
+END
+ref_tst_opaque_data.nc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_opaque_data.nc
+END
+nc4_nc_classic_no_comp.ncgen
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_nc_classic_no_comp.ncgen
+END
+ref_tst_compounds2.nc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds2.nc
+END
+nc4_nc_classic_no_comp.nc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_nc_classic_no_comp.nc
+END
+ref_tst_compounds4.nc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds4.nc
+END
+ref_tst_enum_data.nc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data.nc
+END
+nc4_nc_classic_comp.nc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_nc_classic_comp.nc
+END
+nc4_strings.ncgen
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_strings.ncgen
+END
+nc4_strings.nc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_strings.nc
+END
+ref_tst_compounds.nc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_compounds.nc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/README
+END
+nc4_unsigned_types.ncgen
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_unsigned_types.ncgen
+END
+ref_tst_enum_data_2.nc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data_2.nc
+END
+ref_tst_enum_data_1.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data_1.cdl
+END
+ref_tst_enum_data_2.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_enum_data_2.cdl
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/Makefile.am
+END
+ref_tst_opaque_data.cdl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/ref_tst_opaque_data.cdl
+END
+make_nc4_strings_hacked.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/make_nc4_strings_hacked.c
+END
+nc4_strings_comp.nc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/27617/branch/tetherless-world/netcdf_handler/data/nc4_test_files/nc4_strings_comp.nc
+END

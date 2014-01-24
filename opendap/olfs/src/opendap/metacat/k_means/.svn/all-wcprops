@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means
+END
+Cluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/Cluster.java
+END
+ComponentFeatures.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/ComponentFeatures.java
+END
+DataPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/DataPoint.java
+END
+Centeroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/Centeroid.java
+END
+JCA.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/JCA.java
+END
+KMeans.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/metacat/k_means/KMeans.java
+END

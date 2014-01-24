@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 74
+besTest.dir
+atconfig
+atlocal
+besTest
+Makefile
+Makefile.in
+package.m4
+*.sh
+
+END

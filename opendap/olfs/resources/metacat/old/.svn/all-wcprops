@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old
+END
+classify_and_build_eml.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old/classify_and_build_eml.sh
+END
+thredds_crawler.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old/thredds_crawler.sh
+END
+dap_ingest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old/dap_ingest.sh
+END
+eml_builder.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old/eml_builder.sh
+END
+eml_retriever.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/metacat/old/eml_retriever.sh
+END

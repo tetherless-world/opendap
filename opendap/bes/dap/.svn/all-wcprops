@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap
+END
+BESDapModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapModule.h
+END
+dap_help.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/dap_help.txt
+END
+BESDapError.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapError.h
+END
+BESDataDDSResponse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataDDSResponse.cc
+END
+BESDataDDSResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataDDSResponse.h
+END
+BESDapTransmit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapTransmit.cc
+END
+BESDASResponse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDASResponse.cc
+END
+BESDASResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDASResponseHandler.h
+END
+BESDataDDXResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataDDXResponseHandler.cc
+END
+BESDDSResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDSResponseHandler.cc
+END
+BESDataResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataResponseHandler.h
+END
+BESDDSResponse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDSResponse.cc
+END
+BESDDSResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDSResponseHandler.h
+END
+BESDapNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapNames.h
+END
+BESDapErrorInfo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapErrorInfo.cc
+END
+BESDAPCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDAPCache.h
+END
+BESDapResponseBuilder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponseBuilder.cc
+END
+BESDDSResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDSResponse.h
+END
+BESDDXResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDXResponseHandler.cc
+END
+dap_help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/dap_help.xml
+END
+dap_help.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/dap_help.html
+END
+BESDapResponseCache.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponseCache.cc
+END
+BESDapResponseCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponseCache.h
+END
+BESDapModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapModule.cc
+END
+BESDapRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapRequestHandler.cc
+END
+BESDapRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapRequestHandler.h
+END
+BESDapError.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapError.cc
+END
+dap.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/dap.conf.in
+END
+BESDapResponse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponse.cc
+END
+BESDASResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDASResponseHandler.cc
+END
+BESDapResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponse.h
+END
+BESDapService.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapService.cc
+END
+BESDataResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataResponseHandler.cc
+END
+BESDapService.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapService.h
+END
+BESDapTransmit.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapTransmit.h
+END
+BESDAPCache.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDAPCache.cc
+END
+BESDASResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDASResponse.h
+END
+BESDataDDXResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDataDDXResponseHandler.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/Makefile.am
+END
+BESDapResponseBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapResponseBuilder.h
+END
+BESDapErrorInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDapErrorInfo.h
+END
+BESDDXResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/BESDDXResponseHandler.h
+END

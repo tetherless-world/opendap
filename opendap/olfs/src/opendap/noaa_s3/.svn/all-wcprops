@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3
+END
+RemoteResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/RemoteResource.java
+END
+S3CatalogServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3CatalogServlet.java
+END
+S3IndexedFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3IndexedFile.java
+END
+S3DapDispatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3DapDispatchHandler.java
+END
+S3BesApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3BesApi.java
+END
+S3CatalogManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3CatalogManager.java
+END
+S3Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/noaa_s3/S3Index.java
+END

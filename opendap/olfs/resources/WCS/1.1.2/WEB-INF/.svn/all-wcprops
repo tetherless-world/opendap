@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/WEB-INF
+END
+logback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/WEB-INF/logback.xml
+END
+urlrewrite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/WEB-INF/urlrewrite.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/WEB-INF/web.xml
+END
+logback-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/resources/WCS/1.1.2/WEB-INF/logback-test.xml
+END

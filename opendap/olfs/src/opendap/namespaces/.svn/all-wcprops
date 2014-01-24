@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces
+END
+NS.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/NS.java
+END
+XML.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/XML.java
+END
+SOAP.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/SOAP.java
+END
+DAP.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/DAP.java
+END
+XLINK.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/XLINK.java
+END
+DublinCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/DublinCore.java
+END
+DAP4.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/DAP4.java
+END
+BES.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/BES.java
+END
+NCML.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/NCML.java
+END
+THREDDS.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/namespaces/THREDDS.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/olfs.getdap
+END
+freeform.exp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/olfs.getdap/freeform.exp
+END
+hdf.exp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/olfs.getdap/hdf.exp
+END
+netcdf.exp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/testsuite/olfs.getdap/netcdf.exp
+END

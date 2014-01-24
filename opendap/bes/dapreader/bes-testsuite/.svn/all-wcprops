@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite
+END
+dapreader_moduleTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/dapreader_moduleTest.at
+END
+bes.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/bes.conf.in
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/atlocal.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/Makefile.am
+END
+package.m4
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dapreader/bes-testsuite/package.m4
+END

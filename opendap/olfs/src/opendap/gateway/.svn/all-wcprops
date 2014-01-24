@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway
+END
+Encoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/Encoder.java
+END
+GatewayDatasetInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/GatewayDatasetInfo.java
+END
+DispatchServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/DispatchServlet.java
+END
+BesGatewayApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/BesGatewayApi.java
+END
+GatewayForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/GatewayForm.java
+END
+DispatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/DispatchHandler.java
+END
+HexAsciiEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/gateway/HexAsciiEncoder.java
+END

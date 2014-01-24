@@ -1,0 +1,707 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler
+END
+HDF5UInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5UInt32.cc
+END
+HDF5Module.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Module.cc
+END
+HE5Var.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Var.h
+END
+HDF5UInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5UInt16.cc
+END
+HDF5RequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5RequestHandler.cc
+END
+HDF5UInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5UInt32.h
+END
+HDFEOS5CFMissNonLLCVArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFMissNonLLCVArray.cc
+END
+HE5GridPara.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5GridPara.h
+END
+h5gmcfdap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5gmcfdap.cc
+END
+HE5Parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Parser.h
+END
+h5das.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5das.cc
+END
+HE5Checker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Checker.cc
+END
+HDF5GCFProduct.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GCFProduct.cc
+END
+HDF5CFModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFModule.h
+END
+h5dds.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5dds.cc
+END
+h5cfdaputil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5cfdaputil.cc
+END
+HDF5GCFProduct.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GCFProduct.h
+END
+h5dds.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5dds.h
+END
+h5cfdap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5cfdap.cc
+END
+he5das.lex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/he5das.lex
+END
+HDF5Sequence.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Sequence.cc
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/configure.ac
+END
+HDF5Sequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Sequence.h
+END
+HDF5Float32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Float32.cc
+END
+heos5cfdap.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/heos5cfdap.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/COPYING
+END
+HDF5Array.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Array.cc
+END
+hdf5_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/hdf5_handler.h
+END
+HDF5CFStr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFStr.cc
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/NEWS
+END
+HDFEOS5CFMissLLArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFMissLLArray.cc
+END
+HE5Swath.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Swath.h
+END
+HDF5CFFloat32.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFFloat32.h
+END
+HDF5CFUtil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUtil.cc
+END
+h5gmcfdap.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5gmcfdap.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/ChangeLog
+END
+HDF5GMCFMissLLArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFMissLLArray.cc
+END
+HDF5CFUInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUInt32.h
+END
+HE5Checker.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Checker.h
+END
+HDF5Url.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Url.cc
+END
+HDF5Int16.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Int16.h
+END
+HDF5GMCFMissNonLLCVArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFMissNonLLCVArray.cc
+END
+h5cfdap.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5cfdap.h
+END
+HE5Dim.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Dim.h
+END
+h5get.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5get.h
+END
+HDF5Str.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Str.cc
+END
+HDF5Str.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Str.h
+END
+HDF5GMCFFillIndexArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFFillIndexArray.cc
+END
+common_tests.exp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/common_tests.exp
+END
+h5.conf.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5.conf.in
+END
+HDF5CFInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFInt16.h
+END
+h5commoncfdap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5commoncfdap.cc
+END
+h5commoncfdap.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5commoncfdap.h
+END
+he5das.yy
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/he5das.yy
+END
+HDF5GMSPCFArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMSPCFArray.h
+END
+he5dds.yy
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/he5dds.yy
+END
+HDF5CFArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFArray.cc
+END
+HDFEOS5CFSpecialCVArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFSpecialCVArray.cc
+END
+HDF5RequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5RequestHandler.h
+END
+HDF5CF.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CF.cc
+END
+HDF5CFFloat64.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFFloat64.cc
+END
+HDF5UInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5UInt16.h
+END
+HDFEOS5CFMissNonLLCVArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFMissNonLLCVArray.h
+END
+HDF5CF.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CF.h
+END
+HDF5CFFloat64.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFFloat64.h
+END
+HDFEOS5CFSpecialCVArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFSpecialCVArray.h
+END
+HDF5CFUInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUInt32.cc
+END
+HDF5CFModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFModule.cc
+END
+HDF5Int32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Int32.cc
+END
+HDF5CFUInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUInt16.cc
+END
+HDFEOS5CF.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CF.cc
+END
+HDF5Int16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Int16.cc
+END
+HDF5GMCFMissLLArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFMissLLArray.h
+END
+HDF5Byte.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Byte.cc
+END
+HDF5GMCFMissNonLLCVArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFMissNonLLCVArray.h
+END
+h5get.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5get.cc
+END
+heos5cfdap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/heos5cfdap.cc
+END
+HDF5BaseArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5BaseArray.h
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/INSTALL
+END
+HDF5Float32.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Float32.h
+END
+HDF5CFByte.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFByte.cc
+END
+HDF5CFByte.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFByte.h
+END
+test.nasa.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/test.nasa.sh
+END
+HDF5Float64.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Float64.cc
+END
+HDF5Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Array.h
+END
+hdf5_handler.spec
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/hdf5_handler.spec
+END
+HDF5PathFinder.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5PathFinder.cc
+END
+HDFEOS5CFMissLLArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDFEOS5CFMissLLArray.h
+END
+HDF5PathFinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5PathFinder.h
+END
+HDF5Module.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Module.h
+END
+HE5Parser.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Parser.cc
+END
+HDF5CFUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUtil.h
+END
+HDF5CFArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFArray.h
+END
+h5das.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5das.h
+END
+HDF5Structure.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Structure.cc
+END
+HDF5Int32.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Int32.h
+END
+HDF5CFUInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFUInt16.h
+END
+HDF5Structure.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Structure.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/README
+END
+h5cfdaputil.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/h5cfdaputil.h
+END
+HDF5Url.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Url.h
+END
+HDF5Byte.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Byte.h
+END
+HE5Za.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Za.h
+END
+HDF5CFInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFInt32.cc
+END
+he5dds.lex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/he5dds.lex
+END
+HDF5BaseArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5BaseArray.cc
+END
+HDF5CFInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFInt16.cc
+END
+HDF5CFInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFInt32.h
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/TODO
+END
+HDF5GMCFFillIndexArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCFFillIndexArray.h
+END
+HDF5GMCF.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMCF.cc
+END
+HDF5GMSPCFArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5GMSPCFArray.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/Makefile.am
+END
+HDF5Float64.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5Float64.h
+END
+HE5Grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HE5Grid.h
+END
+HDF5CFFloat32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFFloat32.cc
+END
+HDF5CFStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27618/branch/tetherless-world/hdf5_handler/HDF5CFStr.h
+END

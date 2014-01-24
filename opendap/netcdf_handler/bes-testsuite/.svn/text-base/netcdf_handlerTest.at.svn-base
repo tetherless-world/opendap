@@ -1,0 +1,18 @@
+# Process with autom4te to create an -*- Autotest -*- test suite.
+
+m4_include([handler_tests_macros.m4])
+
+AT_BESCMD_RESPONSE_TEST([coads_climatology.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([coads_climatology.nc.ddx.bescmd])
+AT_BESCMD_RESPONSE_TEST([fnoc1.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([fnoc1.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([fnoc1.nc.2.bescmd])
+AT_BESCMD_RESPONSE_TEST([test.nc.0.bescmd])
+AT_BESCMD_RESPONSE_TEST([test.nc.1.bescmd])
+AT_BESCMD_RESPONSE_TEST([test.nc.2.bescmd])
+AT_BESCMD_RESPONSE_TEST([test.nc.2a.bescmd])
+
+
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([fnoc1.nc.3.bescmd])
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([test.nc.3.bescmd])
+AT_BESCMD_BINARYDATA_RESPONSE_TEST([test.nc.3a.bescmd])

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/27619/branch/tetherless-world/olfs
+END
+mkPackage
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/mkPackage
+END
+reap_crawler_build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/reap_crawler_build.xml
+END
+mkTestPatch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/mkTestPatch
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/ChangeLog
+END
+make-check
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/make-check
+END
+wcs-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/wcs-build.xml
+END
+cluster_example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/cluster_example.xml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/README
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/build.xml
+END
+jwstest-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/jwstest-build.xml
+END
+glacier-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/glacier-build.xml
+END
+besclient-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/besclient-build.xml
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/COPYRIGHT
+END
+install.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/install.html
+END
+wcs2-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/wcs2-build.xml
+END
+k_means.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/k_means.xml
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/NEWS
+END

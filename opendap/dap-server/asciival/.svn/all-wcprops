@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival
+END
+AsciiGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiGrid.h
+END
+AsciiOutputFactory.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiOutputFactory.cc
+END
+AsciiOutputFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiOutputFactory.h
+END
+BESAsciiTransmit.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiTransmit.cc
+END
+BESAsciiNames.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiNames.h
+END
+AsciiStructure.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiStructure.cc
+END
+AsciiOutput.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiOutput.cc
+END
+AsciiInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiInt32.h
+END
+AsciiUrl.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUrl.cc
+END
+AsciiStructure.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiStructure.h
+END
+AsciiOutput.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiOutput.h
+END
+AsciiInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiInt16.h
+END
+AsciiUrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUrl.h
+END
+AsciiByte.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiByte.h
+END
+AsciiStr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiStr.cc
+END
+AsciiStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiStr.h
+END
+BESAsciiModule.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiModule.cc
+END
+BESAsciiRequestHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiRequestHandler.cc
+END
+AsciiFloat64.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiFloat64.h
+END
+BESAsciiRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiRequestHandler.h
+END
+AsciiUInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUInt32.cc
+END
+AsciiGrid.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiGrid.cc
+END
+AsciiUInt32.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUInt32.h
+END
+AsciiUInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUInt16.cc
+END
+BESAsciiResponseHandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiResponseHandler.cc
+END
+AsciiUInt16.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiUInt16.h
+END
+BESAsciiResponseHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiResponseHandler.h
+END
+BESAsciiTransmit.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiTransmit.h
+END
+AsciiInt32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiInt32.cc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/README
+END
+AsciiInt16.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiInt16.cc
+END
+AsciiByte.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiByte.cc
+END
+name_map.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/name_map.cc
+END
+name_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/name_map.h
+END
+AsciiSequence.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiSequence.cc
+END
+common_tests.exp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/common_tests.exp
+END
+AsciiSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiSequence.h
+END
+AsciiFloat32.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiFloat32.cc
+END
+AsciiFloat32.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiFloat32.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/Makefile.am
+END
+AsciiArray.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiArray.cc
+END
+get_ascii.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/get_ascii.cc
+END
+AsciiFloat64.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiFloat64.cc
+END
+AsciiArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/AsciiArray.h
+END
+get_ascii.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/get_ascii.h
+END
+BESAsciiModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27620/branch/tetherless-world/dap-server/asciival/BESAsciiModule.h
+END

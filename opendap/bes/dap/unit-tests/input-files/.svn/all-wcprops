@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files
+END
+send_das_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/send_das_baseline.txt
+END
+test.05.ddx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/test.05.ddx
+END
+coads.data
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/coads.data
+END
+send_dds_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/send_dds_baseline.txt
+END
+bears.data
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/bears.data
+END
+test.keys
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/test.keys
+END
+response_builder_send_ddx_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/response_builder_send_ddx_test.xml
+END
+simple_function_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27616/branch/tetherless-world/bes/dap/unit-tests/input-files/simple_function_baseline.txt
+END

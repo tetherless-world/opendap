@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests
+END
+ConnTestStrs.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ConnTestStrs.h
+END
+ConnTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ConnTest.cc
+END
+ExtConn.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ExtConn.cc
+END
+ConnTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ConnTest.h
+END
+ExtConn.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ExtConn.h
+END
+connT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/connT.cc
+END
+extT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/extT.cc
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/Makefile.am
+END
+ConnSocket.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ConnSocket.cc
+END
+ConnSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/ConnSocket.h
+END
+sbT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ppt/unit-tests/sbT.cc
+END

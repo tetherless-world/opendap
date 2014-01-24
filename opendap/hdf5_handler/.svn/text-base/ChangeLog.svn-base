@@ -1,0 +1,1408 @@
+2013-10-21  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h4cfdaputil.cc:
+	fixed double escaping problem.
+	
+2013-10-11  James Gallagher  <jgallagher@opendap.org>
+
+	* HDF5Array.cc
+	* HDF5BaseArray.cc
+	* HDF5Byte.cc
+	* HDF5CFArray.cc
+	* HDF5CFStr.cc
+	* HDF5Float32.cc
+	* HDF5Float64.cc
+	* HDF5GMCFFillIndexArray.cc
+	* HDF5GMCFMissLLArray.cc
+	* HDF5GMCFMissNonLLCVArray.cc
+	* HDF5GMSPCFArray.cc
+	* HDF5Int16.cc
+	* HDF5Int32.cc
+	* HDF5Sequence.cc
+	* HDF5Str.cc
+	* HDF5Structure.cc
+	* HDF5UInt16.cc
+	* HDF5UInt32.cc
+	* HDF5Url.cc
+	* HDFEOS5CFMissLLArray.cc
+	* HDFEOS5CFMissNonLLCVArray.cc
+	* HDFEOS5CFSpecialCVArray.cc:
+	edited to match the new, sane, sematics for for BaseType::read().
+
+2013-10-14  MuQun Yang <myang6@hdfgroup.org>
+
+	* h5cfdaputil.cc
+	* h5cfdaputil.h
+	* h5commoncfdap.cc:
+	escaped special characters.
+
+2013-09-06  MuQun Yang <myang6@hdfgroup.org>
+
+	* HDF5UInt32.cc
+	* HDF5UInt16.cc
+	* h5gmcfdap.cc
+	* h5das.cc
+	* h5dds.cc
+	* HDF5Float32.cc
+	* HDF5Array.cc
+	* HDF5Str.cc
+	* h5commoncfdap.cc
+	* HDF5Int32.cc
+	* HDF5Int16.cc
+	* HDF5Byte.cc
+	* heos5cfdap.cc
+	* HDF5Float64.cc
+	* HDF5Structure.cc
+	improved code to address issues.
+
+2013-08-28  James Gallagher  <jgallagher@opendap.org>
+
+	* he5das.y, he5dds.y, he5das.lex, he5das.yy, he5dds.yy, he5dds.lex
+	* heos5cfdap.cc,Makefile.am
+	fixed the bison/flex parser/scanner code so that it works with a
+	modern version (2.5++) of bison.
+
+
+2013-08-21  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HDFEOS5CF.cc|HDFEOS5CF.cc: fixed bug for MLS L2GP DGG v03 products.
+
+2013-05-09  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* test.nasa.sh: added comments and removed hyrax version number.
+	* HDF5BaseArray.cc: cleaned up code.
+	* HDF5CFArray.cc: cleaned up code.
+	* HDF5GMCFMissLLArray.cc: cleaned up code.
+	* HDF5GMSPCFArray.cc: cleaned up code.
+	* HDFEOS5CFSpecialCVArray.cc: cleaned up code.
+
+2013-01-22  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* NEWS
+	* configure.ac
+	* hdf5_handler.spec
+	changed version to 2.2.0
+	* HDF5RequestHandler.cc: cleaned up codes that are commented out.
+	* HDFEOS5CF.cc: cleaned up codes that are commented out.
+
+2013-01-17  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* data/swath_1_2d_xyzz.h5: file name is changed from
+	swath_1_3d_xyzz.h5.testsuite is updated accordingly.
+
+
+2013-01-03  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* INSTALL:added information about optional NASA data testing.
+	* test.nasa.sh:added for optional testing with real NASA data files.
+	* bes-testsuite/h5.nasa/:added for optional testing with real NASA
+	data files.
+	* bes-testsuite/hdf5_handlerTest.nasa.at:added for optional testing
+	with real NASA data files.
+
+2012-12-29  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* h5cfdap.cc: made DDS name be the file name.
+	* HDF5GMCF.cc: fixed dimension scale HDF5 dataset handling when CLASS
+	attribute is not DIMENSION_SCALE. This is fix for ICESat/GLAS product.
+
+2012-12-14  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* NEWS
+	* configure.ac
+	* hdf5_handler.spec
+	changed version to 2.1.2
+	* Makefile.am: updated to support dimension scale.
+	* HDF5CF.h: updated to support dimension scale.
+	* HDF5GMCF.cc: updated to support dimension scale.
+	* h5gmcfdap.cc: updated to support dimension scale.
+	* HDF5GMCFFillIndexArray.h: added to support dimension scale.
+	* HDF5GMCFFillIndexArray.cc:added to support  dimension scale.
+	* he5dds.y: fixed to handle OMI products that have dimension names like
+	1,2.
+	* heos5cfdap.cc:fixed to handle ArchiveMetadata correctly.
+	* HDFEOS5CF.cc: removed debugging information.
+
+
+2012-11-27  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HDF5GCFProduct.cc:added a dummy netCDF-4 handling function	
+	* HDF5GCFProduct.h:added a dummy netCDF-4 handling function	
+	* heos5cfdap.cc:handled the concatenation of coremetadata.0 and 
+	  coremeata.0.1
+	* h5commoncfdap.cc:
+   	  fixed a critical typo. This caused a bug to access BUV files
+	* h5gmcfdap.cc:
+	  fixed a critical typo. This caused a bug to access BUV files
+
+2012-10-26  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* NEWS 
+	* configure.ac
+	* hdf5_handler.spec
+	changed version to 2.1.1.
+
+2012-06-08  hyoklee
+
+	added a special note about make check failure in Hyrax-1.7.1.
+
+2012-06-08  hyoklee
+
+	added a special note about RPM building.
+
+2012-06-07  hyoklee
+
+	corrected the required autoconf version and correted the external link.
+
+2012-06-07  hyoklee
+
+	Kent revised INSTALL and README further. updated NEWS and TODO.
+
+2012-06-06  hyoklee
+
+	Updated release documents;turned off name clashing check;corrected BESDEBUG outputs.
+
+2012-05-30  hyoklee
+
+	changed fullpath to fullpathname for group attribute to be consistent.
+
+2012-05-25  hyoklee
+
+	Upgraded hdf5_handler to 2.0.0. More documentaiton update will come.
+
+2012-05-21  hyoklee
+
+	Removed useless file.
+
+2012-05-21  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* reengineered handler for the better support of CF option.
+
+2012-02-01  James Gallagher <jgallagher@opendap.org>
+
+	Fixed an issue with attributes that use varying length strings in
+	HDF5 files.
+
+2012-01-31  James Gallagher <jgallagher@opendap.org>
+
+	Fixed an error introduced in the previous checkin. Also include a
+	short example of how I think the variable length string attributes
+	should be accessed. See line 819 of h5das.cc.
+
+2012-01-31  James Gallagher <jgallagher@opendap.org>
+
+	Fixes for ticket 1878; the IgnoreUnknownTypes option was not
+	implemented correctly for DAP variables. Fixed. Expanded the
+	meaning of the option to include other cases where common
+	clients (e.g., Panoply) elide variables that would otherwise cause
+	an error.
+
+2012-01-11  James Gallagher <jgallagher@opendap.org>
+
+	Updates for Hyrax 1.8
+
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	M    INSTALL
+	M    hdf5_handler.spec
+	M    README
+
+2012-01-09  James Gallagher <jgallagher@opendap.org>
+
+	Code review.
+
+	M    h5das.cc
+	M    HDF5Array.cc
+	M    HDF5Array.h
+
+2011-12-08  hyoklee
+
+	corrected typo in error outputs.
+
+2011-12-08  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HDF5Array.cc (m_array_of_reference): corrected typos.
+
+2011-12-01  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HDF5Array.cc (m_array_of_reference): fixed bug in object reference
+	handling.
+
+2011-11-22  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5das.cc (is_mappable): added two more unsupported types checking.
+
+2011-10-28  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+	* HDF5Array.cc (read): handled Int8 to Int16 conversion correctly.
+
+2011-10-27  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5das.cc (read_objects): added Int8 to Int16 conversion.
+	* h5get.cc (get_dap_type): changed Int16 to Int8.
+
+2011-04-20  James Gallagher <jgallagher@opendap.org>
+
+	Hyrax 1.7 release
+
+2011-04-05  James Gallagher <jgallagher@opendap.org>
+
+	I removed much of the code switched out using '//' or #if 0 if
+	those switches or comments were added as part of the code review.
+
+	M    HDF5UInt32.cc
+	M    HDF5ArrayEOS.cc
+	M    HDF5RequestHandler.cc
+	M    HDF5UInt16.cc
+	M    h5das.cc
+	M    h5dds.cc
+	M    h5dds.h
+	M    HDF5Float32.cc
+	M    HDF5Array.cc
+	M    hdf5_handler.h
+	M    HDF5Str.cc
+	M    HDF5Int32.cc
+	M    HDF5Int16.cc
+	M    HDF5Byte.cc
+	M    h5get.cc
+	M    HDF5Float64.cc
+	M    HDF5ArrayEOS.h
+	M    HE5Parser.cc
+
+2011-04-05  James Gallagher <jgallagher@opendap.org>
+
+	I found one line where names were changed to CF compilant names
+	without the #ifdef CF protection. I added it and the issue with
+	failed tests went away.
+
+	M    h5dds.cc
+
+2011-03-28  James Gallagher <jgallagher@opendap.org>
+
+	1.7RC1
+
+2011-03-17  Nathan Potter <ndp@coas.oregonstate.edu>
+
+	hdf5_handler: Added automated version numbers to OSX Package builds
+
+2011-03-17  muqun
+
+	Just reflect that we create a patch for 1.4.3 version for NASA.
+
+2011-03-14  muqun
+
+	1. This check-in provides the partial support of handling multiple
+	HDF-EOS5 swaths. It will only work for all swaths share the same
+	coordinate variables. The solution is mainly for handling Aura MLS
+	data. The robust and general solutions should be in the future.
+	
+	2. Special characters inside the variable names are also handled.
+	This was discovered by HIRDLS data.
+
+2011-03-08  James Gallagher <jgallagher@opendap.org>
+
+	Merge for hyrax 1.7 from the hyrax_1.6.2_release branch of shrew
+	to the trunk
+
+	_M   .
+	D    OSX_Resources/InstallationCheck
+	A  + OSX_Resources/InstallationCheck.proto
+	D    OSX_Resources/Info.plist
+	A  + OSX_Resources/Info.plist.proto
+	M    conf/hdf5.m4
+	_M   HE5ShortName.h
+	M    Makefile.am
+
+2011-02-08  James Gallagher <jgallagher@opendap.org>
+
+	removed unneeded mime_util.h and util.h includes; added comments
+	about sending mime headers in our handlers (which may not be
+	needed).
+
+2010-12-23  hyoklee
+
+	Fixed a 64-bit bug for MLS v3 and HIRDLS v5.
+
+2010-12-17  hyoklee
+
+	Bug fixes for augmented files that have DIMENSION_LIST attributes.
+	Bug fixes for debug mode.
+
+2010-12-17  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	h5das.cc: bug fixes for augmented files (HIRDLS v5 / MLS v3).
+	h5das.h: bug fixes for augmented files (HIRDLS v5 / MLS v3).
+	h5get.cc: bug fix for debug mode.
+	HDF5Array.cc: bug fix for debug mode.
+
+2010-09-03  muqun
+
+	Fix for the bug in the debug mode testing; s2_t is defined multiple times
+
+2010-08-30  muqun
+
+	Missed initialization added
+
+2010-08-27  muqun
+
+	Debug: Shortening dimension path
+
+2010-08-27  muqun
+
+	Added Xdim and Ydim to the name conversion map
+
+2010-08-20  muqun
+
+	MKDIR_P problem in the configure.ac is fixed
+
+2010-08-16  muqun
+
+	1.4.2 release info
+
+2010-08-16  muqun
+
+	Grid parsing tests are done only when --enable-cf is given
+
+2010-08-15 Eunsoo Seo <eseo2@hdfgroup.org>
+	* A bug in the Grid lat/lon calculation logic is fixed.
+	  Previously, the logic did not use PixelRegistration and
+	  GridOrigin information.
+	* If there are >1 grids in a file, they are required to
+	  use the same grid parameters (Projection, PixelRegistration,
+	  GridOrigin, UpperLeftPointMtrs and LowerRightMtrs.
+	  This was not checked in the previous version.
+
+2010-04-28  hyoklee
+
+	Updated ChangeLog.
+
+2010-04-28  hyoklee
+
+	Added H5Aclose to improve performance under HDF5-1.8.x library.
+
+2010-04-28  James Gallagher <jgallagher@opendap.org>
+
+	Removed old EXTRADIST items (removed some of the old, unused,
+	dejaGNU files.
+
+2010-04-28  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5get.cc has H5Aclose(). This improves performance under
+          HDF5-1.8.x library.
+
+	* h5das.cc has H5Aclose(). This improves performance under
+          HDF5-1.8.x library.
+
+2010-02-10  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HE5Parser.cc has new limit(=30) for StructMetadata files to scan.
+	* HDF5RequestHandler.cc has more meaningful error message when it 
+	  deals with multiple Swaths case.
+	* h5das.cc checks null pointers when it adds group information.
+
+2010-02-03  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HE5Parser.cc is cleaned up and checks 30 metadata files
+
+2010-02-01  rduncan
+
+	Release 1/01/2010
+
+2010-01-29  hyoklee
+
+	Fixed the coompilation error when DEBUG mode is enabled.
+
+2010-01-22  Patrick West <pwest@ucar.edu>
+
+	RPM to use h5.conf instead of bes-hdf5-data.sh
+	M    hdf5_handler.spec
+
+2010-01-21  hyoklee
+
+	Bug fix Ticket #1211 and documentation update.
+
+2010-01-21  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* doc/Doxygen is added.
+	* configure.ac set version to 1.3.5 in AC_INIT().
+	* h5get.cc updated comments for Doxygen.
+	* h5dds.cc updated comments for Doxygen.
+	* h5das.cc updated comments for Doxygen.
+	* HE5Parser.h removed useless boolean variables.
+
+2010-01-20  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5das.cc removed double quotes.
+	* h5das.cc renamed COARDS,GrADS to CF-1.4.
+	* h5das.cc added fake in lev/time long_name attribute.
+
+2010-01-19  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	Corrected the missing dimension names in the old(<2007) OMUVB product.
+
+2010-01-12  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	Corrected coordinates attribute for 2D-swath case.
+	
+	* HE5Parser.cc has now set_swath_2D().
+	* h5das.cc removed extra "lat lon" attribute insertion.
+
+	Re-organized source codes and made swath handling robust.
+	
+	* HE5CFGrid class is added.
+	* HE5CSwath class is added.
+	* common.h is removed.
+	* hdf5_handler.h has the contents of the old common.h.
+	
+2009-12-18  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HE5Parser.cc fix for Ticket #1460.
+
+2009-12-11  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* hdfeos_das.lex/y is renamed to he5das.lex/y 
+	* hdfeos.lex/y is renamed to he5dds.lex/y 
+	* H5EOS.h/cc is renamed to HE5Parser.h/cc.
+	* H5CF.h/cc is renamed to HE5CF.h/cc.
+	* H5ShortName.h/cc is renamed to HE5ShortName.h/cc.
+	* H5PathFinder.h/cc is renamed to HDF5PathFinder.h/cc.
+
+2009-12-10  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5_handler.h is renamed to hdf5_handler.h and is cleaned-up.
+	* H5Git.h/cc is renamed to h5get.h/cc to distinguish them from classes.
+
+2009-10-07  James Gallagher <jgallagher@opendap.org>
+
+	This version is for the special (source) release of the handler
+	that includes support for HDF-EOS5.
+
+	A    http://scm.opendap.org/svn/tags/hdf5_handler/1.3.4
+
+2009-10-06  hyoklee
+
+	Fixed suppressing path from a dataset name of an h4toh5 converted
+	file when --enable-cf option is active.
+
+2009-10-02  hyoklee
+
+	Documented change for swath and dimension scale support.
+
+2009-10-02  H. Lee  <hyoklee@hdfgroup.org>
+
+	Added support for HDF5 dimension scale.
+	Added support for HDF-EOS5 OMI swath.
+
+2009-03-18  Patrick West <pwest@ucar.edu>
+
+	Memory allocation issues cleaned up
+	M    hdf5_handler-1.3.0/HDF5Array.cc
+	M    hdf5_handler-1.3.0/HDF5Str.cc
+	M    hdf5_handler-1.3.0/HDF5Int32.cc
+	M    hdf5_handler-1.3.0/HDF5Int16.cc
+	M    hdf5_handler-1.3.0/HDF5Byte.cc
+	M    hdf5_handler-1.3.0/HDF5Float64.cc
+
+2009-03-18  Patrick West <pwest@ucar.edu>
+
+	Memory cleanup issues
+	M    hdf5_handler-1.3.0/HDF5UInt32.cc
+	M    hdf5_handler-1.3.0/HDF5UInt16.cc
+	M    hdf5_handler-1.3.0/h5das.cc
+	M    hdf5_handler-1.3.0/h5dds.cc
+	M    hdf5_handler-1.3.0/H5Git.cc
+	M    hdf5_handler-1.3.0/HDF5Float32.cc
+
+2009-03-18  hyoklee
+
+	Removed an unnecessary bound check. This is a fix for the test FAIL on bes-testsuite/bes-testsuite/besstandalone.h5/tcompound.h5.3.exp.
+
+2009-03-16  James Gallagher <jgallagher@opendap.org>
+
+	Code review.
+
+	M    HDF5UInt32.cc
+	M    HDF5Module.cc
+	M    HDF5UInt16.cc
+	M    h5das.cc
+	M    h5dds.cc
+	M    H5Git.cc
+	M    HDF5Float32.cc
+	M    HDF5Array.cc
+	M    HDF5Str.cc
+	M    HDF5Int32.cc
+	M    HDF5Int16.cc
+	M    HDF5Byte.cc
+	M    HDF5Float64.cc
+	M    HDF5Module.h
+
+2009-03-08  Patrick West <pwest@ucar.edu>
+
+	POST_CONSTRAINT issues with multiple containers. Call set_constraint on
+	BESDapResponse in order to properly have the post constraint set.
+
+	M    HDF5RequestHandler.cc
+
+2009-03-08  Patrick West <pwest@ucar.edu>
+
+	Added handles attribute to help response, specifying what services the
+	module handles.
+
+	M    HDF5RequestHandler.cc
+
+2009-03-04  Patrick West <pwest@ucar.edu>
+
+	container storage and catalog list reference changes
+	
+	M    hdf5_handler-1.3.0/HDF5Module.cc
+
+2009-02-20  James Gallagher <jgallagher@opendap.org>
+
+	Merged the xmlresponse branch with the Hyrax 1.5 release branch.
+
+	_M   .
+	M    HDF5Module.cc
+	M    HDF5RequestHandler.cc
+
+2009-02-20  James Gallagher <jgallagher@opendap.org>
+
+	Added paths to the hdf5.m4 file for macports and fink
+
+2009-02-09  James Gallagher <jgallagher@opendap.org>
+
+	Tests were failing for the hdf5 handler because the baseline files
+	were using XDAP: 3.1 but libdap is now using XDAP: 3.2. I change
+	the line to XDAP: *. The tests pass.
+
+2009-01-30  James Gallagher <jgallagher@opendap.org>
+
+	Moved here to coalesce the branches
+
+2009-01-29  James Gallagher <jgallagher@opendap.org>
+
+	Change ff to h5 in Makefile.am EXTRA_DIST target.
+
+	M    bes-testsuite/Makefile.am
+
+2009-01-29  James Gallagher <jgallagher@opendap.org>
+
+	Hyrax 1.5
+
+	A    http://scm.opendap.org/svn/branch/hdf5_handler/1.3.0
+
+2009-01-29  James Gallagher <jgallagher@opendap.org>
+
+	Release 1.3.0
+
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	M    INSTALL
+	M    hdf5_handler.spec
+	M    README
+
+2009-01-16  hyoklee
+
+	First, HDF5 to DAP Mapping change: 1) Int64 throws an exception, no more mapping into Int32 2) Signed Byte is mapped to Int16 in both DDS and DAS. Second, attribute change for enable-cf option. The NC_GLOBAL attribute is produced if valid Grid projection in NASA EOS AURA file is detected. Resolution, min and max attributes for lat/lon are extracted from structMetadata.
+
+;; Local Variables:
+;; coding: utf-8
+;; End:
+2009-01-16  hyoklee
+
+	First, HDF5 to DAP Mapping change: 1) Int64 throws an exception,
+	no more mapping into Int32 2) Signed Byte is mapped to Int16 in
+	both DDS and DAS. Second, attribute change for enable-cf option.
+	The NC_GLOBAL attribute is produced if valid Grid projection in
+	NASA EOS AURA file is detected. Resolution, min and max attributes
+	for lat/lon are extracted from structMetadata.
+
+2009-01-13  hyoklee
+
+	Removed test files that have 64-bit integer dataset.
+
+2008-11-25  hyoklee
+
+	Under Hyrax, Grids are generated instead of Arrays for Aura Swath
+	data files.
+
+2008-11-25  hyoklee
+
+	Under Hyrax, Grids are generated instead of Arrays for Aura Swath
+	data files.
+
+2008-11-14  James Gallagher <jgallagher@opendap.org>
+
+	Merged the xmlrequest branch to the trunk.
+
+	_M   .
+	M    h5_handler.cc
+	M    bes-testsuite/h5/tcompound.h5.2.bescmd
+	M    bes-testsuite/h5/tcompound.h5.3.bescmd
+	M    bes-testsuite/h5/tcompound.h5.0.bescmd
+	M    bes-testsuite/h5/tcompound.h5.1.bescmd
+
+2008-11-06  James Gallagher <jgallagher@opendap.org>
+
+	Property mods for the directory.
+
+	_M   .
+
+2008-10-28  hyoklee
+
+	THG is changed to The HDF Group
+
+2008-10-27  hyoklee
+
+	Fixed a compilation error when CF option is enabled.
+
+2008-10-24  hyoklee
+
+	H5EOS::reset() is added to fix a bug of concatenating Metadata
+	string under Hyrax.
+
+2008-10-24  hyoklee
+
+	Removed duplicate if/else statements.
+
+2008-10-24  hyoklee
+
+	Cleaned up code.
+
+2008-09-17  James Gallagher <jgallagher@opendap.org>
+
+	Merged multifile branch
+
+2008-09-12  hyoklee
+
+	Comments are fixed to remove warning messages from Doxygen.
+
+2008-08-28  Patrick West <pwest@ucar.edu>
+
+	BES regression tests for hdf5 handler using besstandalone
+	
+	M    configure.ac
+	A    bes-testsuite
+	A    bes-testsuite/bes.conf.in
+	A    bes-testsuite/common_tests.exp
+	A    bes-testsuite/config
+	A    bes-testsuite/config/unix.exp
+	A    bes-testsuite/Makefile.am
+	A    bes-testsuite/h5
+	A    bes-testsuite/h5/tcompound.h5.1.bescmd.baseline
+	A    bes-testsuite/h5/tcompound.h5.2.bescmd
+	A    bes-testsuite/h5/tcompound.h5.2.bescmd.baseline
+	A    bes-testsuite/h5/tcompound.h5.3.bescmd
+	A    bes-testsuite/h5/tcompound.h5.3.bescmd.baseline
+	A    bes-testsuite/h5/tcompound.h5.0.bescmd
+	A    bes-testsuite/h5/tcompound.h5.0.bescmd.baseline
+	A    bes-testsuite/h5/tcompound.h5.1.bescmd
+	A    bes-testsuite/besstandalone.h5
+	A    bes-testsuite/besstandalone.h5/tcompound.h5.3.exp
+	A    bes-testsuite/besstandalone.h5/tcompound.h5.0.exp
+	A    bes-testsuite/besstandalone.h5/tcompound.h5.1.exp
+	A    bes-testsuite/besstandalone.h5/tcompound.h5.2.exp
+	M    Makefile.am
+
+2008-08-14  hyoklee
+
+	Added a URL for detailed installation instructions.
+
+2008-08-07  hyoklee
+
+	Shortened the referenced names for SHORT_PATH configuration option.
+
+2008-08-07  hyoklee
+
+	Fixed the compilation errors that are generated when DODS_DEBUG is
+	defined. Fixed the problem of concatenating array subscripts in
+	URL string generation from HDF5 references. Fixed the segmentation
+	fault problem in reading URL dataset by replacing Vector::value()
+	with Vector::set_value().
+
+2008-07-31  James Gallagher <jgallagher@opendap.org>
+
+	Fix for ticket 1163 - String attributes no longer have quotes
+	added to their values.
+
+	M    h5das.cc
+	M    hdfeos_das.y
+	M    testsuite/Grid.das
+	M    testsuite/OMI-Aura_L2G-OMTO3G_2004m0817_v002-2006m0301t154534.SUB.das
+
+2008-07-22  James Gallagher <jgallagher@opendap.org>
+
+	Updates for the 1.2.3 release.
+
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	M    hdf5_handler.spec
+	M    README
+
+2008-07-18  hyoklee
+
+	The problem of dropping shared dimension variable in Hyrax is fixed when CF configuration option is enabled.
+
+2008-07-18  hyoklee
+
+	h5dds.cc compilation problem and reading the shared dimension variables are fixed when CF option is enabled.
+
+;; Local Variables:
+;; coding: utf-8
+;; End:
+2008-07-18  hyoklee
+
+	The problem of dropping shared dimension variable in Hyrax is
+	fixed when CF configuration option is enabled.
+
+2008-07-18  hyoklee
+
+	h5dds.cc compilation problem and reading the shared dimension
+	variables are fixed when CF option is enabled.
+
+2008-07-17  hyoklee
+
+	When CF option is enabled, a variable's name will start with '/'
+	like '/CloudFraction' in DAS if you don't increment the substring
+	pointer.
+
+2008-07-16  Patrick West <pwest@ucar.edu>
+
+	Checking results of dynamic cast and throwing cast error if fails.
+	
+	M    HDF5RequestHandler.cc
+
+2008-05-30  Patrick West <pwest@ucar.edu>
+
+	Module checking to see if catalog already added. RequestHandler
+	now adding ancillary information to the das and dds.
+	
+	M    HDF5Module.cc
+	M    HDF5RequestHandler.cc
+
+2008-05-22  hyoklee
+
+	Replaced hdfeos.tab.h into hdfeos.tab.hh.
+
+2008-05-12  hyoklee
+
+	Fixed the ticket #1113. Testsuite is updated accordingly.
+
+2008-05-03  James Gallagher <jgallagher@opendap.org>
+
+	Changes from code review.
+
+	M    HDF5UInt32.cc
+	M    HDF5ArrayEOS.cc
+	M    HDF5RequestHandler.cc
+	M    HDF5UInt16.cc
+	M    HDF5UInt32.h
+	M    h5das.cc
+	M    h5dds.cc
+	M    h5dds.h
+	M    HDF5Sequence.cc
+	M    H5Git.cc
+	M    HDF5Sequence.h
+	M    HDF5Float32.cc
+	M    HDF5Array.cc
+	M    HDF5Grid.h
+	M    testsuite/dap_h5_handler.0/basic.exp
+	M    testsuite/config/unix.exp
+	M    HDF5Url.cc
+	M    HDF5Int16.h
+	M    HDF5Str.cc
+	M    HDF5Str.h
+	M    HDF5Grid.cc
+	M    HDF5UInt16.h
+	M    HDF5GridEOS.cc
+	M    HDF5GridEOS.h
+	M    HDF5Int32.cc
+	M    HDF5Int16.cc
+	M    HDF5Byte.cc
+	M    HDF5Float32.h
+	M    HDF5Float64.cc
+	M    HDF5Array.h
+	M    HDF5ArrayEOS.h
+	M    h5das.h
+	M    HDF5Structure.cc
+	M    HDF5Int32.h
+	M    HDF5Structure.h
+	M    HDF5Url.h
+	M    HDF5Byte.h
+	M    H5Git.h
+	M    Makefile.am
+	M    HDF5Float64.h
+
+2008-04-10  James Gallagher <jgallagher@opendap.org>
+
+	Changes from code review.
+
+	M    hdfeos_das.lex
+	M    h5das.cc
+	M    h5dds.cc
+	M    H5Git.cc
+	M    hdfeos_das.y
+	M    HDF5Array.cc
+	M    testsuite/config/unix.exp
+	M    hdfeos.lex
+	M    HDF5Str.cc
+	M    HDF5Str.h
+	M    H5EOS.cc
+	M    H5EOS.h
+	M    HDF5GridEOS.cc
+	M    Makefile.am
+
+2008-04-04  Patrick West <pwest@ucar.edu>
+
+	No longer need individual bes.conf files for testing. Using main one in
+	<prefix>/etc/bes/bes.conf.
+	D    bes.conf
+
+2008-03-26  hyoklee
+
+	EOS Grid file is added for testsuite.
+
+2008-03-17  Patrick West <pwest@ucar.edu>
+
+	1.2.2 bug fix release
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	M    OSX_Resources/Info.plist
+	M    OSX_Resources/ReadMe.txt
+	M    hdf5_handler.spec
+	M    README
+
+2008-03-17  hyoklee
+
+	A quick fix for reading map data from EOS Grid.
+
+2008-03-17  hyoklee
+
+	A quick fix for reading map data from EOS Grid.
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	We use the cf and short-paths options for binary builds by default.
+	M    hdf5_handler.spec
+	M    Makefile.am
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	Finally.. RPMs work.
+	M    hdf5_handler.spec
+	M    Makefile.am
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	More fixes for RPM.
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	Fixes for the rpm dist.
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	Updated with more text for the release...
+	M    README
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	Updated version numbers, text docs, et c., for release.
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	D    INSTALL_EOS5_GRID
+	M    INSTALL
+	M    hdf5_handler.spec
+	M    README
+
+2008-03-12  hyoklee
+
+	Memory leak problem is fixed. See Ticket #1079.
+
+2008-03-12  James Gallagher <jgallagher@opendap.org>
+
+	More code review changes.
+
+	M    h5das.cc
+	M    H5Git.cc
+	M    HDF5Array.cc
+	M    H5EOS.cc
+
+2008-03-11  James Gallagher <jgallagher@opendap.org>
+
+	Code review.
+
+	M    HDF5UInt32.cc
+	M    HDF5ArrayEOS.cc
+	M    HDF5Module.cc
+	M    HDF5UInt32.h
+	M    HDF5UInt16.cc
+	M    HDF5RequestHandler.cc
+	M    h5das.cc
+	M    h5dds.cc
+	M    h5dds.h
+	M    h5_handler.h
+	M    HDF5Sequence.cc
+	M    H5Git.cc
+	M    HDF5Sequence.h
+	M    HDF5Float32.cc
+	M    HDF5TypeFactory.h
+	M    H5PathFinder.h
+	M    HDF5Array.cc
+	M    HDF5Grid.h
+	M    HDF5Url.cc
+	M    HDF5Int16.h
+	M    HDF5Str.cc
+	M    HDF5TypeFactory.cc
+	M    HDF5Str.h
+	M    H5EOS.cc
+	M    H5EOS.h
+	M    HDF5Grid.cc
+	M    HDF5UInt16.h
+	M    HDF5RequestHandler.h
+	M    HDF5GridEOS.cc
+	M    HDF5GridEOS.h
+	M    HDF5Int32.cc
+	M    HDF5Int16.cc
+	M    h5_handler.cc
+	M    HDF5Byte.cc
+	M    H5PathFinder.cc
+	M    HDF5Float32.h
+	M    HDF5Float64.cc
+	M    HDF5Array.h
+	M    HDF5ArrayEOS.h
+	M    HDF5Module.h
+	M    h5das.h
+	M    HDF5Structure.cc
+	M    HDF5Int32.h
+	M    HDF5Structure.h
+	M    HDF5Url.h
+	M    HDF5Byte.h
+	M    H5Git.c
+	M    H5Git.h
+	M    HDF5Float64.h
+	M    common.h
+
+2008-03-11  hyoklee
+
+	Defect fix for get_hardlink(). See Ticket #1078.
+
+2008-03-07  Nathan Potter <ndp@coas.oregonstate.edu>
+
+	$i: Fixing bug in OSX build.
+
+2008-02-27  hyoklee
+
+	Bug fix for Mac OS X: the compiler doesn't like type casting on
+	nelems in H5Gget_num_objs() in h5das.cc and h5dds.cc.
+
+2008-02-27  James Gallagher <jgallagher@opendap.org>
+
+	Auto reset of Subversion properties
+
+2008-02-26  Patrick West <pwest@ucar.edu>
+
+	Removed the version of Hyrax so we don't keep having to edit the
+	Welcome.html file
+	M    OSX_Resources/Welcome.html
+
+2008-02-26  Patrick West <pwest@ucar.edu>
+
+	Grabbing version number correctly for pkg build. Updated
+	Welcome.html to display hdf5 instead of hdf4
+	
+	M    configure.ac
+	M    OSX_Resources/Welcome.html
+
+2008-02-26  hyoklee
+
+	-DH5_USE_16_API is defined in configure.ac for 1.8.0 compatibility.
+
+2008-02-26  Patrick West <pwest@ucar.edu>
+
+	Added pkg build for Mac OSX using package maker and dropdmg.
+	Updated README for formatting with pkg build.
+	
+	A    OSX_Resources
+	AM   OSX_Resources/InstallationCheck
+	A    OSX_Resources/License.txt
+	AM   OSX_Resources/update_mac_package_contents.pl
+	A    OSX_Resources/Info.plist
+	A    OSX_Resources/InstallationCheck.strings
+	A    OSX_Resources/ReadMe.txt
+	A    OSX_Resources/Description.plist
+	AM   OSX_Resources/background.jpg
+	A    OSX_Resources/Welcome.html
+	M    README
+	M    Makefile.am
+
+2008-02-25  James Gallagher <jgallagher@opendap.org>
+
+	Commented the %debug directive because bison 1.28 (the
+	OS/X default version) does not support this option. It
+	can be accessed using the -d command line option, however.
+
+2008-02-21  Nathan Potter <ndp@coas.oregonstate.edu>
+
+	hdf5_handler: Added some debugging statements.
+
+2008-02-20  James Gallagher <jgallagher@opendap.org>
+
+	Auto reset of Subversion properties
+
+2008-02-19  Nathan Potter <ndp@coas.oregonstate.edu>
+
+	hdf5_handler: Copied hdf4_handler/conf/pkg.m4 to
+	hdf5_handler/conf/pkg.m4
+
+2008-02-14  Patrick West <pwest@ucar.edu>
+
+	Updated configure to use latest and greatest libdap and bes config
+	macros and m4 files.
+	
+	M    configure.ac
+	M    conf/bes.m4
+	M    conf/libdap.m4
+	M    Makefile.am
+
+2008-02-05  James Gallagher <jgallagher@opendap.org>
+
+	Resolved conflict in ChangeLog
+
+2008-02-05  James Gallagher <jgallagher@opendap.org>
+
+	Auto reset of Subversion properties
+
+2008-02-02  Patrick West <pwest@ucar.edu>
+
+	Added using namespace libdap where needed
+	M    HDF5UInt32.h
+	M    h5dds.h
+	M    h5_handler.h
+	M    H5Git.cc
+	M    HDF5Sequence.h
+	M    HDF5TypeFactory.h
+	M    hdfeos_das.y
+	M    HDF5Grid.h
+	M    HDF5Int16.h
+	M    HDF5Str.h
+	M    H5EOS.h
+	M    HDF5UInt16.h
+	M    HDF5GridEOS.h
+	M    HDF5Float32.h
+	M    HDF5Array.h
+	M    HDF5ArrayEOS.h
+	M    h5das.h
+	M    HDF5Int32.h
+	M    HDF5Structure.h
+	M    HDF5Url.h
+	M    HDF5Byte.h
+	M    HDF5Float64.h
+
+2008-01-24  Patrick West <pwest@ucar.edu>
+
+	Attributes were not being added to the dds when requesting the ddx
+	response. Fixed this.
+	
+	M    h5_handler.cc
+
+2008-01-24  Patrick West <pwest@ucar.edu>
+
+	Added support for NASA EOS HDF5 files for grid generation and meta
+	data parsing.
+	
+	M    HDF5RequestHandler.cc
+
+2008-01-22  hyoklee
+
+	Cleaned up codes to remove all warnings.
+
+2008-01-18  James Gallagher <jgallagher@opendap.org>
+
+	Updated docs and version number for the 1.2.0 release.
+
+	M    configure.ac
+	M    NEWS
+	M    ChangeLog
+	M    INSTALL_EOS5_GRID
+	M    INSTALL
+	M    hdf5_handler.spec
+	M    README
+
+2008-01-17  hyoklee
+
+	README and INSTALL files are updated. INSTALL_EOS5_GRID is added.
+
+2008-01-08  hyoklee
+
+	Fixed a bug in EOS non-grid array generation.
+
+2008-01-03  hyoklee
+
+	Fixed a bug for inserting wrong dimensional data from Swath
+	section of StructMetadata in HDF5-EOS. Also, HDF5-EOS Grids will
+	have full path description in each dimension.
+
+2008-01-02  hyoklee
+
+	Cleaned up source code.
+
+2007-12-20  hyoklee
+
+	nCandidate mapping for L2G data is added.
+
+2007-11-29  hyoklee
+
+	Changed the number of arguments in depth_first() function for
+	HDF5RequestHander.cc.
+	
+2007-11-29  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* HDF5RequestHander.cc (hdf5_build_dds) Changed the number of arguments 
+	in depth_first() function for DAS generation.
+
+2007-11-27  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* H5EOS.cc (get_EOS_name) A new function is added.
+	
+2007-11-07  Hyo-Kyung Lee  <hyoklee@hdfgroup.org>
+
+	* h5das.cc (depth_first)  Removed the redundant argument "fname".
+
+2006-09-15  Patrick West <pwest@ucar.edu>
+
+	Changed the _module library to not use version information and to be built
+	as a module.  Update the bes.m4 file to use the --modulesdir flag to
+	bes-config to get the name of the module directory, which is lib/bes.
+	M    conf/bes.m4
+	M    Makefile.am
+
+2006-08-19  Patrick West <pwest@ucar.edu>
+
+	Changed the name of the module and type match to h5 instead of hdf5
+	M    opendap.ini
+
+2006-08-19  Patrick West <pwest@ucar.edu>
+
+	Passing the name of the module to the initialize and terminate methods of the Module class so that it is set in the bes configuration file instead of hard-coded
+
+2006-08-19  Patrick West <pwest@ucar.edu>
+
+	changed access to file to use access method on Container and added compression parameters to the BES configuration file
+
+2006-07-06  Patrick West <pwest@ucar.edu>
+
+	dap_cmdmodule library renamed to dap_cmd_module so that all loaded module libraries are named <something>_module
+
+2006-07-03  James Gallagher <jgallagher@opendap.org>
+
+	H5Git.c: Modified common_name() but valgrind indicates it's still broken.
+
+2006-06-30  Patrick West <pwest@ucar.edu>
+
+	In the help response added begin and end tags called handler to separate the different hander help responses and added a tag called name within the handler tag to say which handler this help is for, changed the name of the handler to hdf5 so there isn't a conflict with the hdf4 handler
+
+2006-06-28  Patrick West <pwest@ucar.edu>
+
+	bes exception updates, cleaned up configuration file
+
+2006-06-19  James Gallagher <jgallagher@opendap.org>
+
+	Modifications to the build (configure.ac, et c.)
+
+2006-06-19  Patrick West <pwest@ucar.edu>
+
+	DODS to BES and configuration updates
+
+2006-06-19  James Gallagher <jgallagher@opendap.org>
+
+	Added/updated INSTALL, NEWS, ChangeLog, README and configure.ac.
+
+2006-06-02  James Gallagher <jgallagher@opendap.org>
+
+	configure.ac: updated to use the new bes and hdf5 macros in conf.
+
+2006-06-02  James Gallagher <jgallagher@opendap.org>
+
+	Added bes, hdf5 and hdf5_header macros; updated libdap4 and mkinstalldirs.
+	Added compile file.
+
+;; Local Variables:
+;; coding: utf-8
+;; End:
+2006-06-02  James Gallagher <jgallagher@opendap.org>
+
+	configure.ac: updated to use the new bes and hdf5 macros in conf.
+
+2006-06-02  James Gallagher <jgallagher@opendap.org>
+
+	Added bes, hdf5 and hdf5_header macros; updated libdap4 and
+	mkinstalldirs. Added compile file.
+
+2006-05-26  Patrick West <pwest@ucar.edu>
+
+	include hdf type classes in module library
+
+2006-05-24  Patrick West <pwest@ucar.edu>
+
+	bes module updates
+
+2006-05-15  Patrick West <pwest@ucar.edu>
+
+	container storage changes
+
+2006-05-10  Patrick West <pwest@ucar.edu>
+
+	ltmain added
+
+2006-05-05  Patrick West <pwest@ucar.edu>
+
+	bes enabled, moved das functions from h5_handler.cc to new source
+	file h5das, implemented request handler
+
+2006-04-19  James Gallagher <jgallagher@opendap.org>
+
+	libdap.m4, configure.ac, h5_handler.cc: Updated to use the
+	new libdap 3.7.0 code. Use the ConstraintEvaluator object and
+	supports returning DDX responses.
+
+2006-02-23  James Gallagher <jgallagher@opendap.org>
+
+	Tried to fix the warning in H5Git.c. Not successful
+
+2006-02-02  James Gallagher <jgallagher@opendap.org>
+
+	Added mkinstalldirs, config.guess and config.sub to conf. Fixed a
+	bad macro in configure.ac
+
+2006-02-02  James Gallagher <jgallagher@opendap.org>
+
+	HDF%TypeFactory: Added
+
+2006-02-01  James Gallagher <jgallagher@opendap.org>
+
+	Added conf directory
+
+2006-01-31  James Gallagher <jgallagher@opendap.org>
+
+	Minor updates: version.h version number rest to 1.0; tests
+	commented out in Makefile.am since they won't work. We need new
+	tests that use dap_h5_handler.
+
+2006-01-31  James Gallagher <jgallagher@opendap.org>
+
+	Removed .indent.pro and config_hdf5.h.in
+
+2006-01-31  James Gallagher <jgallagher@opendap.org>
+
+	More massive changes. Added the HDF5TypeFactory; removed the exec
+	property; removed configure
+
+2006-01-31  James Gallagher <jgallagher@opendap.org>
+
+	Removed Pix use in HDF5Array and HDF5Grid; Removed use of iostream in
+	hdf5_handler.cc wrote configure.ac and Makefile.am (they probably work
+	but there's a compile-error because this code has not been modified to
+	use the Factory class for object creation).
+
+2005-11-04  James Gallagher <jgallagher@opendap.org>
+
+	Moved to the correct place this time!
+
+2005-11-04  James Gallagher <jgallagher@opendap.org>
+
+	Moved to the top level
+
+2005-08-08  root
+
+	Auto reset of Subversion properties
+
+2005-07-05  Rob Morris <Robert.O.Morris@jpl.nasa.gov>
+
+	Set eol-style to native on all text file in the trunk
+
+2004-04-21  James Gallagher <jgallagher@opendap.org>
+
+	From John Bane: NewFloat32 on line 318 (inside case H5T_FLOAT)
+	should be NewFloat64.
+
+2004-04-08  James Gallagher <jgallagher@opendap.org>
+
+	Applied patch from Bob Bane <bane@gst.com>. This patch removes
+	tests for the unlimited dimension; since the DAP is read-only this
+	code does not need to differentiate unlimited versus fixed
+	dimensions.
+
+2004-02-04  James Gallagher <jgallagher@opendap.org>
+
+	Cleaned up the include file dependencies, sort of...
+
+2004-02-04  James Gallagher <jgallagher@opendap.org>
+
+	Added
+
+2004-02-04  James Gallagher <jgallagher@opendap.org>
+
+	Modifications to compile with the current dap software. No testing
+	yet.
+
+2004-01-26  James Gallagher <jgallagher@opendap.org>
+
+	Build fixes
+
+2002-02-21  edavis
+
+	Fix update-version target (see bug 221).
+
+2001-07-25  James Gallagher <jgallagher@opendap.org>
+
+	Massive changes: Modified build to work well with 3.2, Fixed
+	compiler warnings, Removed unused variable, Added default cases to
+	switches, et cetera. See the TODO file for things still left to be
+	done. This server needs testing!
+
+2001-07-25  James Gallagher <jgallagher@opendap.org>
+
+	*** empty log message ***
+
+2001-07-25  James Gallagher <jgallagher@opendap.org>
+
+	*** empty log message ***
+
+2001-07-24  James Gallagher <jgallagher@opendap.org>
+
+	*** empty log message ***
+
+2001-07-24  James Gallagher <jgallagher@opendap.org>
+
+	*** empty log message ***
+
+2001-07-24  James Gallagher <jgallagher@opendap.org>
+
+	*** empty log message ***
+
+2001-07-23  James Gallagher <jgallagher@opendap.org>
+
+	Error handlings are changed according to c++ semantics.
+
+2001-07-23  James Gallagher <jgallagher@opendap.org>
+
+	error handling added.
+
+2001-07-18  James Gallagher <jgallagher@opendap.org>
+
+	Added
+
+2001-07-17  James Gallagher <jgallagher@opendap.org>
+
+	Added exceptions.
+
+2001-07-17  James Gallagher <jgallagher@opendap.org>
+
+	Moved from above
+
+2001-07-17  James Gallagher <jgallagher@opendap.org>
+
+	Added support for exceptions to DDS and DODS handlers
+
+2001-07-16  James Gallagher <jgallagher@opendap.org>
+
+	Initial revision

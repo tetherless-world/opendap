@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail
+END
+ConstructRuleEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/ConstructRuleEvaluator.java
+END
+XMLfromRDF.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/XMLfromRDF.java
+END
+RepositoryOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/RepositoryOps.java
+END
+CSVSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/CSVSplitter.java
+END
+ProcessController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/ProcessController.java
+END
+IRIHTTPRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/IRIHTTPRepository.java
+END
+RepositoryFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/RepositoryFunctions.java
+END
+Terms.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/Terms.java
+END
+SemanticResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/SemanticResource.java
+END
+IRISailRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/IRISailRepository.java
+END
+RdfImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/semantics/IRISail/RdfImporter.java
+END

@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2
+END
+CoverageDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CoverageDescription.java
+END
+CapabilitiesRequestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CapabilitiesRequestProcessor.java
+END
+GetCapabilitiesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/GetCapabilitiesRequest.java
+END
+TimeConversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/TimeConversion.java
+END
+DescribeCoverageRequestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/DescribeCoverageRequestProcessor.java
+END
+Keywords.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/Keywords.java
+END
+FieldSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/FieldSubset.java
+END
+CatalogWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CatalogWrapper.java
+END
+WcsResponder.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/WcsResponder.java
+END
+BoundingBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/BoundingBox.java
+END
+CoverageIdGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CoverageIdGenerator.java
+END
+RangeSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/RangeSubset.java
+END
+WcsCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/WcsCatalog.java
+END
+CoverageRequestProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CoverageRequestProcessor.java
+END
+GetCoverageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/GetCoverageRequest.java
+END
+DescribeCoverageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/DescribeCoverageRequest.java
+END
+TimeSequenceItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/TimeSequenceItem.java
+END
+WcsExceptionReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/WcsExceptionReport.java
+END
+TemporalSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/TemporalSubset.java
+END
+CoverageSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CoverageSummary.java
+END
+LanguageString.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/LanguageString.java
+END
+WcsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/WcsException.java
+END
+ServerCapabilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/ServerCapabilities.java
+END
+Metadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/Metadata.java
+END
+XLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/XLink.java
+END
+LocalFileCatalog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/LocalFileCatalog.java
+END
+CodeStringAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/CodeStringAttribute.java
+END
+AxisSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/AxisSubset.java
+END
+Coverage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/Coverage.java
+END
+WCS.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/WCS.java
+END
+GridCRS.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/27619/branch/tetherless-world/olfs/src/opendap/wcs/v1_1_2/GridCRS.java
+END

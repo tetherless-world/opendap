@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite
+END
+generate_data_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/generate_data_baseline.sh.in
+END
+atlocal.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/atlocal.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/Makefile.am
+END
+generate_metadata_baseline.sh.in
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/generate_metadata_baseline.sh.in
+END
+besTest.at
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/besTest.at
+END

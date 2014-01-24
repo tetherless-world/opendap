@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite
+END
+nscat_s2.data
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/nscat_s2.data
+END
+jg_diatoms.data
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/jg_diatoms.data
+END
+response_builder_invoke_server_side_function_test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/response_builder_invoke_server_side_function_test.txt
+END
+send_das_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/send_das_baseline.txt
+END
+nscat_hdf.data
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/nscat_hdf.data
+END
+coads.data
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/coads.data
+END
+send_dds_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/send_dds_baseline.txt
+END
+bears.data
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/bears.data
+END
+jg_test.data
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/jg_test.data
+END
+coads.data.das
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/coads.data.das
+END
+ff_test1_ce1.data
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/ff_test1_ce1.data
+END
+ff_test2_ce1.data
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/ff_test2_ce1.data
+END
+ff_test1_ce2.data
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/ff_test1_ce2.data
+END
+ff_test2_ce2.data
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/ff_test2_ce2.data
+END
+fnoc1.data
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/fnoc1.data
+END
+ff_test2_ce3.data
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/ff_test2_ce3.data
+END
+dsp_1.data
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/dsp_1.data
+END
+simple_function_baseline.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/unit-tests/server-testsuite/simple_function_baseline.txt
+END

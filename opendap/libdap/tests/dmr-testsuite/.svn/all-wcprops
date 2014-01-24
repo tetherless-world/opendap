@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite
+END
+test_simple_3_error_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_3_error_1.xml
+END
+test_simple_3_error_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_3_error_2.xml
+END
+test_simple_3_error_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_3_error_3.xml
+END
+test_simple_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_1.xml
+END
+testall.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/testall.xml
+END
+test_simple_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_2.xml
+END
+test_simple_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_3.xml
+END
+test_simple_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/dmr-testsuite/test_simple_4.xml
+END

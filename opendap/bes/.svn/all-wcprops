@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/27616/branch/tetherless-world/bes
+END
+bes.pmproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes.pmproj
+END
+bes-config-pkgconfig
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes-config-pkgconfig
+END
+bes-config.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes-config.in
+END
+besd.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27616/branch/tetherless-world/bes/besd.in
+END
+COPYRIGHT_UCAR
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27616/branch/tetherless-world/bes/COPYRIGHT_UCAR
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27616/branch/tetherless-world/bes/ChangeLog
+END
+main_page.doxygen
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/27616/branch/tetherless-world/bes/main_page.doxygen
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/27616/branch/tetherless-world/bes/README
+END
+bes_xml_command.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes_xml_command.pc.in
+END
+bes_dispatch.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes_dispatch.pc.in
+END
+bes.spec
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes.spec
+END
+bes_ppt.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27616/branch/tetherless-world/bes/bes_ppt.pc.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/27616/branch/tetherless-world/bes/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27616/branch/tetherless-world/bes/INSTALL
+END
+doxy.conf
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/27616/branch/tetherless-world/bes/doxy.conf
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/27616/branch/tetherless-world/bes/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/27616/branch/tetherless-world/bes/Makefile.am
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/27616/branch/tetherless-world/bes/NEWS
+END

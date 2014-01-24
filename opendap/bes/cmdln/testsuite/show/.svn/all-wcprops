@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show
+END
+show_03.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_03.bescmd.baseline
+END
+show_01.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_01.bescmd
+END
+show_01.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_01.bescmd.baseline
+END
+show_02.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_02.bescmd
+END
+show_02.bescmd.baseline
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_02.bescmd.baseline
+END
+show_03.bescmd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/27616/branch/tetherless-world/bes/cmdln/testsuite/show/show_03.bescmd
+END

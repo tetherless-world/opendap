@@ -1,0 +1,4 @@
+Dataset {
+    Int32 Sea_Surface_Temperature[Longitude = 4096][Latitude = 2048];
+    Int32 Number_of_Observations_per_Bin[fakeDim2 = 4096][fakeDim3 = 2048];
+} 1990104h09da-gdm.hdf;

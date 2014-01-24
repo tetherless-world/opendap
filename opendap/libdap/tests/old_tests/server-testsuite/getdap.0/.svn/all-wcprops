@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/old_tests/server-testsuite/getdap.0
+END
+test.opendap.org.exp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/old_tests/server-testsuite/getdap.0/test.opendap.org.exp
+END
+urls.tcl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/27615/branch/tetherless-world/libdap/tests/old_tests/server-testsuite/getdap.0/urls.tcl
+END
