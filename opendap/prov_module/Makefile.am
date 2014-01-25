@@ -11,7 +11,6 @@ ACLOCAL_AMFLAGS = -I conf
 
 lib_besdir=$(libdir)/bes
 lib_bes_LTLIBRARIES = libprov_module.la
-dist_bin_SCRIPTS = bes-prov-data.sh
 
 Prov_SRCS:=
 
