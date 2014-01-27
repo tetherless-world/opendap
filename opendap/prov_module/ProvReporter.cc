@@ -58,6 +58,28 @@ ProvReporter::~ProvReporter()
 void
 ProvReporter::report( BESDataHandlerInterface &dhi )
 {
+    // TODO: use BESKeys::get_value(const string& s, string &val, bool &found)
+    // to access 
+    // Prov.cr_base_uri=http://opendap.tw.rpi.edu
+    // Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
+    // Prov.cr_source_id=us
+    // Prov.cr_dataset_id=opendap-prov
+
+
+    // TODO: generate versionID yyyyMMdd-s-uuid[4]
+    // e.g. 20140123-1390489968-016e
+
+    // TODO: write to file:
+    // 
+    // /home/prizms/prizms/opendap/data/source/us/opendap-prov/version/20140123-1390489968-016e/source/opendap-provenance.ttl
+    // ^^^Prov.cr_data_root^^^^^^^^^^^^^^^^^^^
+    //                                        /
+    //                                           /
+    //      Prov.cr_source_id (or 'us' if DNE) ^^
+    //     Prov.cr_dataset_id (or 'opendap-prov') ^^^^^^^^^^^^
+    //                                                        /version/
+    //                                                                 ^^$VERSION_ID^^^^^^^^^^
+    //                                                                                        /source/opendap-provenance.ttl
 }
 
 /** @brief dumps information about this object
