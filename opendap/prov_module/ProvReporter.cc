@@ -156,7 +156,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
 
     string versionedDataset = abstractDataset + "/version/" + versionID ;
 
-    // TODO: write to file:
+    // Write to file:
     // 
     // /home/prizms/prizms/opendap/data/source/us/opendap-prov/version/20140123-1390489968-016e/source/opendap-provenance.ttl
     // ^^^Prov.cr_data_root^^^^^^^^^^^^^^^^^^^
@@ -170,7 +170,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     string provenanceRecordDirPath  = _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source" ;
     string provenanceRecordFilePath = provenanceRecordDirPath + "/opendap-provenance.ttl" ;
 
-    // TODO: assume that _data_root exists and make directories:
+    // Assume that _data_root exists and make directories:
     //    _data_root + "/" + _source_id
     //    _data_root + "/" + _source_id + "/" + _dataset_id
     //    _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source"
@@ -188,6 +188,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     int status;
     status = mkdir( sourceDir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
     int myerrno = errno ;
+    // TODO: Make a function to wrap this, since we call it 6 times.
     if( status != 0 )
     {
         BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
@@ -203,10 +204,15 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
             err.append( "unknown error occurred" ) ;
         }
     }
+    // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( sourceDir.c_str(),   S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( abstractDir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( versionDir1.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( versionDir2.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( versionDir3.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
     if( status != 0 )
     {
