@@ -49,6 +49,10 @@ class ProvDB ;
 class ProvReporter : public BESReporter
 {
 private:
+    string          _base_uri ;
+    string          _data_root ;
+    string          _source_id ;
+    string          _dataset_id ;
 public:
 			        ProvReporter() ;
     virtual		    ~ProvReporter() ;

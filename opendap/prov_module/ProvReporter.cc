@@ -40,9 +40,67 @@
 #include <BESContextManager.h>
 #include <BESLog.h>
 
+#define PROV_BASE_URI "Prov.cr_base_uri"
+#define PROV_DATA_ROOT "Prov.cr_data_root"
+#define PROV_SOURCE_ID "Prov.cr_source_id"
+#define PROV_DATASET_ID "Prov.cr_dataset_id"
+
+/** @brief ProvReporter constructur loads configuration options
+ *
+ * Required parameters from configuration. If not present or not set
+ * then an exception is thrown
+ * - Prov.cr_base_uri
+ * - Prov.cr_data_root
+ *
+ * Additional parameters with defaults
+ * - Prov.cr_source_id = us
+ * - Prov.cr_dataset_id = opendap-prov
+ */
 ProvReporter::ProvReporter()
     : BESReporter()
 {
+    // use BESKeys::get_value(const string& s, string &val, bool &found)
+    // to access 
+    // Prov.cr_base_uri=http://opendap.tw.rpi.edu
+    // Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
+    // Prov.cr_source_id=us
+    // Prov.cr_dataset_id=opendap-prov
+
+    bool found = false ;
+    TheBESKeys::TheKeys()->get_value( PROV_BASE_URI, _base_uri, found ) ;
+    if( _base_uri == "" )
+    {
+        string err = (string)"Could not determine Prov base URI, "
+                     + PROV_BASE_URI
+                     + " parameter not found or set in configuration file" ;
+        throw BESInternalError( err, __FILE__, __LINE__ ) ;
+    }
+
+    found = false ;
+    TheBESKeys::TheKeys()->get_value( PROV_DATA_ROOT, _data_root, found ) ;
+    if( _data_root == "" )
+    {
+        string err = (string)"Could not determine Prov base URI, "
+                     + PROV_DATA_ROOT
+                     + " parameter not found or set in configuration file" ;
+        throw BESInternalError( err, __FILE__, __LINE__ ) ;
+    }
+
+    found = false ;
+    string _source_id ;
+    TheBESKeys::TheKeys()->get_value( PROV_SOURCE_ID, _source_id, found ) ;
+    if( _source_id == "" )
+    {
+        _source_id = "us" ;
+    }
+
+    found = false ;
+    string _dataset_id ;
+    TheBESKeys::TheKeys()->get_value( PROV_DATASET_ID, _dataset_id, found ) ;
+    if( _dataset_id == "" )
+    {
+        _dataset_id = "opendap-prov" ;
+    }
 }
 
 ProvReporter::~ProvReporter()
@@ -58,17 +116,13 @@ ProvReporter::~ProvReporter()
 void
 ProvReporter::report( BESDataHandlerInterface &dhi )
 {
-    // TODO: use BESKeys::get_value(const string& s, string &val, bool &found)
-    // to access 
-    // Prov.cr_base_uri=http://opendap.tw.rpi.edu
-    // Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
-    // Prov.cr_source_id=us
-    // Prov.cr_dataset_id=opendap-prov
-
-
     // TODO: generate versionID yyyyMMdd-s-uuid[4]
     // e.g. 20140123-1390489968-016e
+    string filename = "/tmp/prov" ;
 
+    ofstream strm( filename.c_str() ) ;
+    strm << "Write some stuff" << endl ;
+    strm.close() ;
     // TODO: write to file:
     // 
     // /home/prizms/prizms/opendap/data/source/us/opendap-prov/version/20140123-1390489968-016e/source/opendap-provenance.ttl
@@ -95,6 +149,10 @@ ProvReporter::dump( ostream &strm ) const
     strm << BESIndent::LMarg << "ProvReporter::dump - ("
 			     << (void *)this << ")" << endl ;
     BESIndent::Indent() ;
+    strm << BESIndent::LMarg << "base URI = " << _base_uri << endl ;
+    strm << BESIndent::LMarg << "data root = " << _data_root << endl ;
+    strm << BESIndent::LMarg << "source id = " << _source_id << endl ;
+    strm << BESIndent::LMarg << "dataset id = " << _dataset_id << endl ;
     BESIndent::UnIndent() ;
 }
 
