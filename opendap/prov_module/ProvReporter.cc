@@ -34,6 +34,9 @@
 
 #include "config_prov.h"
 
+#include <cstring>
+#include <cerrno>
+
 #include "ProvReporter.h"
 #include <BESInternalError.h>
 #include <TheBESKeys.h>
@@ -173,9 +176,25 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     //    _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source"
     
     // http://pubs.opengroup.org/onlinepubs/009695399/functions/mkdir.html
-    //string dir = "/tmp/prov/"+versionID;
-    //int status;
-    //status = mkdir(dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
+    string dir = "/tmp/prov/"+versionID;
+    int status;
+    status = mkdir( dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    int myerrno = errno ;
+    if( status != 0 )
+    {
+        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
+                          << status << endl ) ;
+        char *serr = strerror( myerrno ) ;
+        string err = "Unable to create the directory " + dir + ": " ;
+        if( serr )
+        {
+            err.append( serr ) ;
+        }
+        else
+        {
+            err.append( "unknown error occurred" ) ;
+        }
+    }
 
     string filename = "/tmp/prov.ttl" ;
 
