@@ -40,7 +40,12 @@
 #include <BESDebug.h>
 #include <BESContextManager.h>
 #include <BESLog.h>
+#include <ctime>
+#include <sys/stat.h>  // To make directories.
+#include <sys/types.h> // To make directories.
 
+
+// See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-configuration
 #define PROV_BASE_URI "Prov.cr_base_uri"
 #define PROV_DATA_ROOT "Prov.cr_data_root"
 #define PROV_SOURCE_ID "Prov.cr_source_id"
@@ -60,12 +65,32 @@
 ProvReporter::ProvReporter()
     : BESReporter()
 {
-    // use BESKeys::get_value(const string& s, string &val, bool &found)
-    // to access 
-    // Prov.cr_base_uri=http://opendap.tw.rpi.edu
-    // Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
-    // Prov.cr_source_id=us
-    // Prov.cr_dataset_id=opendap-prov
+}
+
+ProvReporter::~ProvReporter()
+{
+}
+
+/** @brief reports any provenance information to an external provenance
+ * ttl file
+ *
+ * @param dhi structure that contains all information pertaining to the data
+ * request
+ */
+void
+ProvReporter::report( BESDataHandlerInterface &dhi )
+{
+    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
+
+    // TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
+
+    // Use BESKeys::get_value(const string& s, string &val, bool &found)
+    // to access:
+    //   Prov.cr_base_uri=http://opendap.tw.rpi.edu
+    //   Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
+    //   Prov.cr_source_id=us
+    //   Prov.cr_dataset_id=opendap-prov
+    // See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-configuration
 
     bool found = false ;
     TheBESKeys::TheKeys()->get_value( PROV_BASE_URI, _base_uri, found ) ;
@@ -81,7 +106,7 @@ ProvReporter::ProvReporter()
     TheBESKeys::TheKeys()->get_value( PROV_DATA_ROOT, _data_root, found ) ;
     if( _data_root == "" )
     {
-        string err = (string)"Could not determine Prov base URI, "
+        string err = (string)"Could not determine Prov data root, "
                      + PROV_DATA_ROOT
                      + " parameter not found or set in configuration file" ;
         throw BESInternalError( err, __FILE__, __LINE__ ) ;
@@ -102,36 +127,31 @@ ProvReporter::ProvReporter()
     {
         _dataset_id = "opendap-prov" ;
     }
-}
+    // ^^^^^^ TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
 
-ProvReporter::~ProvReporter()
-{
-}
+    string abstractDataset = _base_uri + "/source/" + _source_id + "/dataset/" + _dataset_id ;
 
-/** @brief reports any provenance information to an external provenance
- * ttl file
- *
- * @param dhi structure that contains all information pertaining to the data
- * request
- */
-void
-ProvReporter::report( BESDataHandlerInterface &dhi )
-{
-    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
-    // TODO: generate versionID yyyyMMdd-s-uuid[4]
+    // Get timestamp for versionID, e.g. 20140123-1390489968
+    // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
+    time_t rawtime;                                                             //
+    struct tm * timeinfo;                                                       //
+    char buffer[80];                                                            //
+    //                                                                          //
+    time (&rawtime);                                                            //
+    timeinfo = localtime(&rawtime);                                             //
+    //                                                                          //
+    strftime(buffer,80,"%Y%m%d-%s",timeinfo);                                   //
+    std::string dateStamp(buffer);                                              //
+    // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
+
+    // TODO: 4 character UUID at end of versionID.
+    // http://stackoverflow.com/questions/3247861/example-of-uuid-generation-using-boost-in-c
+    string uuid4 = "ab12" ;
+
     // e.g. 20140123-1390489968-016e
-    string filename = "/tmp/prov" ;
+    string versionID = dateStamp + "-" + uuid4 ;
 
-    ofstream strm( filename.c_str() ) ;
-    if( !strm )
-    {
-        // Need to do something here, but not throw an exception
-    }
-    else
-    {
-        strm << "Write some stuff" << endl ;
-        strm.close() ;
-    }
+    string versionedDataset = abstractDataset + "/version/" + versionID ;
 
     // TODO: write to file:
     // 
@@ -144,6 +164,40 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     //                                                        /version/
     //                                                                 ^^$VERSION_ID^^^^^^^^^^
     //                                                                                        /source/opendap-provenance.ttl
+    string provenanceRecordDirPath  = _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source" ;
+    string provenanceRecordFilePath = provenanceRecordDirPath + "/opendap-provenance.ttl" ;
+
+    // TODO: assume that _data_root exists and make directories:
+    //    _data_root + "/" + _source_id
+    //    _data_root + "/" + _source_id + "/" + _dataset_id
+    //    _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source"
+    
+    // http://pubs.opengroup.org/onlinepubs/009695399/functions/mkdir.html
+    //string dir = "/tmp/prov/"+versionID;
+    //int status;
+    //status = mkdir(dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
+
+    string filename = "/tmp/prov.ttl" ;
+
+    ofstream strm( filename.c_str() ) ;
+    if( !strm )
+    {
+        // Need to do something here, but not throw an exception
+    }
+    else
+    {
+        strm << "# " << provenanceRecordFilePath << endl ;
+        strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
+        strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
+        strm << endl ;
+        strm << "@base <" << versionedDataset << "/>." << endl ;
+        strm << endl ;
+        strm << "<response> a prov:Entity;" << endl ;
+        strm << "   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/286>;" << endl ;
+        strm << "." << endl ;
+        strm.close() ;
+    }
+
     BESDEBUG( "prov", "ProvReporter::report - leaving" << endl ) ;
 }
 

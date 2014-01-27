@@ -36,6 +36,9 @@
 #define A_ProvReporter_h 1
 
 #include <fstream>
+#include <ctime>       // For versionID timestamp
+#include <sys/stat.h>  // To make directories.
+#include <sys/types.h> // To make directories.
 
 using std::ofstream ;
 using std::ios ;
