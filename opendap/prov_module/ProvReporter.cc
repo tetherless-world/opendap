@@ -174,18 +174,26 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     //    _data_root + "/" + _source_id
     //    _data_root + "/" + _source_id + "/" + _dataset_id
     //    _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source"
+    string sourceDir   = _data_root + "/" + _source_id ;
+    string abstractDir = _data_root + "/" + _source_id + "/" + _dataset_id ;
+    string versionDir1 = _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" ;
+    string versionDir2 = _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID ;
+    string versionDir3 = _data_root + "/" + _source_id + "/" + _dataset_id + "/version/" + versionID + "/source" ;
     
     // http://pubs.opengroup.org/onlinepubs/009695399/functions/mkdir.html
-    string dir = "/tmp/prov/"+versionID;
+    //string dir = "/tmp/prov/"+versionID;
+
+    string filename = provenanceRecordFilePath; //"/tmp/prov.ttl" ; // Default; gets updated if we can make directories.
+
     int status;
-    status = mkdir( dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    status = mkdir( sourceDir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
     int myerrno = errno ;
     if( status != 0 )
     {
         BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
-                          << status << endl ) ;
+                          << status << " " << sourceDir << endl ) ;
         char *serr = strerror( myerrno ) ;
-        string err = "Unable to create the directory " + dir + ": " ;
+        string err = "Unable to create the directory " + sourceDir + ": " ;
         if( serr )
         {
             err.append( serr ) ;
@@ -195,8 +203,27 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
             err.append( "unknown error occurred" ) ;
         }
     }
-
-    string filename = "/tmp/prov.ttl" ;
+    status = mkdir( sourceDir.c_str(),   S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    status = mkdir( abstractDir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    status = mkdir( versionDir1.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    status = mkdir( versionDir2.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    status = mkdir( versionDir3.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
+    if( status != 0 )
+    {
+        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
+                          << status << " " << sourceDir << endl ) ;
+        char *serr = strerror( myerrno ) ;
+        string err = "Unable to create the directory " + sourceDir + ": " ;
+        if( serr )
+        {
+            err.append( serr ) ;
+        }
+        else
+        {
+            err.append( "unknown error occurred" ) ;
+        }
+        filename = "/tmp/opendap-prov.ttl" ;
+    }
 
     ofstream strm( filename.c_str() ) ;
     if( !strm )
