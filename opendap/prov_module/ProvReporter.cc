@@ -37,6 +37,7 @@
 #include "ProvReporter.h"
 #include <BESInternalError.h>
 #include <TheBESKeys.h>
+#include <BESDebug.h>
 #include <BESContextManager.h>
 #include <BESLog.h>
 
@@ -116,6 +117,7 @@ ProvReporter::~ProvReporter()
 void
 ProvReporter::report( BESDataHandlerInterface &dhi )
 {
+    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
     // TODO: generate versionID yyyyMMdd-s-uuid[4]
     // e.g. 20140123-1390489968-016e
     string filename = "/tmp/prov" ;
@@ -142,6 +144,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     //                                                        /version/
     //                                                                 ^^$VERSION_ID^^^^^^^^^^
     //                                                                                        /source/opendap-provenance.ttl
+    BESDEBUG( "prov", "ProvReporter::report - leaving" << endl ) ;
 }
 
 /** @brief dumps information about this object
