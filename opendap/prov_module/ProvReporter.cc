@@ -121,8 +121,16 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     string filename = "/tmp/prov" ;
 
     ofstream strm( filename.c_str() ) ;
-    strm << "Write some stuff" << endl ;
-    strm.close() ;
+    if( !strm )
+    {
+        // Need to do something here, but not throw an exception
+    }
+    else
+    {
+        strm << "Write some stuff" << endl ;
+        strm.close() ;
+    }
+
     // TODO: write to file:
     // 
     // /home/prizms/prizms/opendap/data/source/us/opendap-prov/version/20140123-1390489968-016e/source/opendap-provenance.ttl
