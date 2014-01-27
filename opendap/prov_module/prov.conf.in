@@ -14,8 +14,42 @@
 BES.modules+=prov
 BES.module.prov=@bes_modules_dir@/libprov_module.so
 
+
 #-----------------------------------------------------------------------#
 # Prov handler specific parameters
 #-----------------------------------------------------------------------#
-Prov.PlaceToStoreShtuff=/tmp
 
+#-----------------------------------------------------------------------#
+# The Base URI is the web domain name under which instances of PROV-O 
+# will be asserted when recording provenance.
+# See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-base-uri
+#
+# e.g. Prov.cr_base_uri=http://opendap.tw.rpi.edu
+#-----------------------------------------------------------------------#
+#Prov.cr_base_uri=http://localhost
+
+
+#-----------------------------------------------------------------------#
+# The Data Root is the absolute directory path of a Prizms dataset 
+# collection (many source organizations, many datasets, many versions).
+# See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-data-root
+#
+# e.g. Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
+#      Prov.cr_source_id=us
+#      Prov.cr_dataset_id=opendap-prov
+#
+# Default values:
+#      Prov.cr_source_id=us
+#      Prov.cr_dataset_id=opendap-prov
+#-----------------------------------------------------------------------#
+#Prov.cr_data_root=/home/prizms/prizms/opendap/data/source
+#Prov.cr_source_id=us
+#Prov.cr_dataset_id=opendap-prov
+
+
+#-----------------------------------------------------------------------#
+# The Request Name Template specifies how to name each new OPeNDAP
+# request. This value is currently ignored and hard-coded.
+# See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-request-name-template
+#-----------------------------------------------------------------------#
+#Prov.request_name_template=yyyyMMdd-s-uuid[4]
