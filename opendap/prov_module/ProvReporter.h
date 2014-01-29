@@ -36,6 +36,9 @@
 #define A_ProvReporter_h 1
 
 #include <fstream>
+#include <ctime>       // For versionID timestamp
+#include <sys/stat.h>  // To make directories.
+#include <sys/types.h> // To make directories.
 
 using std::ofstream ;
 using std::ios ;
@@ -49,6 +52,10 @@ class ProvDB ;
 class ProvReporter : public BESReporter
 {
 private:
+    string          _base_uri ;
+    string          _data_root ;
+    string          _source_id ;
+    string          _dataset_id ;
 public:
 			        ProvReporter() ;
     virtual		    ~ProvReporter() ;
