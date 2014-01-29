@@ -612,7 +612,7 @@ a_1.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{48.034881591796875, 319.6363599896431}, {191.22909545898438, 49.363639831542969}}</string>
+			<string>{{39, 319.6363599896431}, {200.26397705078125, 49.363639831542969}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -958,7 +958,7 @@ Prizms publishes &lt;C&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{47.956298828125, 164.0000074505806}, {191.22909545898438, 28}}</string>
+			<string>{{39, 164.0000074505806}, {200.18539428710938, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1005,7 +1005,7 @@ Prizms publishes &lt;C&gt;}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-prov_module writes record.ttl\
+prov_module writes s/d/v/record.ttl\
 Prizms publishes record.ttl to &lt;A&gt;}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -1983,7 +1983,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-01-29 20:11:55 +0000</string>
+	<string>2014-01-29 20:17:26 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -2064,7 +2064,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{2, 52}, {765, 826}}</string>
+		<string>{{-21, 52}, {693, 826}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -2076,7 +2076,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-94, 1}, {765, 732}}</string>
+		<string>{{-58, 1}, {693, 732}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
