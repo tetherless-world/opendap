@@ -1,6 +1,3 @@
-//3> <> prov:specializationOf <>;
-//3>    prov:wasDerivedFrom <http://www.unidata.ucar.edu/software/netcdf/workshops/2010/apis_examples/ExampleDataset2D.html> .
-//
 // This CDL file is a mockup for how to represent the following tabular data:
 //
 // lat lon alt intensity category;Ground=2 Low Vegitation=3 Unclassified=1 Water=9
@@ -12,6 +9,11 @@
 //
 // NOTE: We're assuming that the non-uniform lat/long becomes uniformly gridded.
 //       This doesn't make much sense for LiDAR data.
+//
+//3> <> prov:specializationOf 
+//3>   <https://github.com/tetherless-world/opendap/blob/master/data/source/usgs-gov/earthexplorer/version/disneyland-2014-Jan-31/manual/CA_OrangeCo_2011_000402.sample.cdl>;
+//3>    prov:wasDerivedFrom <http://www.unidata.ucar.edu/software/netcdf/workshops/2010/apis_examples/ExampleDataset2D.html>;
+//3> .
 
 netcdf disneyland_lidar {
 
