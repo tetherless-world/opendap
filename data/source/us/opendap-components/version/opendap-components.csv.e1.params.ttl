@@ -80,10 +80,10 @@
          conversion:domain_template "[/]id/component/[#1]";
          conversion:domain_name     "OPeNDAP Component";
       ];
-      #conversion:enhance [
-      #   conversion:class_name "Thing";
-      #   conversion:subclass_of <http://purl.org/...>;
-      #];
+      conversion:enhance [
+         conversion:class_name "OPeNDAP Component";
+         conversion:subclass_of doap:Project;
+      ];
       conversion:enhance [
          ov:csvCol          1;
          ov:csvHeader       "Name";
