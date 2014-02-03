@@ -10,53 +10,39 @@
 // NOTE: We're assuming that the non-uniform lat/long becomes uniformly gridded.
 //       This doesn't make much sense for LiDAR data.
 //
-//3> <> prov:specializationOf 
-//3>   <https://github.com/tetherless-world/opendap/blob/master/data/source/usgs-gov/earthexplorer/version/disneyland-2014-Jan-31/manual/CA_OrangeCo_2011_000402.sample.cdl>;
-//3>    prov:wasDerivedFrom <http://www.unidata.ucar.edu/software/netcdf/workshops/2010/apis_examples/ExampleDataset2D.html>;
+//3> <>
+//3> prov:specializationOf 
+//3>  <https://github.com/tetherless-world/opendap/blob/master/data/source/usgs-gov/earthexplorer/version/disneyland-2014-Jan-31/manual/CA_OrangeCo_2011_000402.sample.cdl>;
+//3> prov:wasDerivedFrom 
+//3>  <http://www.unidata.ucar.edu/software/netcdf/workshops/2010/apis_examples/ExampleDataset2D.html>;
+//3>  <https://github.com/tetherless-world/opendap/blob/c566b40a97c6ce062a9a54f45607583eca34ad56/data/source/usgs-gov/earthexplorer/version/disneyland-2014-Jan-31/manual/CA_OrangeCo_2011_000402.sample.cdl>;
 //3> .
 
 netcdf disneyland_lidar {
 
 dimensions:
-   latitude  = 5 ;
-   longitude = 1 ;
+   point = 5 ;
 
 variables:
-   float latitude(latitude) ;
-      latitude:units = "?" ;
-   float longitude(longitude) ;
-      longitude:units = "?" ;
-   float altitude(latitude, longitude) ;
+   float northing(point) ;
+      northing:units = "UTM meters; zone 11" ;
+   float easting(point) ;
+      easting:units = "UTM meters; zone 11" ;
+   float altitude(point) ;
       altitude:units = "?" ;
-   float intensity(latitude, longitude) ;
+   float intensity(point) ;
       intensity:units = "?" ;
-   int category(latitude, longitude) ;
+   int category(point) ;
 
 data:
    // This sets up the grid that we don't actually want to assume.
-   // ERROR: We're rounding to get to a grid.
-   latitude  = 414781.5, 414782, 414782.5, 414783, 414783.5 ; 
-   // ERROR: We're squashing to get to a grid.
-   longitude = 3741670 ; 
+   northing = 414783.24, 414782.09, 414782.73, 414782.03, 414781.51 ;
 
-   altitude =
-      40.32,
-      40.44,
-      40.40,
-      40.28,
-      40.34 ;
+   easting = 3741669.72, 3741669.31, 3741670.04, 3741670.63, 3741671.03 ;
 
-   intensity =
-      26,
-      3,
-      10,
-      26,
-      22 ;
+   altitude = 40.32, 40.44, 40.40, 40.28, 40.34 ;
 
-   category =
-      9,
-      9,
-      9,
-      9,
-      9 ;
+   intensity = 26, 3, 10, 26, 22 ;
+
+   category = 9, 9, 9, 9, 9 ;
 }
