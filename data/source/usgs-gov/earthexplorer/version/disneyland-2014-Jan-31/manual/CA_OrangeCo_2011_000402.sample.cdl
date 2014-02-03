@@ -1,6 +1,6 @@
 // This CDL file is a mockup for how to represent the following tabular LiDAR data:
 //
-// lat lon alt intensity category(Ground=2;Low-Vegitation=3;Unclassified=1;Water=9)
+// lat lon alt intensity category(Ground=2;Low-Vegetation=3;Unclassified=1;Water=9)
 // 414783.24 3741669.72 40.32 26 Water
 // 414782.09 3741669.31 40.44 3 Water
 // 414782.73 3741670.04 40.40 10 Water
