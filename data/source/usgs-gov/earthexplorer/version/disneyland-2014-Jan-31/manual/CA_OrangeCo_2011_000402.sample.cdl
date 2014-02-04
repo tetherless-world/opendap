@@ -35,7 +35,6 @@ variables:
    int category(point) ;
 
 data:
-   // This sets up the grid that we don't actually want to assume.
    northing = 414783.24, 414782.09, 414782.73, 414782.03, 414781.51 ;
 
    easting = 3741669.72, 3741669.31, 3741670.04, 3741670.63, 3741671.03 ;
