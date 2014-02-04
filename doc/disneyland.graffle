@@ -38,22 +38,22 @@
 	<key>CanvasOrigin</key>
 	<string>{0, 0}</string>
 	<key>ColumnAlign</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>ColumnSpacing</key>
 	<real>36</real>
 	<key>CreationDate</key>
-	<string>2014-01-29 19:30:45 +0000</string>
+	<string>2014-02-04 18:16:43 +0000</string>
 	<key>Creator</key>
 	<string>Tim Lebo</string>
 	<key>DisplayScale</key>
-	<string>1 0/72 in = 1.0000 in</string>
+	<string>1 0/72 in = 1 0/72 in</string>
 	<key>GraphDocumentVersion</key>
 	<integer>8</integer>
 	<key>GraphicsList</key>
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{429.88519287109375, 238}, {93.593719482421875, 19}}</string>
+			<string>{{461.28036499023438, 238}, {93.593719482421875, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -79,7 +79,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-mockup-tracer/version/2014-Jan-28/manual/git.png.prov.ttl</string>
+				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-disneyland/version/2014-Feb-03/manual/730241.cdl.prov.ttl</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -119,7 +119,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{428.88519287109375, 223}, {58.485595703125, 19}}</string>
+			<string>{{460.28036499023438, 223}, {58.485595703125, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -145,7 +145,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-mockup-tracer/version/2014-Jan-28/manual/git.png</string>
+				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-disneyland/version/2014-Feb-03/manual/730241.cdl</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -211,7 +211,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://opendap.tw.rpi.edu/prov-pingback/20140128-1390939889-ab12/mykey</string>
+				<string>http://opendap.tw.rpi.edu/prov-pingback/20140203-1391455247-ab12/mykey</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -277,7 +277,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://opendap.tw.rpi.edu/source/us/dataset/opendap-prov/version/20140128-1390939889-ab12</string>
+				<string>http://opendap.tw.rpi.edu/source/us/dataset/opendap-prov/version/20140203-1391455247-ab12</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -317,7 +317,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{429.88518905639648, 174}, {98.114814758300781, 19}}</string>
+			<string>{{461.28036117553711, 174}, {98.114814758300781, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -343,7 +343,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-mockup-tracer/version/2014-Jan-28/source/1-239.txt.prov.ttl</string>
+				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-disneyland/version/2014-Feb-03/source/730241.txt.prov.ttl</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -383,7 +383,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{428.88519287109375, 159}, {58.485595703125, 19}}</string>
+			<string>{{460.28036499023438, 159}, {58.485595703125, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -409,7 +409,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-mockup-tracer/version/2014-Jan-28/source/1-239.txt</string>
+				<string>http://provenanceweb.org/source/provenanceweb/file/opendap-disneyland/version/2014-Feb-03/source/730241.txt</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -449,143 +449,11 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{110.24822998046875, 125.42341613769531}, {120.12255859375, 19}}</string>
+			<string>{{5, 512.51496887207031}, {567, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
 			<string>Vertical</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>FontInfo</key>
-			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
-				<key>Font</key>
-				<string>Georgia</string>
-				<key>NSKern</key>
-				<real>0.0</real>
-				<key>Size</key>
-				<real>16</real>
-			</dict>
-			<key>ID</key>
-			<integer>85</integer>
-			<key>Link</key>
-			<dict>
-				<key>url</key>
-				<string>http://opendap.tw.rpi.edu/tomcat/opendap/ipaw2014/mockup-tracer/b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc.prov.ttl</string>
-			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>stroke</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Pad</key>
-				<integer>0</integer>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
-
-\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
-  }</string>
-				<key>VerticalPad</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{110.24822998046875, 115}, {76.75177001953125, 19}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>Vertical</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>FontInfo</key>
-			<dict>
-				<key>Color</key>
-				<dict>
-					<key>w</key>
-					<string>0</string>
-				</dict>
-				<key>Font</key>
-				<string>Georgia</string>
-				<key>NSKern</key>
-				<real>0.0</real>
-				<key>Size</key>
-				<real>16</real>
-			</dict>
-			<key>ID</key>
-			<integer>84</integer>
-			<key>Link</key>
-			<dict>
-				<key>url</key>
-				<string>http://opendap.tw.rpi.edu/tomcat/opendap/ipaw2014/mockup-tracer/b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc</string>
-			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>stroke</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Pad</key>
-				<integer>0</integer>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 Georgia;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
-
-\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
-  }</string>
-				<key>VerticalPad</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{8, 516}, {563, 28}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>YES</string>
 			<key>Flow</key>
 			<string>Resize</string>
 			<key>FontInfo</key>
@@ -607,7 +475,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>https://github.com/tetherless-world/opendap/blob/master/doc/mockup-tracer.graffle.pdf</string>
+				<string>https://github.com/tetherless-world/opendap/blob/master/doc/disneyland.graffle.pdf</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -642,18 +510,15 @@
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\i\fs24 \cf0 \expnd0\expndtw0\kerning0
-&lt;&gt; prov:alternateOf\
-                         &lt;{\field{\*\fldinst{HYPERLINK "https://github.com/tetherless-world/opendap/blob/master/doc/datasets.graffle.pdf"}}{\fldrslt \expnd0\expndtw0\kerning0
-https://github.com/tetherless-world/opendap/blob/master/doc/mockup-tracer.graffle.pdf}}&gt; .}</string>
+&lt;&gt; prov:alternateOf &lt;{\field{\*\fldinst{HYPERLINK "https://github.com/tetherless-world/opendap/blob/master/doc/datasets.graffle.pdf"}}{\fldrslt \expnd0\expndtw0\kerning0
+https://github.com/tetherless-world/opendap/blob/master/doc/disneyland.graffle.pdf}}&gt; .}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
-			<key>Wrap</key>
-			<string>NO</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{335.26266479492188, 460.45451736450195}, {188.21624755859375, 28}}</string>
+			<string>{{366.6578369140625, 460.45451736450195}, {188.21624755859375, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -729,8 +594,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>80</integer>
 					<key>Points</key>
 					<array>
-						<string>{420.03057861328125, 448.22725868225098}</string>
-						<string>{438.03057861328125, 430.22725868225098}</string>
+						<string>{451.42575073242188, 448.22725868225098}</string>
+						<string>{469.42575073242188, 430.22725868225098}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -762,8 +627,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>81</integer>
 					<key>Points</key>
 					<array>
-						<string>{420.03057861328125, 430.22725868225098}</string>
-						<string>{438.03057861328125, 448.22725868225098}</string>
+						<string>{451.42575073242188, 430.22725868225098}</string>
+						<string>{469.42575073242188, 448.22725868225098}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -804,8 +669,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>77</integer>
 					<key>Points</key>
 					<array>
-						<string>{221.18539428710938, 431.40910530090332}</string>
-						<string>{239.18539428710938, 413.40910530090332}</string>
+						<string>{196.18539428710938, 431.40910530090332}</string>
+						<string>{214.18539428710938, 413.40910530090332}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -837,8 +702,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>78</integer>
 					<key>Points</key>
 					<array>
-						<string>{221.18539428710938, 413.40910530090332}</string>
-						<string>{239.18539428710938, 431.40910530090332}</string>
+						<string>{196.18539428710938, 413.40910530090332}</string>
+						<string>{214.18539428710938, 431.40910530090332}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -867,7 +732,7 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{199, 372}, {32.24822998046875, 20}}</string>
+			<string>{{174, 372}, {32.24822998046875, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -893,7 +758,7 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>http://opendap.tw.rpi.edu/source/provenanceweb-org/dataset/prov-pingback/version/20140128-1390939889-ab12-e5fa38d0963746de046fc68183ac549e</string>
+				<string>http://opendap.tw.rpi.edu/source/provenanceweb-org/dataset/prov-pingback/version/20140203-1391455247-ab12-13ee2e4f64dffcc750356da9dcc9</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -935,7 +800,7 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{386.26910400390625, 398}, {43, 20}}</string>
+			<string>{{417.66427612304688, 398}, {43, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -998,7 +863,7 @@ a_2.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{386.37078857421875, 266.9999988079071}, {43, 20}}</string>
+			<string>{{417.76596069335938, 266.9999988079071}, {43, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1061,7 +926,7 @@ a_1.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{311.68002496239751, 381.51497268676758}, {36, 14}}</string>
+			<string>{{315.08870315385911, 381.51497268676758}, {36, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1127,8 +992,8 @@ a_1.ttl}</string>
 			<integer>70</integer>
 			<key>Points</key>
 			<array>
-				<string>{425.26908874511719, 398.00000762939453}</string>
-				<string>{231.03999328613281, 398.00000762939453}</string>
+				<string>{456.20775557789239, 398.00000762939453}</string>
+				<string>{206.03999328613284, 398.00000762939453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1149,7 +1014,7 @@ a_1.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{39, 319.6363599896431}, {200.26397705078125, 49.363639831542969}}</string>
+			<string>{{14, 319.6363599896431}, {200.26397705078125, 49.363639831542969}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1197,7 +1062,7 @@ a_1.ttl}</string>
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
 Prizms creates access.ttl\
-Prizms retrieves git.png.prov.ttl\
+Prizms retrieves 730241.cdl.prov.ttl\
 Prizms publishes &lt;C&gt;}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -1205,7 +1070,7 @@ Prizms publishes &lt;C&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{110.24822998046875, 114.42341613769531}, {121, 30}}</string>
+			<string>{{18.031982421875, 114.42341613769531}, {188.21624755859375, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1228,6 +1093,11 @@ Prizms publishes &lt;C&gt;}</string>
 			</dict>
 			<key>ID</key>
 			<integer>68</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>http://opendap.tw.rpi.edu/tomcat/opendap/ipaw2014/disneyland/CA_OrangeCo_2011_000402.txt.cdl.nc</string>
+			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
 			<key>Style</key>
@@ -1250,101 +1120,22 @@ Prizms publishes &lt;C&gt;}</string>
 			</dict>
 			<key>Text</key>
 			<dict>
-				<key>Align</key>
-				<integer>0</integer>
 				<key>Pad</key>
 				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\slleading40\pardirnatural
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-...0119-12.nc\
-...0119-12.nc.prov.ttl}</string>
+\f0\fs24 \cf0 CA_OrangeCo_2011_000402.nc}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
-			<key>Class</key>
-			<string>Group</string>
-			<key>Graphics</key>
-			<array>
-				<dict>
-					<key>AllowLabelDrop</key>
-					<false/>
-					<key>Class</key>
-					<string>LineGraphic</string>
-					<key>ID</key>
-					<integer>64</integer>
-					<key>Points</key>
-					<array>
-						<string>{56, 139}</string>
-						<string>{74, 121}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>stroke</key>
-						<dict>
-							<key>HeadArrow</key>
-							<string>0</string>
-							<key>HeadScale</key>
-							<real>1.4285709857940674</real>
-							<key>Legacy</key>
-							<true/>
-							<key>LineType</key>
-							<integer>1</integer>
-							<key>TailArrow</key>
-							<string>0</string>
-							<key>TailScale</key>
-							<real>0.5</real>
-							<key>Width</key>
-							<real>2</real>
-						</dict>
-					</dict>
-				</dict>
-				<dict>
-					<key>AllowLabelDrop</key>
-					<false/>
-					<key>Class</key>
-					<string>LineGraphic</string>
-					<key>ID</key>
-					<integer>65</integer>
-					<key>Points</key>
-					<array>
-						<string>{56, 121}</string>
-						<string>{74, 139}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>stroke</key>
-						<dict>
-							<key>HeadArrow</key>
-							<string>0</string>
-							<key>HeadScale</key>
-							<real>1.4285709857940674</real>
-							<key>Legacy</key>
-							<true/>
-							<key>LineType</key>
-							<integer>1</integer>
-							<key>TailArrow</key>
-							<string>0</string>
-							<key>TailScale</key>
-							<real>0.5</real>
-							<key>Width</key>
-							<real>2</real>
-						</dict>
-					</dict>
-				</dict>
-			</array>
-			<key>ID</key>
-			<integer>63</integer>
-		</dict>
-		<dict>
 			<key>Bounds</key>
-			<string>{{315.14004693505376, 250.51497268676758}, {36, 14}}</string>
+			<string>{{319.54522369901372, 250.51497268676758}, {36, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1410,8 +1201,8 @@ Prizms publishes &lt;C&gt;}</string>
 			<integer>61</integer>
 			<key>Points</key>
 			<array>
-				<string>{428.72911071777344, 267.00000762939453}</string>
-				<string>{234.50001525878906, 267.00000762939453}</string>
+				<string>{460.66427612304705, 267.00000762939453}</string>
+				<string>{210.49651383128742, 267.00000762939453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1432,7 +1223,7 @@ Prizms publishes &lt;C&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{199, 196}, {32.24822998046875, 20}}</string>
+			<string>{{174, 196}, {32.24822998046875, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1500,7 +1291,7 @@ Prizms publishes &lt;C&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{39, 164.0000074505806}, {200.18539428710938, 28}}</string>
+			<string>{{14, 164.0000074505806}, {200.18539428710938, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1555,7 +1346,7 @@ Prizms publishes record.ttl to &lt;A&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{240.45572745286063, 281.51321029663086}, {186, 28}}</string>
+			<string>{{227.4284968765316, 285.36884307861328}, {219.57150268554688, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1571,9 +1362,9 @@ Prizms publishes record.ttl to &lt;A&gt;}</string>
 				<key>ID</key>
 				<integer>55</integer>
 				<key>Offset</key>
-				<real>18.411090850830078</real>
+				<real>14.555458068847656</real>
 				<key>Position</key>
-				<real>0.4830036461353302</real>
+				<real>0.48595196008682251</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -1609,7 +1400,7 @@ Prizms publishes record.ttl to &lt;A&gt;}</string>
 
 \f0\fs24 \cf0 POST B\
 provenance=http://...\expnd0\expndtw0\kerning0
-git.png.prov.ttl}</string>
+730241.cdl.prov.ttl}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1623,8 +1414,8 @@ git.png.prov.ttl}</string>
 			<integer>55</integer>
 			<key>Points</key>
 			<array>
-				<string>{427.26908874511719, 313.92430114746094}</string>
-				<string>{233.03999328613281, 313.92430114746094}</string>
+				<string>{458.78376265551992, 313.92430114746094}</string>
+				<string>{208.61600036376024, 313.92430114746094}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1698,7 +1489,7 @@ Link: &lt;B&gt;\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{386.37078857421875, 16}, {86, 28}}</string>
+			<string>{{417.76596069335938, 16}, {86, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1760,7 +1551,7 @@ Client}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{152.87078857421875, 16}, {157, 28}}</string>
+			<string>{{127.87078857421875, 16}, {157, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1822,7 +1613,7 @@ Server}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{428.88520336151123, 223.0000034570694}, {98.114797592163086, 34}}</string>
+			<string>{{460.28037548065186, 223.0000034570694}, {107.71962451934814, 34}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1878,15 +1669,15 @@ Server}</string>
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-git.png\
-git.png.prov.ttl}</string>
+730241.cdl\
+730241.cdl.prov.ttl}</string>
 				<key>VerticalPad</key>
 				<integer>3</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{428.88518619537354, 159}, {98.114814758300781, 34}}</string>
+			<string>{{460.28035831451416, 159}, {107.71964168548584, 34}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1942,15 +1733,15 @@ git.png.prov.ttl}</string>
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-1-239.txt\
-1-239.txt.prov.ttl}</string>
+730241.txt\
+730241.txt.prov.ttl}</string>
 				<key>VerticalPad</key>
 				<integer>3</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{420.87078857421875, 194.00000412762165}, {17, 28}}</string>
+			<string>{{452.26596069335938, 194.00000412762165}, {17, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>HFlip</key>
@@ -1991,7 +1782,7 @@ git.png.prov.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{231.03998887682428, 70}, {206.99059724807739, 98}}</string>
+			<string>{{209.77439780932815, 77}, {248.96000671386719, 84}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2009,9 +1800,14 @@ git.png.prov.ttl}</string>
 				<key>Offset</key>
 				<real>40</real>
 				<key>Position</key>
-				<real>0.48472648859024048</real>
+				<real>0.50538349151611328</real>
 				<key>RotationType</key>
 				<integer>0</integer>
+			</dict>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>http://opendap.tw.rpi.edu/tomcat/opendap/ipaw2014/disneyland/CA_OrangeCo_2011_000402.txt.cdl.nc.ascii?northing%5B730241%5D,easting%5B730241%5D,altitude%5B730241%5D,intensity%5B730241%5D,category%5B730241%5D</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -2044,10 +1840,10 @@ git.png.prov.ttl}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\fs24 \cf0 GET\
-b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc
-\b .ascii?date[0:1:239],\
-ndcur[0:1:239],\
-time_written[0:1:239]\
+CA_OrangeCo_2011_000402.nc.
+\b ascii?northing[730241],\
+easting[730241],\
+altitude[730241]\
 }</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -2062,8 +1858,8 @@ time_written[0:1:239]\
 			<integer>44</integer>
 			<key>Points</key>
 			<array>
-				<string>{427.22909545898438, 159}</string>
-				<string>{236, 159}</string>
+				<string>{458.73225116145193, 159}</string>
+				<string>{212.42849948613346, 159}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2089,8 +1885,8 @@ time_written[0:1:239]\
 			<integer>41</integer>
 			<key>Points</key>
 			<array>
-				<string>{429.37078857421875, 68.5}</string>
-				<string>{429.37078857421875, 453}</string>
+				<string>{460.76596069335938, 68.5}</string>
+				<string>{460.76596069335938, 453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2118,7 +1914,7 @@ time_written[0:1:239]\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{371.37078857421875, 54}, {116, 14}}</string>
+			<string>{{402.76596069335938, 54}, {116, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2186,8 +1982,8 @@ provenanceweb.org}</string>
 			<integer>38</integer>
 			<key>Points</key>
 			<array>
-				<string>{231.37078857421875, 68.5}</string>
-				<string>{231.37078857421875, 431}</string>
+				<string>{206.37078857421875, 68.5}</string>
+				<string>{206.37078857421875, 431}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -2215,7 +2011,7 @@ provenanceweb.org}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{170.87078857421875, 54}, {121, 14}}</string>
+			<string>{{145.87078857421875, 54}, {121, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2279,199 +2075,6 @@ opendap.tw.rpi.edu}</string>
 				<integer>0</integer>
 			</dict>
 		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{72.763059482231256, 68.576583862304688}, {153.77273559570312, 42}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>Vertical</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>HFlip</key>
-			<string>YES</string>
-			<key>ID</key>
-			<integer>29</integer>
-			<key>Line</key>
-			<dict>
-				<key>ID</key>
-				<integer>8</integer>
-				<key>Offset</key>
-				<real>24.423416137695312</real>
-				<key>Position</key>
-				<real>0.49409908056259155</real>
-				<key>RotationType</key>
-				<integer>0</integer>
-			</dict>
-			<key>Link</key>
-			<dict>
-				<key>url</key>
-				<string>http://opendap.rpi.edu/opendap/hyrax/ESG/b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc</string>
-			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>stroke</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Pad</key>
-				<integer>0</integer>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
-
-\f0\fs24 \cf0 GET\
-b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
-				<key>VerticalPad</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>AllowLabelDrop</key>
-			<false/>
-			<key>Class</key>
-			<string>LineGraphic</string>
-			<key>ID</key>
-			<integer>8</integer>
-			<key>Points</key>
-			<array>
-				<string>{230.37078857421875, 114}</string>
-				<string>{67, 114}</string>
-			</array>
-			<key>Style</key>
-			<dict>
-				<key>stroke</key>
-				<dict>
-					<key>HeadArrow</key>
-					<string>FilledArrow</string>
-					<key>HeadScale</key>
-					<real>1.4285709857940674</real>
-					<key>Legacy</key>
-					<true/>
-					<key>TailArrow</key>
-					<string>0</string>
-					<key>TailScale</key>
-					<real>0.5</real>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>AllowLabelDrop</key>
-			<false/>
-			<key>Class</key>
-			<string>LineGraphic</string>
-			<key>ID</key>
-			<integer>33</integer>
-			<key>Points</key>
-			<array>
-				<string>{65, 68.5}</string>
-				<string>{65, 139}</string>
-			</array>
-			<key>Style</key>
-			<dict>
-				<key>stroke</key>
-				<dict>
-					<key>HeadArrow</key>
-					<string>0</string>
-					<key>HeadScale</key>
-					<real>1.4285709857940674</real>
-					<key>Legacy</key>
-					<true/>
-					<key>Pattern</key>
-					<integer>1</integer>
-					<key>TailArrow</key>
-					<string>0</string>
-					<key>TailScale</key>
-					<real>0.5</real>
-				</dict>
-			</dict>
-			<key>Tail</key>
-			<dict>
-				<key>ID</key>
-				<integer>3</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{11, 54}, {108, 14}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>Vertical</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>ID</key>
-			<integer>3</integer>
-			<key>Link</key>
-			<dict>
-				<key>url</key>
-				<string>http://opendap.rpi.edu</string>
-			</dict>
-			<key>Shape</key>
-			<string>Rectangle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Color</key>
-					<dict>
-						<key>b</key>
-						<string>0.901961</string>
-						<key>g</key>
-						<string>0.901961</string>
-						<key>r</key>
-						<string>0.901961</string>
-					</dict>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>stroke</key>
-				<dict>
-					<key>Color</key>
-					<dict>
-						<key>b</key>
-						<string>0.8</string>
-						<key>g</key>
-						<string>0.8</string>
-						<key>r</key>
-						<string>0.8</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
-
-\f0\fs24 \cf0 opendap.rpi.edu}</string>
-				<key>VerticalPad</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
 	</array>
 	<key>GridInfo</key>
 	<dict/>
@@ -2520,7 +2123,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-02-04 18:29:38 +0000</string>
+	<string>2014-02-04 18:32:05 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -2601,7 +2204,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{1, 52}, {582, 826}}</string>
+		<string>{{-1, 42}, {599, 836}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -2613,7 +2216,7 @@ b30.004.cam2.h0.DTV_zav.0100-01_cat_0119-12.nc}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-2, 1}, {582, 732}}</string>
+		<string>{{-11, -4}, {599, 742}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
