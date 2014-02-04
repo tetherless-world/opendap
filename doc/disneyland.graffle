@@ -53,7 +53,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{461.28036499023438, 238}, {93.593719482421875, 19}}</string>
+			<string>{{452.28036499023438, 238}, {93.593719482421875, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -119,7 +119,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{460.28036499023438, 223}, {58.485595703125, 19}}</string>
+			<string>{{451.28036499023438, 223}, {58.485595703125, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -317,7 +317,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{461.28036117553711, 174}, {98.114814758300781, 19}}</string>
+			<string>{{452.28036117553711, 174}, {98.114814758300781, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -383,7 +383,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{460.28036499023438, 159}, {58.485595703125, 19}}</string>
+			<string>{{451.28036499023438, 159}, {58.485595703125, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -518,7 +518,7 @@ https://github.com/tetherless-world/opendap/blob/master/doc/disneyland.graffle.p
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{366.6578369140625, 460.45451736450195}, {188.21624755859375, 28}}</string>
+			<string>{{357.6578369140625, 460.45451736450195}, {188.21624755859375, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -594,8 +594,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>80</integer>
 					<key>Points</key>
 					<array>
-						<string>{451.42575073242188, 448.22725868225098}</string>
-						<string>{469.42575073242188, 430.22725868225098}</string>
+						<string>{442.42575073242188, 448.22725868225098}</string>
+						<string>{460.42575073242188, 430.22725868225098}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -627,8 +627,8 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 					<integer>81</integer>
 					<key>Points</key>
 					<array>
-						<string>{451.42575073242188, 430.22725868225098}</string>
-						<string>{469.42575073242188, 448.22725868225098}</string>
+						<string>{442.42575073242188, 430.22725868225098}</string>
+						<string>{460.42575073242188, 448.22725868225098}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -800,7 +800,7 @@ a_2.ttl describes &lt;A&gt; and &lt;C&gt; .}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{417.66427612304688, 398}, {43, 20}}</string>
+			<string>{{408.66427612304688, 398}, {43, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -863,7 +863,7 @@ a_2.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{417.76596069335938, 266.9999988079071}, {43, 20}}</string>
+			<string>{{408.76596069335938, 266.9999988079071}, {43, 20}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -926,7 +926,7 @@ a_1.ttl}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{315.08870315385911, 381.51497268676758}, {36, 14}}</string>
+			<string>{{310.05916458090934, 381.51497268676758}, {36, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -992,8 +992,8 @@ a_1.ttl}</string>
 			<integer>70</integer>
 			<key>Points</key>
 			<array>
-				<string>{456.20775557789239, 398.00000762939453}</string>
-				<string>{206.03999328613284, 398.00000762939453}</string>
+				<string>{447.31206963652699, 398.00000762939453}</string>
+				<string>{205.00000000000031, 398.00000762939453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1135,7 +1135,7 @@ Prizms publishes &lt;C&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{319.54522369901372, 250.51497268676758}, {36, 14}}</string>
+			<string>{{313.42707915630422, 250.51497268676758}, {36, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1201,8 +1201,8 @@ Prizms publishes &lt;C&gt;}</string>
 			<integer>61</integer>
 			<key>Points</key>
 			<array>
-				<string>{460.66427612304705, 267.00000762939453}</string>
-				<string>{210.49651383128742, 267.00000762939453}</string>
+				<string>{451.6642761230471, 267.00000762939453}</string>
+				<string>{207.35220648652032, 267.00000762939453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1346,7 +1346,7 @@ Prizms publishes record.ttl to &lt;A&gt;}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{227.4284968765316, 285.36884307861328}, {219.57150268554688, 28}}</string>
+			<string>{{221.31809949783656, 285.36884307861328}, {219.57150268554688, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1414,8 +1414,8 @@ provenance=http://...\expnd0\expndtw0\kerning0
 			<integer>55</integer>
 			<key>Points</key>
 			<array>
-				<string>{458.78376265551992, 313.92430114746094}</string>
-				<string>{208.61600036376024, 313.92430114746094}</string>
+				<string>{449.82777995334845, 313.92430114746094}</string>
+				<string>{205.51571031682161, 313.92430114746094}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1489,7 +1489,7 @@ Link: &lt;B&gt;\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{417.76596069335938, 16}, {86, 28}}</string>
+			<string>{{408.76596069335938, 16}, {86, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1613,7 +1613,7 @@ Server}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{460.28037548065186, 223.0000034570694}, {107.71962451934814, 34}}</string>
+			<string>{{452.28037548065186, 223.0000034570694}, {107.71962451934814, 34}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1677,7 +1677,7 @@ Server}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{460.28035831451416, 159}, {107.71964168548584, 34}}</string>
+			<string>{{452.28035831451416, 159}, {107.71964168548584, 34}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1741,22 +1741,27 @@ Server}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{452.26596069335938, 194.00000412762165}, {17, 28}}</string>
+			<string>{{442.42573547363281, 197.5}, {127.73403930664062, 21}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
+			<key>FontInfo</key>
+			<dict>
+				<key>Color</key>
+				<dict>
+					<key>w</key>
+					<string>0</string>
+				</dict>
+				<key>Font</key>
+				<string>Helvetica</string>
+				<key>NSKern</key>
+				<real>0.0</real>
+				<key>Size</key>
+				<real>12</real>
+			</dict>
 			<key>HFlip</key>
 			<string>YES</string>
 			<key>ID</key>
 			<integer>46</integer>
-			<key>Line</key>
-			<dict>
-				<key>ID</key>
-				<integer>41</integer>
-				<key>Position</key>
-				<real>0.36280885338783264</real>
-				<key>RotationType</key>
-				<integer>0</integer>
-			</dict>
 			<key>Magnets</key>
 			<array>
 				<string>{0.5, 0.50238099999999997}</string>
@@ -1776,13 +1781,20 @@ Server}</string>
 			<dict>
 				<key>Align</key>
 				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1265
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs24 \cf0 Categorize as "Water"}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{209.77439780932815, 77}, {248.96000671386719, 84}}</string>
+			<string>{{209.11181968095372, 84}, {248.96000671386719, 70}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1800,7 +1812,7 @@ Server}</string>
 				<key>Offset</key>
 				<real>40</real>
 				<key>Position</key>
-				<real>0.50538349151611328</real>
+				<real>0.48102331161499023</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -1843,8 +1855,7 @@ Server}</string>
 CA_OrangeCo_2011_000402.nc.
 \b ascii?northing[730241],\
 easting[730241],\
-altitude[730241]\
-}</string>
+altitude[730241]}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -1858,8 +1869,8 @@ altitude[730241]\
 			<integer>44</integer>
 			<key>Points</key>
 			<array>
-				<string>{458.73225116145193, 159}</string>
-				<string>{212.42849948613346, 159}</string>
+				<string>{449.77747419208436, 159}</string>
+				<string>{208.23897003078969, 159}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1885,8 +1896,8 @@ altitude[730241]\
 			<integer>41</integer>
 			<key>Points</key>
 			<array>
-				<string>{460.76596069335938, 68.5}</string>
-				<string>{460.76596069335938, 453}</string>
+				<string>{451.76596069335938, 68.5}</string>
+				<string>{451.76596069335938, 453}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1914,7 +1925,7 @@ altitude[730241]\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{402.76596069335938, 54}, {116, 14}}</string>
+			<string>{{393.76596069335938, 54}, {116, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -2123,7 +2134,7 @@ opendap.tw.rpi.edu}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-02-04 18:32:05 +0000</string>
+	<string>2014-02-04 18:41:28 +0000</string>
 	<key>Modifier</key>
 	<string>Tim Lebo</string>
 	<key>NotesVisible</key>
@@ -2204,7 +2215,7 @@ opendap.tw.rpi.edu}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{-1, 42}, {599, 836}}</string>
+		<string>{{0, 42}, {599, 836}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
