@@ -11,6 +11,45 @@ $conf['ns']['local']   = 'http://opendap.tw.rpi.edu';
 $conf['mirror_external_uris'] = false;
 
 // Cherry-picked components (see https://github.com/alangrafu/lodspeakr/wiki/Reuse-cherry-picked-components-from-other-repositories)
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/void:Dataset';
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/rdfs:Resource';
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/conv:LayerDataset';
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/conv:AbstractDataset';
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/conv:MetaDataset';
+$conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/types/conv:VersionedDataset';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/graph';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/instances';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/sanity-checks';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/ckan-mirror-status';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/datasets';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/statistics';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/dataset-sample-graphs';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/search';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/vocabularies';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/classes';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/namedGraphs';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/prizms-lodspeakr/components/services/triples';
+$conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/csv2rdf4lod-lodspeakr/components/services/named-graph-loads';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/conv:VersionedDataset';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/rdfs:Resource';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/conv:MetaDataset';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/old.conv';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/void:Dataset';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/conv:AbstractDataset';
+// $conf['components']['types'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/types/conv:LayerDataset';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/vocabularies';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/statistics';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/graph';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/ckan-mirror-status';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/sanity-checks';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/dataset-sample-graphs';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/search';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/instances';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/namedGraphs';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/tim';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/triples';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/datasets';
+// $conf['components']['services'][] = '/home/prizms/opt/prizms/lodspeakrs/twc-healthdata/lodspeakr/components/services/classes';
 
 // Variables in  can be used to store user info.
 // For examples, 'title' will be used in the header.
