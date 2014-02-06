@@ -248,7 +248,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         // what is x? From that we should be able to grab the request
         // handler for that and ask for the version information
         string actualaction = dhi.action.substr( 4 ) ;
-        strm << "# " << "Action: " actualaction << endl ;
+        strm << "# " << "Action: " << actualaction << endl ;
 
         // We need to know what files were loaded and what loaded them.
         // We have the list of containers, and those containers have the
