@@ -6,6 +6,7 @@
 #3> .
 #
 
+CSV2RDF4LOD_PUBLISH_COMPRESS=false
 filename="opendap-provenance.ttl"
 for record in `find . -mindepth 3 -maxdepth 3 -name $filename`; do
     # e.g. record =
