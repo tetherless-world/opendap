@@ -36,6 +36,9 @@
 
 #include <cstring>
 #include <cerrno>
+#include <ctime>
+#include <sys/stat.h>  // To make directories.
+#include <sys/types.h> // To make directories.
 
 #include "ProvReporter.h"
 #include <BESInternalError.h>
@@ -43,9 +46,6 @@
 #include <BESDebug.h>
 #include <BESContextManager.h>
 #include <BESLog.h>
-#include <ctime>
-#include <sys/stat.h>  // To make directories.
-#include <sys/types.h> // To make directories.
 
 
 // See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-configuration
@@ -68,25 +68,6 @@
 ProvReporter::ProvReporter()
     : BESReporter()
 {
-}
-
-ProvReporter::~ProvReporter()
-{
-}
-
-/** @brief reports any provenance information to an external provenance
- * ttl file
- *
- * @param dhi structure that contains all information pertaining to the data
- * request
- */
-void
-ProvReporter::report( BESDataHandlerInterface &dhi )
-{
-    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
-
-    // TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
-
     // Use BESKeys::get_value(const string& s, string &val, bool &found)
     // to access:
     //   Prov.cr_base_uri=http://opendap.tw.rpi.edu
@@ -116,7 +97,6 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
 
     found = false ;
-    string _source_id ;
     TheBESKeys::TheKeys()->get_value( PROV_SOURCE_ID, _source_id, found ) ;
     if( _source_id == "" )
     {
@@ -124,28 +104,52 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
 
     found = false ;
-    string _dataset_id ;
     TheBESKeys::TheKeys()->get_value( PROV_DATASET_ID, _dataset_id, found ) ;
     if( _dataset_id == "" )
     {
         _dataset_id = "opendap-prov" ;
     }
-    // ^^^^^^ TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
+}
+
+ProvReporter::~ProvReporter()
+{
+}
+
+/** @brief reports any provenance information to an external provenance
+ * ttl file
+ *
+ * @param dhi structure that contains all information pertaining to the data
+ * request
+ */
+void
+ProvReporter::report( BESDataHandlerInterface &dhi )
+{
+    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
+    BESDEBUG( "prov", "ProvReporter::report - this = " << *this << endl ) ;
+    BESDEBUG( "prov", "ProvReporter::report - dhi = " << dhi << endl ) ;
+
+    if( dhi.action.compare( 0, 3, "get" ) != 0 )
+    {
+        BESDEBUG( "prov", "ProvReporter::report - not a get, so leaving"
+                          << endl ) ;
+        return ;
+    }
 
     string abstractDataset = _base_uri + "/source/" + _source_id + "/dataset/" + _dataset_id ;
 
     // Get timestamp for versionID, e.g. 20140123-1390489968
     // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
-    time_t rawtime;                                                             //
-    struct tm * timeinfo;                                                       //
-    char buffer[80];                                                            //
-    //                                                                          //
-    time (&rawtime);                                                            //
-    timeinfo = localtime(&rawtime);                                             //
-    //                                                                          //
-    strftime(buffer,80,"%Y%m%d-%s",timeinfo);                                   //
-    std::string dateStamp(buffer);                                              //
-    // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
+    time_t rawtime;
+    struct tm * timeinfo;
+    char buffer[80];
+    memset( buffer, 0, sizeof( buffer ) ) ;
+
+    time (&rawtime);
+    timeinfo = localtime(&rawtime);
+
+    strftime(buffer,80,"%Y%m%d-%s",timeinfo);
+    string dateStamp(buffer);
+
 
     // TODO: 4 character UUID at end of versionID.
     // http://stackoverflow.com/questions/3247861/example-of-uuid-generation-using-boost-in-c
@@ -191,8 +195,6 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     // TODO: Make a function to wrap this, since we call it 6 times.
     if( status != 0 )
     {
-        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
-                          << status << " " << sourceDir << endl ) ;
         char *serr = strerror( myerrno ) ;
         string err = "Unable to create the directory " + sourceDir + ": " ;
         if( serr )
@@ -203,6 +205,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         {
             err.append( "unknown error occurred" ) ;
         }
+        BESDEBUG( "prov", "ProvReporter::report - " << err << endl ) ;
     }
     // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( sourceDir.c_str(),   S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
@@ -216,10 +219,10 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     status = mkdir( versionDir3.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
     if( status != 0 )
     {
-        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
-                          << status << " " << sourceDir << endl ) ;
+        filename = "/tmp/opendap-prov.ttl" ;
+
         char *serr = strerror( myerrno ) ;
-        string err = "Unable to create the directory " + sourceDir + ": " ;
+        string err = "Unable to create the directory " + versionDir3 + ": " ;
         if( serr )
         {
             err.append( serr ) ;
@@ -228,7 +231,8 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         {
             err.append( "unknown error occurred" ) ;
         }
-        filename = "/tmp/opendap-prov.ttl" ;
+        err.append( ". Using " + filename ) ;
+        BESDEBUG( "prov", "ProvReporter::report - " << err << endl ) ;
     }
 
     ofstream strm( filename.c_str() ) ;
@@ -239,6 +243,38 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     else
     {
         strm << "# " << provenanceRecordFilePath << endl ;
+
+        // What's the the response object here. We know it's get.x, so
+        // what is x? From that we should be able to grab the request
+        // handler for that and ask for the version information
+        string actualaction = dhi.action.substr( 4 ) ;
+        strm << "# " << "Action: " actualaction << endl ;
+
+        // We need to know what files were loaded and what loaded them.
+        // We have the list of containers, and those containers have the
+        // full path to the file and the type. The type is the request
+        // handler that would be used to read in the data. So get the
+        // request handler and ask for the version information
+        list<BESContainer *>::const_iterator i = dhi.containers.begin();
+        list<BESContainer *>::const_iterator ie = dhi.containers.end();
+        for (; i != ie; i++)
+        {
+            strm << "# container name: " << (*i)->get_real_name()
+                 << endl ;
+            strm << "# container type: " << (*i)->get_container_type()
+                 << endl ;
+            strm << "# container constraint: " << (*i)->get_constraint()
+                 << endl ;
+
+            // If there is a constraint then we know we need to include
+            // information about the dap module
+
+            // What we don't know unless we parse the constrant is
+            // whether or not there are server-side functions being
+            // called. And if they are, where do I get information about
+            // the module that loaded the server-side function
+        }
+
         strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
         strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
         strm << endl ;
