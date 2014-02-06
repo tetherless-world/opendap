@@ -242,30 +242,44 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
     else
     {
-        strm << "# " << provenanceRecordFilePath << endl ;
-
-        // What's the the response object here. We know it's get.x, so
-        // what is x? From that we should be able to grab the request
-        // handler for that and ask for the version information
-        string actualaction = dhi.action.substr( 4 ) ;
-        strm << "# " << "Action: " << actualaction << endl ;
+        strm << "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>." << endl ;
+        strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
+        strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
+        strm << "@prefix pml:     <http://provenanceweb.org/ns/pml#>." << endl ;
+        strm << endl ;
+        strm << "@base <" << versionedDataset << "/>." << endl ;
+        strm << endl ;
 
         // We need to know what files were loaded and what loaded them.
         // We have the list of containers, and those containers have the
         // full path to the file and the type. The type is the request
         // handler that would be used to read in the data. So get the
         // request handler and ask for the version information
+        int counter = 1;
         list<BESContainer *>::const_iterator i = dhi.containers.begin();
         list<BESContainer *>::const_iterator ie = dhi.containers.end();
         for (; i != ie; i++)
         {
-            strm << "# container name: " << (*i)->get_real_name()
+            strm << "<used/" << counter << "> a prov:Entity;" << endl ;
+            strm << "   rdfs:label \"container name: " << (*i)->get_real_name() << "\";"
                  << endl ;
-            strm << "# container type: " << (*i)->get_container_type()
-                 << endl ;
-            strm << "# container constraint: " << (*i)->get_constraint()
-                 << endl ;
+            strm << "   rdfs:comment \" container type: " << (*i)->get_container_type() << "\";" << endl ;
+            //if ( string.compare("nc") == 0 ) {
+            strm << "   dcterms:format <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#wiki-abstract-netcdf>;" << endl ;
+            //}
+            strm << "." << endl ;
 
+            strm << endl ;
+            strm << "<used/" << counter << "/data-dds> a prov:Entity;" << endl ;
+            strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+            strm << "   prov:wasDerivedFrom <used/" << counter << ">;" << endl;
+            strm << "." << endl ;
+
+            strm << endl ;
+            strm << "<used/" << counter << "/constraint> a pml:DeclarativePlan, prov:Plan, prov:Entity;" << endl ;
+            strm << "   a <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#Constraint>;" << endl;
+            strm << "   prov:value \"" << (*i)->get_constraint() << "\";" << endl;
+            strm << "." << endl ;
             // If there is a constraint then we know we need to include
             // information about the dap module
 
@@ -273,15 +287,31 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
             // whether or not there are server-side functions being
             // called. And if they are, where do I get information about
             // the module that loaded the server-side function
+            counter++;
         }
 
-        strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
-        strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
+        // What's the response object here. We know it's get.x, so
+        // what is x? From that we should be able to grab the request
+        // handler for that and ask for the version information
+        string actualaction = dhi.action.substr( 4 ) ;
+        string ascii_val = "ascii";
+
         strm << endl ;
-        strm << "@base <" << versionedDataset << "/>." << endl ;
+        strm << "<response/data-dds> a prov:Entity;" << endl ;
+        strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+        strm << "." << endl ;
+
         strm << endl ;
         strm << "<response> a prov:Entity;" << endl ;
-        strm << "   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/286>;" << endl ;
+        strm << "   rdfs:comment \"" << "Action: " << actualaction << "\";" << endl ;
+        for( int c = 1; c < counter; c++ ) {
+            strm << "   prov:wasDerivedFrom <used/" << c << ">;" << endl;
+        }
+        strm << "   prov:specializationOf <the-requested-url>;" << endl ;
+        // TODO: fix compile error
+        //if ( string.compare(ascii_val) == 0 ) {
+            strm << "   dcterms:format <http://provenanceweb.org/format/mime/text/plain>;" << endl ;
+        //}
         strm << "." << endl ;
         strm.close() ;
     }
