@@ -244,6 +244,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     {
         strm << "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>." << endl ;
         strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
+        strm << "@prefix foaf:    <http://xmlns.com/foaf/0.1/>."  << endl ;
         strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
         strm << "@prefix pml:     <http://provenanceweb.org/ns/pml#>." << endl ;
         strm << endl ;
@@ -357,6 +358,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
 
         strm << endl ;
         strm << "<response> a prov:Entity;" << endl ;
+        strm << "   foaf:isPrimaryTopicOf <" << versionedDataset << ">;" << endl ;
         strm << "   rdfs:comment \"" << "Action: " << actualaction << "\";" << endl ;
         for( int c = 1; c < counter; c++ ) {
             strm << "   prov:wasDerivedFrom <used/" << c << ">;" << endl;
