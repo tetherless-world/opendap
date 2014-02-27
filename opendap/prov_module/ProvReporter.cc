@@ -250,6 +250,13 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         strm << "@base <" << versionedDataset << "/>." << endl ;
         strm << endl ;
 
+        // All the containers are read in and added to the one data-dds
+        strm << endl ;
+        strm << "<data-dds/1> a prov:Entity;" << endl ;
+        strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+        strm << "." << endl ;
+
+        string used_constraint ;
         // We need to know what files were loaded and what loaded them.
         // We have the list of containers, and those containers have the
         // full path to the file and the type. The type is the request
@@ -269,17 +276,43 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
             //}
             strm << "." << endl ;
 
+            // I know the container format, so I know what module is
+            // going to be used. I can look up the module here (can't
+            // yet, there's no way to do it). I can look up the request
+            // handler from the request handler list and ... can't ask
+            // for the version information, but can ask for the name,
+            // but I already know the name.
             strm << endl ;
-            strm << "<used/" << counter << "/data-dds> a prov:Entity;" << endl ;
-            strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
-            strm << "   prov:wasDerivedFrom <used/" << counter << ">;" << endl;
+            strm << "# activity is: file read by module netcdf_handler and adds to datadds" << endl ;
+
+            strm << endl ;
+            strm << "<data-dds/1> prov:wasDerivedFrom <used/" << counter << ">;" << endl ;
             strm << "." << endl ;
 
             strm << endl ;
-            strm << "<used/" << counter << "/constraint> a pml:DeclarativePlan, prov:Plan, prov:Entity;" << endl ;
-            strm << "   a <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#Constraint>;" << endl;
-            strm << "   prov:value \"" << (*i)->get_constraint() << "\";" << endl;
+            strm << "<load/" << counter << "> a prov:Activity;" << endl ;
+            strm << "         prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/netcdf_handler>;" << endl ;
+            strm << "#        prov:qualifiedAssociation <load/" << counter << "/association>;" << endl ;
+            strm << "         prov:used <used/" << counter << ">;" << endl ;
+            strm << "         prov:generated <data-dds/1>;" << endl ;
             strm << "." << endl ;
+
+            strm << endl ;
+            strm << "# This is how one would model this if the loading handler (netcdf_handler) actually did the constraining" << endl ;
+            strm << "#<load/" << counter << "/association>;" << endl ;
+            strm << "#   a prov:Association;" << endl;
+            strm << "#   prov:hadPlan <used/" << counter << "/constraint>;" << endl;
+            strm << "#." << endl ;
+            used_constraint = (*i)->get_constraint() ;
+
+            strm << endl ;
+            if( !((*i)->get_constraint().empty()) )
+            {
+                strm << "<used/" << counter << "/constraint> a pml:DeclarativePlan, prov:Plan, prov:Entity;" << endl ;
+                strm << "   a <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#Constraint>;" << endl;
+                strm << "   prov:value \"" << (*i)->get_constraint() << "\";" << endl;
+                strm << "." << endl ;
+            }
             // If there is a constraint then we know we need to include
             // information about the dap module
 
@@ -297,8 +330,29 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         string ascii_val = "ascii";
 
         strm << endl ;
+        strm << "<constraining> a prov:Activity;" << endl ;
+        strm << "   prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/dap_module>;" << endl ;
+        strm << "   prov:qualifiedAssociation <constraining/association>;" << endl ;
+        strm << "   prov:used <data-dds/1>;" << endl ;
+        strm << "   prov:generated <response/data-dds>;" << endl ;
+        strm << "." << endl ;
+
+        strm << endl ;
+        strm << "<constraining/association>;" << endl ;
+        strm << "   a prov:Association;" << endl;
+        strm << "   prov:hadPlan <used/1/constraint>;" << endl;
+        strm << "." << endl ;
+
+        strm << endl ;
         strm << "<response/data-dds> a prov:Entity;" << endl ;
         strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+        strm << "." << endl ;
+
+        strm << endl ;
+        strm << "<transform> a prov:Activity;" << endl ;
+        strm << "   prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/ascii>;" << endl ;
+        strm << "   prov:used <response/data-dds>;" << endl ;
+        strm << "   prov:generated <response>;" << endl ;
         strm << "." << endl ;
 
         strm << endl ;
