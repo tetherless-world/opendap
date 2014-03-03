@@ -36,6 +36,9 @@
 
 #include <cstring>
 #include <cerrno>
+#include <ctime>
+#include <sys/stat.h>  // To make directories.
+#include <sys/types.h> // To make directories.
 
 #include "ProvReporter.h"
 #include <BESInternalError.h>
@@ -43,9 +46,6 @@
 #include <BESDebug.h>
 #include <BESContextManager.h>
 #include <BESLog.h>
-#include <ctime>
-#include <sys/stat.h>  // To make directories.
-#include <sys/types.h> // To make directories.
 
 
 // See https://github.com/tetherless-world/opendap/wiki/OPeNDAP-PROV-Module#wiki-configuration
@@ -68,25 +68,6 @@
 ProvReporter::ProvReporter()
     : BESReporter()
 {
-}
-
-ProvReporter::~ProvReporter()
-{
-}
-
-/** @brief reports any provenance information to an external provenance
- * ttl file
- *
- * @param dhi structure that contains all information pertaining to the data
- * request
- */
-void
-ProvReporter::report( BESDataHandlerInterface &dhi )
-{
-    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
-
-    // TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
-
     // Use BESKeys::get_value(const string& s, string &val, bool &found)
     // to access:
     //   Prov.cr_base_uri=http://opendap.tw.rpi.edu
@@ -116,7 +97,6 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
 
     found = false ;
-    string _source_id ;
     TheBESKeys::TheKeys()->get_value( PROV_SOURCE_ID, _source_id, found ) ;
     if( _source_id == "" )
     {
@@ -124,28 +104,52 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
 
     found = false ;
-    string _dataset_id ;
     TheBESKeys::TheKeys()->get_value( PROV_DATASET_ID, _dataset_id, found ) ;
     if( _dataset_id == "" )
     {
         _dataset_id = "opendap-prov" ;
     }
-    // ^^^^^^ TODO: Move the key getting into the constructor -- but it doesn't work from there :-/
+}
+
+ProvReporter::~ProvReporter()
+{
+}
+
+/** @brief reports any provenance information to an external provenance
+ * ttl file
+ *
+ * @param dhi structure that contains all information pertaining to the data
+ * request
+ */
+void
+ProvReporter::report( BESDataHandlerInterface &dhi )
+{
+    BESDEBUG( "prov", "ProvReporter::report" << endl ) ;
+    BESDEBUG( "prov", "ProvReporter::report - this = " << *this << endl ) ;
+    BESDEBUG( "prov", "ProvReporter::report - dhi = " << dhi << endl ) ;
+
+    if( dhi.action.compare( 0, 3, "get" ) != 0 )
+    {
+        BESDEBUG( "prov", "ProvReporter::report - not a get, so leaving"
+                          << endl ) ;
+        return ;
+    }
 
     string abstractDataset = _base_uri + "/source/" + _source_id + "/dataset/" + _dataset_id ;
 
     // Get timestamp for versionID, e.g. 20140123-1390489968
     // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
-    time_t rawtime;                                                             //
-    struct tm * timeinfo;                                                       //
-    char buffer[80];                                                            //
-    //                                                                          //
-    time (&rawtime);                                                            //
-    timeinfo = localtime(&rawtime);                                             //
-    //                                                                          //
-    strftime(buffer,80,"%Y%m%d-%s",timeinfo);                                   //
-    std::string dateStamp(buffer);                                              //
-    // http://stackoverflow.com/questions/16357999/current-date-and-time-as-string
+    time_t rawtime;
+    struct tm * timeinfo;
+    char buffer[80];
+    memset( buffer, 0, sizeof( buffer ) ) ;
+
+    time (&rawtime);
+    timeinfo = localtime(&rawtime);
+
+    strftime(buffer,80,"%Y%m%d-%s",timeinfo);
+    string dateStamp(buffer);
+
 
     // TODO: 4 character UUID at end of versionID.
     // http://stackoverflow.com/questions/3247861/example-of-uuid-generation-using-boost-in-c
@@ -191,8 +195,6 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     // TODO: Make a function to wrap this, since we call it 6 times.
     if( status != 0 )
     {
-        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
-                          << status << " " << sourceDir << endl ) ;
         char *serr = strerror( myerrno ) ;
         string err = "Unable to create the directory " + sourceDir + ": " ;
         if( serr )
@@ -203,6 +205,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         {
             err.append( "unknown error occurred" ) ;
         }
+        BESDEBUG( "prov", "ProvReporter::report - " << err << endl ) ;
     }
     // TODO: Make a function to wrap this, since we call it 6 times.
     status = mkdir( sourceDir.c_str(),   S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
@@ -216,10 +219,10 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     status = mkdir( versionDir3.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH ) ;
     if( status != 0 )
     {
-        BESDEBUG( "prov", "ProvReporter::report - mkdir FAILED, returned "
-                          << status << " " << sourceDir << endl ) ;
+        filename = "/tmp/opendap-prov.ttl" ;
+
         char *serr = strerror( myerrno ) ;
-        string err = "Unable to create the directory " + sourceDir + ": " ;
+        string err = "Unable to create the directory " + versionDir3 + ": " ;
         if( serr )
         {
             err.append( serr ) ;
@@ -228,7 +231,8 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         {
             err.append( "unknown error occurred" ) ;
         }
-        filename = "/tmp/opendap-prov.ttl" ;
+        err.append( ". Using " + filename ) ;
+        BESDEBUG( "prov", "ProvReporter::report - " << err << endl ) ;
     }
 
     ofstream strm( filename.c_str() ) ;
@@ -238,14 +242,132 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
     else
     {
-        strm << "# " << provenanceRecordFilePath << endl ;
+        strm << "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>." << endl ;
         strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
+        strm << "@prefix foaf:    <http://xmlns.com/foaf/0.1/>."  << endl ;
         strm << "@prefix prov:    <http://www.w3.org/ns/prov#>." << endl ;
+        strm << "@prefix pml:     <http://provenanceweb.org/ns/pml#>." << endl ;
         strm << endl ;
         strm << "@base <" << versionedDataset << "/>." << endl ;
         strm << endl ;
+
+        // All the containers are read in and added to the one data-dds
+        strm << endl ;
+        strm << "<data-dds/1> a prov:Entity;" << endl ;
+        strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+        strm << "." << endl ;
+
+        string used_constraint ;
+        // We need to know what files were loaded and what loaded them.
+        // We have the list of containers, and those containers have the
+        // full path to the file and the type. The type is the request
+        // handler that would be used to read in the data. So get the
+        // request handler and ask for the version information
+        int counter = 1;
+        list<BESContainer *>::const_iterator i = dhi.containers.begin();
+        list<BESContainer *>::const_iterator ie = dhi.containers.end();
+        for (; i != ie; i++)
+        {
+            strm << "<used/" << counter << "> a prov:Entity;" << endl ;
+            strm << "   rdfs:label \"container name: " << (*i)->get_real_name() << "\";"
+                 << endl ;
+            strm << "   rdfs:comment \" container type: " << (*i)->get_container_type() << "\";" << endl ;
+            //if ( string.compare("nc") == 0 ) {
+            strm << "   dcterms:format <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#wiki-abstract-netcdf>;" << endl ;
+            //}
+            strm << "." << endl ;
+
+            // I know the container format, so I know what module is
+            // going to be used. I can look up the module here (can't
+            // yet, there's no way to do it). I can look up the request
+            // handler from the request handler list and ... can't ask
+            // for the version information, but can ask for the name,
+            // but I already know the name.
+            strm << endl ;
+            strm << "# activity is: file read by module netcdf_handler and adds to datadds" << endl ;
+
+            strm << endl ;
+            strm << "<data-dds/1> prov:wasDerivedFrom <used/" << counter << ">;" << endl ;
+            strm << "." << endl ;
+
+            strm << endl ;
+            strm << "<load/" << counter << "> a prov:Activity;" << endl ;
+            strm << "         prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/netcdf_handler>;" << endl ;
+            strm << "#        prov:qualifiedAssociation <load/" << counter << "/association>;" << endl ;
+            strm << "         prov:used <used/" << counter << ">;" << endl ;
+            strm << "         prov:generated <data-dds/1>;" << endl ;
+            strm << "." << endl ;
+
+            strm << endl ;
+            strm << "# This is how one would model this if the loading handler (netcdf_handler) actually did the constraining" << endl ;
+            strm << "#<load/" << counter << "/association>;" << endl ;
+            strm << "#   a prov:Association;" << endl;
+            strm << "#   prov:hadPlan <used/" << counter << "/constraint>;" << endl;
+            strm << "#." << endl ;
+            used_constraint = (*i)->get_constraint() ;
+
+            strm << endl ;
+            if( !((*i)->get_constraint().empty()) )
+            {
+                strm << "<used/" << counter << "/constraint> a pml:DeclarativePlan, prov:Plan, prov:Entity;" << endl ;
+                strm << "   a <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#Constraint>;" << endl;
+                strm << "   prov:value \"" << (*i)->get_constraint() << "\";" << endl;
+                strm << "." << endl ;
+            }
+            // If there is a constraint then we know we need to include
+            // information about the dap module
+
+            // What we don't know unless we parse the constrant is
+            // whether or not there are server-side functions being
+            // called. And if they are, where do I get information about
+            // the module that loaded the server-side function
+            counter++;
+        }
+
+        // What's the response object here. We know it's get.x, so
+        // what is x? From that we should be able to grab the request
+        // handler for that and ask for the version information
+        string actualaction = dhi.action.substr( 4 ) ;
+        string ascii_val = "ascii";
+
+        strm << endl ;
+        strm << "<constraining> a prov:Activity;" << endl ;
+        strm << "   prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/dap_module>;" << endl ;
+        strm << "   prov:qualifiedAssociation <constraining/association>;" << endl ;
+        strm << "   prov:used <data-dds/1>;" << endl ;
+        strm << "   prov:generated <response/data-dds>;" << endl ;
+        strm << "." << endl ;
+
+        strm << endl ;
+        strm << "<constraining/association>;" << endl ;
+        strm << "   a prov:Association;" << endl;
+        strm << "   prov:hadPlan <used/1/constraint>;" << endl;
+        strm << "." << endl ;
+
+        strm << endl ;
+        strm << "<response/data-dds> a prov:Entity;" << endl ;
+        strm << "   dcterms:format <https://github.com/tetherless-world/opendap/issues/45#datadds>;" << endl ;
+        strm << "." << endl ;
+
+        strm << endl ;
+        strm << "<transform> a prov:Activity;" << endl ;
+        strm << "   prov:wasAssociatedWith <http://opendap.tw.rpi.edu/id/component/ascii>;" << endl ;
+        strm << "   prov:used <response/data-dds>;" << endl ;
+        strm << "   prov:generated <response>;" << endl ;
+        strm << "." << endl ;
+
+        strm << endl ;
         strm << "<response> a prov:Entity;" << endl ;
-        strm << "   dcterms:format <http://provenanceweb.org/formats/pronom/fmt/286>;" << endl ;
+        strm << "   foaf:isPrimaryTopicOf <" << versionedDataset << ">;" << endl ;
+        strm << "   rdfs:comment \"" << "Action: " << actualaction << "\";" << endl ;
+        for( int c = 1; c < counter; c++ ) {
+            strm << "   prov:wasDerivedFrom <used/" << c << ">;" << endl;
+        }
+        strm << "   prov:specializationOf <the-requested-url>;" << endl ;
+        // TODO: fix compile error
+        //if ( string.compare(ascii_val) == 0 ) {
+            strm << "   dcterms:format <http://provenanceweb.org/format/mime/text/plain>;" << endl ;
+        //}
         strm << "." << endl ;
         strm.close() ;
     }
