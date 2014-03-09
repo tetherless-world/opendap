@@ -68,6 +68,7 @@
 ProvReporter::ProvReporter()
     : BESReporter()
 {
+    // TODO: put this to DONE into construtor (and actually get it to work)
     // Use BESKeys::get_value(const string& s, string &val, bool &found)
     // to access:
     //   Prov.cr_base_uri=http://opendap.tw.rpi.edu
@@ -85,6 +86,7 @@ ProvReporter::ProvReporter()
                      + " parameter not found or set in configuration file" ;
         throw BESInternalError( err, __FILE__, __LINE__ ) ;
     }
+    _base_uri = "http://opendap.tw.rpi.edu"; // TODO: hard coded.
 
     found = false ;
     TheBESKeys::TheKeys()->get_value( PROV_DATA_ROOT, _data_root, found ) ;
@@ -109,6 +111,8 @@ ProvReporter::ProvReporter()
     {
         _dataset_id = "opendap-prov" ;
     }
+    // TODO: here up to TODO should go into constructor (and actually work).
+
 }
 
 ProvReporter::~ProvReporter()
@@ -242,6 +246,10 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
     }
     else
     {
+        string OPENDAP_BASE_URI = "http://opendap.tw.rpi.edu/tomcat/opendap";
+        int OPENDAP_ROOT_DIR_LEN = 33; // length(/opt/opendap/branch/share/hyrax//)
+        string requestedURL = "";
+
         strm << "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>." << endl ;
         strm << "@prefix dcterms: <http://purl.org/dc/terms/>."  << endl ;
         strm << "@prefix foaf:    <http://xmlns.com/foaf/0.1/>."  << endl ;
@@ -269,8 +277,15 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         for (; i != ie; i++)
         {
             strm << "<used/" << counter << "> a prov:Entity;" << endl ;
-            strm << "   rdfs:label \"container name: " << (*i)->get_real_name() << "\";"
-                 << endl ;
+            strm << "   rdfs:label \"container name: " << (*i)->get_real_name() << "\";" << endl ;
+            // ^^ e.g.         /opt/opendap/branch/share/hyrax//ipaw2014/disneyland/CA_OrangeCo_2011_000402.txt.cdl.nc
+
+            string usedPath = (*i)->get_real_name();
+            string usedURL  = OPENDAP_BASE_URI + "/" + usedPath.substr(OPENDAP_ROOT_DIR_LEN);
+            strm << "   prov:specializationOf <" << usedURL << ">;" << endl ;
+            // TODO: We're assuming '/opt/opendap/branch/share/hyrax/' <--> 'http://opendap.tw.rpi.edu/tomcat/opendap/'.
+            //                      |- - - - - - 33 - - - - - - - - |
+
             strm << "   rdfs:comment \" container type: " << (*i)->get_container_type() << "\";" << endl ;
             //if ( string.compare("nc") == 0 ) {
             strm << "   dcterms:format <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#wiki-abstract-netcdf>;" << endl ;
@@ -313,6 +328,13 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
                 strm << "   a <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Vocabulary#Constraint>;" << endl;
                 strm << "   prov:value \"" << (*i)->get_constraint() << "\";" << endl;
                 strm << "." << endl ;
+
+                // Faking request URL
+                requestedURL = usedURL + ".ascii?" + (*i)->get_constraint();
+            }
+            else {
+                // Faking request URL
+                requestedURL = usedURL;
             }
             // If there is a constraint then we know we need to include
             // information about the dap module
@@ -363,7 +385,7 @@ ProvReporter::report( BESDataHandlerInterface &dhi )
         for( int c = 1; c < counter; c++ ) {
             strm << "   prov:wasDerivedFrom <used/" << c << ">;" << endl;
         }
-        strm << "   prov:specializationOf <the-requested-url>;" << endl ;
+        strm << "   prov:specializationOf <" << requestedURL << ">;" << endl ;
         // TODO: fix compile error
         //if ( string.compare(ascii_val) == 0 ) {
             strm << "   dcterms:format <http://provenanceweb.org/format/mime/text/plain>;" << endl ;
