@@ -1,4 +1,4 @@
-opendap
+OPeNDAP
 =======
 
 OPeNDAP
