@@ -1,5 +1,12 @@
 <!--
-#3> <> prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/opendap-org/opendap/src/grddl.xsl>;
+#3> <> <http://voag.linkedmodel.org/voag#supercededBy> <https://github.com/timrdf/prizms/blob/master/src/xsl/svn2prov.xsl>;
+#
+#
+# NOTE: Superceded by https://github.com/timrdf/prizms/blob/master/src/xsl/svn2prov.xsl
+#
+#
+#
+#3>    prov:specializationOf <https://github.com/tetherless-world/opendap/blob/master/data/source/opendap-org/opendap/src/grddl.xsl>;
 #3>    rdfs:seeAlso          <https://github.com/tetherless-world/opendap/wiki/SVN-Log-XML>,
 #3>                          <https://github.com/tetherless-world/opendap/wiki/OPeNDAP-Provenance>,
 #3>                          <https://github.com/tetherless-world/opendap/wiki/Modeling-VCS-with-PROV>;
