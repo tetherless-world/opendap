@@ -1,0 +1,53 @@
+@prefix bibo:    <http://purl.org/ontology/bibo/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf:    <http://xmlns.com/foaf/0.1/>.
+@prefix prov:    <http://www.w3.org/ns/prov#>.
+
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub>
+	a bibo:Document;
+	dcterms:title "Walking into the Future with PROV Pingback: An Application to OPeNDAP using Prizms";
+	foaf:primaryTopic <http://www.w3.org/TR/prov-aq/#provenance-pingback>;
+	dcterms:subject   <http://www.w3.org/TR/prov-aq/#provenance-pingback>;
+	foaf:homepage <https://github.com/timrdf/prizms/wiki/Publication:-IPAW-2014>;
+	prov:wasAttributedTo <http://tw.rpi.edu/instances/TimLebo>, 
+			<http://tw.rpi.edu/instances/PatrickWest>,
+			<http://tw.rpi.edu/instances/Deborah_L_McGuinness>;
+	bibo:cites <http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/1>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/2>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/3>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/4>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/5>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/6>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/7>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/8>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/9>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/10>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/11>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/12>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/13>,
+		<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/14>;
+.
+
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/1> a bibo:Document;
+	prov:specializationOf <http://dx.doi.org/10.1007/978-3-642-41338-4_18>;
+.
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/2> a bibo:Document;
+	dcterms:description "Named graphs, provenance and trust. In Proceedings of the 14th International Conference on World Wide Web, WWW ’05,";
+.
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/3> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/4> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/5> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/6> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/7> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/8> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/9> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/10> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/11> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/12> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/13> a bibo:Document .
+<http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub/ref/14> a bibo:Document .
+
+<https://github.com/timrdf/prizms/wiki/Publication:-IPAW-2014>
+	prov:alternateOf <http://bit.ly/lebo-ipaw-2014> .
+
+<http://bit.ly/prov-pingback-via-twitter> dcterms:isPartOf <http://bit.ly/lebo-ipaw-2014> . 
