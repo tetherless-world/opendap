@@ -4,6 +4,7 @@
 @prefix prov:    <http://www.w3.org/ns/prov#>.
 
 <http://opendap.tw.rpi.edu/source/us/dataset/ipaw-2014-paper-provenance/version/latest/pub>
+	prov:alternateOf <http://www.ipaw.info/data/paper/LeboIPAW2014>;
 	a bibo:Document;
 	dcterms:title "Walking into the Future with PROV Pingback: An Application to OPeNDAP using Prizms";
 	foaf:primaryTopic <http://www.w3.org/TR/prov-aq/#provenance-pingback>;
