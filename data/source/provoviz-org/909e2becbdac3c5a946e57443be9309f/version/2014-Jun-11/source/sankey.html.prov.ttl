@@ -1,0 +1,82 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<sankey.html>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-11T13:40:27+02:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <a-whole-lotta-manual#03364a79-420c-4476-870f-7cf1e3d1d2b9>;
+.
+<a-whole-lotta-manual#03364a79-420c-4476-870f-7cf1e3d1d2b9> a prov:Plan;
+  dcterms:date "2014-06-11T13:42:34+02:00"^^xsd:dateTime;
+  prov:specializationOf conv:a-whole-lotta-manual_Method;
+.
+conv:a-whole-lotta-manual_Method a prov:Plan .
+<sankey.html>
+   a nfo:FileDataObject;
+   nfo:fileName "sankey.html";
+   nfo:hasHash <md5_e507ec9e37345ef7a198903aa189f541_time_1402486954>;
+.
+<md5_e507ec9e37345ef7a198903aa189f541_time_1402486954>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-11T13:42:34+02:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "e507ec9e37345ef7a198903aa189f541";
+.
+
+<sankey.html> prov:wasDerivedFrom <http://provoviz.org/> .
+<http://provoviz.org/>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<sankey.html> prov:wasDerivedFrom <http://provoviz.org/> .
+
+<nodeSet/03364a79-420c-4476-870f-7cf1e3d1d2b9>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <sankey.html>;
+   pmlj:isConsequentOf <inferenceStep/03364a79-420c-4476-870f-7cf1e3d1d2b9>;
+.
+<inferenceStep/03364a79-420c-4476-870f-7cf1e3d1d2b9>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet03364a79-420c-4476-870f-7cf1e3d1d2b9_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet03364a79-420c-4476-870f-7cf1e3d1d2b9_antecedent> );
+   pmlj:hasInferenceEngine <a-whole-lotta-manual#03364a79-420c-4476-870f-7cf1e3d1d2b9>;
+   pmlj:hasInferenceRule   conv:a-whole-lotta-manual_Method;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/03364a79-420c-4476-870f-7cf1e3d1d2b9>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/03364a79-420c-4476-870f-7cf1e3d1d2b9>;
+   oprov:endTime "2014-06-11T13:42:34+02:00"^^xsd:dateTime;
+.
+<nodeSet03364a79-420c-4476-870f-7cf1e3d1d2b9_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://provoviz.org/>;
+.
+
+<a-whole-lotta-manual#03364a79-420c-4476-870f-7cf1e3d1d2b9>
+   a pmlp:InferenceEngine, conv:A-whole-lotta-manual_Engine, prov:Entity;
+   dcterms:identifier "a-whole-lotta-manual#03364a79-420c-4476-870f-7cf1e3d1d2b9";
+.
+
+conv:A-whole-lotta-manual_Engine rdfs:subClassOf pmlp:InferenceEngine .
