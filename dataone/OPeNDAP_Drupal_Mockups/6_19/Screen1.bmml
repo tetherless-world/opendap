@@ -1,0 +1,51 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1134" measuredH="890" mockupW="868" mockupH="868">
+  <controls>
+    <control controlID="9" controlTypeID="__group__" x="266" y="22" w="868" h="868" measuredW="868" measuredH="868" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="868" h="868" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="9">
+          <controlProperties>
+            <text>OPeNDAP%20PROV%0Ahttp%3A//opendap.tw.rpi.edu/example1</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="241" y="115" w="565" h="710" measuredW="1135" measuredH="1420" zOrder="1" locked="false" isInGroup="9">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>../../Downloads/disneyland-prov.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Accordion" x="24" y="115" w="202" h="230" measuredW="150" measuredH="132" zOrder="2" locked="false" isInGroup="9">
+          <controlProperties>
+            <text>OPeNDAP%20Modules%0AEntities</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Accordion" x="32" y="151" w="150" h="159" measuredW="150" measuredH="159" zOrder="3" locked="false" isInGroup="9">
+          <controlProperties>
+            <selectedIndex>0</selectedIndex>
+            <text>NetCDF%20Handler%0ADAP%20Module%0AASCII</text>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="42" y="189" w="-1" h="-1" measuredW="55" measuredH="39" zOrder="4" locked="false" isInGroup="9">
+          <controlProperties>
+            <text>%5B%20%5D%203.10.4%0A%5Bx%5D%203.9.3</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="241" y="81" w="-1" h="-1" measuredW="436" measuredH="24" zOrder="5" locked="false" isInGroup="9">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Dataset%20Loaded%3A%20Disneyland%09%09Entries%20Displayed%3A%201</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="24" y="81" w="-1" h="-1" measuredW="117" measuredH="24" zOrder="6" locked="false" isInGroup="9">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Search%20Criteria</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
