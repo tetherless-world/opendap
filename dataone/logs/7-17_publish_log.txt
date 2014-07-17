@@ -1,0 +1,272 @@
+OpenDap@opendap:~/prizms/opendap/data/source/us/opendap-components/version/2014-Jul-17/publish/bin$ ./publish.sh 
+convert-aggregate.sh publishing raw and enhancements (forced).
+===========================================================================================
+find: `automatic': No such file or directory
+publish/--.raw.ttl - omitted
+find: `automatic': No such file or directory
+publish/*.raw.sample.ttl - omitted
+publish/--.eWorking.ttl
+cat: automatic/*.eWorking.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.eWorking.sample.ttl - omitted
+publish/--.edirectory.ttl
+cat: automatic/*.edirectory.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.edirectory.sample.ttl - omitted
+publish/--.edoes.ttl
+cat: automatic/*.edoes.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.edoes.sample.ttl - omitted
+publish/--.enot.ttl
+cat: automatic/*.enot.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.enot.sample.ttl - omitted
+publish/--.eappear.ttl
+cat: automatic/*.eappear.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.eappear.sample.ttl - omitted
+publish/--.eto.ttl
+cat: automatic/*.eto.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.eto.sample.ttl - omitted
+publish/--.ebe.ttl
+cat: automatic/*.ebe.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ebe.sample.ttl - omitted
+publish/--.ea.ttl
+cat: automatic/*.ea.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ea.sample.ttl - omitted
+publish/--.econversion.ttl
+cat: automatic/*.econversion.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.econversion.sample.ttl - omitted
+publish/--.ecockpit..ttl
+cat: automatic/*.ecockpit..ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ecockpit..sample.ttl - omitted
+publish/--.eYou.ttl
+cat: automatic/*.eYou.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.eYou.sample.ttl - omitted
+publish/--.ecan.ttl
+cat: automatic/*.ecan.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ecan.sample.ttl - omitted
+publish/--.erun.ttl
+cat: automatic/*.erun.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.erun.sample.ttl - omitted
+publish/--.ethis.ttl
+cat: automatic/*.ethis.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ethis.sample.ttl - omitted
+publish/--.efrom.ttl
+cat: automatic/*.efrom.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.efrom.sample.ttl - omitted
+publish/--.ea.ttl
+cat: automatic/*.ea.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ea.sample.ttl - omitted
+publish/--.econversion.ttl
+cat: automatic/*.econversion.ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.econversion.sample.ttl - omitted
+publish/--.ecockpit..ttl
+cat: automatic/*.ecockpit..ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.ecockpit..sample.ttl - omitted
+publish/--.e(e.g..ttl
+cat: automatic/*.e(e.g..ttl: No such file or directory
+find: `automatic': No such file or directory
+publish/*.e(e.g..sample.ttl - omitted
+publish/--.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl
+/home/OpenDap/opt/prizms/repos/csv2rdf4lod-automation//bin/convert-aggregate.sh: line 197: publish/--.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl: No such file or directory
+find: warning: Unix filenames usually don't contain slashes (though pathnames do).  That means that '-name `*.$whatever/source/mySOURCE/myDATASET/version/VVV/)..sample.ttl'' will probably evaluate to false all the time on this system.  You might find the '-wholename' test more useful, or perhaps '-samefile'.  Alternatively, if you are using GNU grep, you could use 'find ... -print0 | grep -FzZ `*.$whatever/source/mySOURCE/myDATASET/version/VVV/)..sample.ttl''.
+find: `automatic': No such file or directory
+publish/*.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..sample.ttl - omitted
+publish/--.pml.ttl
+find: `source': No such file or directory
+find: `manual': No such file or directory
+find: `automatic': No such file or directory
+publish/--.void.ttl
+publish/--.void.ttl - (none)
+  (including publish/--.pml.ttl)
+publish/--.ttl
+  (including publish/--.eWorking.ttl)
+  (including publish/--.edirectory.ttl)
+  (including publish/--.edoes.ttl)
+  (including publish/--.enot.ttl)
+  (including publish/--.eappear.ttl)
+  (including publish/--.eto.ttl)
+  (including publish/--.ebe.ttl)
+  (including publish/--.ea.ttl)
+  (including publish/--.econversion.ttl)
+  (including publish/--.ecockpit..ttl)
+  (including publish/--.eYou.ttl)
+  (including publish/--.ecan.ttl)
+  (including publish/--.erun.ttl)
+  (including publish/--.ethis.ttl)
+  (including publish/--.efrom.ttl)
+  (including publish/--.ea.ttl)
+  (including publish/--.econversion.ttl)
+  (including publish/--.ecockpit..ttl)
+  (including publish/--.e(e.g..ttl)
+  (including publish/--.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl)
+cat: publish/--.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl: No such file or directory
+  (including publish/--.void.ttl)
+publish/--.nt - skipping; set CSV2RDF4LOD_PUBLISH_NT=true in source-me.sh to publish N-Triples.
+publish/--.sameas.nt - skipping; no owl:sameAs in publish/--.ttl.
+publish/--.rdf - skipping; set CSV2RDF4LOD_PUBLISH_RDFXML=true in source-me.sh to publish RDF/XML.
+publish/--.eWorking.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.eWorking.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.eWorking.ttl'
+Try `cat --help' for more information.
+publish/--.edirectory.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.edirectory.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.edirectory.ttl'
+Try `cat --help' for more information.
+publish/--.edoes.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.edoes.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.edoes.ttl'
+Try `cat --help' for more information.
+publish/--.enot.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.enot.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.enot.ttl'
+Try `cat --help' for more information.
+publish/--.eappear.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.eappear.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.eappear.ttl'
+Try `cat --help' for more information.
+publish/--.eto.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.eto.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.eto.ttl'
+Try `cat --help' for more information.
+publish/--.ebe.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ebe.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ebe.ttl'
+Try `cat --help' for more information.
+publish/--.ea.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ea.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ea.ttl'
+Try `cat --help' for more information.
+publish/--.econversion.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.econversion.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.econversion.ttl'
+Try `cat --help' for more information.
+publish/--.ecockpit..ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ecockpit..ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ecockpit..ttl'
+Try `cat --help' for more information.
+publish/--.eYou.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.eYou.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.eYou.ttl'
+Try `cat --help' for more information.
+publish/--.ecan.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ecan.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ecan.ttl'
+Try `cat --help' for more information.
+publish/--.erun.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.erun.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.erun.ttl'
+Try `cat --help' for more information.
+publish/--.ethis.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ethis.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ethis.ttl'
+Try `cat --help' for more information.
+publish/--.efrom.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.efrom.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.efrom.ttl'
+Try `cat --help' for more information.
+publish/--.ea.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ea.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ea.ttl'
+Try `cat --help' for more information.
+publish/--.econversion.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.econversion.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.econversion.ttl'
+Try `cat --help' for more information.
+publish/--.ecockpit..ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ecockpit..ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ecockpit..ttl'
+Try `cat --help' for more information.
+publish/--.e(e.g..ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.e(e.g..ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.e(e.g..ttl'
+Try `cat --help' for more information.
+publish/--.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl.gz (will delete uncompressed version at end of processing)
+tar: )..ttl: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+cat: )..ttl: No such file or directory
+publish/--.ttl.gz (will delete uncompressed version at end of processing)
+tar: unrecognized option `--.ttl'
+Try `tar --help' or `tar --usage' for more information.
+cat: unrecognized option '--.ttl'
+Try `cat --help' for more information.
+publish/bin/ln-to-www-root---.sh
+find: `automatic': No such file or directory
+find: `manual': No such file or directory
+find: `source': No such file or directory
+find: `source': No such file or directory
+find: `manual': No such file or directory
+find: `manual': No such file or directory
+ - skipping. Set CSV2RDF4LOD_PUBLISH_VARWWW_DUMP_FILES=true and CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION_WWW_ROOT to /var/www
+  or run publish/bin/ln-to-www-root---.sh manually.
+publish/tdb/     - skipping; set CSV2RDF4LOD_PUBLISH_TDB=true in source-me.sh to load conversions into publish/tdb/.
+                 - or run publish/bin/tdbloader---.sh.
+                 - then run $TDBROOT/bin/rdfserver with publish/bin/joseki-config-anterior---.ttl.
+publish/bin/virtuoso-delete---.sh: line 7: Working: command not found
+publish/bin/virtuoso-delete---.sh: line 8: syntax error near unexpected token `.'
+publish/bin/virtuoso-delete---.sh: line 8: `  (e.g. $whatever/source/mySOURCE/myDATASET/).'
+publish/bin/virtuoso-load---.sh: line 7: Working: command not found
+publish/bin/virtuoso-load---.sh: line 8: syntax error near unexpected token `.'
+publish/bin/virtuoso-load---.sh: line 8: `  (e.g. $whatever/source/mySOURCE/myDATASET/).'
+http://logd.tw.rpi.edu/sparql - skipping load of conversion samples; set CSV2RDF4LOD_PUBLISH_SUBSET_SAMPLES=true to automatically load conversion samples into the triple store.
+http://api.sindice.com/v2/ping - skipping; set CSV2RDF4LOD_PUBLISH_ANNOUNCE_TO_SINDICE=true to announce to Sindice.
+publish/lod-mat/ - skipping; set CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION=true in source-me.sh to load conversions into publish/lod-mat/,
+                 - or run automatic/lod-materialize---.sh.
+publish/--.eWorking.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.edirectory.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.edoes.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.enot.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.eappear.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.eto.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ebe.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ea.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.econversion.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ecockpit..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.eYou.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ecan.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.erun.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ethis.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.efrom.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ea.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+rm: cannot remove `publish/--.ea.ttl': No such file or directory
+publish/--.econversion.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+rm: cannot remove `publish/--.econversion.ttl': No such file or directory
+publish/--.ecockpit..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+rm: cannot remove `publish/--.ecockpit..ttl': No such file or directory
+publish/--.e(e.g..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+convert-aggregate.sh done
+===========================================================================================

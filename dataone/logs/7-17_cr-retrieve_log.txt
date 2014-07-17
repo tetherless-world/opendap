@@ -1,0 +1,191 @@
+OpenDap@opendap:~/prizms/opendap/data/source/us/opendap-components$ cr-retrieve.sh -w
+
+INFO: cr-retrieve.sh: retrieving un-retrieved version-specific access metadata for cr:directory-of-versions us opendap-components : ../access.ttl. 97
+#3> <retrieval/us/opendap-components> a prov:Activity; prov:wasInformedBy <#cr-retrieve>; prov:startedAtTime "2014-07-17T16:00:13+00:00"^^xsd:dateTime .
+using dataset identifer for local name in source/opendap-components
+
+1 of 1 in 2014-Jul-17/source
+
+/////------------------------------ pcurl.sh  ------------------------------\\\\\
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0  6555    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+301 Moved Permanently (location: https://spreadsheets.google.com/tq?tqx=out:csv&tq=select+*&key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc)
+501 Protocol scheme 'https' is not supported (Crypt::SSLeay or IO::Socket::SSL not installed) (location: https://spreadsheets.google.com/tq?tqx=out:csv&tq=select+*&key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc)
+curl -sL --globoff --insecure http://spreadsheets.google.com/tq?tqx=out:csv&tq=select%20*&key=0An84UEjofnaydFRrUF9YWk03Y3NHNjJqUEg0NUhUZXc  (opendap-components.csv)
+\\\\\------------------------------ pcurl.sh  ------------------------------/////
+source ../../../../csv2rdf4lod-source-me.sh
+--------------------------------------------------------------------------------
+opendap-components.csv
+NOTE: global parameters found; linking manual/opendap-components.csv.e1.params.ttl to ../opendap-components.csv.e1.params.ttl -- editing it edits the global parameters.
+constructing manual/opendap-components.csv.global.e1.params.ttl from file-dependent global params ../opendap-components.csv.e1.params.ttl
+24 rows in source/opendap-components.csv
+E1 CONVERSION
+========== edu.rpi.tw.data.csv.CSVtoRDF version 2014-May-29 initiated:
+fileName:                     source/opendap-components.csv
+sampleLimit:                  10
+enhancementParametersURL:     manual/opendap-components.csv.global.e1.params.ttl
+VoIDDumpExtensions:           ttl.gz
+outputFileName:               automatic/opendap-components.csv.e1.sample.ttl
+converterIdentifier:          csv2rdf4lod_92ec096603a21b573af51009bc16e229
+==============================
+BaseURIQuerylet(*) .http://opendap.tw.rpi.edu.
+SourceIdentifierQuerylet(*) .us.
+DatasetIdentifierQuerylet(*) .opendap-components.
+VersionIdentifierQuerylet(*) .2014-Jul-17.
+SubjectTypeQuerylet(*) .OPeNDAP Component.
+SubClassOfQuerylet(*) .OPeNDAP Component. -> .http://usefulinc.com/ns/doap#Project.
+ObjectTemplateQuerylet(2) .[/sd]vocab/[.].
+ImplicitBundleQuerylet(3) p http://usefulinc.com/ns/doap#repository type http://usefulinc.com/ns/doap#SVNRepository.
+ImplicitBundledNameTemplateQuerylet(*) .[/]id/component/[#1]/svn.
+SubpropertyOfQuerylet(3) .http://usefulinc.com/ns/doap#browse.
+DomainTemplateQuerylet(*) .[/]id/component/[#1].
+
+subjectNS:   opendap-components:  http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/version/2014-Jul-17/
+predicateNS: e1:  http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/
+
+CellDelimiterQuerylet(*) .,.
+headers present at row 1: "Name","Type","SVN Root","SVN Tags Root","Description","Latest"
+
+RangeQuerylet(1) .http://www.w3.org/2000/01/rdf-schema#Literal.
+       EquivalentPropertyQueryletChainHead(1) .http://purl.org/dc/terms/title.
+1: "Name" -> "Name" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/name (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(2) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(2) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type.
+2: "Type" -> "Type" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/type (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(3) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(3) .http://usefulinc.com/ns/doap#location.
+3: "SVN Root" -> "SVN Root" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/svn_root (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+       PO from 3 bundled by implicit http_usefulinc_com_ns_doap_repository/sVNRepository; property from row to bundle: "repository"
+RangeQuerylet(4) .http://www.w3.org/2000/01/rdf-schema#Resource.
+4: "SVN Tags Root" -> "SVN Tags Root" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/svn_tags_root (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(5) .http://www.w3.org/2000/01/rdf-schema#Literal.
+       EquivalentPropertyQueryletChainHead(5) .http://purl.org/dc/terms/description.
+5: "Description" -> "Description" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/description (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+6: "Latest" -> "Latest" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/latest (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+
+
+TODO: add dcterms format for extension .ttl.gz
+TODO: add dcterms format for extension .ttl.gz
+LayerDatasetDescriptionsQuerylet(D) .http://purl.org/twc/vocab/conversion/enhancement_identifier. ."1".
+LayerDatasetDescriptionsQuerylet(D) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type. .http://purl.org/twc/vocab/conversion/LayerDataset.
+LayerDatasetDescriptionsQuerylet(D) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type. .http://rdfs.org/ns/void#Dataset.
+TODO: add dcterms format for extension .ttl.gz
+TODO: add dcterms format for extension .ttl.gz
+Resulting size: 163 triples
+Generated 163 triples in 0 min. ( 33152.5 triples/min )
+Jul 17, 2014 4:00:20 PM edu.rpi.tw.data.csv.CSVtoRDF toRDF
+INFO: writing metadata to same file as data automatic/opendap-components.csv.e1.sample.ttl
+========== edu.rpi.tw.data.csv.CSVtoRDF complete. ==========
+Finished converting -sample 10 sample rows.
+========== edu.rpi.tw.data.csv.CSVtoRDF version 2014-May-29 initiated:
+fileName:                     source/opendap-components.csv
+enhancementParametersURL:     manual/opendap-components.csv.global.e1.params.ttl
+VoIDDumpExtensions:           ttl.gz
+outputFileName:               automatic/opendap-components.csv.e1.ttl
+metaOutputFileName:           automatic/opendap-components.csv.e1.void.ttl
+converterIdentifier:          csv2rdf4lod_92ec096603a21b573af51009bc16e229
+==============================
+BaseURIQuerylet(*) .http://opendap.tw.rpi.edu.
+SourceIdentifierQuerylet(*) .us.
+DatasetIdentifierQuerylet(*) .opendap-components.
+VersionIdentifierQuerylet(*) .2014-Jul-17.
+SubjectTypeQuerylet(*) .OPeNDAP Component.
+SubClassOfQuerylet(*) .OPeNDAP Component. -> .http://usefulinc.com/ns/doap#Project.
+ObjectTemplateQuerylet(2) .[/sd]vocab/[.].
+ImplicitBundleQuerylet(3) p http://usefulinc.com/ns/doap#repository type http://usefulinc.com/ns/doap#SVNRepository.
+ImplicitBundledNameTemplateQuerylet(*) .[/]id/component/[#1]/svn.
+SubpropertyOfQuerylet(3) .http://usefulinc.com/ns/doap#browse.
+DomainTemplateQuerylet(*) .[/]id/component/[#1].
+
+subjectNS:   opendap-components:  http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/version/2014-Jul-17/
+predicateNS: e1:  http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/
+
+CellDelimiterQuerylet(*) .,.
+headers present at row 1: "Name","Type","SVN Root","SVN Tags Root","Description","Latest"
+
+RangeQuerylet(1) .http://www.w3.org/2000/01/rdf-schema#Literal.
+       EquivalentPropertyQueryletChainHead(1) .http://purl.org/dc/terms/title.
+1: "Name" -> "Name" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/name (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(2) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(2) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type.
+2: "Type" -> "Type" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/type (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(3) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(3) .http://usefulinc.com/ns/doap#location.
+3: "SVN Root" -> "SVN Root" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/svn_root (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+       PO from 3 bundled by implicit http_usefulinc_com_ns_doap_repository/sVNRepository; property from row to bundle: "repository"
+RangeQuerylet(4) .http://www.w3.org/2000/01/rdf-schema#Resource.
+4: "SVN Tags Root" -> "SVN Tags Root" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/svn_tags_root (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(5) .http://www.w3.org/2000/01/rdf-schema#Literal.
+       EquivalentPropertyQueryletChainHead(5) .http://purl.org/dc/terms/description.
+5: "Description" -> "Description" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/description (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+6: "Latest" -> "Latest" -> http://opendap.tw.rpi.edu/source/us/dataset/opendap-components/vocab/enhancement/1/latest (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+
+
+TODO: add dcterms format for extension .ttl.gz
+TODO: add dcterms format for extension .ttl.gz
+LayerDatasetDescriptionsQuerylet(D) .http://purl.org/twc/vocab/conversion/enhancement_identifier. ."1".
+LayerDatasetDescriptionsQuerylet(D) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type. .http://purl.org/twc/vocab/conversion/LayerDataset.
+LayerDatasetDescriptionsQuerylet(D) .http://www.w3.org/1999/02/22-rdf-syntax-ns#type. .http://rdfs.org/ns/void#Dataset.
+TODO: add dcterms format for extension .ttl.gz
+TODO: add dcterms format for extension .ttl.gz
+Resulting size: 333 triples
+Generated 333 triples in 0 min. ( 59112.4 triples/min )
+Jul 17, 2014 4:00:21 PM edu.rpi.tw.data.csv.CSVtoRDF toRDF
+INFO: writing metadata to separate file from data automatic/opendap-components.csv.e1.void.ttl
+========== edu.rpi.tw.data.csv.CSVtoRDF complete. ==========
+   convert.sh done
+convert-aggregate.sh publishing raw and enhancements.
+publish/us-opendap-components-2014-Jul-17.raw.ttl - omitted
+publish/*.raw.sample.ttl - omitted
+publish/us-opendap-components-2014-Jul-17.e1.ttl
+publish/*.e1.sample.ttl - omitted
+publish/us-opendap-components-2014-Jul-17.pml.ttl
+publish/us-opendap-components-2014-Jul-17.void.ttl
+  (including automatic/opendap-components.csv.e1.void.ttl)
+  (including publish/us-opendap-components-2014-Jul-17.pml.ttl)
+publish/us-opendap-components-2014-Jul-17.ttl
+  (including publish/us-opendap-components-2014-Jul-17.e1.ttl)
+  (including publish/us-opendap-components-2014-Jul-17.void.ttl)
+publish/us-opendap-components-2014-Jul-17.nt - skipping; set CSV2RDF4LOD_PUBLISH_NT=true in source-me.sh to publish N-Triples.
+publish/us-opendap-components-2014-Jul-17.sameas.nt - skipping; no owl:sameAs in publish/us-opendap-components-2014-Jul-17.ttl.
+publish/us-opendap-components-2014-Jul-17.rdf - skipping; set CSV2RDF4LOD_PUBLISH_RDFXML=true in source-me.sh to publish RDF/XML.
+publish/us-opendap-components-2014-Jul-17.e1.ttl.gz (will delete uncompressed version at end of processing)
+publish/us-opendap-components-2014-Jul-17.ttl.gz (will delete uncompressed version at end of processing)
+publish/bin/ln-to-www-root-us-opendap-components-2014-Jul-17.sh
+ - skipping. Set CSV2RDF4LOD_PUBLISH_VARWWW_DUMP_FILES=true and CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION_WWW_ROOT to /var/www
+  or run publish/bin/ln-to-www-root-us-opendap-components-2014-Jul-17.sh manually.
+publish/tdb/     - skipping; set CSV2RDF4LOD_PUBLISH_TDB=true in source-me.sh to load conversions into publish/tdb/.
+                 - or run publish/bin/tdbloader-us-opendap-components-2014-Jul-17.sh.
+                 - then run $TDBROOT/bin/rdfserver with publish/bin/joseki-config-anterior-us-opendap-components-2014-Jul-17.ttl.
+http://opendap.tw.rpi.edu/sparql - skipping; set CSV2RDF4LOD_PUBLISH_VIRTUOSO=true to automatically load conversions into the triple store.
+publish/lod-mat/ - skipping; set CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION=true in source-me.sh to load conversions into publish/lod-mat/,
+                 - or run automatic/lod-materialize-us-opendap-components-2014-Jul-17.sh.
+publish/us-opendap-components-2014-Jul-17.e1.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/us-opendap-components-2014-Jul-17.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+convert-aggregate.sh done
+===========================================================================================
+source ../../../../csv2rdf4lod-source-me.sh
+--------------------------------------------------------------------------------
+opendap-components.csv
+E1 output automatic/opendap-components.csv.e1.ttl newer than enhancement parameters manual/opendap-components.csv.e1.params.ttl; skipping.
+   convert.sh done
+convert-aggregate.sh delaying publishing until an enhancement is available.
+  To publish with only raw, set CSV2RDF4LOD_PUBLISH_DELAY_UNTIL_ENHANCED="false" in $CSV2RDF4LOD_HOME/my-csv2rdf4lod-source-me.sh.sh.
+  To publish raw with enhanced, add enhancement to manual/opendap-components.csv.e1.params.ttl and rerun convert-opendap-components.sh
+  To force publishing now, run publish/bin/publish.sh
+===========================================================================================
+#3> <retrieval/us/opendap-components> prov:endedAtTime "2014-07-17T16:00:25+00:00"^^xsd:dateTime .
